@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "R": {
+      "item": "irons_spellbooks:fire_rune"
+    },
+    "S": {
+      "item": "alex_caves_spellsbook:hazen_solar_core"
+    },
+    "W": {
+      "item": "irons_spellbooks:weapon_parts"
+    }
+  },
+  "pattern": [
+    "  B",
+    "RS ",
+    "WR "
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_volcano"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "volcano"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_solar_core"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_volcano"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:fire_rune"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:weapon_parts"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:blaze_rod"
+    }
+  ]
+}

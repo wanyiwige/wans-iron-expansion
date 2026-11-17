@@ -1,0 +1,16 @@
+{
+  "school": "kubejs:traveller",
+  "date": "2026-10-08",
+  "generator": "built-in imagegen",
+  "style": "Pixel-style parchment map scroll, two rolled ends, route, destination, compass",
+  "width": 1254,
+  "height": 1254,
+  "oldTextureSHA256": "6BEFCB18F7A910C5CFCC103C89F549E4358AD68DD05B9A07D4BC6B4455892BB2",
+  "newTextureSHA256": "3FC922C50B5B1992DBCF645E1C2D4C54648566C2AAC12EEE13ECF9A8FEE483A9",
+  "backup": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\artwork\\traveller-scroll-20261008\\backup-074435",
+  "liveTexture": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\kubejs\\assets\\kubejs\\textures\\item\\scroll_traveller.png",
+  "sourceTexture": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\src\\main\\resources\\assets\\kubejs\\textures\\item\\scroll_traveller.png",
+  "sourceModel": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\src\\main\\resources\\assets\\kubejs\\models\\item\\scroll_traveller.json",
+  "jarBuilt": false,
+  "gameVisualVerified": false
+}

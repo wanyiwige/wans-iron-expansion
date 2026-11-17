@@ -1,0 +1,12 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Drew rectangle from (12, 8) to (15, 11) on texture \"critical_warden_block_colors.png\""
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 1
+}

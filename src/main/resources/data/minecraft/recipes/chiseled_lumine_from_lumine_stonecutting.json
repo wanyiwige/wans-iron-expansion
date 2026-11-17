@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "asterismarcanum:lumine"
+  },
+  "result": "asterismarcanum:chiseled_lumine",
+  "count": 1
+}

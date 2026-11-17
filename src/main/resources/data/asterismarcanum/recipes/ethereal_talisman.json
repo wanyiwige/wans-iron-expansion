@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "WEW",
+    " A "
+  ],
+  "key": {
+    "R": {
+      "item": "asterismarcanum:astral_rune"
+    },
+    "W": {
+      "item": "asterismarcanum:dragonfly_wings"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "asterismarcanum:ethereal_talisman",
+    "count": 1
+  }
+}

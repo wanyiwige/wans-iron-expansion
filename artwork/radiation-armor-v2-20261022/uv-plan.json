@@ -1,0 +1,9704 @@
+{
+  "width": 128,
+  "height": 128,
+  "density": 1,
+  "blocks": [
+    {
+      "role": "hood",
+      "size": [
+        8,
+        8,
+        8
+      ],
+      "width": 32,
+      "height": 16,
+      "parts": [
+        "sealed_hood"
+      ],
+      "u": 1,
+      "v": 1
+    },
+    {
+      "role": "coat",
+      "size": [
+        8,
+        12,
+        4
+      ],
+      "width": 24,
+      "height": 16,
+      "parts": [
+        "tailored_torso"
+      ],
+      "u": 35,
+      "v": 1
+    },
+    {
+      "role": "trouser",
+      "size": [
+        4,
+        12,
+        4
+      ],
+      "width": 16,
+      "height": 16,
+      "parts": [
+        "reinforced_trouser_Left",
+        "reinforced_trouser_Right"
+      ],
+      "u": 61,
+      "v": 1
+    },
+    {
+      "role": "sleeve",
+      "size": [
+        4,
+        11,
+        4
+      ],
+      "width": 16,
+      "height": 15,
+      "parts": [
+        "sealed_sleeve_Left",
+        "sealed_sleeve_Right"
+      ],
+      "u": 79,
+      "v": 1
+    },
+    {
+      "role": "hood_crown",
+      "size": [
+        8,
+        2,
+        8
+      ],
+      "width": 32,
+      "height": 10,
+      "parts": [
+        "folded_hood_crown"
+      ],
+      "u": 1,
+      "v": 19
+    },
+    {
+      "role": "boot",
+      "size": [
+        4,
+        5,
+        5
+      ],
+      "width": 18,
+      "height": 10,
+      "parts": [
+        "boot_shell_Left",
+        "boot_shell_Right"
+      ],
+      "u": 35,
+      "v": 19
+    },
+    {
+      "role": "tail",
+      "size": [
+        4,
+        8,
+        2
+      ],
+      "width": 12,
+      "height": 10,
+      "parts": [
+        "rear_coat_tail_Left",
+        "rear_coat_tail_Right"
+      ],
+      "u": 55,
+      "v": 19
+    },
+    {
+      "role": "shoulder",
+      "size": [
+        5,
+        3,
+        6
+      ],
+      "width": 22,
+      "height": 9,
+      "parts": [
+        "pauldron_upper_Right"
+      ],
+      "u": 69,
+      "v": 19
+    },
+    {
+      "role": "shoulder_warning",
+      "size": [
+        5,
+        3,
+        6
+      ],
+      "width": 22,
+      "height": 9,
+      "parts": [
+        "pauldron_upper_Left"
+      ],
+      "u": 93,
+      "v": 19
+    },
+    {
+      "role": "shoulder_outer",
+      "size": [
+        3,
+        3,
+        6
+      ],
+      "width": 18,
+      "height": 9,
+      "parts": [
+        "pauldron_overlap_Left",
+        "pauldron_overlap_Right"
+      ],
+      "u": 1,
+      "v": 31
+    },
+    {
+      "role": "back_mount",
+      "size": [
+        6,
+        7,
+        2
+      ],
+      "width": 16,
+      "height": 9,
+      "parts": [
+        "reactor_back_mount"
+      ],
+      "u": 21,
+      "v": 31
+    },
+    {
+      "role": "chest",
+      "size": [
+        4,
+        6,
+        3
+      ],
+      "width": 14,
+      "height": 9,
+      "parts": [
+        "folded_chest_Left",
+        "folded_chest_Right"
+      ],
+      "u": 39,
+      "v": 31
+    },
+    {
+      "role": "side_tail",
+      "size": [
+        2,
+        6,
+        3
+      ],
+      "width": 10,
+      "height": 9,
+      "parts": [
+        "side_tasset_Left",
+        "side_tasset_Right"
+      ],
+      "u": 55,
+      "v": 31
+    },
+    {
+      "role": "sole",
+      "size": [
+        4,
+        1,
+        7
+      ],
+      "width": 22,
+      "height": 8,
+      "parts": [
+        "boot_sole_Left",
+        "boot_sole_Right"
+      ],
+      "u": 67,
+      "v": 31
+    },
+    {
+      "role": "trefoil",
+      "size": [
+        7.0,
+        7,
+        1
+      ],
+      "width": 16,
+      "height": 8,
+      "parts": [
+        "radiation_plaque"
+      ],
+      "u": 91,
+      "v": 31
+    },
+    {
+      "role": "shoulder_shield",
+      "size": [
+        1,
+        4,
+        4
+      ],
+      "width": 10,
+      "height": 8,
+      "parts": [
+        "left_shield_drop"
+      ],
+      "u": 109,
+      "v": 31
+    },
+    {
+      "role": "canister",
+      "size": [
+        2,
+        6,
+        2
+      ],
+      "width": 8,
+      "height": 8,
+      "parts": [
+        "back_canister_Left",
+        "back_canister_Right"
+      ],
+      "u": 1,
+      "v": 42
+    },
+    {
+      "role": "belt",
+      "size": [
+        9.0,
+        2,
+        5.0
+      ],
+      "width": 28,
+      "height": 7,
+      "parts": [
+        "containment_belt"
+      ],
+      "u": 11,
+      "v": 42
+    },
+    {
+      "role": "collar",
+      "size": [
+        5,
+        3,
+        4
+      ],
+      "width": 18,
+      "height": 7,
+      "parts": [
+        "folded_collar_Left",
+        "folded_collar_Right"
+      ],
+      "u": 41,
+      "v": 42
+    },
+    {
+      "role": "forearm",
+      "size": [
+        4,
+        5,
+        2
+      ],
+      "width": 12,
+      "height": 7,
+      "parts": [
+        "forearm_guard_Left",
+        "forearm_guard_Right"
+      ],
+      "u": 61,
+      "v": 42
+    },
+    {
+      "role": "front_tail",
+      "size": [
+        4,
+        5,
+        2
+      ],
+      "width": 12,
+      "height": 7,
+      "parts": [
+        "front_coat_panel_Left",
+        "front_coat_panel_Right"
+      ],
+      "u": 75,
+      "v": 42
+    },
+    {
+      "role": "forearm_side",
+      "size": [
+        2,
+        4,
+        3
+      ],
+      "width": 10,
+      "height": 7,
+      "parts": [
+        "forearm_side_Left",
+        "forearm_side_Right"
+      ],
+      "u": 89,
+      "v": 42
+    },
+    {
+      "role": "cuff",
+      "size": [
+        4,
+        2,
+        4
+      ],
+      "width": 16,
+      "height": 6,
+      "parts": [
+        "wrist_cuff_Left",
+        "wrist_cuff_Right"
+      ],
+      "u": 101,
+      "v": 42
+    },
+    {
+      "role": "toe",
+      "size": [
+        4,
+        2,
+        4
+      ],
+      "width": 16,
+      "height": 6,
+      "parts": [
+        "square_toe_Left",
+        "square_toe_Right"
+      ],
+      "u": 1,
+      "v": 52
+    },
+    {
+      "role": "back_panel",
+      "size": [
+        5.0,
+        5,
+        1
+      ],
+      "width": 12,
+      "height": 6,
+      "parts": [
+        "reactor_service_panel"
+      ],
+      "u": 19,
+      "v": 52
+    },
+    {
+      "role": "core_socket",
+      "size": [
+        4,
+        4,
+        2
+      ],
+      "width": 12,
+      "height": 6,
+      "parts": [
+        "diamond_core_socket"
+      ],
+      "u": 33,
+      "v": 52
+    },
+    {
+      "role": "respirator",
+      "size": [
+        4,
+        4,
+        2
+      ],
+      "width": 12,
+      "height": 6,
+      "parts": [
+        "respirator_centre"
+      ],
+      "u": 47,
+      "v": 52
+    },
+    {
+      "role": "jaw",
+      "size": [
+        3,
+        4,
+        2
+      ],
+      "width": 10,
+      "height": 6,
+      "parts": [
+        "angled_jaw_Left",
+        "angled_jaw_Right"
+      ],
+      "u": 61,
+      "v": 52
+    },
+    {
+      "role": "ocular",
+      "size": [
+        1,
+        3,
+        3
+      ],
+      "width": 8,
+      "height": 6,
+      "parts": [
+        "ocular_frame"
+      ],
+      "u": 73,
+      "v": 52
+    },
+    {
+      "role": "thigh",
+      "size": [
+        1,
+        3,
+        3
+      ],
+      "width": 8,
+      "height": 6,
+      "parts": [
+        "thigh_lead_plate_Left",
+        "thigh_lead_plate_Right"
+      ],
+      "u": 83,
+      "v": 52
+    },
+    {
+      "role": "visor",
+      "size": [
+        4,
+        3,
+        2
+      ],
+      "width": 12,
+      "height": 5,
+      "parts": [
+        "sloped_visor_Left",
+        "sloped_visor_Right"
+      ],
+      "u": 93,
+      "v": 52
+    },
+    {
+      "role": "connector",
+      "size": [
+        2,
+        2,
+        3
+      ],
+      "width": 10,
+      "height": 5,
+      "parts": [
+        "canister_connection_Left",
+        "canister_connection_Right"
+      ],
+      "u": 107,
+      "v": 52
+    },
+    {
+      "role": "instep",
+      "size": [
+        3.0,
+        3,
+        2
+      ],
+      "width": 10,
+      "height": 5,
+      "parts": [
+        "sloped_instep_Left",
+        "sloped_instep_Right"
+      ],
+      "u": 1,
+      "v": 60
+    },
+    {
+      "role": "knee",
+      "size": [
+        3.0,
+        3,
+        2
+      ],
+      "width": 10,
+      "height": 5,
+      "parts": [
+        "angled_knee_Left",
+        "angled_knee_Right"
+      ],
+      "u": 13,
+      "v": 60
+    },
+    {
+      "role": "ankle",
+      "size": [
+        1,
+        3,
+        2
+      ],
+      "width": 6,
+      "height": 5,
+      "parts": [
+        "ankle_socket_Left",
+        "ankle_socket_Right"
+      ],
+      "u": 25,
+      "v": 60
+    },
+    {
+      "role": "cap",
+      "size": [
+        2.5,
+        1,
+        2.5
+      ],
+      "width": 10,
+      "height": 4,
+      "parts": [
+        "canister_cap_Left",
+        "canister_cap_Right"
+      ],
+      "u": 33,
+      "v": 60
+    },
+    {
+      "role": "connector",
+      "size": [
+        1,
+        2,
+        2
+      ],
+      "width": 6,
+      "height": 4,
+      "parts": [
+        "right_connector"
+      ],
+      "u": 45,
+      "v": 60
+    },
+    {
+      "role": "collar_lock",
+      "size": [
+        4,
+        2,
+        1
+      ],
+      "width": 10,
+      "height": 3,
+      "parts": [
+        "collar_rear_lock"
+      ],
+      "u": 53,
+      "v": 60
+    },
+    {
+      "role": "core",
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "width": 6,
+      "height": 3,
+      "parts": [
+        "fissile_core"
+      ],
+      "u": 65,
+      "v": 60
+    },
+    {
+      "role": "rear_clasp",
+      "size": [
+        2,
+        2,
+        1
+      ],
+      "width": 6,
+      "height": 3,
+      "parts": [
+        "hood_rear_clasp"
+      ],
+      "u": 73,
+      "v": 60
+    }
+  ],
+  "faces": [
+    {
+      "name": "sealed_hood",
+      "uuid": "7535142a-325c-05ae-167e-addad2986690",
+      "role": "hood",
+      "face": "north",
+      "rect": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "uv": [
+        9,
+        9,
+        17,
+        17
+      ],
+      "pixels": [
+        9,
+        9,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "sealed_hood",
+      "uuid": "7535142a-325c-05ae-167e-addad2986690",
+      "role": "hood",
+      "face": "east",
+      "rect": [
+        1,
+        9,
+        8,
+        8
+      ],
+      "uv": [
+        1,
+        9,
+        9,
+        17
+      ],
+      "pixels": [
+        1,
+        9,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "sealed_hood",
+      "uuid": "7535142a-325c-05ae-167e-addad2986690",
+      "role": "hood",
+      "face": "west",
+      "rect": [
+        17,
+        9,
+        8,
+        8
+      ],
+      "uv": [
+        17,
+        9,
+        25,
+        17
+      ],
+      "pixels": [
+        17,
+        9,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "sealed_hood",
+      "uuid": "7535142a-325c-05ae-167e-addad2986690",
+      "role": "hood",
+      "face": "south",
+      "rect": [
+        25,
+        9,
+        8,
+        8
+      ],
+      "uv": [
+        25,
+        9,
+        33,
+        17
+      ],
+      "pixels": [
+        25,
+        9,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "sealed_hood",
+      "uuid": "7535142a-325c-05ae-167e-addad2986690",
+      "role": "hood",
+      "face": "up",
+      "rect": [
+        9,
+        1,
+        8,
+        8
+      ],
+      "uv": [
+        9,
+        1,
+        17,
+        9
+      ],
+      "pixels": [
+        9,
+        1,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "sealed_hood",
+      "uuid": "7535142a-325c-05ae-167e-addad2986690",
+      "role": "hood",
+      "face": "down",
+      "rect": [
+        17,
+        1,
+        8,
+        8
+      ],
+      "uv": [
+        17,
+        1,
+        25,
+        9
+      ],
+      "pixels": [
+        17,
+        1,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "folded_hood_crown",
+      "uuid": "58716a1c-b52f-2d5b-c1a6-dc1729b84275",
+      "role": "hood_crown",
+      "face": "north",
+      "rect": [
+        9,
+        27,
+        8,
+        2
+      ],
+      "uv": [
+        9,
+        27,
+        17,
+        29
+      ],
+      "pixels": [
+        9,
+        27,
+        8,
+        2
+      ]
+    },
+    {
+      "name": "folded_hood_crown",
+      "uuid": "58716a1c-b52f-2d5b-c1a6-dc1729b84275",
+      "role": "hood_crown",
+      "face": "east",
+      "rect": [
+        1,
+        27,
+        8,
+        2
+      ],
+      "uv": [
+        1,
+        27,
+        9,
+        29
+      ],
+      "pixels": [
+        1,
+        27,
+        8,
+        2
+      ]
+    },
+    {
+      "name": "folded_hood_crown",
+      "uuid": "58716a1c-b52f-2d5b-c1a6-dc1729b84275",
+      "role": "hood_crown",
+      "face": "west",
+      "rect": [
+        17,
+        27,
+        8,
+        2
+      ],
+      "uv": [
+        17,
+        27,
+        25,
+        29
+      ],
+      "pixels": [
+        17,
+        27,
+        8,
+        2
+      ]
+    },
+    {
+      "name": "folded_hood_crown",
+      "uuid": "58716a1c-b52f-2d5b-c1a6-dc1729b84275",
+      "role": "hood_crown",
+      "face": "south",
+      "rect": [
+        25,
+        27,
+        8,
+        2
+      ],
+      "uv": [
+        25,
+        27,
+        33,
+        29
+      ],
+      "pixels": [
+        25,
+        27,
+        8,
+        2
+      ]
+    },
+    {
+      "name": "folded_hood_crown",
+      "uuid": "58716a1c-b52f-2d5b-c1a6-dc1729b84275",
+      "role": "hood_crown",
+      "face": "up",
+      "rect": [
+        9,
+        19,
+        8,
+        8
+      ],
+      "uv": [
+        9,
+        19,
+        17,
+        27
+      ],
+      "pixels": [
+        9,
+        19,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "folded_hood_crown",
+      "uuid": "58716a1c-b52f-2d5b-c1a6-dc1729b84275",
+      "role": "hood_crown",
+      "face": "down",
+      "rect": [
+        17,
+        19,
+        8,
+        8
+      ],
+      "uv": [
+        17,
+        19,
+        25,
+        27
+      ],
+      "pixels": [
+        17,
+        19,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "sloped_visor_Left",
+      "uuid": "7064777d-f53a-9262-1691-50e50cfc874e",
+      "role": "visor",
+      "face": "north",
+      "rect": [
+        95,
+        54,
+        4,
+        3
+      ],
+      "uv": [
+        95,
+        54,
+        99,
+        57
+      ],
+      "pixels": [
+        95,
+        54,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "sloped_visor_Left",
+      "uuid": "7064777d-f53a-9262-1691-50e50cfc874e",
+      "role": "visor",
+      "face": "east",
+      "rect": [
+        93,
+        54,
+        2,
+        3
+      ],
+      "uv": [
+        93,
+        54,
+        95,
+        57
+      ],
+      "pixels": [
+        93,
+        54,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "sloped_visor_Left",
+      "uuid": "7064777d-f53a-9262-1691-50e50cfc874e",
+      "role": "visor",
+      "face": "west",
+      "rect": [
+        99,
+        54,
+        2,
+        3
+      ],
+      "uv": [
+        99,
+        54,
+        101,
+        57
+      ],
+      "pixels": [
+        99,
+        54,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "sloped_visor_Left",
+      "uuid": "7064777d-f53a-9262-1691-50e50cfc874e",
+      "role": "visor",
+      "face": "south",
+      "rect": [
+        101,
+        54,
+        4,
+        3
+      ],
+      "uv": [
+        101,
+        54,
+        105,
+        57
+      ],
+      "pixels": [
+        101,
+        54,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "sloped_visor_Left",
+      "uuid": "7064777d-f53a-9262-1691-50e50cfc874e",
+      "role": "visor",
+      "face": "up",
+      "rect": [
+        95,
+        52,
+        4,
+        2
+      ],
+      "uv": [
+        95,
+        52,
+        99,
+        54
+      ],
+      "pixels": [
+        95,
+        52,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "sloped_visor_Left",
+      "uuid": "7064777d-f53a-9262-1691-50e50cfc874e",
+      "role": "visor",
+      "face": "down",
+      "rect": [
+        99,
+        52,
+        4,
+        2
+      ],
+      "uv": [
+        99,
+        52,
+        103,
+        54
+      ],
+      "pixels": [
+        99,
+        52,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "sloped_visor_Right",
+      "uuid": "181e1512-6662-527a-6a5b-d950452f1c36",
+      "role": "visor",
+      "face": "north",
+      "rect": [
+        95,
+        54,
+        4,
+        3
+      ],
+      "uv": [
+        95,
+        54,
+        99,
+        57
+      ],
+      "pixels": [
+        95,
+        54,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "sloped_visor_Right",
+      "uuid": "181e1512-6662-527a-6a5b-d950452f1c36",
+      "role": "visor",
+      "face": "east",
+      "rect": [
+        93,
+        54,
+        2,
+        3
+      ],
+      "uv": [
+        93,
+        54,
+        95,
+        57
+      ],
+      "pixels": [
+        93,
+        54,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "sloped_visor_Right",
+      "uuid": "181e1512-6662-527a-6a5b-d950452f1c36",
+      "role": "visor",
+      "face": "west",
+      "rect": [
+        99,
+        54,
+        2,
+        3
+      ],
+      "uv": [
+        99,
+        54,
+        101,
+        57
+      ],
+      "pixels": [
+        99,
+        54,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "sloped_visor_Right",
+      "uuid": "181e1512-6662-527a-6a5b-d950452f1c36",
+      "role": "visor",
+      "face": "south",
+      "rect": [
+        101,
+        54,
+        4,
+        3
+      ],
+      "uv": [
+        101,
+        54,
+        105,
+        57
+      ],
+      "pixels": [
+        101,
+        54,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "sloped_visor_Right",
+      "uuid": "181e1512-6662-527a-6a5b-d950452f1c36",
+      "role": "visor",
+      "face": "up",
+      "rect": [
+        95,
+        52,
+        4,
+        2
+      ],
+      "uv": [
+        95,
+        52,
+        99,
+        54
+      ],
+      "pixels": [
+        95,
+        52,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "sloped_visor_Right",
+      "uuid": "181e1512-6662-527a-6a5b-d950452f1c36",
+      "role": "visor",
+      "face": "down",
+      "rect": [
+        99,
+        52,
+        4,
+        2
+      ],
+      "uv": [
+        99,
+        52,
+        103,
+        54
+      ],
+      "pixels": [
+        99,
+        52,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "respirator_centre",
+      "uuid": "200a6ac0-62b8-cbcf-d537-c5c7484d7878",
+      "role": "respirator",
+      "face": "north",
+      "rect": [
+        49,
+        54,
+        4,
+        4
+      ],
+      "uv": [
+        49,
+        54,
+        53,
+        58
+      ],
+      "pixels": [
+        49,
+        54,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "respirator_centre",
+      "uuid": "200a6ac0-62b8-cbcf-d537-c5c7484d7878",
+      "role": "respirator",
+      "face": "east",
+      "rect": [
+        47,
+        54,
+        2,
+        4
+      ],
+      "uv": [
+        47,
+        54,
+        49,
+        58
+      ],
+      "pixels": [
+        47,
+        54,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "respirator_centre",
+      "uuid": "200a6ac0-62b8-cbcf-d537-c5c7484d7878",
+      "role": "respirator",
+      "face": "west",
+      "rect": [
+        53,
+        54,
+        2,
+        4
+      ],
+      "uv": [
+        53,
+        54,
+        55,
+        58
+      ],
+      "pixels": [
+        53,
+        54,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "respirator_centre",
+      "uuid": "200a6ac0-62b8-cbcf-d537-c5c7484d7878",
+      "role": "respirator",
+      "face": "south",
+      "rect": [
+        55,
+        54,
+        4,
+        4
+      ],
+      "uv": [
+        55,
+        54,
+        59,
+        58
+      ],
+      "pixels": [
+        55,
+        54,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "respirator_centre",
+      "uuid": "200a6ac0-62b8-cbcf-d537-c5c7484d7878",
+      "role": "respirator",
+      "face": "up",
+      "rect": [
+        49,
+        52,
+        4,
+        2
+      ],
+      "uv": [
+        49,
+        52,
+        53,
+        54
+      ],
+      "pixels": [
+        49,
+        52,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "respirator_centre",
+      "uuid": "200a6ac0-62b8-cbcf-d537-c5c7484d7878",
+      "role": "respirator",
+      "face": "down",
+      "rect": [
+        53,
+        52,
+        4,
+        2
+      ],
+      "uv": [
+        53,
+        52,
+        57,
+        54
+      ],
+      "pixels": [
+        53,
+        52,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "angled_jaw_Left",
+      "uuid": "7c79d00e-1c63-c712-1a4a-994bcc2fd604",
+      "role": "jaw",
+      "face": "north",
+      "rect": [
+        63,
+        54,
+        3,
+        4
+      ],
+      "uv": [
+        63,
+        54,
+        66,
+        58
+      ],
+      "pixels": [
+        63,
+        54,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "angled_jaw_Left",
+      "uuid": "7c79d00e-1c63-c712-1a4a-994bcc2fd604",
+      "role": "jaw",
+      "face": "east",
+      "rect": [
+        61,
+        54,
+        2,
+        4
+      ],
+      "uv": [
+        61,
+        54,
+        63,
+        58
+      ],
+      "pixels": [
+        61,
+        54,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "angled_jaw_Left",
+      "uuid": "7c79d00e-1c63-c712-1a4a-994bcc2fd604",
+      "role": "jaw",
+      "face": "west",
+      "rect": [
+        66,
+        54,
+        2,
+        4
+      ],
+      "uv": [
+        66,
+        54,
+        68,
+        58
+      ],
+      "pixels": [
+        66,
+        54,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "angled_jaw_Left",
+      "uuid": "7c79d00e-1c63-c712-1a4a-994bcc2fd604",
+      "role": "jaw",
+      "face": "south",
+      "rect": [
+        68,
+        54,
+        3,
+        4
+      ],
+      "uv": [
+        68,
+        54,
+        71,
+        58
+      ],
+      "pixels": [
+        68,
+        54,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "angled_jaw_Left",
+      "uuid": "7c79d00e-1c63-c712-1a4a-994bcc2fd604",
+      "role": "jaw",
+      "face": "up",
+      "rect": [
+        63,
+        52,
+        3,
+        2
+      ],
+      "uv": [
+        63,
+        52,
+        66,
+        54
+      ],
+      "pixels": [
+        63,
+        52,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "angled_jaw_Left",
+      "uuid": "7c79d00e-1c63-c712-1a4a-994bcc2fd604",
+      "role": "jaw",
+      "face": "down",
+      "rect": [
+        66,
+        52,
+        3,
+        2
+      ],
+      "uv": [
+        66,
+        52,
+        69,
+        54
+      ],
+      "pixels": [
+        66,
+        52,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "angled_jaw_Right",
+      "uuid": "d0193c8c-0bbd-50d5-0a24-dc57ea28f3d2",
+      "role": "jaw",
+      "face": "north",
+      "rect": [
+        63,
+        54,
+        3,
+        4
+      ],
+      "uv": [
+        63,
+        54,
+        66,
+        58
+      ],
+      "pixels": [
+        63,
+        54,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "angled_jaw_Right",
+      "uuid": "d0193c8c-0bbd-50d5-0a24-dc57ea28f3d2",
+      "role": "jaw",
+      "face": "east",
+      "rect": [
+        61,
+        54,
+        2,
+        4
+      ],
+      "uv": [
+        61,
+        54,
+        63,
+        58
+      ],
+      "pixels": [
+        61,
+        54,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "angled_jaw_Right",
+      "uuid": "d0193c8c-0bbd-50d5-0a24-dc57ea28f3d2",
+      "role": "jaw",
+      "face": "west",
+      "rect": [
+        66,
+        54,
+        2,
+        4
+      ],
+      "uv": [
+        66,
+        54,
+        68,
+        58
+      ],
+      "pixels": [
+        66,
+        54,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "angled_jaw_Right",
+      "uuid": "d0193c8c-0bbd-50d5-0a24-dc57ea28f3d2",
+      "role": "jaw",
+      "face": "south",
+      "rect": [
+        68,
+        54,
+        3,
+        4
+      ],
+      "uv": [
+        68,
+        54,
+        71,
+        58
+      ],
+      "pixels": [
+        68,
+        54,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "angled_jaw_Right",
+      "uuid": "d0193c8c-0bbd-50d5-0a24-dc57ea28f3d2",
+      "role": "jaw",
+      "face": "up",
+      "rect": [
+        63,
+        52,
+        3,
+        2
+      ],
+      "uv": [
+        63,
+        52,
+        66,
+        54
+      ],
+      "pixels": [
+        63,
+        52,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "angled_jaw_Right",
+      "uuid": "d0193c8c-0bbd-50d5-0a24-dc57ea28f3d2",
+      "role": "jaw",
+      "face": "down",
+      "rect": [
+        66,
+        52,
+        3,
+        2
+      ],
+      "uv": [
+        66,
+        52,
+        69,
+        54
+      ],
+      "pixels": [
+        66,
+        52,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "ocular_frame",
+      "uuid": "2dcab58f-898b-f817-2fac-a11127e69077",
+      "role": "ocular",
+      "face": "north",
+      "rect": [
+        76,
+        55,
+        1,
+        3
+      ],
+      "uv": [
+        76,
+        55,
+        77,
+        58
+      ],
+      "pixels": [
+        76,
+        55,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "ocular_frame",
+      "uuid": "2dcab58f-898b-f817-2fac-a11127e69077",
+      "role": "ocular",
+      "face": "east",
+      "rect": [
+        73,
+        55,
+        3,
+        3
+      ],
+      "uv": [
+        73,
+        55,
+        76,
+        58
+      ],
+      "pixels": [
+        73,
+        55,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "ocular_frame",
+      "uuid": "2dcab58f-898b-f817-2fac-a11127e69077",
+      "role": "ocular",
+      "face": "west",
+      "rect": [
+        77,
+        55,
+        3,
+        3
+      ],
+      "uv": [
+        77,
+        55,
+        80,
+        58
+      ],
+      "pixels": [
+        77,
+        55,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "ocular_frame",
+      "uuid": "2dcab58f-898b-f817-2fac-a11127e69077",
+      "role": "ocular",
+      "face": "south",
+      "rect": [
+        80,
+        55,
+        1,
+        3
+      ],
+      "uv": [
+        80,
+        55,
+        81,
+        58
+      ],
+      "pixels": [
+        80,
+        55,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "ocular_frame",
+      "uuid": "2dcab58f-898b-f817-2fac-a11127e69077",
+      "role": "ocular",
+      "face": "up",
+      "rect": [
+        76,
+        52,
+        1,
+        3
+      ],
+      "uv": [
+        76,
+        52,
+        77,
+        55
+      ],
+      "pixels": [
+        76,
+        52,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "ocular_frame",
+      "uuid": "2dcab58f-898b-f817-2fac-a11127e69077",
+      "role": "ocular",
+      "face": "down",
+      "rect": [
+        77,
+        52,
+        1,
+        3
+      ],
+      "uv": [
+        77,
+        52,
+        78,
+        55
+      ],
+      "pixels": [
+        77,
+        52,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "right_connector",
+      "uuid": "14e5357c-77e9-34b2-e766-4739edc15371",
+      "role": "connector",
+      "face": "north",
+      "rect": [
+        47,
+        62,
+        1,
+        2
+      ],
+      "uv": [
+        47,
+        62,
+        48,
+        64
+      ],
+      "pixels": [
+        47,
+        62,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "right_connector",
+      "uuid": "14e5357c-77e9-34b2-e766-4739edc15371",
+      "role": "connector",
+      "face": "east",
+      "rect": [
+        45,
+        62,
+        2,
+        2
+      ],
+      "uv": [
+        45,
+        62,
+        47,
+        64
+      ],
+      "pixels": [
+        45,
+        62,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "right_connector",
+      "uuid": "14e5357c-77e9-34b2-e766-4739edc15371",
+      "role": "connector",
+      "face": "west",
+      "rect": [
+        48,
+        62,
+        2,
+        2
+      ],
+      "uv": [
+        48,
+        62,
+        50,
+        64
+      ],
+      "pixels": [
+        48,
+        62,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "right_connector",
+      "uuid": "14e5357c-77e9-34b2-e766-4739edc15371",
+      "role": "connector",
+      "face": "south",
+      "rect": [
+        50,
+        62,
+        1,
+        2
+      ],
+      "uv": [
+        50,
+        62,
+        51,
+        64
+      ],
+      "pixels": [
+        50,
+        62,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "right_connector",
+      "uuid": "14e5357c-77e9-34b2-e766-4739edc15371",
+      "role": "connector",
+      "face": "up",
+      "rect": [
+        47,
+        60,
+        1,
+        2
+      ],
+      "uv": [
+        47,
+        60,
+        48,
+        62
+      ],
+      "pixels": [
+        47,
+        60,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "right_connector",
+      "uuid": "14e5357c-77e9-34b2-e766-4739edc15371",
+      "role": "connector",
+      "face": "down",
+      "rect": [
+        48,
+        60,
+        1,
+        2
+      ],
+      "uv": [
+        48,
+        60,
+        49,
+        62
+      ],
+      "pixels": [
+        48,
+        60,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "hood_rear_clasp",
+      "uuid": "9398fcb0-4efa-bf51-9ba5-4823fd3f3e2c",
+      "role": "rear_clasp",
+      "face": "north",
+      "rect": [
+        74,
+        61,
+        2,
+        2
+      ],
+      "uv": [
+        74,
+        61,
+        76,
+        63
+      ],
+      "pixels": [
+        74,
+        61,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "hood_rear_clasp",
+      "uuid": "9398fcb0-4efa-bf51-9ba5-4823fd3f3e2c",
+      "role": "rear_clasp",
+      "face": "east",
+      "rect": [
+        73,
+        61,
+        1,
+        2
+      ],
+      "uv": [
+        73,
+        61,
+        74,
+        63
+      ],
+      "pixels": [
+        73,
+        61,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "hood_rear_clasp",
+      "uuid": "9398fcb0-4efa-bf51-9ba5-4823fd3f3e2c",
+      "role": "rear_clasp",
+      "face": "west",
+      "rect": [
+        76,
+        61,
+        1,
+        2
+      ],
+      "uv": [
+        76,
+        61,
+        77,
+        63
+      ],
+      "pixels": [
+        76,
+        61,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "hood_rear_clasp",
+      "uuid": "9398fcb0-4efa-bf51-9ba5-4823fd3f3e2c",
+      "role": "rear_clasp",
+      "face": "south",
+      "rect": [
+        77,
+        61,
+        2,
+        2
+      ],
+      "uv": [
+        77,
+        61,
+        79,
+        63
+      ],
+      "pixels": [
+        77,
+        61,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "hood_rear_clasp",
+      "uuid": "9398fcb0-4efa-bf51-9ba5-4823fd3f3e2c",
+      "role": "rear_clasp",
+      "face": "up",
+      "rect": [
+        74,
+        60,
+        2,
+        1
+      ],
+      "uv": [
+        74,
+        60,
+        76,
+        61
+      ],
+      "pixels": [
+        74,
+        60,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "hood_rear_clasp",
+      "uuid": "9398fcb0-4efa-bf51-9ba5-4823fd3f3e2c",
+      "role": "rear_clasp",
+      "face": "down",
+      "rect": [
+        76,
+        60,
+        2,
+        1
+      ],
+      "uv": [
+        76,
+        60,
+        78,
+        61
+      ],
+      "pixels": [
+        76,
+        60,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "tailored_torso",
+      "uuid": "5496807a-fa37-fbbb-d472-90fce4fdc2e4",
+      "role": "coat",
+      "face": "north",
+      "rect": [
+        39,
+        5,
+        8,
+        12
+      ],
+      "uv": [
+        39,
+        5,
+        47,
+        17
+      ],
+      "pixels": [
+        39,
+        5,
+        8,
+        12
+      ]
+    },
+    {
+      "name": "tailored_torso",
+      "uuid": "5496807a-fa37-fbbb-d472-90fce4fdc2e4",
+      "role": "coat",
+      "face": "east",
+      "rect": [
+        35,
+        5,
+        4,
+        12
+      ],
+      "uv": [
+        35,
+        5,
+        39,
+        17
+      ],
+      "pixels": [
+        35,
+        5,
+        4,
+        12
+      ]
+    },
+    {
+      "name": "tailored_torso",
+      "uuid": "5496807a-fa37-fbbb-d472-90fce4fdc2e4",
+      "role": "coat",
+      "face": "west",
+      "rect": [
+        47,
+        5,
+        4,
+        12
+      ],
+      "uv": [
+        47,
+        5,
+        51,
+        17
+      ],
+      "pixels": [
+        47,
+        5,
+        4,
+        12
+      ]
+    },
+    {
+      "name": "tailored_torso",
+      "uuid": "5496807a-fa37-fbbb-d472-90fce4fdc2e4",
+      "role": "coat",
+      "face": "south",
+      "rect": [
+        51,
+        5,
+        8,
+        12
+      ],
+      "uv": [
+        51,
+        5,
+        59,
+        17
+      ],
+      "pixels": [
+        51,
+        5,
+        8,
+        12
+      ]
+    },
+    {
+      "name": "tailored_torso",
+      "uuid": "5496807a-fa37-fbbb-d472-90fce4fdc2e4",
+      "role": "coat",
+      "face": "up",
+      "rect": [
+        39,
+        1,
+        8,
+        4
+      ],
+      "uv": [
+        39,
+        1,
+        47,
+        5
+      ],
+      "pixels": [
+        39,
+        1,
+        8,
+        4
+      ]
+    },
+    {
+      "name": "tailored_torso",
+      "uuid": "5496807a-fa37-fbbb-d472-90fce4fdc2e4",
+      "role": "coat",
+      "face": "down",
+      "rect": [
+        47,
+        1,
+        8,
+        4
+      ],
+      "uv": [
+        47,
+        1,
+        55,
+        5
+      ],
+      "pixels": [
+        47,
+        1,
+        8,
+        4
+      ]
+    },
+    {
+      "name": "folded_collar_Left",
+      "uuid": "85faf8de-8982-2b32-2000-d85b316b7b7c",
+      "role": "collar",
+      "face": "north",
+      "rect": [
+        45,
+        46,
+        5,
+        3
+      ],
+      "uv": [
+        45,
+        46,
+        50,
+        49
+      ],
+      "pixels": [
+        45,
+        46,
+        5,
+        3
+      ]
+    },
+    {
+      "name": "folded_collar_Left",
+      "uuid": "85faf8de-8982-2b32-2000-d85b316b7b7c",
+      "role": "collar",
+      "face": "east",
+      "rect": [
+        41,
+        46,
+        4,
+        3
+      ],
+      "uv": [
+        41,
+        46,
+        45,
+        49
+      ],
+      "pixels": [
+        41,
+        46,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "folded_collar_Left",
+      "uuid": "85faf8de-8982-2b32-2000-d85b316b7b7c",
+      "role": "collar",
+      "face": "west",
+      "rect": [
+        50,
+        46,
+        4,
+        3
+      ],
+      "uv": [
+        50,
+        46,
+        54,
+        49
+      ],
+      "pixels": [
+        50,
+        46,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "folded_collar_Left",
+      "uuid": "85faf8de-8982-2b32-2000-d85b316b7b7c",
+      "role": "collar",
+      "face": "south",
+      "rect": [
+        54,
+        46,
+        5,
+        3
+      ],
+      "uv": [
+        54,
+        46,
+        59,
+        49
+      ],
+      "pixels": [
+        54,
+        46,
+        5,
+        3
+      ]
+    },
+    {
+      "name": "folded_collar_Left",
+      "uuid": "85faf8de-8982-2b32-2000-d85b316b7b7c",
+      "role": "collar",
+      "face": "up",
+      "rect": [
+        45,
+        42,
+        5,
+        4
+      ],
+      "uv": [
+        45,
+        42,
+        50,
+        46
+      ],
+      "pixels": [
+        45,
+        42,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "folded_collar_Left",
+      "uuid": "85faf8de-8982-2b32-2000-d85b316b7b7c",
+      "role": "collar",
+      "face": "down",
+      "rect": [
+        50,
+        42,
+        5,
+        4
+      ],
+      "uv": [
+        50,
+        42,
+        55,
+        46
+      ],
+      "pixels": [
+        50,
+        42,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "folded_collar_Right",
+      "uuid": "776697c6-8a6d-5509-aca1-48c1a60dc903",
+      "role": "collar",
+      "face": "north",
+      "rect": [
+        45,
+        46,
+        5,
+        3
+      ],
+      "uv": [
+        45,
+        46,
+        50,
+        49
+      ],
+      "pixels": [
+        45,
+        46,
+        5,
+        3
+      ]
+    },
+    {
+      "name": "folded_collar_Right",
+      "uuid": "776697c6-8a6d-5509-aca1-48c1a60dc903",
+      "role": "collar",
+      "face": "east",
+      "rect": [
+        41,
+        46,
+        4,
+        3
+      ],
+      "uv": [
+        41,
+        46,
+        45,
+        49
+      ],
+      "pixels": [
+        41,
+        46,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "folded_collar_Right",
+      "uuid": "776697c6-8a6d-5509-aca1-48c1a60dc903",
+      "role": "collar",
+      "face": "west",
+      "rect": [
+        50,
+        46,
+        4,
+        3
+      ],
+      "uv": [
+        50,
+        46,
+        54,
+        49
+      ],
+      "pixels": [
+        50,
+        46,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "folded_collar_Right",
+      "uuid": "776697c6-8a6d-5509-aca1-48c1a60dc903",
+      "role": "collar",
+      "face": "south",
+      "rect": [
+        54,
+        46,
+        5,
+        3
+      ],
+      "uv": [
+        54,
+        46,
+        59,
+        49
+      ],
+      "pixels": [
+        54,
+        46,
+        5,
+        3
+      ]
+    },
+    {
+      "name": "folded_collar_Right",
+      "uuid": "776697c6-8a6d-5509-aca1-48c1a60dc903",
+      "role": "collar",
+      "face": "up",
+      "rect": [
+        45,
+        42,
+        5,
+        4
+      ],
+      "uv": [
+        45,
+        42,
+        50,
+        46
+      ],
+      "pixels": [
+        45,
+        42,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "folded_collar_Right",
+      "uuid": "776697c6-8a6d-5509-aca1-48c1a60dc903",
+      "role": "collar",
+      "face": "down",
+      "rect": [
+        50,
+        42,
+        5,
+        4
+      ],
+      "uv": [
+        50,
+        42,
+        55,
+        46
+      ],
+      "pixels": [
+        50,
+        42,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "collar_rear_lock",
+      "uuid": "7565e352-9744-11da-c797-a3c8f5d98813",
+      "role": "collar_lock",
+      "face": "north",
+      "rect": [
+        54,
+        61,
+        4,
+        2
+      ],
+      "uv": [
+        54,
+        61,
+        58,
+        63
+      ],
+      "pixels": [
+        54,
+        61,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "collar_rear_lock",
+      "uuid": "7565e352-9744-11da-c797-a3c8f5d98813",
+      "role": "collar_lock",
+      "face": "east",
+      "rect": [
+        53,
+        61,
+        1,
+        2
+      ],
+      "uv": [
+        53,
+        61,
+        54,
+        63
+      ],
+      "pixels": [
+        53,
+        61,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "collar_rear_lock",
+      "uuid": "7565e352-9744-11da-c797-a3c8f5d98813",
+      "role": "collar_lock",
+      "face": "west",
+      "rect": [
+        58,
+        61,
+        1,
+        2
+      ],
+      "uv": [
+        58,
+        61,
+        59,
+        63
+      ],
+      "pixels": [
+        58,
+        61,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "collar_rear_lock",
+      "uuid": "7565e352-9744-11da-c797-a3c8f5d98813",
+      "role": "collar_lock",
+      "face": "south",
+      "rect": [
+        59,
+        61,
+        4,
+        2
+      ],
+      "uv": [
+        59,
+        61,
+        63,
+        63
+      ],
+      "pixels": [
+        59,
+        61,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "collar_rear_lock",
+      "uuid": "7565e352-9744-11da-c797-a3c8f5d98813",
+      "role": "collar_lock",
+      "face": "up",
+      "rect": [
+        54,
+        60,
+        4,
+        1
+      ],
+      "uv": [
+        54,
+        60,
+        58,
+        61
+      ],
+      "pixels": [
+        54,
+        60,
+        4,
+        1
+      ]
+    },
+    {
+      "name": "collar_rear_lock",
+      "uuid": "7565e352-9744-11da-c797-a3c8f5d98813",
+      "role": "collar_lock",
+      "face": "down",
+      "rect": [
+        58,
+        60,
+        4,
+        1
+      ],
+      "uv": [
+        58,
+        60,
+        62,
+        61
+      ],
+      "pixels": [
+        58,
+        60,
+        4,
+        1
+      ]
+    },
+    {
+      "name": "folded_chest_Left",
+      "uuid": "7fc38d28-2a9a-31cf-3274-9792bd796e9a",
+      "role": "chest",
+      "face": "north",
+      "rect": [
+        42,
+        34,
+        4,
+        6
+      ],
+      "uv": [
+        42,
+        34,
+        46,
+        40
+      ],
+      "pixels": [
+        42,
+        34,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "folded_chest_Left",
+      "uuid": "7fc38d28-2a9a-31cf-3274-9792bd796e9a",
+      "role": "chest",
+      "face": "east",
+      "rect": [
+        39,
+        34,
+        3,
+        6
+      ],
+      "uv": [
+        39,
+        34,
+        42,
+        40
+      ],
+      "pixels": [
+        39,
+        34,
+        3,
+        6
+      ]
+    },
+    {
+      "name": "folded_chest_Left",
+      "uuid": "7fc38d28-2a9a-31cf-3274-9792bd796e9a",
+      "role": "chest",
+      "face": "west",
+      "rect": [
+        46,
+        34,
+        3,
+        6
+      ],
+      "uv": [
+        46,
+        34,
+        49,
+        40
+      ],
+      "pixels": [
+        46,
+        34,
+        3,
+        6
+      ]
+    },
+    {
+      "name": "folded_chest_Left",
+      "uuid": "7fc38d28-2a9a-31cf-3274-9792bd796e9a",
+      "role": "chest",
+      "face": "south",
+      "rect": [
+        49,
+        34,
+        4,
+        6
+      ],
+      "uv": [
+        49,
+        34,
+        53,
+        40
+      ],
+      "pixels": [
+        49,
+        34,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "folded_chest_Left",
+      "uuid": "7fc38d28-2a9a-31cf-3274-9792bd796e9a",
+      "role": "chest",
+      "face": "up",
+      "rect": [
+        42,
+        31,
+        4,
+        3
+      ],
+      "uv": [
+        42,
+        31,
+        46,
+        34
+      ],
+      "pixels": [
+        42,
+        31,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "folded_chest_Left",
+      "uuid": "7fc38d28-2a9a-31cf-3274-9792bd796e9a",
+      "role": "chest",
+      "face": "down",
+      "rect": [
+        46,
+        31,
+        4,
+        3
+      ],
+      "uv": [
+        46,
+        31,
+        50,
+        34
+      ],
+      "pixels": [
+        46,
+        31,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "folded_chest_Right",
+      "uuid": "5fa6687e-5f93-3cab-de66-3751433443bd",
+      "role": "chest",
+      "face": "north",
+      "rect": [
+        42,
+        34,
+        4,
+        6
+      ],
+      "uv": [
+        42,
+        34,
+        46,
+        40
+      ],
+      "pixels": [
+        42,
+        34,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "folded_chest_Right",
+      "uuid": "5fa6687e-5f93-3cab-de66-3751433443bd",
+      "role": "chest",
+      "face": "east",
+      "rect": [
+        39,
+        34,
+        3,
+        6
+      ],
+      "uv": [
+        39,
+        34,
+        42,
+        40
+      ],
+      "pixels": [
+        39,
+        34,
+        3,
+        6
+      ]
+    },
+    {
+      "name": "folded_chest_Right",
+      "uuid": "5fa6687e-5f93-3cab-de66-3751433443bd",
+      "role": "chest",
+      "face": "west",
+      "rect": [
+        46,
+        34,
+        3,
+        6
+      ],
+      "uv": [
+        46,
+        34,
+        49,
+        40
+      ],
+      "pixels": [
+        46,
+        34,
+        3,
+        6
+      ]
+    },
+    {
+      "name": "folded_chest_Right",
+      "uuid": "5fa6687e-5f93-3cab-de66-3751433443bd",
+      "role": "chest",
+      "face": "south",
+      "rect": [
+        49,
+        34,
+        4,
+        6
+      ],
+      "uv": [
+        49,
+        34,
+        53,
+        40
+      ],
+      "pixels": [
+        49,
+        34,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "folded_chest_Right",
+      "uuid": "5fa6687e-5f93-3cab-de66-3751433443bd",
+      "role": "chest",
+      "face": "up",
+      "rect": [
+        42,
+        31,
+        4,
+        3
+      ],
+      "uv": [
+        42,
+        31,
+        46,
+        34
+      ],
+      "pixels": [
+        42,
+        31,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "folded_chest_Right",
+      "uuid": "5fa6687e-5f93-3cab-de66-3751433443bd",
+      "role": "chest",
+      "face": "down",
+      "rect": [
+        46,
+        31,
+        4,
+        3
+      ],
+      "uv": [
+        46,
+        31,
+        50,
+        34
+      ],
+      "pixels": [
+        46,
+        31,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "diamond_core_socket",
+      "uuid": "425861b9-a56e-6191-fc07-c4b315c1c9c8",
+      "role": "core_socket",
+      "face": "north",
+      "rect": [
+        35,
+        54,
+        4,
+        4
+      ],
+      "uv": [
+        35,
+        54,
+        39,
+        58
+      ],
+      "pixels": [
+        35,
+        54,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "diamond_core_socket",
+      "uuid": "425861b9-a56e-6191-fc07-c4b315c1c9c8",
+      "role": "core_socket",
+      "face": "east",
+      "rect": [
+        33,
+        54,
+        2,
+        4
+      ],
+      "uv": [
+        33,
+        54,
+        35,
+        58
+      ],
+      "pixels": [
+        33,
+        54,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "diamond_core_socket",
+      "uuid": "425861b9-a56e-6191-fc07-c4b315c1c9c8",
+      "role": "core_socket",
+      "face": "west",
+      "rect": [
+        39,
+        54,
+        2,
+        4
+      ],
+      "uv": [
+        39,
+        54,
+        41,
+        58
+      ],
+      "pixels": [
+        39,
+        54,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "diamond_core_socket",
+      "uuid": "425861b9-a56e-6191-fc07-c4b315c1c9c8",
+      "role": "core_socket",
+      "face": "south",
+      "rect": [
+        41,
+        54,
+        4,
+        4
+      ],
+      "uv": [
+        41,
+        54,
+        45,
+        58
+      ],
+      "pixels": [
+        41,
+        54,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "diamond_core_socket",
+      "uuid": "425861b9-a56e-6191-fc07-c4b315c1c9c8",
+      "role": "core_socket",
+      "face": "up",
+      "rect": [
+        35,
+        52,
+        4,
+        2
+      ],
+      "uv": [
+        35,
+        52,
+        39,
+        54
+      ],
+      "pixels": [
+        35,
+        52,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "diamond_core_socket",
+      "uuid": "425861b9-a56e-6191-fc07-c4b315c1c9c8",
+      "role": "core_socket",
+      "face": "down",
+      "rect": [
+        39,
+        52,
+        4,
+        2
+      ],
+      "uv": [
+        39,
+        52,
+        43,
+        54
+      ],
+      "pixels": [
+        39,
+        52,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "fissile_core",
+      "uuid": "871169a9-8f14-1edb-453d-eb9f68a1fd26",
+      "role": "core",
+      "face": "north",
+      "rect": [
+        66,
+        61,
+        2,
+        2
+      ],
+      "uv": [
+        66,
+        61,
+        68,
+        63
+      ],
+      "pixels": [
+        66,
+        61,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "fissile_core",
+      "uuid": "871169a9-8f14-1edb-453d-eb9f68a1fd26",
+      "role": "core",
+      "face": "east",
+      "rect": [
+        65,
+        61,
+        1,
+        2
+      ],
+      "uv": [
+        65,
+        61,
+        66,
+        63
+      ],
+      "pixels": [
+        65,
+        61,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "fissile_core",
+      "uuid": "871169a9-8f14-1edb-453d-eb9f68a1fd26",
+      "role": "core",
+      "face": "west",
+      "rect": [
+        68,
+        61,
+        1,
+        2
+      ],
+      "uv": [
+        68,
+        61,
+        69,
+        63
+      ],
+      "pixels": [
+        68,
+        61,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "fissile_core",
+      "uuid": "871169a9-8f14-1edb-453d-eb9f68a1fd26",
+      "role": "core",
+      "face": "south",
+      "rect": [
+        69,
+        61,
+        2,
+        2
+      ],
+      "uv": [
+        69,
+        61,
+        71,
+        63
+      ],
+      "pixels": [
+        69,
+        61,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "fissile_core",
+      "uuid": "871169a9-8f14-1edb-453d-eb9f68a1fd26",
+      "role": "core",
+      "face": "up",
+      "rect": [
+        66,
+        60,
+        2,
+        1
+      ],
+      "uv": [
+        66,
+        60,
+        68,
+        61
+      ],
+      "pixels": [
+        66,
+        60,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "fissile_core",
+      "uuid": "871169a9-8f14-1edb-453d-eb9f68a1fd26",
+      "role": "core",
+      "face": "down",
+      "rect": [
+        68,
+        60,
+        2,
+        1
+      ],
+      "uv": [
+        68,
+        60,
+        70,
+        61
+      ],
+      "pixels": [
+        68,
+        60,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "radiation_plaque",
+      "uuid": "0e4a7c7b-6a67-3491-48a2-024b6c9bd5c4",
+      "role": "trefoil",
+      "face": "north",
+      "rect": [
+        92,
+        32,
+        7.0,
+        7
+      ],
+      "uv": [
+        92,
+        32,
+        99.0,
+        39
+      ],
+      "pixels": [
+        92,
+        32,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "radiation_plaque",
+      "uuid": "0e4a7c7b-6a67-3491-48a2-024b6c9bd5c4",
+      "role": "trefoil",
+      "face": "east",
+      "rect": [
+        91,
+        32,
+        1,
+        7
+      ],
+      "uv": [
+        91,
+        32,
+        92,
+        39
+      ],
+      "pixels": [
+        91,
+        32,
+        1,
+        7
+      ]
+    },
+    {
+      "name": "radiation_plaque",
+      "uuid": "0e4a7c7b-6a67-3491-48a2-024b6c9bd5c4",
+      "role": "trefoil",
+      "face": "west",
+      "rect": [
+        99.0,
+        32,
+        1,
+        7
+      ],
+      "uv": [
+        99.0,
+        32,
+        100.0,
+        39
+      ],
+      "pixels": [
+        99,
+        32,
+        1,
+        7
+      ]
+    },
+    {
+      "name": "radiation_plaque",
+      "uuid": "0e4a7c7b-6a67-3491-48a2-024b6c9bd5c4",
+      "role": "trefoil",
+      "face": "south",
+      "rect": [
+        100.0,
+        32,
+        7.0,
+        7
+      ],
+      "uv": [
+        100.0,
+        32,
+        107.0,
+        39
+      ],
+      "pixels": [
+        100,
+        32,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "radiation_plaque",
+      "uuid": "0e4a7c7b-6a67-3491-48a2-024b6c9bd5c4",
+      "role": "trefoil",
+      "face": "up",
+      "rect": [
+        92,
+        31,
+        7.0,
+        1
+      ],
+      "uv": [
+        92,
+        31,
+        99.0,
+        32
+      ],
+      "pixels": [
+        92,
+        31,
+        7,
+        1
+      ]
+    },
+    {
+      "name": "radiation_plaque",
+      "uuid": "0e4a7c7b-6a67-3491-48a2-024b6c9bd5c4",
+      "role": "trefoil",
+      "face": "down",
+      "rect": [
+        99.0,
+        31,
+        7.0,
+        1
+      ],
+      "uv": [
+        99.0,
+        31,
+        106.0,
+        32
+      ],
+      "pixels": [
+        99,
+        31,
+        7,
+        1
+      ]
+    },
+    {
+      "name": "reactor_back_mount",
+      "uuid": "d311807c-3be4-adef-fa9b-305734d4e53a",
+      "role": "back_mount",
+      "face": "north",
+      "rect": [
+        23,
+        33,
+        6,
+        7
+      ],
+      "uv": [
+        23,
+        33,
+        29,
+        40
+      ],
+      "pixels": [
+        23,
+        33,
+        6,
+        7
+      ]
+    },
+    {
+      "name": "reactor_back_mount",
+      "uuid": "d311807c-3be4-adef-fa9b-305734d4e53a",
+      "role": "back_mount",
+      "face": "east",
+      "rect": [
+        21,
+        33,
+        2,
+        7
+      ],
+      "uv": [
+        21,
+        33,
+        23,
+        40
+      ],
+      "pixels": [
+        21,
+        33,
+        2,
+        7
+      ]
+    },
+    {
+      "name": "reactor_back_mount",
+      "uuid": "d311807c-3be4-adef-fa9b-305734d4e53a",
+      "role": "back_mount",
+      "face": "west",
+      "rect": [
+        29,
+        33,
+        2,
+        7
+      ],
+      "uv": [
+        29,
+        33,
+        31,
+        40
+      ],
+      "pixels": [
+        29,
+        33,
+        2,
+        7
+      ]
+    },
+    {
+      "name": "reactor_back_mount",
+      "uuid": "d311807c-3be4-adef-fa9b-305734d4e53a",
+      "role": "back_mount",
+      "face": "south",
+      "rect": [
+        31,
+        33,
+        6,
+        7
+      ],
+      "uv": [
+        31,
+        33,
+        37,
+        40
+      ],
+      "pixels": [
+        31,
+        33,
+        6,
+        7
+      ]
+    },
+    {
+      "name": "reactor_back_mount",
+      "uuid": "d311807c-3be4-adef-fa9b-305734d4e53a",
+      "role": "back_mount",
+      "face": "up",
+      "rect": [
+        23,
+        31,
+        6,
+        2
+      ],
+      "uv": [
+        23,
+        31,
+        29,
+        33
+      ],
+      "pixels": [
+        23,
+        31,
+        6,
+        2
+      ]
+    },
+    {
+      "name": "reactor_back_mount",
+      "uuid": "d311807c-3be4-adef-fa9b-305734d4e53a",
+      "role": "back_mount",
+      "face": "down",
+      "rect": [
+        29,
+        31,
+        6,
+        2
+      ],
+      "uv": [
+        29,
+        31,
+        35,
+        33
+      ],
+      "pixels": [
+        29,
+        31,
+        6,
+        2
+      ]
+    },
+    {
+      "name": "reactor_service_panel",
+      "uuid": "a531c0f1-b83a-3d70-5f92-c27e91b76a60",
+      "role": "back_panel",
+      "face": "north",
+      "rect": [
+        20,
+        53,
+        5.0,
+        5
+      ],
+      "uv": [
+        20,
+        53,
+        25.0,
+        58
+      ],
+      "pixels": [
+        20,
+        53,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "reactor_service_panel",
+      "uuid": "a531c0f1-b83a-3d70-5f92-c27e91b76a60",
+      "role": "back_panel",
+      "face": "east",
+      "rect": [
+        19,
+        53,
+        1,
+        5
+      ],
+      "uv": [
+        19,
+        53,
+        20,
+        58
+      ],
+      "pixels": [
+        19,
+        53,
+        1,
+        5
+      ]
+    },
+    {
+      "name": "reactor_service_panel",
+      "uuid": "a531c0f1-b83a-3d70-5f92-c27e91b76a60",
+      "role": "back_panel",
+      "face": "west",
+      "rect": [
+        25.0,
+        53,
+        1,
+        5
+      ],
+      "uv": [
+        25.0,
+        53,
+        26.0,
+        58
+      ],
+      "pixels": [
+        25,
+        53,
+        1,
+        5
+      ]
+    },
+    {
+      "name": "reactor_service_panel",
+      "uuid": "a531c0f1-b83a-3d70-5f92-c27e91b76a60",
+      "role": "back_panel",
+      "face": "south",
+      "rect": [
+        26.0,
+        53,
+        5.0,
+        5
+      ],
+      "uv": [
+        26.0,
+        53,
+        31.0,
+        58
+      ],
+      "pixels": [
+        26,
+        53,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "reactor_service_panel",
+      "uuid": "a531c0f1-b83a-3d70-5f92-c27e91b76a60",
+      "role": "back_panel",
+      "face": "up",
+      "rect": [
+        20,
+        52,
+        5.0,
+        1
+      ],
+      "uv": [
+        20,
+        52,
+        25.0,
+        53
+      ],
+      "pixels": [
+        20,
+        52,
+        5,
+        1
+      ]
+    },
+    {
+      "name": "reactor_service_panel",
+      "uuid": "a531c0f1-b83a-3d70-5f92-c27e91b76a60",
+      "role": "back_panel",
+      "face": "down",
+      "rect": [
+        25.0,
+        52,
+        5.0,
+        1
+      ],
+      "uv": [
+        25.0,
+        52,
+        30.0,
+        53
+      ],
+      "pixels": [
+        25,
+        52,
+        5,
+        1
+      ]
+    },
+    {
+      "name": "back_canister_Left",
+      "uuid": "1490a18a-5aa8-7aec-8ec3-bede144136bd",
+      "role": "canister",
+      "face": "north",
+      "rect": [
+        3,
+        44,
+        2,
+        6
+      ],
+      "uv": [
+        3,
+        44,
+        5,
+        50
+      ],
+      "pixels": [
+        3,
+        44,
+        2,
+        6
+      ]
+    },
+    {
+      "name": "back_canister_Left",
+      "uuid": "1490a18a-5aa8-7aec-8ec3-bede144136bd",
+      "role": "canister",
+      "face": "east",
+      "rect": [
+        1,
+        44,
+        2,
+        6
+      ],
+      "uv": [
+        1,
+        44,
+        3,
+        50
+      ],
+      "pixels": [
+        1,
+        44,
+        2,
+        6
+      ]
+    },
+    {
+      "name": "back_canister_Left",
+      "uuid": "1490a18a-5aa8-7aec-8ec3-bede144136bd",
+      "role": "canister",
+      "face": "west",
+      "rect": [
+        5,
+        44,
+        2,
+        6
+      ],
+      "uv": [
+        5,
+        44,
+        7,
+        50
+      ],
+      "pixels": [
+        5,
+        44,
+        2,
+        6
+      ]
+    },
+    {
+      "name": "back_canister_Left",
+      "uuid": "1490a18a-5aa8-7aec-8ec3-bede144136bd",
+      "role": "canister",
+      "face": "south",
+      "rect": [
+        7,
+        44,
+        2,
+        6
+      ],
+      "uv": [
+        7,
+        44,
+        9,
+        50
+      ],
+      "pixels": [
+        7,
+        44,
+        2,
+        6
+      ]
+    },
+    {
+      "name": "back_canister_Left",
+      "uuid": "1490a18a-5aa8-7aec-8ec3-bede144136bd",
+      "role": "canister",
+      "face": "up",
+      "rect": [
+        3,
+        42,
+        2,
+        2
+      ],
+      "uv": [
+        3,
+        42,
+        5,
+        44
+      ],
+      "pixels": [
+        3,
+        42,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "back_canister_Left",
+      "uuid": "1490a18a-5aa8-7aec-8ec3-bede144136bd",
+      "role": "canister",
+      "face": "down",
+      "rect": [
+        5,
+        42,
+        2,
+        2
+      ],
+      "uv": [
+        5,
+        42,
+        7,
+        44
+      ],
+      "pixels": [
+        5,
+        42,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "canister_cap_Left",
+      "uuid": "ce242875-bc94-51b4-1b25-c6dc2ed99e62",
+      "role": "cap",
+      "face": "north",
+      "rect": [
+        35.5,
+        62.5,
+        2.5,
+        1
+      ],
+      "uv": [
+        35.5,
+        62.5,
+        38.0,
+        63.5
+      ],
+      "pixels": [
+        35,
+        62,
+        3,
+        1
+      ]
+    },
+    {
+      "name": "canister_cap_Left",
+      "uuid": "ce242875-bc94-51b4-1b25-c6dc2ed99e62",
+      "role": "cap",
+      "face": "east",
+      "rect": [
+        33,
+        62.5,
+        2.5,
+        1
+      ],
+      "uv": [
+        33,
+        62.5,
+        35.5,
+        63.5
+      ],
+      "pixels": [
+        33,
+        62,
+        3,
+        1
+      ]
+    },
+    {
+      "name": "canister_cap_Left",
+      "uuid": "ce242875-bc94-51b4-1b25-c6dc2ed99e62",
+      "role": "cap",
+      "face": "west",
+      "rect": [
+        38.0,
+        62.5,
+        2.5,
+        1
+      ],
+      "uv": [
+        38.0,
+        62.5,
+        40.5,
+        63.5
+      ],
+      "pixels": [
+        38,
+        62,
+        3,
+        1
+      ]
+    },
+    {
+      "name": "canister_cap_Left",
+      "uuid": "ce242875-bc94-51b4-1b25-c6dc2ed99e62",
+      "role": "cap",
+      "face": "south",
+      "rect": [
+        40.5,
+        62.5,
+        2.5,
+        1
+      ],
+      "uv": [
+        40.5,
+        62.5,
+        43.0,
+        63.5
+      ],
+      "pixels": [
+        40,
+        62,
+        3,
+        1
+      ]
+    },
+    {
+      "name": "canister_cap_Left",
+      "uuid": "ce242875-bc94-51b4-1b25-c6dc2ed99e62",
+      "role": "cap",
+      "face": "up",
+      "rect": [
+        35.5,
+        60,
+        2.5,
+        2.5
+      ],
+      "uv": [
+        35.5,
+        60,
+        38.0,
+        62.5
+      ],
+      "pixels": [
+        35,
+        60,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "canister_cap_Left",
+      "uuid": "ce242875-bc94-51b4-1b25-c6dc2ed99e62",
+      "role": "cap",
+      "face": "down",
+      "rect": [
+        38.0,
+        60,
+        2.5,
+        2.5
+      ],
+      "uv": [
+        38.0,
+        60,
+        40.5,
+        62.5
+      ],
+      "pixels": [
+        38,
+        60,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "canister_connection_Left",
+      "uuid": "66ae5121-974b-b4f5-70e7-ef216698bb4a",
+      "role": "connector",
+      "face": "north",
+      "rect": [
+        110,
+        55,
+        2,
+        2
+      ],
+      "uv": [
+        110,
+        55,
+        112,
+        57
+      ],
+      "pixels": [
+        110,
+        55,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "canister_connection_Left",
+      "uuid": "66ae5121-974b-b4f5-70e7-ef216698bb4a",
+      "role": "connector",
+      "face": "east",
+      "rect": [
+        107,
+        55,
+        3,
+        2
+      ],
+      "uv": [
+        107,
+        55,
+        110,
+        57
+      ],
+      "pixels": [
+        107,
+        55,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "canister_connection_Left",
+      "uuid": "66ae5121-974b-b4f5-70e7-ef216698bb4a",
+      "role": "connector",
+      "face": "west",
+      "rect": [
+        112,
+        55,
+        3,
+        2
+      ],
+      "uv": [
+        112,
+        55,
+        115,
+        57
+      ],
+      "pixels": [
+        112,
+        55,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "canister_connection_Left",
+      "uuid": "66ae5121-974b-b4f5-70e7-ef216698bb4a",
+      "role": "connector",
+      "face": "south",
+      "rect": [
+        115,
+        55,
+        2,
+        2
+      ],
+      "uv": [
+        115,
+        55,
+        117,
+        57
+      ],
+      "pixels": [
+        115,
+        55,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "canister_connection_Left",
+      "uuid": "66ae5121-974b-b4f5-70e7-ef216698bb4a",
+      "role": "connector",
+      "face": "up",
+      "rect": [
+        110,
+        52,
+        2,
+        3
+      ],
+      "uv": [
+        110,
+        52,
+        112,
+        55
+      ],
+      "pixels": [
+        110,
+        52,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "canister_connection_Left",
+      "uuid": "66ae5121-974b-b4f5-70e7-ef216698bb4a",
+      "role": "connector",
+      "face": "down",
+      "rect": [
+        112,
+        52,
+        2,
+        3
+      ],
+      "uv": [
+        112,
+        52,
+        114,
+        55
+      ],
+      "pixels": [
+        112,
+        52,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "back_canister_Right",
+      "uuid": "9fbdbb8c-d779-d024-f7f0-14cda17cc15b",
+      "role": "canister",
+      "face": "north",
+      "rect": [
+        3,
+        44,
+        2,
+        6
+      ],
+      "uv": [
+        3,
+        44,
+        5,
+        50
+      ],
+      "pixels": [
+        3,
+        44,
+        2,
+        6
+      ]
+    },
+    {
+      "name": "back_canister_Right",
+      "uuid": "9fbdbb8c-d779-d024-f7f0-14cda17cc15b",
+      "role": "canister",
+      "face": "east",
+      "rect": [
+        1,
+        44,
+        2,
+        6
+      ],
+      "uv": [
+        1,
+        44,
+        3,
+        50
+      ],
+      "pixels": [
+        1,
+        44,
+        2,
+        6
+      ]
+    },
+    {
+      "name": "back_canister_Right",
+      "uuid": "9fbdbb8c-d779-d024-f7f0-14cda17cc15b",
+      "role": "canister",
+      "face": "west",
+      "rect": [
+        5,
+        44,
+        2,
+        6
+      ],
+      "uv": [
+        5,
+        44,
+        7,
+        50
+      ],
+      "pixels": [
+        5,
+        44,
+        2,
+        6
+      ]
+    },
+    {
+      "name": "back_canister_Right",
+      "uuid": "9fbdbb8c-d779-d024-f7f0-14cda17cc15b",
+      "role": "canister",
+      "face": "south",
+      "rect": [
+        7,
+        44,
+        2,
+        6
+      ],
+      "uv": [
+        7,
+        44,
+        9,
+        50
+      ],
+      "pixels": [
+        7,
+        44,
+        2,
+        6
+      ]
+    },
+    {
+      "name": "back_canister_Right",
+      "uuid": "9fbdbb8c-d779-d024-f7f0-14cda17cc15b",
+      "role": "canister",
+      "face": "up",
+      "rect": [
+        3,
+        42,
+        2,
+        2
+      ],
+      "uv": [
+        3,
+        42,
+        5,
+        44
+      ],
+      "pixels": [
+        3,
+        42,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "back_canister_Right",
+      "uuid": "9fbdbb8c-d779-d024-f7f0-14cda17cc15b",
+      "role": "canister",
+      "face": "down",
+      "rect": [
+        5,
+        42,
+        2,
+        2
+      ],
+      "uv": [
+        5,
+        42,
+        7,
+        44
+      ],
+      "pixels": [
+        5,
+        42,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "canister_cap_Right",
+      "uuid": "b3223ec3-b2a4-1c62-dceb-ee3379a99c63",
+      "role": "cap",
+      "face": "north",
+      "rect": [
+        35.5,
+        62.5,
+        2.5,
+        1
+      ],
+      "uv": [
+        35.5,
+        62.5,
+        38.0,
+        63.5
+      ],
+      "pixels": [
+        35,
+        62,
+        3,
+        1
+      ]
+    },
+    {
+      "name": "canister_cap_Right",
+      "uuid": "b3223ec3-b2a4-1c62-dceb-ee3379a99c63",
+      "role": "cap",
+      "face": "east",
+      "rect": [
+        33,
+        62.5,
+        2.5,
+        1
+      ],
+      "uv": [
+        33,
+        62.5,
+        35.5,
+        63.5
+      ],
+      "pixels": [
+        33,
+        62,
+        3,
+        1
+      ]
+    },
+    {
+      "name": "canister_cap_Right",
+      "uuid": "b3223ec3-b2a4-1c62-dceb-ee3379a99c63",
+      "role": "cap",
+      "face": "west",
+      "rect": [
+        38.0,
+        62.5,
+        2.5,
+        1
+      ],
+      "uv": [
+        38.0,
+        62.5,
+        40.5,
+        63.5
+      ],
+      "pixels": [
+        38,
+        62,
+        3,
+        1
+      ]
+    },
+    {
+      "name": "canister_cap_Right",
+      "uuid": "b3223ec3-b2a4-1c62-dceb-ee3379a99c63",
+      "role": "cap",
+      "face": "south",
+      "rect": [
+        40.5,
+        62.5,
+        2.5,
+        1
+      ],
+      "uv": [
+        40.5,
+        62.5,
+        43.0,
+        63.5
+      ],
+      "pixels": [
+        40,
+        62,
+        3,
+        1
+      ]
+    },
+    {
+      "name": "canister_cap_Right",
+      "uuid": "b3223ec3-b2a4-1c62-dceb-ee3379a99c63",
+      "role": "cap",
+      "face": "up",
+      "rect": [
+        35.5,
+        60,
+        2.5,
+        2.5
+      ],
+      "uv": [
+        35.5,
+        60,
+        38.0,
+        62.5
+      ],
+      "pixels": [
+        35,
+        60,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "canister_cap_Right",
+      "uuid": "b3223ec3-b2a4-1c62-dceb-ee3379a99c63",
+      "role": "cap",
+      "face": "down",
+      "rect": [
+        38.0,
+        60,
+        2.5,
+        2.5
+      ],
+      "uv": [
+        38.0,
+        60,
+        40.5,
+        62.5
+      ],
+      "pixels": [
+        38,
+        60,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "canister_connection_Right",
+      "uuid": "67c76d51-66a2-262b-bad6-de5ba2733560",
+      "role": "connector",
+      "face": "north",
+      "rect": [
+        110,
+        55,
+        2,
+        2
+      ],
+      "uv": [
+        110,
+        55,
+        112,
+        57
+      ],
+      "pixels": [
+        110,
+        55,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "canister_connection_Right",
+      "uuid": "67c76d51-66a2-262b-bad6-de5ba2733560",
+      "role": "connector",
+      "face": "east",
+      "rect": [
+        107,
+        55,
+        3,
+        2
+      ],
+      "uv": [
+        107,
+        55,
+        110,
+        57
+      ],
+      "pixels": [
+        107,
+        55,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "canister_connection_Right",
+      "uuid": "67c76d51-66a2-262b-bad6-de5ba2733560",
+      "role": "connector",
+      "face": "west",
+      "rect": [
+        112,
+        55,
+        3,
+        2
+      ],
+      "uv": [
+        112,
+        55,
+        115,
+        57
+      ],
+      "pixels": [
+        112,
+        55,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "canister_connection_Right",
+      "uuid": "67c76d51-66a2-262b-bad6-de5ba2733560",
+      "role": "connector",
+      "face": "south",
+      "rect": [
+        115,
+        55,
+        2,
+        2
+      ],
+      "uv": [
+        115,
+        55,
+        117,
+        57
+      ],
+      "pixels": [
+        115,
+        55,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "canister_connection_Right",
+      "uuid": "67c76d51-66a2-262b-bad6-de5ba2733560",
+      "role": "connector",
+      "face": "up",
+      "rect": [
+        110,
+        52,
+        2,
+        3
+      ],
+      "uv": [
+        110,
+        52,
+        112,
+        55
+      ],
+      "pixels": [
+        110,
+        52,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "canister_connection_Right",
+      "uuid": "67c76d51-66a2-262b-bad6-de5ba2733560",
+      "role": "connector",
+      "face": "down",
+      "rect": [
+        112,
+        52,
+        2,
+        3
+      ],
+      "uv": [
+        112,
+        52,
+        114,
+        55
+      ],
+      "pixels": [
+        112,
+        52,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "containment_belt",
+      "uuid": "3331e56c-7ce5-c5b2-77dd-436c3618771b",
+      "role": "belt",
+      "face": "north",
+      "rect": [
+        16.0,
+        47.0,
+        9.0,
+        2
+      ],
+      "uv": [
+        16.0,
+        47.0,
+        25.0,
+        49.0
+      ],
+      "pixels": [
+        16,
+        47,
+        9,
+        2
+      ]
+    },
+    {
+      "name": "containment_belt",
+      "uuid": "3331e56c-7ce5-c5b2-77dd-436c3618771b",
+      "role": "belt",
+      "face": "east",
+      "rect": [
+        11,
+        47.0,
+        5.0,
+        2
+      ],
+      "uv": [
+        11,
+        47.0,
+        16.0,
+        49.0
+      ],
+      "pixels": [
+        11,
+        47,
+        5,
+        2
+      ]
+    },
+    {
+      "name": "containment_belt",
+      "uuid": "3331e56c-7ce5-c5b2-77dd-436c3618771b",
+      "role": "belt",
+      "face": "west",
+      "rect": [
+        25.0,
+        47.0,
+        5.0,
+        2
+      ],
+      "uv": [
+        25.0,
+        47.0,
+        30.0,
+        49.0
+      ],
+      "pixels": [
+        25,
+        47,
+        5,
+        2
+      ]
+    },
+    {
+      "name": "containment_belt",
+      "uuid": "3331e56c-7ce5-c5b2-77dd-436c3618771b",
+      "role": "belt",
+      "face": "south",
+      "rect": [
+        30.0,
+        47.0,
+        9.0,
+        2
+      ],
+      "uv": [
+        30.0,
+        47.0,
+        39.0,
+        49.0
+      ],
+      "pixels": [
+        30,
+        47,
+        9,
+        2
+      ]
+    },
+    {
+      "name": "containment_belt",
+      "uuid": "3331e56c-7ce5-c5b2-77dd-436c3618771b",
+      "role": "belt",
+      "face": "up",
+      "rect": [
+        16.0,
+        42,
+        9.0,
+        5.0
+      ],
+      "uv": [
+        16.0,
+        42,
+        25.0,
+        47.0
+      ],
+      "pixels": [
+        16,
+        42,
+        9,
+        5
+      ]
+    },
+    {
+      "name": "containment_belt",
+      "uuid": "3331e56c-7ce5-c5b2-77dd-436c3618771b",
+      "role": "belt",
+      "face": "down",
+      "rect": [
+        25.0,
+        42,
+        9.0,
+        5.0
+      ],
+      "uv": [
+        25.0,
+        42,
+        34.0,
+        47.0
+      ],
+      "pixels": [
+        25,
+        42,
+        9,
+        5
+      ]
+    },
+    {
+      "name": "rear_coat_tail_Left",
+      "uuid": "e04fe5bd-785e-d371-9b0a-048a30258fea",
+      "role": "tail",
+      "face": "north",
+      "rect": [
+        57,
+        21,
+        4,
+        8
+      ],
+      "uv": [
+        57,
+        21,
+        61,
+        29
+      ],
+      "pixels": [
+        57,
+        21,
+        4,
+        8
+      ]
+    },
+    {
+      "name": "rear_coat_tail_Left",
+      "uuid": "e04fe5bd-785e-d371-9b0a-048a30258fea",
+      "role": "tail",
+      "face": "east",
+      "rect": [
+        55,
+        21,
+        2,
+        8
+      ],
+      "uv": [
+        55,
+        21,
+        57,
+        29
+      ],
+      "pixels": [
+        55,
+        21,
+        2,
+        8
+      ]
+    },
+    {
+      "name": "rear_coat_tail_Left",
+      "uuid": "e04fe5bd-785e-d371-9b0a-048a30258fea",
+      "role": "tail",
+      "face": "west",
+      "rect": [
+        61,
+        21,
+        2,
+        8
+      ],
+      "uv": [
+        61,
+        21,
+        63,
+        29
+      ],
+      "pixels": [
+        61,
+        21,
+        2,
+        8
+      ]
+    },
+    {
+      "name": "rear_coat_tail_Left",
+      "uuid": "e04fe5bd-785e-d371-9b0a-048a30258fea",
+      "role": "tail",
+      "face": "south",
+      "rect": [
+        63,
+        21,
+        4,
+        8
+      ],
+      "uv": [
+        63,
+        21,
+        67,
+        29
+      ],
+      "pixels": [
+        63,
+        21,
+        4,
+        8
+      ]
+    },
+    {
+      "name": "rear_coat_tail_Left",
+      "uuid": "e04fe5bd-785e-d371-9b0a-048a30258fea",
+      "role": "tail",
+      "face": "up",
+      "rect": [
+        57,
+        19,
+        4,
+        2
+      ],
+      "uv": [
+        57,
+        19,
+        61,
+        21
+      ],
+      "pixels": [
+        57,
+        19,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "rear_coat_tail_Left",
+      "uuid": "e04fe5bd-785e-d371-9b0a-048a30258fea",
+      "role": "tail",
+      "face": "down",
+      "rect": [
+        61,
+        19,
+        4,
+        2
+      ],
+      "uv": [
+        61,
+        19,
+        65,
+        21
+      ],
+      "pixels": [
+        61,
+        19,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "front_coat_panel_Left",
+      "uuid": "02cf3e93-cc39-cc74-3bbc-22b2ebc85ffe",
+      "role": "front_tail",
+      "face": "north",
+      "rect": [
+        77,
+        44,
+        4,
+        5
+      ],
+      "uv": [
+        77,
+        44,
+        81,
+        49
+      ],
+      "pixels": [
+        77,
+        44,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "front_coat_panel_Left",
+      "uuid": "02cf3e93-cc39-cc74-3bbc-22b2ebc85ffe",
+      "role": "front_tail",
+      "face": "east",
+      "rect": [
+        75,
+        44,
+        2,
+        5
+      ],
+      "uv": [
+        75,
+        44,
+        77,
+        49
+      ],
+      "pixels": [
+        75,
+        44,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "front_coat_panel_Left",
+      "uuid": "02cf3e93-cc39-cc74-3bbc-22b2ebc85ffe",
+      "role": "front_tail",
+      "face": "west",
+      "rect": [
+        81,
+        44,
+        2,
+        5
+      ],
+      "uv": [
+        81,
+        44,
+        83,
+        49
+      ],
+      "pixels": [
+        81,
+        44,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "front_coat_panel_Left",
+      "uuid": "02cf3e93-cc39-cc74-3bbc-22b2ebc85ffe",
+      "role": "front_tail",
+      "face": "south",
+      "rect": [
+        83,
+        44,
+        4,
+        5
+      ],
+      "uv": [
+        83,
+        44,
+        87,
+        49
+      ],
+      "pixels": [
+        83,
+        44,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "front_coat_panel_Left",
+      "uuid": "02cf3e93-cc39-cc74-3bbc-22b2ebc85ffe",
+      "role": "front_tail",
+      "face": "up",
+      "rect": [
+        77,
+        42,
+        4,
+        2
+      ],
+      "uv": [
+        77,
+        42,
+        81,
+        44
+      ],
+      "pixels": [
+        77,
+        42,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "front_coat_panel_Left",
+      "uuid": "02cf3e93-cc39-cc74-3bbc-22b2ebc85ffe",
+      "role": "front_tail",
+      "face": "down",
+      "rect": [
+        81,
+        42,
+        4,
+        2
+      ],
+      "uv": [
+        81,
+        42,
+        85,
+        44
+      ],
+      "pixels": [
+        81,
+        42,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "side_tasset_Left",
+      "uuid": "10557cc9-77f1-f105-87e4-56094b44906b",
+      "role": "side_tail",
+      "face": "north",
+      "rect": [
+        58,
+        34,
+        2,
+        6
+      ],
+      "uv": [
+        58,
+        34,
+        60,
+        40
+      ],
+      "pixels": [
+        58,
+        34,
+        2,
+        6
+      ]
+    },
+    {
+      "name": "side_tasset_Left",
+      "uuid": "10557cc9-77f1-f105-87e4-56094b44906b",
+      "role": "side_tail",
+      "face": "east",
+      "rect": [
+        55,
+        34,
+        3,
+        6
+      ],
+      "uv": [
+        55,
+        34,
+        58,
+        40
+      ],
+      "pixels": [
+        55,
+        34,
+        3,
+        6
+      ]
+    },
+    {
+      "name": "side_tasset_Left",
+      "uuid": "10557cc9-77f1-f105-87e4-56094b44906b",
+      "role": "side_tail",
+      "face": "west",
+      "rect": [
+        60,
+        34,
+        3,
+        6
+      ],
+      "uv": [
+        60,
+        34,
+        63,
+        40
+      ],
+      "pixels": [
+        60,
+        34,
+        3,
+        6
+      ]
+    },
+    {
+      "name": "side_tasset_Left",
+      "uuid": "10557cc9-77f1-f105-87e4-56094b44906b",
+      "role": "side_tail",
+      "face": "south",
+      "rect": [
+        63,
+        34,
+        2,
+        6
+      ],
+      "uv": [
+        63,
+        34,
+        65,
+        40
+      ],
+      "pixels": [
+        63,
+        34,
+        2,
+        6
+      ]
+    },
+    {
+      "name": "side_tasset_Left",
+      "uuid": "10557cc9-77f1-f105-87e4-56094b44906b",
+      "role": "side_tail",
+      "face": "up",
+      "rect": [
+        58,
+        31,
+        2,
+        3
+      ],
+      "uv": [
+        58,
+        31,
+        60,
+        34
+      ],
+      "pixels": [
+        58,
+        31,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "side_tasset_Left",
+      "uuid": "10557cc9-77f1-f105-87e4-56094b44906b",
+      "role": "side_tail",
+      "face": "down",
+      "rect": [
+        60,
+        31,
+        2,
+        3
+      ],
+      "uv": [
+        60,
+        31,
+        62,
+        34
+      ],
+      "pixels": [
+        60,
+        31,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "rear_coat_tail_Right",
+      "uuid": "5527aac8-5cf2-81ed-95ef-2eab4ee446a4",
+      "role": "tail",
+      "face": "north",
+      "rect": [
+        57,
+        21,
+        4,
+        8
+      ],
+      "uv": [
+        57,
+        21,
+        61,
+        29
+      ],
+      "pixels": [
+        57,
+        21,
+        4,
+        8
+      ]
+    },
+    {
+      "name": "rear_coat_tail_Right",
+      "uuid": "5527aac8-5cf2-81ed-95ef-2eab4ee446a4",
+      "role": "tail",
+      "face": "east",
+      "rect": [
+        55,
+        21,
+        2,
+        8
+      ],
+      "uv": [
+        55,
+        21,
+        57,
+        29
+      ],
+      "pixels": [
+        55,
+        21,
+        2,
+        8
+      ]
+    },
+    {
+      "name": "rear_coat_tail_Right",
+      "uuid": "5527aac8-5cf2-81ed-95ef-2eab4ee446a4",
+      "role": "tail",
+      "face": "west",
+      "rect": [
+        61,
+        21,
+        2,
+        8
+      ],
+      "uv": [
+        61,
+        21,
+        63,
+        29
+      ],
+      "pixels": [
+        61,
+        21,
+        2,
+        8
+      ]
+    },
+    {
+      "name": "rear_coat_tail_Right",
+      "uuid": "5527aac8-5cf2-81ed-95ef-2eab4ee446a4",
+      "role": "tail",
+      "face": "south",
+      "rect": [
+        63,
+        21,
+        4,
+        8
+      ],
+      "uv": [
+        63,
+        21,
+        67,
+        29
+      ],
+      "pixels": [
+        63,
+        21,
+        4,
+        8
+      ]
+    },
+    {
+      "name": "rear_coat_tail_Right",
+      "uuid": "5527aac8-5cf2-81ed-95ef-2eab4ee446a4",
+      "role": "tail",
+      "face": "up",
+      "rect": [
+        57,
+        19,
+        4,
+        2
+      ],
+      "uv": [
+        57,
+        19,
+        61,
+        21
+      ],
+      "pixels": [
+        57,
+        19,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "rear_coat_tail_Right",
+      "uuid": "5527aac8-5cf2-81ed-95ef-2eab4ee446a4",
+      "role": "tail",
+      "face": "down",
+      "rect": [
+        61,
+        19,
+        4,
+        2
+      ],
+      "uv": [
+        61,
+        19,
+        65,
+        21
+      ],
+      "pixels": [
+        61,
+        19,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "front_coat_panel_Right",
+      "uuid": "2e4233e2-5e52-39d2-9dac-17c52f2de1ed",
+      "role": "front_tail",
+      "face": "north",
+      "rect": [
+        77,
+        44,
+        4,
+        5
+      ],
+      "uv": [
+        77,
+        44,
+        81,
+        49
+      ],
+      "pixels": [
+        77,
+        44,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "front_coat_panel_Right",
+      "uuid": "2e4233e2-5e52-39d2-9dac-17c52f2de1ed",
+      "role": "front_tail",
+      "face": "east",
+      "rect": [
+        75,
+        44,
+        2,
+        5
+      ],
+      "uv": [
+        75,
+        44,
+        77,
+        49
+      ],
+      "pixels": [
+        75,
+        44,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "front_coat_panel_Right",
+      "uuid": "2e4233e2-5e52-39d2-9dac-17c52f2de1ed",
+      "role": "front_tail",
+      "face": "west",
+      "rect": [
+        81,
+        44,
+        2,
+        5
+      ],
+      "uv": [
+        81,
+        44,
+        83,
+        49
+      ],
+      "pixels": [
+        81,
+        44,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "front_coat_panel_Right",
+      "uuid": "2e4233e2-5e52-39d2-9dac-17c52f2de1ed",
+      "role": "front_tail",
+      "face": "south",
+      "rect": [
+        83,
+        44,
+        4,
+        5
+      ],
+      "uv": [
+        83,
+        44,
+        87,
+        49
+      ],
+      "pixels": [
+        83,
+        44,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "front_coat_panel_Right",
+      "uuid": "2e4233e2-5e52-39d2-9dac-17c52f2de1ed",
+      "role": "front_tail",
+      "face": "up",
+      "rect": [
+        77,
+        42,
+        4,
+        2
+      ],
+      "uv": [
+        77,
+        42,
+        81,
+        44
+      ],
+      "pixels": [
+        77,
+        42,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "front_coat_panel_Right",
+      "uuid": "2e4233e2-5e52-39d2-9dac-17c52f2de1ed",
+      "role": "front_tail",
+      "face": "down",
+      "rect": [
+        81,
+        42,
+        4,
+        2
+      ],
+      "uv": [
+        81,
+        42,
+        85,
+        44
+      ],
+      "pixels": [
+        81,
+        42,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "side_tasset_Right",
+      "uuid": "745c8adb-408d-8b94-3950-00e848c3f7e3",
+      "role": "side_tail",
+      "face": "north",
+      "rect": [
+        58,
+        34,
+        2,
+        6
+      ],
+      "uv": [
+        58,
+        34,
+        60,
+        40
+      ],
+      "pixels": [
+        58,
+        34,
+        2,
+        6
+      ]
+    },
+    {
+      "name": "side_tasset_Right",
+      "uuid": "745c8adb-408d-8b94-3950-00e848c3f7e3",
+      "role": "side_tail",
+      "face": "east",
+      "rect": [
+        55,
+        34,
+        3,
+        6
+      ],
+      "uv": [
+        55,
+        34,
+        58,
+        40
+      ],
+      "pixels": [
+        55,
+        34,
+        3,
+        6
+      ]
+    },
+    {
+      "name": "side_tasset_Right",
+      "uuid": "745c8adb-408d-8b94-3950-00e848c3f7e3",
+      "role": "side_tail",
+      "face": "west",
+      "rect": [
+        60,
+        34,
+        3,
+        6
+      ],
+      "uv": [
+        60,
+        34,
+        63,
+        40
+      ],
+      "pixels": [
+        60,
+        34,
+        3,
+        6
+      ]
+    },
+    {
+      "name": "side_tasset_Right",
+      "uuid": "745c8adb-408d-8b94-3950-00e848c3f7e3",
+      "role": "side_tail",
+      "face": "south",
+      "rect": [
+        63,
+        34,
+        2,
+        6
+      ],
+      "uv": [
+        63,
+        34,
+        65,
+        40
+      ],
+      "pixels": [
+        63,
+        34,
+        2,
+        6
+      ]
+    },
+    {
+      "name": "side_tasset_Right",
+      "uuid": "745c8adb-408d-8b94-3950-00e848c3f7e3",
+      "role": "side_tail",
+      "face": "up",
+      "rect": [
+        58,
+        31,
+        2,
+        3
+      ],
+      "uv": [
+        58,
+        31,
+        60,
+        34
+      ],
+      "pixels": [
+        58,
+        31,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "side_tasset_Right",
+      "uuid": "745c8adb-408d-8b94-3950-00e848c3f7e3",
+      "role": "side_tail",
+      "face": "down",
+      "rect": [
+        60,
+        31,
+        2,
+        3
+      ],
+      "uv": [
+        60,
+        31,
+        62,
+        34
+      ],
+      "pixels": [
+        60,
+        31,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "sealed_sleeve_Left",
+      "uuid": "5f5c020f-dc82-882c-af47-efe4fece253d",
+      "role": "sleeve",
+      "face": "north",
+      "rect": [
+        83,
+        5,
+        4,
+        11
+      ],
+      "uv": [
+        83,
+        5,
+        87,
+        16
+      ],
+      "pixels": [
+        83,
+        5,
+        4,
+        11
+      ]
+    },
+    {
+      "name": "sealed_sleeve_Left",
+      "uuid": "5f5c020f-dc82-882c-af47-efe4fece253d",
+      "role": "sleeve",
+      "face": "east",
+      "rect": [
+        79,
+        5,
+        4,
+        11
+      ],
+      "uv": [
+        79,
+        5,
+        83,
+        16
+      ],
+      "pixels": [
+        79,
+        5,
+        4,
+        11
+      ]
+    },
+    {
+      "name": "sealed_sleeve_Left",
+      "uuid": "5f5c020f-dc82-882c-af47-efe4fece253d",
+      "role": "sleeve",
+      "face": "west",
+      "rect": [
+        87,
+        5,
+        4,
+        11
+      ],
+      "uv": [
+        87,
+        5,
+        91,
+        16
+      ],
+      "pixels": [
+        87,
+        5,
+        4,
+        11
+      ]
+    },
+    {
+      "name": "sealed_sleeve_Left",
+      "uuid": "5f5c020f-dc82-882c-af47-efe4fece253d",
+      "role": "sleeve",
+      "face": "south",
+      "rect": [
+        91,
+        5,
+        4,
+        11
+      ],
+      "uv": [
+        91,
+        5,
+        95,
+        16
+      ],
+      "pixels": [
+        91,
+        5,
+        4,
+        11
+      ]
+    },
+    {
+      "name": "sealed_sleeve_Left",
+      "uuid": "5f5c020f-dc82-882c-af47-efe4fece253d",
+      "role": "sleeve",
+      "face": "up",
+      "rect": [
+        83,
+        1,
+        4,
+        4
+      ],
+      "uv": [
+        83,
+        1,
+        87,
+        5
+      ],
+      "pixels": [
+        83,
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "sealed_sleeve_Left",
+      "uuid": "5f5c020f-dc82-882c-af47-efe4fece253d",
+      "role": "sleeve",
+      "face": "down",
+      "rect": [
+        87,
+        1,
+        4,
+        4
+      ],
+      "uv": [
+        87,
+        1,
+        91,
+        5
+      ],
+      "pixels": [
+        87,
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "pauldron_upper_Left",
+      "uuid": "c75f9596-cfd7-c87d-6f56-9d835981ab6b",
+      "role": "shoulder_warning",
+      "face": "north",
+      "rect": [
+        99,
+        25,
+        5,
+        3
+      ],
+      "uv": [
+        99,
+        25,
+        104,
+        28
+      ],
+      "pixels": [
+        99,
+        25,
+        5,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_upper_Left",
+      "uuid": "c75f9596-cfd7-c87d-6f56-9d835981ab6b",
+      "role": "shoulder_warning",
+      "face": "east",
+      "rect": [
+        93,
+        25,
+        6,
+        3
+      ],
+      "uv": [
+        93,
+        25,
+        99,
+        28
+      ],
+      "pixels": [
+        93,
+        25,
+        6,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_upper_Left",
+      "uuid": "c75f9596-cfd7-c87d-6f56-9d835981ab6b",
+      "role": "shoulder_warning",
+      "face": "west",
+      "rect": [
+        104,
+        25,
+        6,
+        3
+      ],
+      "uv": [
+        104,
+        25,
+        110,
+        28
+      ],
+      "pixels": [
+        104,
+        25,
+        6,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_upper_Left",
+      "uuid": "c75f9596-cfd7-c87d-6f56-9d835981ab6b",
+      "role": "shoulder_warning",
+      "face": "south",
+      "rect": [
+        110,
+        25,
+        5,
+        3
+      ],
+      "uv": [
+        110,
+        25,
+        115,
+        28
+      ],
+      "pixels": [
+        110,
+        25,
+        5,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_upper_Left",
+      "uuid": "c75f9596-cfd7-c87d-6f56-9d835981ab6b",
+      "role": "shoulder_warning",
+      "face": "up",
+      "rect": [
+        99,
+        19,
+        5,
+        6
+      ],
+      "uv": [
+        99,
+        19,
+        104,
+        25
+      ],
+      "pixels": [
+        99,
+        19,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "pauldron_upper_Left",
+      "uuid": "c75f9596-cfd7-c87d-6f56-9d835981ab6b",
+      "role": "shoulder_warning",
+      "face": "down",
+      "rect": [
+        104,
+        19,
+        5,
+        6
+      ],
+      "uv": [
+        104,
+        19,
+        109,
+        25
+      ],
+      "pixels": [
+        104,
+        19,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "pauldron_overlap_Left",
+      "uuid": "2f999e3e-17f7-16d4-f918-35f2cb05d967",
+      "role": "shoulder_outer",
+      "face": "north",
+      "rect": [
+        7,
+        37,
+        3,
+        3
+      ],
+      "uv": [
+        7,
+        37,
+        10,
+        40
+      ],
+      "pixels": [
+        7,
+        37,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_overlap_Left",
+      "uuid": "2f999e3e-17f7-16d4-f918-35f2cb05d967",
+      "role": "shoulder_outer",
+      "face": "east",
+      "rect": [
+        1,
+        37,
+        6,
+        3
+      ],
+      "uv": [
+        1,
+        37,
+        7,
+        40
+      ],
+      "pixels": [
+        1,
+        37,
+        6,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_overlap_Left",
+      "uuid": "2f999e3e-17f7-16d4-f918-35f2cb05d967",
+      "role": "shoulder_outer",
+      "face": "west",
+      "rect": [
+        10,
+        37,
+        6,
+        3
+      ],
+      "uv": [
+        10,
+        37,
+        16,
+        40
+      ],
+      "pixels": [
+        10,
+        37,
+        6,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_overlap_Left",
+      "uuid": "2f999e3e-17f7-16d4-f918-35f2cb05d967",
+      "role": "shoulder_outer",
+      "face": "south",
+      "rect": [
+        16,
+        37,
+        3,
+        3
+      ],
+      "uv": [
+        16,
+        37,
+        19,
+        40
+      ],
+      "pixels": [
+        16,
+        37,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_overlap_Left",
+      "uuid": "2f999e3e-17f7-16d4-f918-35f2cb05d967",
+      "role": "shoulder_outer",
+      "face": "up",
+      "rect": [
+        7,
+        31,
+        3,
+        6
+      ],
+      "uv": [
+        7,
+        31,
+        10,
+        37
+      ],
+      "pixels": [
+        7,
+        31,
+        3,
+        6
+      ]
+    },
+    {
+      "name": "pauldron_overlap_Left",
+      "uuid": "2f999e3e-17f7-16d4-f918-35f2cb05d967",
+      "role": "shoulder_outer",
+      "face": "down",
+      "rect": [
+        10,
+        31,
+        3,
+        6
+      ],
+      "uv": [
+        10,
+        31,
+        13,
+        37
+      ],
+      "pixels": [
+        10,
+        31,
+        3,
+        6
+      ]
+    },
+    {
+      "name": "left_shield_drop",
+      "uuid": "cf8dd21d-f78a-424d-117b-d5654fa386d7",
+      "role": "shoulder_shield",
+      "face": "north",
+      "rect": [
+        113,
+        35,
+        1,
+        4
+      ],
+      "uv": [
+        113,
+        35,
+        114,
+        39
+      ],
+      "pixels": [
+        113,
+        35,
+        1,
+        4
+      ]
+    },
+    {
+      "name": "left_shield_drop",
+      "uuid": "cf8dd21d-f78a-424d-117b-d5654fa386d7",
+      "role": "shoulder_shield",
+      "face": "east",
+      "rect": [
+        109,
+        35,
+        4,
+        4
+      ],
+      "uv": [
+        109,
+        35,
+        113,
+        39
+      ],
+      "pixels": [
+        109,
+        35,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "left_shield_drop",
+      "uuid": "cf8dd21d-f78a-424d-117b-d5654fa386d7",
+      "role": "shoulder_shield",
+      "face": "west",
+      "rect": [
+        114,
+        35,
+        4,
+        4
+      ],
+      "uv": [
+        114,
+        35,
+        118,
+        39
+      ],
+      "pixels": [
+        114,
+        35,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "left_shield_drop",
+      "uuid": "cf8dd21d-f78a-424d-117b-d5654fa386d7",
+      "role": "shoulder_shield",
+      "face": "south",
+      "rect": [
+        118,
+        35,
+        1,
+        4
+      ],
+      "uv": [
+        118,
+        35,
+        119,
+        39
+      ],
+      "pixels": [
+        118,
+        35,
+        1,
+        4
+      ]
+    },
+    {
+      "name": "left_shield_drop",
+      "uuid": "cf8dd21d-f78a-424d-117b-d5654fa386d7",
+      "role": "shoulder_shield",
+      "face": "up",
+      "rect": [
+        113,
+        31,
+        1,
+        4
+      ],
+      "uv": [
+        113,
+        31,
+        114,
+        35
+      ],
+      "pixels": [
+        113,
+        31,
+        1,
+        4
+      ]
+    },
+    {
+      "name": "left_shield_drop",
+      "uuid": "cf8dd21d-f78a-424d-117b-d5654fa386d7",
+      "role": "shoulder_shield",
+      "face": "down",
+      "rect": [
+        114,
+        31,
+        1,
+        4
+      ],
+      "uv": [
+        114,
+        31,
+        115,
+        35
+      ],
+      "pixels": [
+        114,
+        31,
+        1,
+        4
+      ]
+    },
+    {
+      "name": "forearm_guard_Left",
+      "uuid": "a47f0343-d127-d42e-4d30-0dd9515d4413",
+      "role": "forearm",
+      "face": "north",
+      "rect": [
+        63,
+        44,
+        4,
+        5
+      ],
+      "uv": [
+        63,
+        44,
+        67,
+        49
+      ],
+      "pixels": [
+        63,
+        44,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "forearm_guard_Left",
+      "uuid": "a47f0343-d127-d42e-4d30-0dd9515d4413",
+      "role": "forearm",
+      "face": "east",
+      "rect": [
+        61,
+        44,
+        2,
+        5
+      ],
+      "uv": [
+        61,
+        44,
+        63,
+        49
+      ],
+      "pixels": [
+        61,
+        44,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "forearm_guard_Left",
+      "uuid": "a47f0343-d127-d42e-4d30-0dd9515d4413",
+      "role": "forearm",
+      "face": "west",
+      "rect": [
+        67,
+        44,
+        2,
+        5
+      ],
+      "uv": [
+        67,
+        44,
+        69,
+        49
+      ],
+      "pixels": [
+        67,
+        44,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "forearm_guard_Left",
+      "uuid": "a47f0343-d127-d42e-4d30-0dd9515d4413",
+      "role": "forearm",
+      "face": "south",
+      "rect": [
+        69,
+        44,
+        4,
+        5
+      ],
+      "uv": [
+        69,
+        44,
+        73,
+        49
+      ],
+      "pixels": [
+        69,
+        44,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "forearm_guard_Left",
+      "uuid": "a47f0343-d127-d42e-4d30-0dd9515d4413",
+      "role": "forearm",
+      "face": "up",
+      "rect": [
+        63,
+        42,
+        4,
+        2
+      ],
+      "uv": [
+        63,
+        42,
+        67,
+        44
+      ],
+      "pixels": [
+        63,
+        42,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "forearm_guard_Left",
+      "uuid": "a47f0343-d127-d42e-4d30-0dd9515d4413",
+      "role": "forearm",
+      "face": "down",
+      "rect": [
+        67,
+        42,
+        4,
+        2
+      ],
+      "uv": [
+        67,
+        42,
+        71,
+        44
+      ],
+      "pixels": [
+        67,
+        42,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "forearm_side_Left",
+      "uuid": "179ac72e-a358-80ab-4d02-a5c4a4c4cb43",
+      "role": "forearm_side",
+      "face": "north",
+      "rect": [
+        92,
+        45,
+        2,
+        4
+      ],
+      "uv": [
+        92,
+        45,
+        94,
+        49
+      ],
+      "pixels": [
+        92,
+        45,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "forearm_side_Left",
+      "uuid": "179ac72e-a358-80ab-4d02-a5c4a4c4cb43",
+      "role": "forearm_side",
+      "face": "east",
+      "rect": [
+        89,
+        45,
+        3,
+        4
+      ],
+      "uv": [
+        89,
+        45,
+        92,
+        49
+      ],
+      "pixels": [
+        89,
+        45,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "forearm_side_Left",
+      "uuid": "179ac72e-a358-80ab-4d02-a5c4a4c4cb43",
+      "role": "forearm_side",
+      "face": "west",
+      "rect": [
+        94,
+        45,
+        3,
+        4
+      ],
+      "uv": [
+        94,
+        45,
+        97,
+        49
+      ],
+      "pixels": [
+        94,
+        45,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "forearm_side_Left",
+      "uuid": "179ac72e-a358-80ab-4d02-a5c4a4c4cb43",
+      "role": "forearm_side",
+      "face": "south",
+      "rect": [
+        97,
+        45,
+        2,
+        4
+      ],
+      "uv": [
+        97,
+        45,
+        99,
+        49
+      ],
+      "pixels": [
+        97,
+        45,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "forearm_side_Left",
+      "uuid": "179ac72e-a358-80ab-4d02-a5c4a4c4cb43",
+      "role": "forearm_side",
+      "face": "up",
+      "rect": [
+        92,
+        42,
+        2,
+        3
+      ],
+      "uv": [
+        92,
+        42,
+        94,
+        45
+      ],
+      "pixels": [
+        92,
+        42,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "forearm_side_Left",
+      "uuid": "179ac72e-a358-80ab-4d02-a5c4a4c4cb43",
+      "role": "forearm_side",
+      "face": "down",
+      "rect": [
+        94,
+        42,
+        2,
+        3
+      ],
+      "uv": [
+        94,
+        42,
+        96,
+        45
+      ],
+      "pixels": [
+        94,
+        42,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "wrist_cuff_Left",
+      "uuid": "8647232f-7ad3-6ac5-8812-ba285d15cc39",
+      "role": "cuff",
+      "face": "north",
+      "rect": [
+        105,
+        46,
+        4,
+        2
+      ],
+      "uv": [
+        105,
+        46,
+        109,
+        48
+      ],
+      "pixels": [
+        105,
+        46,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "wrist_cuff_Left",
+      "uuid": "8647232f-7ad3-6ac5-8812-ba285d15cc39",
+      "role": "cuff",
+      "face": "east",
+      "rect": [
+        101,
+        46,
+        4,
+        2
+      ],
+      "uv": [
+        101,
+        46,
+        105,
+        48
+      ],
+      "pixels": [
+        101,
+        46,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "wrist_cuff_Left",
+      "uuid": "8647232f-7ad3-6ac5-8812-ba285d15cc39",
+      "role": "cuff",
+      "face": "west",
+      "rect": [
+        109,
+        46,
+        4,
+        2
+      ],
+      "uv": [
+        109,
+        46,
+        113,
+        48
+      ],
+      "pixels": [
+        109,
+        46,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "wrist_cuff_Left",
+      "uuid": "8647232f-7ad3-6ac5-8812-ba285d15cc39",
+      "role": "cuff",
+      "face": "south",
+      "rect": [
+        113,
+        46,
+        4,
+        2
+      ],
+      "uv": [
+        113,
+        46,
+        117,
+        48
+      ],
+      "pixels": [
+        113,
+        46,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "wrist_cuff_Left",
+      "uuid": "8647232f-7ad3-6ac5-8812-ba285d15cc39",
+      "role": "cuff",
+      "face": "up",
+      "rect": [
+        105,
+        42,
+        4,
+        4
+      ],
+      "uv": [
+        105,
+        42,
+        109,
+        46
+      ],
+      "pixels": [
+        105,
+        42,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "wrist_cuff_Left",
+      "uuid": "8647232f-7ad3-6ac5-8812-ba285d15cc39",
+      "role": "cuff",
+      "face": "down",
+      "rect": [
+        109,
+        42,
+        4,
+        4
+      ],
+      "uv": [
+        109,
+        42,
+        113,
+        46
+      ],
+      "pixels": [
+        109,
+        42,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "sealed_sleeve_Right",
+      "uuid": "29f12677-f97b-f0f0-c40c-ea2a15a07fd9",
+      "role": "sleeve",
+      "face": "north",
+      "rect": [
+        83,
+        5,
+        4,
+        11
+      ],
+      "uv": [
+        83,
+        5,
+        87,
+        16
+      ],
+      "pixels": [
+        83,
+        5,
+        4,
+        11
+      ]
+    },
+    {
+      "name": "sealed_sleeve_Right",
+      "uuid": "29f12677-f97b-f0f0-c40c-ea2a15a07fd9",
+      "role": "sleeve",
+      "face": "east",
+      "rect": [
+        79,
+        5,
+        4,
+        11
+      ],
+      "uv": [
+        79,
+        5,
+        83,
+        16
+      ],
+      "pixels": [
+        79,
+        5,
+        4,
+        11
+      ]
+    },
+    {
+      "name": "sealed_sleeve_Right",
+      "uuid": "29f12677-f97b-f0f0-c40c-ea2a15a07fd9",
+      "role": "sleeve",
+      "face": "west",
+      "rect": [
+        87,
+        5,
+        4,
+        11
+      ],
+      "uv": [
+        87,
+        5,
+        91,
+        16
+      ],
+      "pixels": [
+        87,
+        5,
+        4,
+        11
+      ]
+    },
+    {
+      "name": "sealed_sleeve_Right",
+      "uuid": "29f12677-f97b-f0f0-c40c-ea2a15a07fd9",
+      "role": "sleeve",
+      "face": "south",
+      "rect": [
+        91,
+        5,
+        4,
+        11
+      ],
+      "uv": [
+        91,
+        5,
+        95,
+        16
+      ],
+      "pixels": [
+        91,
+        5,
+        4,
+        11
+      ]
+    },
+    {
+      "name": "sealed_sleeve_Right",
+      "uuid": "29f12677-f97b-f0f0-c40c-ea2a15a07fd9",
+      "role": "sleeve",
+      "face": "up",
+      "rect": [
+        83,
+        1,
+        4,
+        4
+      ],
+      "uv": [
+        83,
+        1,
+        87,
+        5
+      ],
+      "pixels": [
+        83,
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "sealed_sleeve_Right",
+      "uuid": "29f12677-f97b-f0f0-c40c-ea2a15a07fd9",
+      "role": "sleeve",
+      "face": "down",
+      "rect": [
+        87,
+        1,
+        4,
+        4
+      ],
+      "uv": [
+        87,
+        1,
+        91,
+        5
+      ],
+      "pixels": [
+        87,
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "pauldron_upper_Right",
+      "uuid": "e94f364c-14f7-1f36-5f6b-2cffef196f5a",
+      "role": "shoulder",
+      "face": "north",
+      "rect": [
+        75,
+        25,
+        5,
+        3
+      ],
+      "uv": [
+        75,
+        25,
+        80,
+        28
+      ],
+      "pixels": [
+        75,
+        25,
+        5,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_upper_Right",
+      "uuid": "e94f364c-14f7-1f36-5f6b-2cffef196f5a",
+      "role": "shoulder",
+      "face": "east",
+      "rect": [
+        69,
+        25,
+        6,
+        3
+      ],
+      "uv": [
+        69,
+        25,
+        75,
+        28
+      ],
+      "pixels": [
+        69,
+        25,
+        6,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_upper_Right",
+      "uuid": "e94f364c-14f7-1f36-5f6b-2cffef196f5a",
+      "role": "shoulder",
+      "face": "west",
+      "rect": [
+        80,
+        25,
+        6,
+        3
+      ],
+      "uv": [
+        80,
+        25,
+        86,
+        28
+      ],
+      "pixels": [
+        80,
+        25,
+        6,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_upper_Right",
+      "uuid": "e94f364c-14f7-1f36-5f6b-2cffef196f5a",
+      "role": "shoulder",
+      "face": "south",
+      "rect": [
+        86,
+        25,
+        5,
+        3
+      ],
+      "uv": [
+        86,
+        25,
+        91,
+        28
+      ],
+      "pixels": [
+        86,
+        25,
+        5,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_upper_Right",
+      "uuid": "e94f364c-14f7-1f36-5f6b-2cffef196f5a",
+      "role": "shoulder",
+      "face": "up",
+      "rect": [
+        75,
+        19,
+        5,
+        6
+      ],
+      "uv": [
+        75,
+        19,
+        80,
+        25
+      ],
+      "pixels": [
+        75,
+        19,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "pauldron_upper_Right",
+      "uuid": "e94f364c-14f7-1f36-5f6b-2cffef196f5a",
+      "role": "shoulder",
+      "face": "down",
+      "rect": [
+        80,
+        19,
+        5,
+        6
+      ],
+      "uv": [
+        80,
+        19,
+        85,
+        25
+      ],
+      "pixels": [
+        80,
+        19,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "pauldron_overlap_Right",
+      "uuid": "9bff56a8-3a2c-7384-c2bb-e527c813e509",
+      "role": "shoulder_outer",
+      "face": "north",
+      "rect": [
+        7,
+        37,
+        3,
+        3
+      ],
+      "uv": [
+        7,
+        37,
+        10,
+        40
+      ],
+      "pixels": [
+        7,
+        37,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_overlap_Right",
+      "uuid": "9bff56a8-3a2c-7384-c2bb-e527c813e509",
+      "role": "shoulder_outer",
+      "face": "east",
+      "rect": [
+        1,
+        37,
+        6,
+        3
+      ],
+      "uv": [
+        1,
+        37,
+        7,
+        40
+      ],
+      "pixels": [
+        1,
+        37,
+        6,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_overlap_Right",
+      "uuid": "9bff56a8-3a2c-7384-c2bb-e527c813e509",
+      "role": "shoulder_outer",
+      "face": "west",
+      "rect": [
+        10,
+        37,
+        6,
+        3
+      ],
+      "uv": [
+        10,
+        37,
+        16,
+        40
+      ],
+      "pixels": [
+        10,
+        37,
+        6,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_overlap_Right",
+      "uuid": "9bff56a8-3a2c-7384-c2bb-e527c813e509",
+      "role": "shoulder_outer",
+      "face": "south",
+      "rect": [
+        16,
+        37,
+        3,
+        3
+      ],
+      "uv": [
+        16,
+        37,
+        19,
+        40
+      ],
+      "pixels": [
+        16,
+        37,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "pauldron_overlap_Right",
+      "uuid": "9bff56a8-3a2c-7384-c2bb-e527c813e509",
+      "role": "shoulder_outer",
+      "face": "up",
+      "rect": [
+        7,
+        31,
+        3,
+        6
+      ],
+      "uv": [
+        7,
+        31,
+        10,
+        37
+      ],
+      "pixels": [
+        7,
+        31,
+        3,
+        6
+      ]
+    },
+    {
+      "name": "pauldron_overlap_Right",
+      "uuid": "9bff56a8-3a2c-7384-c2bb-e527c813e509",
+      "role": "shoulder_outer",
+      "face": "down",
+      "rect": [
+        10,
+        31,
+        3,
+        6
+      ],
+      "uv": [
+        10,
+        31,
+        13,
+        37
+      ],
+      "pixels": [
+        10,
+        31,
+        3,
+        6
+      ]
+    },
+    {
+      "name": "forearm_guard_Right",
+      "uuid": "a609cca6-db2f-2421-35c2-036548256005",
+      "role": "forearm",
+      "face": "north",
+      "rect": [
+        63,
+        44,
+        4,
+        5
+      ],
+      "uv": [
+        63,
+        44,
+        67,
+        49
+      ],
+      "pixels": [
+        63,
+        44,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "forearm_guard_Right",
+      "uuid": "a609cca6-db2f-2421-35c2-036548256005",
+      "role": "forearm",
+      "face": "east",
+      "rect": [
+        61,
+        44,
+        2,
+        5
+      ],
+      "uv": [
+        61,
+        44,
+        63,
+        49
+      ],
+      "pixels": [
+        61,
+        44,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "forearm_guard_Right",
+      "uuid": "a609cca6-db2f-2421-35c2-036548256005",
+      "role": "forearm",
+      "face": "west",
+      "rect": [
+        67,
+        44,
+        2,
+        5
+      ],
+      "uv": [
+        67,
+        44,
+        69,
+        49
+      ],
+      "pixels": [
+        67,
+        44,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "forearm_guard_Right",
+      "uuid": "a609cca6-db2f-2421-35c2-036548256005",
+      "role": "forearm",
+      "face": "south",
+      "rect": [
+        69,
+        44,
+        4,
+        5
+      ],
+      "uv": [
+        69,
+        44,
+        73,
+        49
+      ],
+      "pixels": [
+        69,
+        44,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "forearm_guard_Right",
+      "uuid": "a609cca6-db2f-2421-35c2-036548256005",
+      "role": "forearm",
+      "face": "up",
+      "rect": [
+        63,
+        42,
+        4,
+        2
+      ],
+      "uv": [
+        63,
+        42,
+        67,
+        44
+      ],
+      "pixels": [
+        63,
+        42,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "forearm_guard_Right",
+      "uuid": "a609cca6-db2f-2421-35c2-036548256005",
+      "role": "forearm",
+      "face": "down",
+      "rect": [
+        67,
+        42,
+        4,
+        2
+      ],
+      "uv": [
+        67,
+        42,
+        71,
+        44
+      ],
+      "pixels": [
+        67,
+        42,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "forearm_side_Right",
+      "uuid": "b6c145bf-bca6-98f9-719e-657e23c395b6",
+      "role": "forearm_side",
+      "face": "north",
+      "rect": [
+        92,
+        45,
+        2,
+        4
+      ],
+      "uv": [
+        92,
+        45,
+        94,
+        49
+      ],
+      "pixels": [
+        92,
+        45,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "forearm_side_Right",
+      "uuid": "b6c145bf-bca6-98f9-719e-657e23c395b6",
+      "role": "forearm_side",
+      "face": "east",
+      "rect": [
+        89,
+        45,
+        3,
+        4
+      ],
+      "uv": [
+        89,
+        45,
+        92,
+        49
+      ],
+      "pixels": [
+        89,
+        45,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "forearm_side_Right",
+      "uuid": "b6c145bf-bca6-98f9-719e-657e23c395b6",
+      "role": "forearm_side",
+      "face": "west",
+      "rect": [
+        94,
+        45,
+        3,
+        4
+      ],
+      "uv": [
+        94,
+        45,
+        97,
+        49
+      ],
+      "pixels": [
+        94,
+        45,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "forearm_side_Right",
+      "uuid": "b6c145bf-bca6-98f9-719e-657e23c395b6",
+      "role": "forearm_side",
+      "face": "south",
+      "rect": [
+        97,
+        45,
+        2,
+        4
+      ],
+      "uv": [
+        97,
+        45,
+        99,
+        49
+      ],
+      "pixels": [
+        97,
+        45,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "forearm_side_Right",
+      "uuid": "b6c145bf-bca6-98f9-719e-657e23c395b6",
+      "role": "forearm_side",
+      "face": "up",
+      "rect": [
+        92,
+        42,
+        2,
+        3
+      ],
+      "uv": [
+        92,
+        42,
+        94,
+        45
+      ],
+      "pixels": [
+        92,
+        42,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "forearm_side_Right",
+      "uuid": "b6c145bf-bca6-98f9-719e-657e23c395b6",
+      "role": "forearm_side",
+      "face": "down",
+      "rect": [
+        94,
+        42,
+        2,
+        3
+      ],
+      "uv": [
+        94,
+        42,
+        96,
+        45
+      ],
+      "pixels": [
+        94,
+        42,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "wrist_cuff_Right",
+      "uuid": "3731d029-023f-1c9e-ad75-92ea3c65d990",
+      "role": "cuff",
+      "face": "north",
+      "rect": [
+        105,
+        46,
+        4,
+        2
+      ],
+      "uv": [
+        105,
+        46,
+        109,
+        48
+      ],
+      "pixels": [
+        105,
+        46,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "wrist_cuff_Right",
+      "uuid": "3731d029-023f-1c9e-ad75-92ea3c65d990",
+      "role": "cuff",
+      "face": "east",
+      "rect": [
+        101,
+        46,
+        4,
+        2
+      ],
+      "uv": [
+        101,
+        46,
+        105,
+        48
+      ],
+      "pixels": [
+        101,
+        46,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "wrist_cuff_Right",
+      "uuid": "3731d029-023f-1c9e-ad75-92ea3c65d990",
+      "role": "cuff",
+      "face": "west",
+      "rect": [
+        109,
+        46,
+        4,
+        2
+      ],
+      "uv": [
+        109,
+        46,
+        113,
+        48
+      ],
+      "pixels": [
+        109,
+        46,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "wrist_cuff_Right",
+      "uuid": "3731d029-023f-1c9e-ad75-92ea3c65d990",
+      "role": "cuff",
+      "face": "south",
+      "rect": [
+        113,
+        46,
+        4,
+        2
+      ],
+      "uv": [
+        113,
+        46,
+        117,
+        48
+      ],
+      "pixels": [
+        113,
+        46,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "wrist_cuff_Right",
+      "uuid": "3731d029-023f-1c9e-ad75-92ea3c65d990",
+      "role": "cuff",
+      "face": "up",
+      "rect": [
+        105,
+        42,
+        4,
+        4
+      ],
+      "uv": [
+        105,
+        42,
+        109,
+        46
+      ],
+      "pixels": [
+        105,
+        42,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "wrist_cuff_Right",
+      "uuid": "3731d029-023f-1c9e-ad75-92ea3c65d990",
+      "role": "cuff",
+      "face": "down",
+      "rect": [
+        109,
+        42,
+        4,
+        4
+      ],
+      "uv": [
+        109,
+        42,
+        113,
+        46
+      ],
+      "pixels": [
+        109,
+        42,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "reinforced_trouser_Left",
+      "uuid": "ba95cf36-de3f-5c0d-23ec-961854af0b67",
+      "role": "trouser",
+      "face": "north",
+      "rect": [
+        65,
+        5,
+        4,
+        12
+      ],
+      "uv": [
+        65,
+        5,
+        69,
+        17
+      ],
+      "pixels": [
+        65,
+        5,
+        4,
+        12
+      ]
+    },
+    {
+      "name": "reinforced_trouser_Left",
+      "uuid": "ba95cf36-de3f-5c0d-23ec-961854af0b67",
+      "role": "trouser",
+      "face": "east",
+      "rect": [
+        61,
+        5,
+        4,
+        12
+      ],
+      "uv": [
+        61,
+        5,
+        65,
+        17
+      ],
+      "pixels": [
+        61,
+        5,
+        4,
+        12
+      ]
+    },
+    {
+      "name": "reinforced_trouser_Left",
+      "uuid": "ba95cf36-de3f-5c0d-23ec-961854af0b67",
+      "role": "trouser",
+      "face": "west",
+      "rect": [
+        69,
+        5,
+        4,
+        12
+      ],
+      "uv": [
+        69,
+        5,
+        73,
+        17
+      ],
+      "pixels": [
+        69,
+        5,
+        4,
+        12
+      ]
+    },
+    {
+      "name": "reinforced_trouser_Left",
+      "uuid": "ba95cf36-de3f-5c0d-23ec-961854af0b67",
+      "role": "trouser",
+      "face": "south",
+      "rect": [
+        73,
+        5,
+        4,
+        12
+      ],
+      "uv": [
+        73,
+        5,
+        77,
+        17
+      ],
+      "pixels": [
+        73,
+        5,
+        4,
+        12
+      ]
+    },
+    {
+      "name": "reinforced_trouser_Left",
+      "uuid": "ba95cf36-de3f-5c0d-23ec-961854af0b67",
+      "role": "trouser",
+      "face": "up",
+      "rect": [
+        65,
+        1,
+        4,
+        4
+      ],
+      "uv": [
+        65,
+        1,
+        69,
+        5
+      ],
+      "pixels": [
+        65,
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "reinforced_trouser_Left",
+      "uuid": "ba95cf36-de3f-5c0d-23ec-961854af0b67",
+      "role": "trouser",
+      "face": "down",
+      "rect": [
+        69,
+        1,
+        4,
+        4
+      ],
+      "uv": [
+        69,
+        1,
+        73,
+        5
+      ],
+      "pixels": [
+        69,
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "angled_knee_Left",
+      "uuid": "f8cc7a6e-3055-aa59-03a8-90bcbecaeaf6",
+      "role": "knee",
+      "face": "north",
+      "rect": [
+        15,
+        62,
+        3.0,
+        3
+      ],
+      "uv": [
+        15,
+        62,
+        18.0,
+        65
+      ],
+      "pixels": [
+        15,
+        62,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "angled_knee_Left",
+      "uuid": "f8cc7a6e-3055-aa59-03a8-90bcbecaeaf6",
+      "role": "knee",
+      "face": "east",
+      "rect": [
+        13,
+        62,
+        2,
+        3
+      ],
+      "uv": [
+        13,
+        62,
+        15,
+        65
+      ],
+      "pixels": [
+        13,
+        62,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "angled_knee_Left",
+      "uuid": "f8cc7a6e-3055-aa59-03a8-90bcbecaeaf6",
+      "role": "knee",
+      "face": "west",
+      "rect": [
+        18.0,
+        62,
+        2,
+        3
+      ],
+      "uv": [
+        18.0,
+        62,
+        20.0,
+        65
+      ],
+      "pixels": [
+        18,
+        62,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "angled_knee_Left",
+      "uuid": "f8cc7a6e-3055-aa59-03a8-90bcbecaeaf6",
+      "role": "knee",
+      "face": "south",
+      "rect": [
+        20.0,
+        62,
+        3.0,
+        3
+      ],
+      "uv": [
+        20.0,
+        62,
+        23.0,
+        65
+      ],
+      "pixels": [
+        20,
+        62,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "angled_knee_Left",
+      "uuid": "f8cc7a6e-3055-aa59-03a8-90bcbecaeaf6",
+      "role": "knee",
+      "face": "up",
+      "rect": [
+        15,
+        60,
+        3.0,
+        2
+      ],
+      "uv": [
+        15,
+        60,
+        18.0,
+        62
+      ],
+      "pixels": [
+        15,
+        60,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "angled_knee_Left",
+      "uuid": "f8cc7a6e-3055-aa59-03a8-90bcbecaeaf6",
+      "role": "knee",
+      "face": "down",
+      "rect": [
+        18.0,
+        60,
+        3.0,
+        2
+      ],
+      "uv": [
+        18.0,
+        60,
+        21.0,
+        62
+      ],
+      "pixels": [
+        18,
+        60,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "thigh_lead_plate_Left",
+      "uuid": "0471539a-a469-c246-efca-12c56201628a",
+      "role": "thigh",
+      "face": "north",
+      "rect": [
+        86,
+        55,
+        1,
+        3
+      ],
+      "uv": [
+        86,
+        55,
+        87,
+        58
+      ],
+      "pixels": [
+        86,
+        55,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "thigh_lead_plate_Left",
+      "uuid": "0471539a-a469-c246-efca-12c56201628a",
+      "role": "thigh",
+      "face": "east",
+      "rect": [
+        83,
+        55,
+        3,
+        3
+      ],
+      "uv": [
+        83,
+        55,
+        86,
+        58
+      ],
+      "pixels": [
+        83,
+        55,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "thigh_lead_plate_Left",
+      "uuid": "0471539a-a469-c246-efca-12c56201628a",
+      "role": "thigh",
+      "face": "west",
+      "rect": [
+        87,
+        55,
+        3,
+        3
+      ],
+      "uv": [
+        87,
+        55,
+        90,
+        58
+      ],
+      "pixels": [
+        87,
+        55,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "thigh_lead_plate_Left",
+      "uuid": "0471539a-a469-c246-efca-12c56201628a",
+      "role": "thigh",
+      "face": "south",
+      "rect": [
+        90,
+        55,
+        1,
+        3
+      ],
+      "uv": [
+        90,
+        55,
+        91,
+        58
+      ],
+      "pixels": [
+        90,
+        55,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "thigh_lead_plate_Left",
+      "uuid": "0471539a-a469-c246-efca-12c56201628a",
+      "role": "thigh",
+      "face": "up",
+      "rect": [
+        86,
+        52,
+        1,
+        3
+      ],
+      "uv": [
+        86,
+        52,
+        87,
+        55
+      ],
+      "pixels": [
+        86,
+        52,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "thigh_lead_plate_Left",
+      "uuid": "0471539a-a469-c246-efca-12c56201628a",
+      "role": "thigh",
+      "face": "down",
+      "rect": [
+        87,
+        52,
+        1,
+        3
+      ],
+      "uv": [
+        87,
+        52,
+        88,
+        55
+      ],
+      "pixels": [
+        87,
+        52,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "boot_shell_Left",
+      "uuid": "de96d820-a299-c646-c4ef-6052219e9cdf",
+      "role": "boot",
+      "face": "north",
+      "rect": [
+        40,
+        24,
+        4,
+        5
+      ],
+      "uv": [
+        40,
+        24,
+        44,
+        29
+      ],
+      "pixels": [
+        40,
+        24,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "boot_shell_Left",
+      "uuid": "de96d820-a299-c646-c4ef-6052219e9cdf",
+      "role": "boot",
+      "face": "east",
+      "rect": [
+        35,
+        24,
+        5,
+        5
+      ],
+      "uv": [
+        35,
+        24,
+        40,
+        29
+      ],
+      "pixels": [
+        35,
+        24,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "boot_shell_Left",
+      "uuid": "de96d820-a299-c646-c4ef-6052219e9cdf",
+      "role": "boot",
+      "face": "west",
+      "rect": [
+        44,
+        24,
+        5,
+        5
+      ],
+      "uv": [
+        44,
+        24,
+        49,
+        29
+      ],
+      "pixels": [
+        44,
+        24,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "boot_shell_Left",
+      "uuid": "de96d820-a299-c646-c4ef-6052219e9cdf",
+      "role": "boot",
+      "face": "south",
+      "rect": [
+        49,
+        24,
+        4,
+        5
+      ],
+      "uv": [
+        49,
+        24,
+        53,
+        29
+      ],
+      "pixels": [
+        49,
+        24,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "boot_shell_Left",
+      "uuid": "de96d820-a299-c646-c4ef-6052219e9cdf",
+      "role": "boot",
+      "face": "up",
+      "rect": [
+        40,
+        19,
+        4,
+        5
+      ],
+      "uv": [
+        40,
+        19,
+        44,
+        24
+      ],
+      "pixels": [
+        40,
+        19,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "boot_shell_Left",
+      "uuid": "de96d820-a299-c646-c4ef-6052219e9cdf",
+      "role": "boot",
+      "face": "down",
+      "rect": [
+        44,
+        19,
+        4,
+        5
+      ],
+      "uv": [
+        44,
+        19,
+        48,
+        24
+      ],
+      "pixels": [
+        44,
+        19,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "square_toe_Left",
+      "uuid": "86f298d5-b23d-bd8e-94f5-b8b99f226dc6",
+      "role": "toe",
+      "face": "north",
+      "rect": [
+        5,
+        56,
+        4,
+        2
+      ],
+      "uv": [
+        5,
+        56,
+        9,
+        58
+      ],
+      "pixels": [
+        5,
+        56,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "square_toe_Left",
+      "uuid": "86f298d5-b23d-bd8e-94f5-b8b99f226dc6",
+      "role": "toe",
+      "face": "east",
+      "rect": [
+        1,
+        56,
+        4,
+        2
+      ],
+      "uv": [
+        1,
+        56,
+        5,
+        58
+      ],
+      "pixels": [
+        1,
+        56,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "square_toe_Left",
+      "uuid": "86f298d5-b23d-bd8e-94f5-b8b99f226dc6",
+      "role": "toe",
+      "face": "west",
+      "rect": [
+        9,
+        56,
+        4,
+        2
+      ],
+      "uv": [
+        9,
+        56,
+        13,
+        58
+      ],
+      "pixels": [
+        9,
+        56,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "square_toe_Left",
+      "uuid": "86f298d5-b23d-bd8e-94f5-b8b99f226dc6",
+      "role": "toe",
+      "face": "south",
+      "rect": [
+        13,
+        56,
+        4,
+        2
+      ],
+      "uv": [
+        13,
+        56,
+        17,
+        58
+      ],
+      "pixels": [
+        13,
+        56,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "square_toe_Left",
+      "uuid": "86f298d5-b23d-bd8e-94f5-b8b99f226dc6",
+      "role": "toe",
+      "face": "up",
+      "rect": [
+        5,
+        52,
+        4,
+        4
+      ],
+      "uv": [
+        5,
+        52,
+        9,
+        56
+      ],
+      "pixels": [
+        5,
+        52,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "square_toe_Left",
+      "uuid": "86f298d5-b23d-bd8e-94f5-b8b99f226dc6",
+      "role": "toe",
+      "face": "down",
+      "rect": [
+        9,
+        52,
+        4,
+        4
+      ],
+      "uv": [
+        9,
+        52,
+        13,
+        56
+      ],
+      "pixels": [
+        9,
+        52,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "sloped_instep_Left",
+      "uuid": "5691e6e9-7dd2-1006-c792-4295e8fb1eb6",
+      "role": "instep",
+      "face": "north",
+      "rect": [
+        3,
+        62,
+        3.0,
+        3
+      ],
+      "uv": [
+        3,
+        62,
+        6.0,
+        65
+      ],
+      "pixels": [
+        3,
+        62,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "sloped_instep_Left",
+      "uuid": "5691e6e9-7dd2-1006-c792-4295e8fb1eb6",
+      "role": "instep",
+      "face": "east",
+      "rect": [
+        1,
+        62,
+        2,
+        3
+      ],
+      "uv": [
+        1,
+        62,
+        3,
+        65
+      ],
+      "pixels": [
+        1,
+        62,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "sloped_instep_Left",
+      "uuid": "5691e6e9-7dd2-1006-c792-4295e8fb1eb6",
+      "role": "instep",
+      "face": "west",
+      "rect": [
+        6.0,
+        62,
+        2,
+        3
+      ],
+      "uv": [
+        6.0,
+        62,
+        8.0,
+        65
+      ],
+      "pixels": [
+        6,
+        62,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "sloped_instep_Left",
+      "uuid": "5691e6e9-7dd2-1006-c792-4295e8fb1eb6",
+      "role": "instep",
+      "face": "south",
+      "rect": [
+        8.0,
+        62,
+        3.0,
+        3
+      ],
+      "uv": [
+        8.0,
+        62,
+        11.0,
+        65
+      ],
+      "pixels": [
+        8,
+        62,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "sloped_instep_Left",
+      "uuid": "5691e6e9-7dd2-1006-c792-4295e8fb1eb6",
+      "role": "instep",
+      "face": "up",
+      "rect": [
+        3,
+        60,
+        3.0,
+        2
+      ],
+      "uv": [
+        3,
+        60,
+        6.0,
+        62
+      ],
+      "pixels": [
+        3,
+        60,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "sloped_instep_Left",
+      "uuid": "5691e6e9-7dd2-1006-c792-4295e8fb1eb6",
+      "role": "instep",
+      "face": "down",
+      "rect": [
+        6.0,
+        60,
+        3.0,
+        2
+      ],
+      "uv": [
+        6.0,
+        60,
+        9.0,
+        62
+      ],
+      "pixels": [
+        6,
+        60,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "boot_sole_Left",
+      "uuid": "fe27be70-e84a-0c74-1d0f-0347c4816988",
+      "role": "sole",
+      "face": "north",
+      "rect": [
+        74,
+        38,
+        4,
+        1
+      ],
+      "uv": [
+        74,
+        38,
+        78,
+        39
+      ],
+      "pixels": [
+        74,
+        38,
+        4,
+        1
+      ]
+    },
+    {
+      "name": "boot_sole_Left",
+      "uuid": "fe27be70-e84a-0c74-1d0f-0347c4816988",
+      "role": "sole",
+      "face": "east",
+      "rect": [
+        67,
+        38,
+        7,
+        1
+      ],
+      "uv": [
+        67,
+        38,
+        74,
+        39
+      ],
+      "pixels": [
+        67,
+        38,
+        7,
+        1
+      ]
+    },
+    {
+      "name": "boot_sole_Left",
+      "uuid": "fe27be70-e84a-0c74-1d0f-0347c4816988",
+      "role": "sole",
+      "face": "west",
+      "rect": [
+        78,
+        38,
+        7,
+        1
+      ],
+      "uv": [
+        78,
+        38,
+        85,
+        39
+      ],
+      "pixels": [
+        78,
+        38,
+        7,
+        1
+      ]
+    },
+    {
+      "name": "boot_sole_Left",
+      "uuid": "fe27be70-e84a-0c74-1d0f-0347c4816988",
+      "role": "sole",
+      "face": "south",
+      "rect": [
+        85,
+        38,
+        4,
+        1
+      ],
+      "uv": [
+        85,
+        38,
+        89,
+        39
+      ],
+      "pixels": [
+        85,
+        38,
+        4,
+        1
+      ]
+    },
+    {
+      "name": "boot_sole_Left",
+      "uuid": "fe27be70-e84a-0c74-1d0f-0347c4816988",
+      "role": "sole",
+      "face": "up",
+      "rect": [
+        74,
+        31,
+        4,
+        7
+      ],
+      "uv": [
+        74,
+        31,
+        78,
+        38
+      ],
+      "pixels": [
+        74,
+        31,
+        4,
+        7
+      ]
+    },
+    {
+      "name": "boot_sole_Left",
+      "uuid": "fe27be70-e84a-0c74-1d0f-0347c4816988",
+      "role": "sole",
+      "face": "down",
+      "rect": [
+        78,
+        31,
+        4,
+        7
+      ],
+      "uv": [
+        78,
+        31,
+        82,
+        38
+      ],
+      "pixels": [
+        78,
+        31,
+        4,
+        7
+      ]
+    },
+    {
+      "name": "ankle_socket_Left",
+      "uuid": "72a130bb-453a-3e11-69fd-528a0588dfc1",
+      "role": "ankle",
+      "face": "north",
+      "rect": [
+        27,
+        62,
+        1,
+        3
+      ],
+      "uv": [
+        27,
+        62,
+        28,
+        65
+      ],
+      "pixels": [
+        27,
+        62,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "ankle_socket_Left",
+      "uuid": "72a130bb-453a-3e11-69fd-528a0588dfc1",
+      "role": "ankle",
+      "face": "east",
+      "rect": [
+        25,
+        62,
+        2,
+        3
+      ],
+      "uv": [
+        25,
+        62,
+        27,
+        65
+      ],
+      "pixels": [
+        25,
+        62,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "ankle_socket_Left",
+      "uuid": "72a130bb-453a-3e11-69fd-528a0588dfc1",
+      "role": "ankle",
+      "face": "west",
+      "rect": [
+        28,
+        62,
+        2,
+        3
+      ],
+      "uv": [
+        28,
+        62,
+        30,
+        65
+      ],
+      "pixels": [
+        28,
+        62,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "ankle_socket_Left",
+      "uuid": "72a130bb-453a-3e11-69fd-528a0588dfc1",
+      "role": "ankle",
+      "face": "south",
+      "rect": [
+        30,
+        62,
+        1,
+        3
+      ],
+      "uv": [
+        30,
+        62,
+        31,
+        65
+      ],
+      "pixels": [
+        30,
+        62,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "ankle_socket_Left",
+      "uuid": "72a130bb-453a-3e11-69fd-528a0588dfc1",
+      "role": "ankle",
+      "face": "up",
+      "rect": [
+        27,
+        60,
+        1,
+        2
+      ],
+      "uv": [
+        27,
+        60,
+        28,
+        62
+      ],
+      "pixels": [
+        27,
+        60,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "ankle_socket_Left",
+      "uuid": "72a130bb-453a-3e11-69fd-528a0588dfc1",
+      "role": "ankle",
+      "face": "down",
+      "rect": [
+        28,
+        60,
+        1,
+        2
+      ],
+      "uv": [
+        28,
+        60,
+        29,
+        62
+      ],
+      "pixels": [
+        28,
+        60,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "reinforced_trouser_Right",
+      "uuid": "ffdefb44-bbab-2547-a25b-eecc8ac2561d",
+      "role": "trouser",
+      "face": "north",
+      "rect": [
+        65,
+        5,
+        4,
+        12
+      ],
+      "uv": [
+        65,
+        5,
+        69,
+        17
+      ],
+      "pixels": [
+        65,
+        5,
+        4,
+        12
+      ]
+    },
+    {
+      "name": "reinforced_trouser_Right",
+      "uuid": "ffdefb44-bbab-2547-a25b-eecc8ac2561d",
+      "role": "trouser",
+      "face": "east",
+      "rect": [
+        61,
+        5,
+        4,
+        12
+      ],
+      "uv": [
+        61,
+        5,
+        65,
+        17
+      ],
+      "pixels": [
+        61,
+        5,
+        4,
+        12
+      ]
+    },
+    {
+      "name": "reinforced_trouser_Right",
+      "uuid": "ffdefb44-bbab-2547-a25b-eecc8ac2561d",
+      "role": "trouser",
+      "face": "west",
+      "rect": [
+        69,
+        5,
+        4,
+        12
+      ],
+      "uv": [
+        69,
+        5,
+        73,
+        17
+      ],
+      "pixels": [
+        69,
+        5,
+        4,
+        12
+      ]
+    },
+    {
+      "name": "reinforced_trouser_Right",
+      "uuid": "ffdefb44-bbab-2547-a25b-eecc8ac2561d",
+      "role": "trouser",
+      "face": "south",
+      "rect": [
+        73,
+        5,
+        4,
+        12
+      ],
+      "uv": [
+        73,
+        5,
+        77,
+        17
+      ],
+      "pixels": [
+        73,
+        5,
+        4,
+        12
+      ]
+    },
+    {
+      "name": "reinforced_trouser_Right",
+      "uuid": "ffdefb44-bbab-2547-a25b-eecc8ac2561d",
+      "role": "trouser",
+      "face": "up",
+      "rect": [
+        65,
+        1,
+        4,
+        4
+      ],
+      "uv": [
+        65,
+        1,
+        69,
+        5
+      ],
+      "pixels": [
+        65,
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "reinforced_trouser_Right",
+      "uuid": "ffdefb44-bbab-2547-a25b-eecc8ac2561d",
+      "role": "trouser",
+      "face": "down",
+      "rect": [
+        69,
+        1,
+        4,
+        4
+      ],
+      "uv": [
+        69,
+        1,
+        73,
+        5
+      ],
+      "pixels": [
+        69,
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "angled_knee_Right",
+      "uuid": "baa60c8e-052a-d62f-40c9-70950a096b7f",
+      "role": "knee",
+      "face": "north",
+      "rect": [
+        15,
+        62,
+        3.0,
+        3
+      ],
+      "uv": [
+        15,
+        62,
+        18.0,
+        65
+      ],
+      "pixels": [
+        15,
+        62,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "angled_knee_Right",
+      "uuid": "baa60c8e-052a-d62f-40c9-70950a096b7f",
+      "role": "knee",
+      "face": "east",
+      "rect": [
+        13,
+        62,
+        2,
+        3
+      ],
+      "uv": [
+        13,
+        62,
+        15,
+        65
+      ],
+      "pixels": [
+        13,
+        62,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "angled_knee_Right",
+      "uuid": "baa60c8e-052a-d62f-40c9-70950a096b7f",
+      "role": "knee",
+      "face": "west",
+      "rect": [
+        18.0,
+        62,
+        2,
+        3
+      ],
+      "uv": [
+        18.0,
+        62,
+        20.0,
+        65
+      ],
+      "pixels": [
+        18,
+        62,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "angled_knee_Right",
+      "uuid": "baa60c8e-052a-d62f-40c9-70950a096b7f",
+      "role": "knee",
+      "face": "south",
+      "rect": [
+        20.0,
+        62,
+        3.0,
+        3
+      ],
+      "uv": [
+        20.0,
+        62,
+        23.0,
+        65
+      ],
+      "pixels": [
+        20,
+        62,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "angled_knee_Right",
+      "uuid": "baa60c8e-052a-d62f-40c9-70950a096b7f",
+      "role": "knee",
+      "face": "up",
+      "rect": [
+        15,
+        60,
+        3.0,
+        2
+      ],
+      "uv": [
+        15,
+        60,
+        18.0,
+        62
+      ],
+      "pixels": [
+        15,
+        60,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "angled_knee_Right",
+      "uuid": "baa60c8e-052a-d62f-40c9-70950a096b7f",
+      "role": "knee",
+      "face": "down",
+      "rect": [
+        18.0,
+        60,
+        3.0,
+        2
+      ],
+      "uv": [
+        18.0,
+        60,
+        21.0,
+        62
+      ],
+      "pixels": [
+        18,
+        60,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "thigh_lead_plate_Right",
+      "uuid": "2ded6c57-7ee2-248f-7641-ef892517d3e8",
+      "role": "thigh",
+      "face": "north",
+      "rect": [
+        86,
+        55,
+        1,
+        3
+      ],
+      "uv": [
+        86,
+        55,
+        87,
+        58
+      ],
+      "pixels": [
+        86,
+        55,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "thigh_lead_plate_Right",
+      "uuid": "2ded6c57-7ee2-248f-7641-ef892517d3e8",
+      "role": "thigh",
+      "face": "east",
+      "rect": [
+        83,
+        55,
+        3,
+        3
+      ],
+      "uv": [
+        83,
+        55,
+        86,
+        58
+      ],
+      "pixels": [
+        83,
+        55,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "thigh_lead_plate_Right",
+      "uuid": "2ded6c57-7ee2-248f-7641-ef892517d3e8",
+      "role": "thigh",
+      "face": "west",
+      "rect": [
+        87,
+        55,
+        3,
+        3
+      ],
+      "uv": [
+        87,
+        55,
+        90,
+        58
+      ],
+      "pixels": [
+        87,
+        55,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "thigh_lead_plate_Right",
+      "uuid": "2ded6c57-7ee2-248f-7641-ef892517d3e8",
+      "role": "thigh",
+      "face": "south",
+      "rect": [
+        90,
+        55,
+        1,
+        3
+      ],
+      "uv": [
+        90,
+        55,
+        91,
+        58
+      ],
+      "pixels": [
+        90,
+        55,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "thigh_lead_plate_Right",
+      "uuid": "2ded6c57-7ee2-248f-7641-ef892517d3e8",
+      "role": "thigh",
+      "face": "up",
+      "rect": [
+        86,
+        52,
+        1,
+        3
+      ],
+      "uv": [
+        86,
+        52,
+        87,
+        55
+      ],
+      "pixels": [
+        86,
+        52,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "thigh_lead_plate_Right",
+      "uuid": "2ded6c57-7ee2-248f-7641-ef892517d3e8",
+      "role": "thigh",
+      "face": "down",
+      "rect": [
+        87,
+        52,
+        1,
+        3
+      ],
+      "uv": [
+        87,
+        52,
+        88,
+        55
+      ],
+      "pixels": [
+        87,
+        52,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "boot_shell_Right",
+      "uuid": "d350f998-c238-be00-12b7-a4831076b5ef",
+      "role": "boot",
+      "face": "north",
+      "rect": [
+        40,
+        24,
+        4,
+        5
+      ],
+      "uv": [
+        40,
+        24,
+        44,
+        29
+      ],
+      "pixels": [
+        40,
+        24,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "boot_shell_Right",
+      "uuid": "d350f998-c238-be00-12b7-a4831076b5ef",
+      "role": "boot",
+      "face": "east",
+      "rect": [
+        35,
+        24,
+        5,
+        5
+      ],
+      "uv": [
+        35,
+        24,
+        40,
+        29
+      ],
+      "pixels": [
+        35,
+        24,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "boot_shell_Right",
+      "uuid": "d350f998-c238-be00-12b7-a4831076b5ef",
+      "role": "boot",
+      "face": "west",
+      "rect": [
+        44,
+        24,
+        5,
+        5
+      ],
+      "uv": [
+        44,
+        24,
+        49,
+        29
+      ],
+      "pixels": [
+        44,
+        24,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "boot_shell_Right",
+      "uuid": "d350f998-c238-be00-12b7-a4831076b5ef",
+      "role": "boot",
+      "face": "south",
+      "rect": [
+        49,
+        24,
+        4,
+        5
+      ],
+      "uv": [
+        49,
+        24,
+        53,
+        29
+      ],
+      "pixels": [
+        49,
+        24,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "boot_shell_Right",
+      "uuid": "d350f998-c238-be00-12b7-a4831076b5ef",
+      "role": "boot",
+      "face": "up",
+      "rect": [
+        40,
+        19,
+        4,
+        5
+      ],
+      "uv": [
+        40,
+        19,
+        44,
+        24
+      ],
+      "pixels": [
+        40,
+        19,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "boot_shell_Right",
+      "uuid": "d350f998-c238-be00-12b7-a4831076b5ef",
+      "role": "boot",
+      "face": "down",
+      "rect": [
+        44,
+        19,
+        4,
+        5
+      ],
+      "uv": [
+        44,
+        19,
+        48,
+        24
+      ],
+      "pixels": [
+        44,
+        19,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "square_toe_Right",
+      "uuid": "be4326c5-3278-bd7b-2858-92fec1831714",
+      "role": "toe",
+      "face": "north",
+      "rect": [
+        5,
+        56,
+        4,
+        2
+      ],
+      "uv": [
+        5,
+        56,
+        9,
+        58
+      ],
+      "pixels": [
+        5,
+        56,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "square_toe_Right",
+      "uuid": "be4326c5-3278-bd7b-2858-92fec1831714",
+      "role": "toe",
+      "face": "east",
+      "rect": [
+        1,
+        56,
+        4,
+        2
+      ],
+      "uv": [
+        1,
+        56,
+        5,
+        58
+      ],
+      "pixels": [
+        1,
+        56,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "square_toe_Right",
+      "uuid": "be4326c5-3278-bd7b-2858-92fec1831714",
+      "role": "toe",
+      "face": "west",
+      "rect": [
+        9,
+        56,
+        4,
+        2
+      ],
+      "uv": [
+        9,
+        56,
+        13,
+        58
+      ],
+      "pixels": [
+        9,
+        56,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "square_toe_Right",
+      "uuid": "be4326c5-3278-bd7b-2858-92fec1831714",
+      "role": "toe",
+      "face": "south",
+      "rect": [
+        13,
+        56,
+        4,
+        2
+      ],
+      "uv": [
+        13,
+        56,
+        17,
+        58
+      ],
+      "pixels": [
+        13,
+        56,
+        4,
+        2
+      ]
+    },
+    {
+      "name": "square_toe_Right",
+      "uuid": "be4326c5-3278-bd7b-2858-92fec1831714",
+      "role": "toe",
+      "face": "up",
+      "rect": [
+        5,
+        52,
+        4,
+        4
+      ],
+      "uv": [
+        5,
+        52,
+        9,
+        56
+      ],
+      "pixels": [
+        5,
+        52,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "square_toe_Right",
+      "uuid": "be4326c5-3278-bd7b-2858-92fec1831714",
+      "role": "toe",
+      "face": "down",
+      "rect": [
+        9,
+        52,
+        4,
+        4
+      ],
+      "uv": [
+        9,
+        52,
+        13,
+        56
+      ],
+      "pixels": [
+        9,
+        52,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "sloped_instep_Right",
+      "uuid": "aa90323f-504b-f662-1bc9-7887a8fe9fde",
+      "role": "instep",
+      "face": "north",
+      "rect": [
+        3,
+        62,
+        3.0,
+        3
+      ],
+      "uv": [
+        3,
+        62,
+        6.0,
+        65
+      ],
+      "pixels": [
+        3,
+        62,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "sloped_instep_Right",
+      "uuid": "aa90323f-504b-f662-1bc9-7887a8fe9fde",
+      "role": "instep",
+      "face": "east",
+      "rect": [
+        1,
+        62,
+        2,
+        3
+      ],
+      "uv": [
+        1,
+        62,
+        3,
+        65
+      ],
+      "pixels": [
+        1,
+        62,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "sloped_instep_Right",
+      "uuid": "aa90323f-504b-f662-1bc9-7887a8fe9fde",
+      "role": "instep",
+      "face": "west",
+      "rect": [
+        6.0,
+        62,
+        2,
+        3
+      ],
+      "uv": [
+        6.0,
+        62,
+        8.0,
+        65
+      ],
+      "pixels": [
+        6,
+        62,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "sloped_instep_Right",
+      "uuid": "aa90323f-504b-f662-1bc9-7887a8fe9fde",
+      "role": "instep",
+      "face": "south",
+      "rect": [
+        8.0,
+        62,
+        3.0,
+        3
+      ],
+      "uv": [
+        8.0,
+        62,
+        11.0,
+        65
+      ],
+      "pixels": [
+        8,
+        62,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "sloped_instep_Right",
+      "uuid": "aa90323f-504b-f662-1bc9-7887a8fe9fde",
+      "role": "instep",
+      "face": "up",
+      "rect": [
+        3,
+        60,
+        3.0,
+        2
+      ],
+      "uv": [
+        3,
+        60,
+        6.0,
+        62
+      ],
+      "pixels": [
+        3,
+        60,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "sloped_instep_Right",
+      "uuid": "aa90323f-504b-f662-1bc9-7887a8fe9fde",
+      "role": "instep",
+      "face": "down",
+      "rect": [
+        6.0,
+        60,
+        3.0,
+        2
+      ],
+      "uv": [
+        6.0,
+        60,
+        9.0,
+        62
+      ],
+      "pixels": [
+        6,
+        60,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "boot_sole_Right",
+      "uuid": "fe001c70-c94e-541d-be39-b2663ab7b331",
+      "role": "sole",
+      "face": "north",
+      "rect": [
+        74,
+        38,
+        4,
+        1
+      ],
+      "uv": [
+        74,
+        38,
+        78,
+        39
+      ],
+      "pixels": [
+        74,
+        38,
+        4,
+        1
+      ]
+    },
+    {
+      "name": "boot_sole_Right",
+      "uuid": "fe001c70-c94e-541d-be39-b2663ab7b331",
+      "role": "sole",
+      "face": "east",
+      "rect": [
+        67,
+        38,
+        7,
+        1
+      ],
+      "uv": [
+        67,
+        38,
+        74,
+        39
+      ],
+      "pixels": [
+        67,
+        38,
+        7,
+        1
+      ]
+    },
+    {
+      "name": "boot_sole_Right",
+      "uuid": "fe001c70-c94e-541d-be39-b2663ab7b331",
+      "role": "sole",
+      "face": "west",
+      "rect": [
+        78,
+        38,
+        7,
+        1
+      ],
+      "uv": [
+        78,
+        38,
+        85,
+        39
+      ],
+      "pixels": [
+        78,
+        38,
+        7,
+        1
+      ]
+    },
+    {
+      "name": "boot_sole_Right",
+      "uuid": "fe001c70-c94e-541d-be39-b2663ab7b331",
+      "role": "sole",
+      "face": "south",
+      "rect": [
+        85,
+        38,
+        4,
+        1
+      ],
+      "uv": [
+        85,
+        38,
+        89,
+        39
+      ],
+      "pixels": [
+        85,
+        38,
+        4,
+        1
+      ]
+    },
+    {
+      "name": "boot_sole_Right",
+      "uuid": "fe001c70-c94e-541d-be39-b2663ab7b331",
+      "role": "sole",
+      "face": "up",
+      "rect": [
+        74,
+        31,
+        4,
+        7
+      ],
+      "uv": [
+        74,
+        31,
+        78,
+        38
+      ],
+      "pixels": [
+        74,
+        31,
+        4,
+        7
+      ]
+    },
+    {
+      "name": "boot_sole_Right",
+      "uuid": "fe001c70-c94e-541d-be39-b2663ab7b331",
+      "role": "sole",
+      "face": "down",
+      "rect": [
+        78,
+        31,
+        4,
+        7
+      ],
+      "uv": [
+        78,
+        31,
+        82,
+        38
+      ],
+      "pixels": [
+        78,
+        31,
+        4,
+        7
+      ]
+    },
+    {
+      "name": "ankle_socket_Right",
+      "uuid": "2fbac17f-765f-8e09-2148-93bfe4298655",
+      "role": "ankle",
+      "face": "north",
+      "rect": [
+        27,
+        62,
+        1,
+        3
+      ],
+      "uv": [
+        27,
+        62,
+        28,
+        65
+      ],
+      "pixels": [
+        27,
+        62,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "ankle_socket_Right",
+      "uuid": "2fbac17f-765f-8e09-2148-93bfe4298655",
+      "role": "ankle",
+      "face": "east",
+      "rect": [
+        25,
+        62,
+        2,
+        3
+      ],
+      "uv": [
+        25,
+        62,
+        27,
+        65
+      ],
+      "pixels": [
+        25,
+        62,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "ankle_socket_Right",
+      "uuid": "2fbac17f-765f-8e09-2148-93bfe4298655",
+      "role": "ankle",
+      "face": "west",
+      "rect": [
+        28,
+        62,
+        2,
+        3
+      ],
+      "uv": [
+        28,
+        62,
+        30,
+        65
+      ],
+      "pixels": [
+        28,
+        62,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "ankle_socket_Right",
+      "uuid": "2fbac17f-765f-8e09-2148-93bfe4298655",
+      "role": "ankle",
+      "face": "south",
+      "rect": [
+        30,
+        62,
+        1,
+        3
+      ],
+      "uv": [
+        30,
+        62,
+        31,
+        65
+      ],
+      "pixels": [
+        30,
+        62,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "ankle_socket_Right",
+      "uuid": "2fbac17f-765f-8e09-2148-93bfe4298655",
+      "role": "ankle",
+      "face": "up",
+      "rect": [
+        27,
+        60,
+        1,
+        2
+      ],
+      "uv": [
+        27,
+        60,
+        28,
+        62
+      ],
+      "pixels": [
+        27,
+        60,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "ankle_socket_Right",
+      "uuid": "2fbac17f-765f-8e09-2148-93bfe4298655",
+      "role": "ankle",
+      "face": "down",
+      "rect": [
+        28,
+        60,
+        1,
+        2
+      ],
+      "uv": [
+        28,
+        60,
+        29,
+        62
+      ],
+      "pixels": [
+        28,
+        60,
+        1,
+        2
+      ]
+    }
+  ]
+}

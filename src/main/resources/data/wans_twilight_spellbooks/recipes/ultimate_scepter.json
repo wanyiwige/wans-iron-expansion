@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EAE",
+    "BZC",
+    "EDE"
+  ],
+  "key": {
+    "A": {
+      "item": "twilightforest:fortification_scepter"
+    },
+    "B": {
+      "item": "twilightforest:lifedrain_scepter"
+    },
+    "C": {
+      "item": "twilightforest:zombie_scepter"
+    },
+    "D": {
+      "item": "twilightforest:twilight_scepter"
+    },
+    "E": {
+      "item": "wans_twilight_spellbooks:exanimate_essence"
+    },
+    "Z": {
+      "item": "wans_twilight_spellbooks:deaths_essence"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "wans_twilight_spellbooks:ultimate_scepter"
+  }
+}

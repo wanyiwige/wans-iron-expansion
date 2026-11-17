@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "asterismarcanum:block/umbral_lumine",
+    "side": "asterismarcanum:block/umbral_lumine",
+    "top": "asterismarcanum:block/umbral_lumine"
+  }
+}

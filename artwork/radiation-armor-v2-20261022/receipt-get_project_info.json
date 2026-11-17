@@ -1,0 +1,12 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"project\": {\n    \"name\": \"Critical Warden - Material painting V4\",\n    \"uuid\": \"67d91be3-ce19-7d1c-7e78-7577151f8158\",\n    \"save_path\": \"D:\\\\game\\\\PCL\\\\.minecraft\\\\versions\\\\All the Iron's Spellbooks\\\\wans-iron-expansion\\\\artwork\\\\radiation-armor-v2-20261022\\\\texture-materials-v4\\\\critical_warden_materials.bbmodel\"\n  },\n  \"format\": {\n    \"id\": \"geckolib_model\",\n    \"name\": \"GeckoLib Animated Model\"\n  },\n  \"resolution\": {\n    \"texture_width\": 128,\n    \"texture_height\": 128\n  },\n  \"counts\": {\n    \"cubes\": 63,\n    \"meshes\": 0,\n    \"groups\": 40,\n    \"textures\": 1,\n    \"outliner_elements\": 63\n  },\n  \"root_groups\": [\n    {\n      \"name\": \"armorHead\",\n      \"uuid\": \"b562d83d-0e3c-6947-9532-a423ac19415e\",\n      \"children\": 8\n    },\n    {\n      \"name\": \"armorBody\",\n      \"uuid\": \"48c1da47-9f6b-b116-c180-236e69d73845\",\n      \"children\": 18\n    },\n    {\n      \"name\": \"armorLeftArm\",\n      \"uuid\": \"7f7f24d6-6433-706f-82c1-7ea8fb157e51\",\n      \"children\": 4\n    },\n    {\n      \"name\": \"armorRightArm\",\n      \"uuid\": \"ec563512-e8e7-826e-f6de-46ad42c56152\",\n      \"children\": 4\n    },\n    {\n      \"name\": \"armorLeggingTorsoLayer\",\n      \"uuid\": \"147d3bd3-b360-150d-bc60-aa3cc28a26c0\",\n      \"children\": 1\n    },\n    {\n      \"name\": \"armorLeftLeg\",\n      \"uuid\": \"bf2c31d4-ea4d-7b6f-aa8e-c5a15b56ceb4\",\n      \"children\": 3\n    },\n    {\n      \"name\": \"armorRightLeg\",\n      \"uuid\": \"a7589a27-2549-d32d-226c-db49a42ea8bc\",\n      \"children\": 3\n    },\n    {\n      \"name\": \"armorLeftBoot\",\n      \"uuid\": \"940e475b-e93a-cac7-3a3f-0e6ffa5997f0\",\n      \"children\": 5\n    },\n    {\n      \"name\": \"armorRightBoot\",\n      \"uuid\": \"fa415e7f-3d0f-41a4-2df1-4a39bd116156\",\n      \"children\": 5\n    }\n  ]\n}"
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 1
+}

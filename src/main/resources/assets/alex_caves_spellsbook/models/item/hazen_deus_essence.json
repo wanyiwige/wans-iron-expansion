@@ -1,0 +1,18 @@
+{
+  "loader": "forge:item_layers",
+  "render_type": "cutout",
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/deus_essence"
+  },
+  "forge_data": {
+    "layers": {
+      "0": {
+        "color": "FFFFFFFF",
+        "block_light": 15,
+        "sky_light": 15,
+        "ambient_occlusion": false
+      }
+    }
+  }
+}

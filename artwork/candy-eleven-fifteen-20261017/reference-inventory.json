@@ -1,0 +1,14 @@
+{
+  "jar": "mods\\[Alex \u7684\u6d1e\u7a74-\u5192\u9669] alexscaves-2.0.2.jar",
+  "sha256": "131e205ce3eed384d701b336d8a0d4a671108ed56b6eff6014f0e407db2997f0",
+  "textures": [
+    "item/purple_soda_bottle.png",
+    "item/purple_soda_bottle_rocket.png",
+    "block/purple_soda_still.png",
+    "particle/purple_soda_bubble.png",
+    "particle/purple_soda_fizz_0.png",
+    "particle/purple_soda_fizz_2.png",
+    "entity/caramel_cube/melted_caramel.png",
+    "block/sugar_glass.png"
+  ]
+}

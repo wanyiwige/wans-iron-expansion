@@ -1,0 +1,19 @@
+{
+  "name": "ROACW Reference - plaguebringer_armor",
+  "uuid": "61ecfbb0-b75c-a096-955b-4fac9812a708",
+  "cubes": 101,
+  "bones": 62,
+  "bounds": {
+    "min": [
+      -12.8201469779445,
+      -1,
+      -10.4660420753972
+    ],
+    "max": [
+      12.8201469779445,
+      39.38540636487761,
+      14.333229643154423
+    ]
+  },
+  "note": "Exact native geometry and base color texture; bare view uses temporary opaque clay, no runtime glow layer."
+}

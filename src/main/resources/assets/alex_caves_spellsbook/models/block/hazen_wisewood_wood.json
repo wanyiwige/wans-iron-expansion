@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "alex_caves_spellsbook:hazen/survival/block/wisewood_log_side",
+    "side": "alex_caves_spellsbook:hazen/survival/block/wisewood_log_side"
+  }
+}

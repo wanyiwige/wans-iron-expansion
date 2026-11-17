@@ -1,0 +1,13 @@
+{
+  "active_jars": [
+    {
+      "path": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\mods\\wans_iron_expansion-1.2.1-astral-merged-preview.4.jar",
+      "ids": [
+        "alex_caves_spellsbook",
+        "roacw"
+      ],
+      "sha256": "21550836fee207cc614de63a6cacf60d2e0bc47ec04e8f7b1e5436692dc9e5ae"
+    }
+  ],
+  "version_requested": "1.2.2"
+}

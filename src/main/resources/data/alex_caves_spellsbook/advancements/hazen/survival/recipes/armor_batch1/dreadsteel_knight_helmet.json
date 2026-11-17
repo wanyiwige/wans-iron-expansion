@@ -1,0 +1,97 @@
+{
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "hazennstuff:divine_mold"
+            ]
+          }
+        ]
+      }
+    },
+    "has_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "has_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "alex_caves_spellsbook:hazen_melee_rune"
+            ]
+          }
+        ]
+      }
+    },
+    "has_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "alex_caves_spellsbook:hazen_dreadsteel_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "recipe": "alex_caves_spellsbook:hazen/armor_batch1/dreadsteel_knight_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_0",
+      "has_1",
+      "has_2",
+      "has_3",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alex_caves_spellsbook:hazen/armor_batch1/dreadsteel_knight_helmet"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "irons_spellbooks:upgrade_orb"
+    },
+    "R": {
+      "item": "alex_caves_spellsbook:hazen_radiance_rune"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "ROR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_radiance_upgrade_orb"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "radiance_upgrade_orb"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_radiance_rune"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_radiance_upgrade_orb"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:upgrade_orb"
+    }
+  ]
+}

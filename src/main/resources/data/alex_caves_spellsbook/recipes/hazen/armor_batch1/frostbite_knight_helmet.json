@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "hazennstuff:divine_mold"
+    },
+    "P": {
+      "item": "alex_caves_spellsbook:hazen_dreadsteel_knight_helmet"
+    },
+    "R": {
+      "item": "irons_spellbooks:permafrost_shard"
+    },
+    "T": {
+      "item": "hazennstuff:zenalite_ingot"
+    }
+  },
+  "pattern": [
+    "RTR",
+    "TPT",
+    " M "
+  ],
+  "result": {
+    "item": "alex_caves_spellsbook:hazen_frostbite_knight_helmet",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_dreadsteel_knight_helmet"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_frostbite_knight_helmet"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:divine_mold"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:permafrost_shard"
+    },
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "frostbite_knight_helmet"
+    }
+  ]
+}

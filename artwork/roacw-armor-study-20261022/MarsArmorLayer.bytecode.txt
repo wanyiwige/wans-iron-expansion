@@ -1,0 +1,64 @@
+Compiled from "MarsArmorLayer.java"
+public class net.kamaarion.roacw.items.armor.marsarmorset.MarsArmorLayer extends software.bernie.geckolib.renderer.layer.GeoRenderLayer<net.kamaarion.roacw.items.armor.marsarmorset.MarsArmorItem> {
+  private static final net.minecraft.resources.ResourceLocation LAYER;
+
+  public net.kamaarion.roacw.items.armor.marsarmorset.MarsArmorLayer(software.bernie.geckolib.renderer.GeoRenderer<net.kamaarion.roacw.items.armor.marsarmorset.MarsArmorItem>);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #13                 // Method software/bernie/geckolib/renderer/layer/GeoRenderLayer."<init>":(Lsoftware/bernie/geckolib/renderer/GeoRenderer;)V
+       5: return
+
+  public void render(com.mojang.blaze3d.vertex.PoseStack, net.kamaarion.roacw.items.armor.marsarmorset.MarsArmorItem, software.bernie.geckolib.cache.object.BakedGeoModel, net.minecraft.client.renderer.RenderType, net.minecraft.client.renderer.MultiBufferSource, com.mojang.blaze3d.vertex.VertexConsumer, float, int, int);
+    Code:
+       0: getstatic     #22                 // Field LAYER:Lnet/minecraft/resources/ResourceLocation;
+       3: invokestatic  #28                 // Method net/minecraft/client/renderer/RenderType.m_110488_:(Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/client/renderer/RenderType;
+       6: astore        10
+       8: ldc           #29                 // int 15728880
+      10: istore        11
+      12: aload_0
+      13: invokevirtual #33                 // Method getRenderer:()Lsoftware/bernie/geckolib/renderer/GeoRenderer;
+      16: aload_0
+      17: aload_2
+      18: invokevirtual #37                 // Method getDefaultBakedModel:(Lsoftware/bernie/geckolib/core/animatable/GeoAnimatable;)Lsoftware/bernie/geckolib/cache/object/BakedGeoModel;
+      21: aload_1
+      22: aload         5
+      24: aload_2
+      25: aload         10
+      27: aload         5
+      29: aload         10
+      31: invokeinterface #43,  2           // InterfaceMethod net/minecraft/client/renderer/MultiBufferSource.m_6299_:(Lnet/minecraft/client/renderer/RenderType;)Lcom/mojang/blaze3d/vertex/VertexConsumer;
+      36: fload         7
+      38: iload         11
+      40: getstatic     #49                 // Field net/minecraft/client/renderer/texture/OverlayTexture.f_118083_:I
+      43: fconst_1
+      44: fconst_1
+      45: fconst_1
+      46: fconst_1
+      47: invokeinterface #55,  14          // InterfaceMethod software/bernie/geckolib/renderer/GeoRenderer.reRender:(Lsoftware/bernie/geckolib/cache/object/BakedGeoModel;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lsoftware/bernie/geckolib/core/animatable/GeoAnimatable;Lnet/minecraft/client/renderer/RenderType;Lcom/mojang/blaze3d/vertex/VertexConsumer;FIIFFFF)V
+      52: return
+
+  public void render(com.mojang.blaze3d.vertex.PoseStack, software.bernie.geckolib.core.animatable.GeoAnimatable, software.bernie.geckolib.cache.object.BakedGeoModel, net.minecraft.client.renderer.RenderType, net.minecraft.client.renderer.MultiBufferSource, com.mojang.blaze3d.vertex.VertexConsumer, float, int, int);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: checkcast     #76                 // class net/kamaarion/roacw/items/armor/marsarmorset/MarsArmorItem
+       6: aload_3
+       7: aload         4
+       9: aload         5
+      11: aload         6
+      13: fload         7
+      15: iload         8
+      17: iload         9
+      19: invokevirtual #78                 // Method render:(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/kamaarion/roacw/items/armor/marsarmorset/MarsArmorItem;Lsoftware/bernie/geckolib/cache/object/BakedGeoModel;Lnet/minecraft/client/renderer/RenderType;Lnet/minecraft/client/renderer/MultiBufferSource;Lcom/mojang/blaze3d/vertex/VertexConsumer;FII)V
+      22: return
+
+  static {};
+    Code:
+       0: ldc           #82                 // String roacw
+       2: ldc           #84                 // String textures/item/armor/mars_armor_glowmask.png
+       4: invokestatic  #90                 // Method net/minecraft/resources/ResourceLocation.fromNamespaceAndPath:(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+       7: putstatic     #22                 // Field LAYER:Lnet/minecraft/resources/ResourceLocation;
+      10: return
+}

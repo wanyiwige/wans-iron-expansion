@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "version": "1.2.7-radiation-armor.1",
+  "jar": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\build\\libs\\wans_iron_expansion-1.2.7-radiation-armor.1.jar",
+  "bytes": 14156715,
+  "sha256": "3422138f95019acac6b0c74decf9e7828fb1a6511bd93352a89a31cdf7e9f6d8",
+  "icons": {
+    "critical_warden_helmet": {
+      "size": [
+        16,
+        16
+      ],
+      "opaque_pixels": 167,
+      "colors": 12
+    },
+    "critical_warden_chestplate": {
+      "size": [
+        16,
+        16
+      ],
+      "opaque_pixels": 124,
+      "colors": 14
+    },
+    "critical_warden_leggings": {
+      "size": [
+        16,
+        16
+      ],
+      "opaque_pixels": 120,
+      "colors": 11
+    },
+    "critical_warden_boots": {
+      "size": [
+        16,
+        16
+      ],
+      "opaque_pixels": 90,
+      "colors": 13
+    }
+  },
+  "attributes": {
+    "POWER": {
+      "per_piece": [
+        0.1,
+        0.18,
+        0.14,
+        0.08
+      ],
+      "total": 0.5,
+      "operation": "MULTIPLY_BASE"
+    },
+    "MAX_MANA": {
+      "per_piece": [
+        80.0,
+        150.0,
+        110.0,
+        60.0
+      ],
+      "total": 400,
+      "operation": "ADDITION"
+    },
+    "MANA_REGEN": {
+      "per_piece": [
+        0.02,
+        0.04,
+        0.02,
+        0.02
+      ],
+      "total": 0.1,
+      "operation": "MULTIPLY_BASE"
+    },
+    "RESIST": {
+      "per_piece": [
+        0.04,
+        0.06,
+        0.04,
+        0.02
+      ],
+      "total": 0.16,
+      "operation": "MULTIPLY_BASE"
+    }
+  },
+  "geometry_bones": 42,
+  "cubes": 63,
+  "opaque_uv_faces": 378,
+  "armor_texture_matches_approved_model": true,
+  "native_bake_and_class_link": "PASS",
+  "changed_existing_jar_entries": [
+    "META-INF/MANIFEST.MF",
+    "META-INF/mods.toml",
+    "assets/alex_caves_spellsbook/lang/en_us.json",
+    "assets/alex_caves_spellsbook/lang/zh_cn.json",
+    "cn/wanyiwige/alexcavesspellsbook/toxic/RadiationEquipment.class",
+    "cn/wanyiwige/alexcavesspellsbook/toxic/ToxicRegistry.class"
+  ],
+  "added_jar_entries": 25,
+  "removed_jar_entries": 0,
+  "game_runtime_tested": false,
+  "deployed": false
+}

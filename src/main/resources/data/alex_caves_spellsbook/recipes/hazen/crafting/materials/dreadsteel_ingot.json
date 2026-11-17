@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "alex_caves_spellsbook:hazen_dreadstone"
+    },
+    "S": {
+      "item": "hazennstuff:steel_ingot"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SDS",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_dreadsteel_ingot"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "dreadsteel_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_dreadsteel_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_dreadstone"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:steel_ingot"
+    }
+  ]
+}

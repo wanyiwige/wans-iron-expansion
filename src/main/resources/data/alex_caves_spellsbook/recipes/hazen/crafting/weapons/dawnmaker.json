@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "hazennstuff:steel_ingot"
+    },
+    "F": {
+      "item": "alex_caves_spellsbook:hazen_excalibur_fragment"
+    },
+    "H": {
+      "item": "alex_caves_spellsbook:hazen_hallowed_ingot"
+    },
+    "W": {
+      "item": "irons_spellbooks:weapon_parts"
+    }
+  },
+  "pattern": [
+    " HE",
+    " FH",
+    "W  "
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_dawnmaker"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "dawnmaker"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_dawnmaker"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_excalibur_fragment"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_hallowed_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:steel_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:weapon_parts"
+    }
+  ]
+}

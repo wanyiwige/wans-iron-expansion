@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "twilightforest:entities/ur_ghast"
+    }
+  ],
+  "type": "wans_twilight_spellbooks:append_loot",
+  "loot_table": "wans_twilight_spellbooks:entities/additional_ur_ghast_loot"
+}

@@ -1,0 +1,34 @@
+{
+  "type": "alex_caves_spellsbook:hazen_smithing",
+  "addition": {
+    "item": "minecraft:gold_ingot"
+  },
+  "base": {
+    "tag": "alex_caves_spellsbook:hazen/artificer_cane"
+  },
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_frieren_staff"
+  },
+  "template": {
+    "item": "minecraft:leather"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "frieren_staff"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_frieren_staff"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:leather"
+    }
+  ]
+}

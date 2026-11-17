@@ -1,0 +1,4 @@
+{
+  "_comment": "Wan's Iron Expansion assigns the original universal_spell:treasure_hunt spell to Traveller; all other spell configuration stays unchanged.",
+  "irons_spellbooks:school": "kubejs:traveller"
+}

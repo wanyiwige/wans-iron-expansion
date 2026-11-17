@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "alex_caves_spellsbook:hazen_dreadstone_ore",
+    "easy_arcane:deepslate_arcane_ore",
+    "easy_arcane:arcane_ore"
+  ]
+}

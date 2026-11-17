@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "demonite_ingot",
+  "ingredient": {
+    "item": "alex_caves_spellsbook:hazen_shadestone"
+  },
+  "result": "alex_caves_spellsbook:hazen_demonite_ingot",
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "demonite_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_demonite_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_shadestone"
+    }
+  ]
+}

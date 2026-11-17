@@ -1,0 +1,768 @@
+{
+  "bone_bolt": {
+    "kind": "bone_bolt",
+    "spell": "bone_bolt",
+    "speed": 1.4,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Blood\\BoneBolt\\BoneBolt.java",
+    "source_sha256": "4e26da80512bc043c76d2d7c5bd067bff7d6d4bd8e4bebe96b8b404ada5962d7",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/bone.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/bone.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/spectral_axe.animation.json",
+    "animation_name": "animation.spectral_axe.idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "soul_flame_bolt": {
+    "kind": "soul_flame_bolt",
+    "spell": "soul_flame_bolt",
+    "speed": 1.75,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Fire\\SoulFlameBolt\\SoulflameBolt.java",
+    "source_sha256": "b78d6d9527ff1eef86a21598629f8bb0fe796f9ef50e78964bbdfd03229fe449",
+    "model": null,
+    "textures": [],
+    "animation": null,
+    "animation_name": null,
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "ice_arrow": {
+    "kind": "ice_arrow",
+    "spell": "ice_arrow",
+    "speed": 2.5,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Ice\\IceArrow\\IceArrow.java",
+    "source_sha256": "e254ad9c13d5101feaefda90da71dd645a9dad11070a9d1d49d3c5bf2dbe7f59",
+    "model": null,
+    "textures": [],
+    "animation": null,
+    "animation_name": null,
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "ice_cloud": {
+    "kind": "ice_cloud",
+    "spell": "ice_arrow",
+    "speed": 0,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Ice\\IceCloud\\IceCloud.java",
+    "source_sha256": "80f1b33cc9392165c11382dd1e54b07dc9ce251175fb656fe3ef281e1c3e84fa",
+    "model": null,
+    "textures": [],
+    "animation": null,
+    "animation_name": null,
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "energy_burst": {
+    "kind": "energy_burst",
+    "spell": "energy_burst",
+    "speed": 1.4,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Lightning\\EnergyBurst\\EnergyBurst.java",
+    "source_sha256": "f3e2c2b242da99c487ee8caf644420493e4282bbb4ccc20e28b828b860409a0f",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/energy_burst.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/spark_0.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/spark_0_glowmask.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/spark_1.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/spark_1_glowmask.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/spark_2.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/spark_2_glowmask.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/spark_3.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/spark_3_glowmask.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/spark_4.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/spark_4_glowmask.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/spark.animation.json",
+    "animation_name": "animation.spark.idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "spider_lily": {
+    "kind": "spider_lily",
+    "spell": "counterspell_spider_lily",
+    "speed": 1.2,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Nature\\SpiderLily\\SpiderLily.java",
+    "source_sha256": "6c51ad378f4cc54049101df05113399fe423a8bc283c7f8e8ecb55f128305f93",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/spider_lily.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/spider_lily.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/spider_lily.animation.json",
+    "animation_name": "animation.spider_lily.idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "shadow_reaver": {
+    "kind": "shadow_reaver",
+    "spell": "shadow_reaver",
+    "speed": 2.0,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Shadow\\ShadowReaver\\ShadowReaver.java",
+    "source_sha256": "c690b44120e97b2f66cb4ca572443184aa1e38108f979bfd2ba5452a192f79e3",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/shadow_reaver.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_0.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_1.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_2.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_3.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_4.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_5.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_6.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_animated.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_animated_glowmask.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_glowmask.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_glowmask_0.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_glowmask_1.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_glowmask_2.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_glowmask_3.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_glowmask_4.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_glowmask_5.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_reaver_glowmask_6.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/shadow_reaver.animation.json",
+    "animation_name": "idle_1",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "source_animation_correction": "Original references absent idle; use supplied idle_1 instead."
+  },
+  "cosmic_bolt": {
+    "kind": "cosmic_bolt",
+    "spell": "cosmic_bolt",
+    "speed": 1.6,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Cosmic\\CosmicBolt\\CosmicBolt.java",
+    "source_sha256": "39777460caec0ed7f9d588d10d763af193ad617e586a3e35c6d12f199ed1a930",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/cosmic_bolt.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_0.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_1.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_2.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_3.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_4.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_5.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_6.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_7.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_8.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_animated.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_glowmask.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_glowmask_0.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_glowmask_1.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_glowmask_2.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_glowmask_3.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_glowmask_4.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_glowmask_5.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_glowmask_6.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_glowmask_7.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/cosmic_bolt_glowmask_8.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/cosmic_bolt.animation.json",
+    "animation_name": "idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "hydrobullet": {
+    "kind": "hydrobullet",
+    "spell": "hydrobullet",
+    "speed": 2.0,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Hydro\\Hydrobullet\\HydroBullet.java",
+    "source_sha256": "cde64b9d6312d9f52912531972ee27f19c6535f4ef5d51311d5062e2dbfcd1b0",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/hydrobullet.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/hydrobullet_0.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/hydrobullet_1.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/hydrobullet_2.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/hydrobullet_3.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/hydrobullet_4.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/hydrobullet_5.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/hydrobullet_6.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/hydrobullet_7.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/hydrobullet_animated.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/hydrobullet.animation.json",
+    "animation_name": "idle_2",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "water_bolt": {
+    "kind": "water_bolt",
+    "spell": "water_bolt",
+    "speed": 0.6,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Hydro\\WaterBolt\\WaterBolt.java",
+    "source_sha256": "c7df973b93cd74afcfa4be024cea0fa7bd1482df52aaf9d1e43a42518d9a01a7",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/water_bolt.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/water_bolt_0.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/water_bolt_1.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/water_bolt_2.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/water_bolt_animated.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/shadow_reaver.animation.json",
+    "animation_name": "idle_1",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "source_animation_correction": "Original references absent idle; use supplied idle_1 instead."
+  },
+  "razorblade_typhoon": {
+    "kind": "razorblade_typhoon",
+    "spell": "razorblade_typhoon",
+    "speed": 2.4,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Hydro\\RazorbladeTyphoon\\RazorbladeTyphoon.java",
+    "source_sha256": "ce708d8ed43d4c9ae258eec8a1fbe0286124bb88fc02503abcf819a2e911dea7",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/razorblade_typhoon.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/razorblade_typhoon.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/razorblade_typhoon.animation.json",
+    "animation_name": "idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "horn_shell": {
+    "kind": "horn_shell",
+    "spell": "horn_shell",
+    "speed": 2.0,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Hydro\\HornShell\\HornShell.java",
+    "source_sha256": "e99858758edc7a6c98161864c3d71a4e1d69a67f86d5f268fae503a849eaf09b",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/horn_shell.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/horn_shell.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/horn_shell.animation.json",
+    "animation_name": "idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "trident_jetstream": {
+    "kind": "trident_jetstream",
+    "spell": "trident_jetstream",
+    "speed": 2.0,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Hydro\\TridentBarrage\\TridentJetstream.java",
+    "source_sha256": "e1a4c0968f6710db35c653e513c71e2828bdf17b7ecc4036fdee72b19f9df251",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/trident_jetstream.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/trident_jetstream.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/trident_jetstream.animation.json",
+    "animation_name": "idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "syringe": {
+    "kind": "syringe",
+    "spell": "syringe_barrage",
+    "speed": 1.4,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Radiance\\Syringe\\Syringe.java",
+    "source_sha256": "3af5eaa5c63f5cf4970fb7c957ec90aee419ac1115a19edfd8f13c830f2a7f38",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/syringe.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/syringe_alt.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/syringe.animation.json",
+    "animation_name": "animation.model.idle",
+    "render_type": "energy",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "evercomet": {
+    "kind": "evercomet",
+    "spell": "evercomet_barrage",
+    "speed": 2.5,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Cosmic\\Evercomet\\Evercomet.java",
+    "source_sha256": "75e2a05e13d0fccbfb00b34bbed56e85ac8e3fa04576cca7cf89caf3d0a1ab08",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/evercomet.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/evercomet.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/evercomet.animation.json",
+    "animation_name": "idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "soul_seeker": {
+    "kind": "soul_seeker",
+    "spell": "soul_seekers",
+    "speed": 2.0,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Eldritch\\SoulSeeker\\SoulSeeker.java",
+    "source_sha256": "2ee806f3cf7f5e4b76e302f686c94ebbd1c916a0e872dce546078163e8c4b938",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/soul_seeker.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/soul_seeker_0.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/soul_seeker_1.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/soul_seeker_2.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/soul_seeker_3.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/spark.animation.json",
+    "animation_name": "animation.spark.idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "club": {
+    "kind": "club",
+    "spell": "arcane_cards",
+    "speed": 1.75,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Shadow\\ArcaneCards\\Club\\Club.java",
+    "source_sha256": "2074fcce84cc812da2a3c6d965af41a1e05a8feb818241c21887390e6561377a",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/card.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/card_club.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/shadow_reaver.animation.json",
+    "animation_name": "idle_1",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "source_animation_correction": "Original references absent idle; use supplied idle_1 instead."
+  },
+  "diamond": {
+    "kind": "diamond",
+    "spell": "arcane_cards",
+    "speed": 1.75,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Shadow\\ArcaneCards\\Diamond\\Diamond.java",
+    "source_sha256": "ce83c7a6b0c95a3d8b44e67e6803ccb7dda5e1d649cc55f7eb935cce6357017a",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/card.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/card_diamond.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/shadow_reaver.animation.json",
+    "animation_name": "idle_1",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "source_animation_correction": "Original references absent idle; use supplied idle_1 instead."
+  },
+  "heart": {
+    "kind": "heart",
+    "spell": "arcane_cards",
+    "speed": 1.75,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Shadow\\ArcaneCards\\Heart\\Heart.java",
+    "source_sha256": "28e3af387db1ce8ac9463693d45992e5a3d691d65e26fe112a9b8a6b35307147",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/card.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/card_heart.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/shadow_reaver.animation.json",
+    "animation_name": "idle_1",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "source_animation_correction": "Original references absent idle; use supplied idle_1 instead."
+  },
+  "spade": {
+    "kind": "spade",
+    "spell": "arcane_cards",
+    "speed": 1.75,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Shadow\\ArcaneCards\\Spade\\Spade.java",
+    "source_sha256": "8a4614eb4ec0a7eb117d85e3590145e09837e0cdc3f84b0a3f3eadd3233190b3",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/card.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/card_spade.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/shadow_reaver.animation.json",
+    "animation_name": "idle_1",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "source_animation_correction": "Original references absent idle; use supplied idle_1 instead."
+  },
+  "endraconic_meteor": {
+    "kind": "endraconic_meteor",
+    "spell": "endraconic_meteor",
+    "speed": 2.0,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Ender\\EndraconicMeteor\\EndraconicMeteor.java",
+    "source_sha256": "f95c2611c1094bbc52e48fa7e9071079d038f01dea04cd4bd5900a9996d0df1c",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/endraconic_meteor.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/endraconic_meteor.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/endraconic_meteor.animation.json",
+    "animation_name": "idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "endraconic_breath": {
+    "kind": "endraconic_breath",
+    "spell": "endraconic_meteor",
+    "speed": 0,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Ender\\EndraconicMeteor\\EndraconicBreath\\EndraconicBreath.java",
+    "source_sha256": "ec86c7ca763bd7cae3e2ceb10366bf1f13c486eb463f32589e716ca3b497045f",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/endraconic_breath.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/endraconic_breath_0.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/endraconic_breath_1.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/endraconic_breath_2.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/endraconic_breath_3.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/endraconic_breath_4.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/endraconic_breath.animation.json",
+    "animation_name": "idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "flesh_chunk": {
+    "kind": "flesh_chunk",
+    "spell": "violent_regurgitation",
+    "speed": 2.0,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Blood\\ViolentRegurgitation\\FleshChunk\\FleshChunk.java",
+    "source_sha256": "f13692cefe67667942a518eced4bdd1cb7402bccfe3590a2b1fff7e7a319516d",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/flesh_chunk.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/flesh_chunk.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/flesh_chunk.animation.json",
+    "animation_name": "idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "flesh_piece": {
+    "kind": "flesh_piece",
+    "spell": "violent_regurgitation",
+    "speed": 1.6,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Blood\\ViolentRegurgitation\\FleshPiece\\FleshPiece.java",
+    "source_sha256": "07d3936f90b5c0aaea7c299056038b3310da80866ea8607353f4c563953173aa",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/flesh_piece.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/flesh_piece.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/flesh_piece.animation.json",
+    "animation_name": "idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "flesh_mound": {
+    "kind": "flesh_mound",
+    "spell": "violent_regurgitation",
+    "speed": 0,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Blood\\ViolentRegurgitation\\FleshChunk\\FleshMound\\FleshMound.java",
+    "source_sha256": "d449bd5751d1f6c7b25f237b436322be21a7b4fbb0ab4c839a9b9a6575319342",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/flesh_mound.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/flesh_mound.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/flesh_mound.animation.json",
+    "animation_name": "idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scorching_blade": {
+    "kind": "scorching_blade",
+    "spell": "scorching_slash",
+    "speed": 1.6,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Fire\\ScorchingSlash\\ScorchingBlade.java",
+    "source_sha256": "a2bcce3b68254f4111e138d03104edce2122557c8f9a9eab388740a89bfd25ef",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/scorched_blade.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/scorched_blade_0.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/scorched_blade_1.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/scorched_blade_2.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/scorched_blade_3.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/scorched_blade_4.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/scorched_blade_5.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/scorched_blade_6.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/scorched_blade_7.png",
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/scorched_blade_animated.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/scorched_blade.animation.json",
+    "animation_name": "idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "fiery_dagger_magic_projectile": {
+    "kind": "fiery_dagger_magic_projectile",
+    "spell": "fiery_dagger",
+    "speed": 1.25,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Fire\\FireDaggers\\FieryDaggerMagicProjectile.java",
+    "source_sha256": "2a2778e8b07d1de883c64921ad9a17267e15612f878be8eed50cbcbc6b2c4639",
+    "model": null,
+    "textures": [],
+    "animation": null,
+    "animation_name": null,
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "ice_chunk_a": {
+    "kind": "ice_chunk_a",
+    "spell": "hailstorm",
+    "speed": 1.85,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Ice\\Hailstorm\\IceChunkA\\IceChunkA.java",
+    "source_sha256": "0dca2bab18f49a61a6565dd4cd6dae64a5b1cd803b53785f7a1dab21638975b4",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/ice_chunk_a.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/ice_chunk_a.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/ice_chunk.animation.json",
+    "animation_name": "animation.ice_chunk.spinning_b",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "ice_chunk_b": {
+    "kind": "ice_chunk_b",
+    "spell": "hailstorm",
+    "speed": 1.85,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Ice\\Hailstorm\\IceChunkB\\IceChunkB.java",
+    "source_sha256": "caada2e6a13a039328394932c5a6612ba36024303bf485b9d962ffd5c1dba600",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/ice_chunk_b.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/ice_chunk_b.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/ice_chunk.animation.json",
+    "animation_name": "animation.ice_chunk.spinning_a",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "ice_chunk_c": {
+    "kind": "ice_chunk_c",
+    "spell": "hailstorm",
+    "speed": 1.85,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Ice\\Hailstorm\\IceChunkC\\IceChunkC.java",
+    "source_sha256": "bd7905c8adbb63f10a027ae0b68829f5da046fa51ec38ce0e9ecb3454b0a1dd0",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/ice_chunk_c.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/ice_chunk_c.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/ice_chunk.animation.json",
+    "animation_name": "animation.ice_chunk.spinning_a",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "death_sentence": {
+    "kind": "death_sentence",
+    "spell": "death_sentence",
+    "speed": 1.2,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Nature\\DeathSentence\\DeathSentence.java",
+    "source_sha256": "82acc5bb9529837d05a2ef79a660a3cb2bd5efa5c1bfb61feb5af66cab7b4185",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/death_sentence.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/death_sentence.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/spark.animation.json",
+    "animation_name": "animation.spark.idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "shadow_dagger": {
+    "kind": "shadow_dagger",
+    "spell": "umbrashift_barrage",
+    "speed": 1.4,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Shadow\\ShadowDagger\\ShadowDagger.java",
+    "source_sha256": "22cc53cf5ed472d7000fd99f9899823c093fae62d0512de22ec26680d5841432",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/shadow_dagger.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/shadow_dagger.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/spark.animation.json",
+    "animation_name": "animation.spark.idle",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "ningu_demonbane_petalblade": {
+    "kind": "ningu_demonbane_petalblade",
+    "spell": "dazzling_obliteration",
+    "speed": 1.4,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Lightning\\DazzlingObliteration\\NinguDemonbanePetalblade.java",
+    "source_sha256": "f6906fbf09f6aaa34fe572e7f426fbb2655535ec55dc527c61806e561389c869",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/ningu_demonbane_petalblade.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/ningu_demonbane_petalblade.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/ningu_demonbane_petalblade.animation.json",
+    "animation_name": "idle_1",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "ningu_demonbane_petalblade_shuriken": {
+    "kind": "ningu_demonbane_petalblade_shuriken",
+    "spell": "dazzling_obliteration",
+    "speed": 1.4,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Lightning\\DazzlingObliteration\\Shuriken\\NinguDemonbanePetalbladeShuriken.java",
+    "source_sha256": "93920cf8a9d44a580369b445bb2fdb94fc7bb731e3908c0cee6f3935b89477aa",
+    "model": "alex_caves_spellsbook:geo/hazen/secondary/entities/spells/ningu_demonbane_petalblade_shuriken.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:textures/hazen/secondary/spells/ningu_demonbane_petalblade.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/secondary/entities/spells/ningu_demonbane_petalblade.animation.json",
+    "animation_name": "idle_2",
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "ichor_stream": {
+    "kind": "ichor_stream",
+    "spell": "golden_shower",
+    "speed": 1.4,
+    "source": "development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Entity\\Spells\\Holy\\IchorStream\\IchorStream.java",
+    "source_sha256": "e15a4501a5d7887751a60f4875e9478cbfd594b56e2893e3200519b59d4f5ebe",
+    "model": null,
+    "textures": [],
+    "animation": null,
+    "animation_name": null,
+    "render_type": "cutout",
+    "frame_ticks": 1,
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  }
+}

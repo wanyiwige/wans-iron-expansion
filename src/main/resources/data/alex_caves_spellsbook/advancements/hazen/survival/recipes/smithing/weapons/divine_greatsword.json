@@ -1,0 +1,79 @@
+{
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "has_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "irons_spellbooks:divine_pearl"
+            ]
+          }
+        ]
+      }
+    },
+    "has_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "irons_spellbooks:weapon_parts"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "recipe": "alex_caves_spellsbook:hazen/smithing/weapons/divine_greatsword"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_0",
+      "has_1",
+      "has_2",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alex_caves_spellsbook:hazen/smithing/weapons/divine_greatsword"
+    ]
+  }
+}

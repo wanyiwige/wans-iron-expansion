@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#n",
+    "Di",
+    "/ "
+  ],
+  "key": {
+    "n": {
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    "#": {
+      "item": "minecraft:emerald"
+    },
+    "i": {
+      "item": "alex_caves_spellsbook:hazen_silver_scraps"
+    },
+    "D": {
+      "item": "alex_caves_spellsbook:hazen_excalibur_fragment"
+    },
+    "/": {
+      "item": "irons_spellbooks:graybeard_staff"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_ancient_warriors_axe"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "ancient_warriors_axe"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_ancient_warriors_axe"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_excalibur_fragment"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_silver_scraps"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:graybeard_staff"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:emerald"
+    }
+  ]
+}

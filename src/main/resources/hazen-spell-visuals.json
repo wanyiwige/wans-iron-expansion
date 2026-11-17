@@ -1,0 +1,81 @@
+{
+  "thorn_chakram": {
+    "model": "alex_caves_spellsbook:geo/hazen/hazennstuff/entities/spells/thorn_chakram_spell.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/thorn_chakram_spell.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/hazennstuff/entities/spells/thorn_chakram_spell.animation.json",
+    "animation_name": "animation.thorn_chakram_spell.idle"
+  },
+  "shooting_star": {
+    "model": "alex_caves_spellsbook:geo/hazen/hazennstuff/entities/spells/shooting_star.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/shooting_star_0.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/shooting_star_1.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/shooting_star_2.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/hazennstuff/entities/spells/shooting_star.animation.json",
+    "animation_name": "animation.shooting_star.idle"
+  },
+  "spectral_axe": {
+    "model": "alex_caves_spellsbook:geo/hazen/hazennstuff/entities/spells/spectral_axe.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/spectral_axe.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/hazennstuff/entities/spells/spectral_axe.animation.json",
+    "animation_name": "animation.spectral_axe.idle"
+  },
+  "nights_edge_after_slash": {
+    "model": "alex_caves_spellsbook:geo/hazen/hazennstuff/entities/spells/nights_edge_after_slash.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/nights_edge_after_slash_0.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/nights_edge_after_slash_1.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/nights_edge_after_slash_2.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/nights_edge_after_slash_3.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/nights_edge_after_slash_4.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/nights_edge_after_slash_5.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/nights_edge_after_slash_6.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/nights_edge_after_slash_7.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/hazennstuff/entities/spells/nights_edge_after_slash.animation.json",
+    "animation_name": "animation.nights_edge_after_slash.idle"
+  },
+  "terraprisma": {
+    "model": "alex_caves_spellsbook:geo/hazen/hazennstuff/entities/spells/terraprisma.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_0.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/hazennstuff/entities/spells/terraprisma.animation.json",
+    "animation_name": "animation.terraprisma.idle_alt",
+    "glow_textures": [
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_0.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_1.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_2.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_3.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_4.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_5.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_6.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_7.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_8.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_9.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_10.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_11.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_12.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_13.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_14.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_15.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_16.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_17.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_18.png",
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/terraprisma/terraprisma_glowmask_19.png"
+    ]
+  },
+  "vampire_knife": {
+    "model": "alex_caves_spellsbook:geo/hazen/hazennstuff/entities/spells/vampire_knife_projectile.geo.json",
+    "textures": [
+      "alex_caves_spellsbook:hazen/hazennstuff/textures/spells/vampire_knife_projectile.png"
+    ],
+    "animation": "alex_caves_spellsbook:animations/hazen/hazennstuff/entities/spells/vampire_knife_projectile.animation.json",
+    "animation_name": "animation.vampire_knife.idle"
+  }
+}

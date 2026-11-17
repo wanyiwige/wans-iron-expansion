@@ -1,0 +1,32 @@
+{
+  "fission-staff-concept-v1.png": {
+    "size": [
+      1272,
+      1236
+    ],
+    "mode": "RGBA",
+    "transparent_pixels": 1310057,
+    "nonempty_bbox": [
+      0,
+      26,
+      1240,
+      1236
+    ],
+    "status": "generated concept sprite; not a native-size game texture or UV atlas"
+  },
+  "leadbound-grimoire-concept-v1.png": {
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "transparent_pixels": 637536,
+    "nonempty_bbox": [
+      0,
+      8,
+      1240,
+      1254
+    ],
+    "status": "generated concept sprite; not a native-size game texture or UV atlas"
+  }
+}

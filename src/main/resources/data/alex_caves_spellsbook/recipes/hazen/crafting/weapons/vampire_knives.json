@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "irons_spellbooks:blood_vial"
+    },
+    "D": {
+      "item": "alex_caves_spellsbook:hazen_dreadsteel_ingot"
+    },
+    "P": {
+      "item": "minecraft:netherite_sword"
+    },
+    "R": {
+      "item": "irons_spellbooks:blood_rune"
+    },
+    "W": {
+      "item": "irons_spellbooks:weapon_parts"
+    }
+  },
+  "pattern": [
+    "DDB",
+    "RPD",
+    "WRD"
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_vampire_knives"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "vampire_knives"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_dreadsteel_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_vampire_knives"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:blood_rune"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:blood_vial"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:weapon_parts"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:netherite_sword"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "result": "PASS",
+  "unchangedGameplayMethods": [
+    "launch",
+    "actorTick",
+    "ball",
+    "mint",
+    "spear",
+    "rocket",
+    "sweep",
+    "collideEntities",
+    "contact",
+    "seek",
+    "split",
+    "hit",
+    "landing",
+    "burst",
+    "chill",
+    "hex",
+    "bloom",
+    "reaction",
+    "caramel",
+    "area",
+    "block",
+    "sky",
+    "resolve"
+  ],
+  "modifiedPreviousSources": [
+    "CandySpellEntity.java",
+    "CandyPixelScenes.java"
+  ],
+  "newPixelSheets": 13,
+  "newGeometry": 0,
+  "paletteSelection": "server-shuffled at spawn; stable synced PixelPalette; unique within cast",
+  "rasterCoverage": {
+    "mint_slash": 0.117,
+    "wheel_track": 0.188,
+    "licorice_wave_0": 0.23,
+    "licorice_wave_1": 0.23,
+    "licorice_wave_2": 0.228,
+    "sugar_flower": 0.18,
+    "seal_band_0": 0.022,
+    "seal_band_1": 0.069,
+    "seal_band_2": 0.113,
+    "frost_spear": 0.311,
+    "frost_snow": 0.152,
+    "frost_boundary": 0.029,
+    "frost_crack": 0.095
+  },
+  "bloomBandMasksMatchDamageBands": true,
+  "runtimeTested": false
+}

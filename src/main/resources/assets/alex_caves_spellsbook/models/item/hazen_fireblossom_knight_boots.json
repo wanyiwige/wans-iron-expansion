@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "alex_caves_spellsbook:hazen_added/item/armors/fireblossom_knight_boots"
+  }
+}

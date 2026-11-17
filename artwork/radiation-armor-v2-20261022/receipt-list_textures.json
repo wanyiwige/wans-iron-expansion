@@ -1,0 +1,12 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "[{\"name\":\"critical_warden_materials.png\",\"uuid\":\"9f6a3331-db8b-aa6f-9824-f45c93c38b34\",\"id\":\"1\",\"group\":\"\"}]"
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 1
+}

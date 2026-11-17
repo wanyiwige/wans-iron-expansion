@@ -1,0 +1,38 @@
+{
+  "type": "alex_caves_spellsbook:hazen_smithing",
+  "addition": {
+    "item": "irons_spellbooks:divine_pearl"
+  },
+  "base": {
+    "item": "hazennstuff:excalibur"
+  },
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_excalibur_divine_gold"
+  },
+  "template": {
+    "item": "minecraft:gold_ingot"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "excalibur_divine_gold"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_excalibur_divine_gold"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:excalibur"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:gold_ingot"
+    }
+  ]
+}

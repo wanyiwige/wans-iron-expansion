@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:divine_soulshard"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "alex_caves_spellsbook:hazen_deus_essence"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "deus_essence"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_deus_essence"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:divine_soulshard"
+    }
+  ]
+}

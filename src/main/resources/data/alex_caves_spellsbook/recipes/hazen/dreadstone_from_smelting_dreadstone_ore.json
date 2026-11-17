@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "dreadstone",
+  "ingredient": {
+    "item": "alex_caves_spellsbook:hazen_dreadstone_ore"
+  },
+  "result": "alex_caves_spellsbook:hazen_dreadstone",
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "dreadstone"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_dreadstone"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_dreadstone_ore"
+    }
+  ]
+}

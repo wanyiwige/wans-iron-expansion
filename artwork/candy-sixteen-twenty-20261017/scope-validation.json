@@ -1,0 +1,41 @@
+{
+  "result": "PASS",
+  "version": "1.2.1-candy-pixel-preview.9",
+  "newTextures": 6,
+  "newModels": 0,
+  "nativeTextureReferences": 19,
+  "nativeBearAndGingerRenderersUnchanged": true,
+  "serverMethodsWithVisualAdditions": [
+    "private void snare(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, int);",
+    "private void summonBear(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, int);",
+    "private void summonGinger(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, int);"
+  ],
+  "otherServerMethodBytecodeUnchanged": true,
+  "previousCandyAssetsAndRandomColorsAndRicochetUnchanged": true,
+  "changedEntries": [
+    "META-INF/MANIFEST.MF",
+    "META-INF/mods.toml",
+    "cn/wanyiwige/alexcavesspellsbook/candy/CandyLastSpellEntity.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyPixelScenes.class"
+  ],
+  "addedEntries": [
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/overdrive_bolt.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/overdrive_bolt.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/overdrive_speed_0.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/overdrive_speed_0.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/overdrive_speed_1.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/overdrive_speed_1.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/overdrive_speed_2.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/overdrive_speed_2.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/snare_band.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/snare_band.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/snare_knot.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/snare_knot.png.mcmeta",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandySupportPixelScenes$ChargePose.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandySupportPixelScenes.class"
+  ],
+  "jarBytes": 13895286,
+  "sha256": "154cdaa43a7fd9f720c06435916259b76b6d028f6b1c617a69da8d4df0e53bd7",
+  "deployed": false,
+  "runtimeTested": false
+}

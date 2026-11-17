@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    "M": {
+      "item": "irons_spellbooks:mithril_scrap"
+    },
+    "S": {
+      "item": "hazennstuff:steel_ingot"
+    }
+  },
+  "pattern": [
+    "MD ",
+    "DSD",
+    " DM"
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_hallowed_ingot"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "hallowed_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_hallowed_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:steel_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:mithril_scrap"
+    }
+  ]
+}

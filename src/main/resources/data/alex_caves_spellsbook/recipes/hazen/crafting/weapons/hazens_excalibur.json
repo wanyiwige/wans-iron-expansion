@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    "H": {
+      "item": "alex_caves_spellsbook:hazen_hallowed_ingot"
+    },
+    "R": {
+      "item": "irons_spellbooks:holy_rune"
+    },
+    "W": {
+      "item": "irons_spellbooks:weapon_parts"
+    },
+    "Z": {
+      "item": "hazennstuff:zenalite_ingot"
+    }
+  },
+  "pattern": [
+    " HZ",
+    "DRH",
+    "WD "
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_hazens_excalibur"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "hazens_excalibur"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_hallowed_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_hazens_excalibur"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:holy_rune"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:weapon_parts"
+    }
+  ]
+}

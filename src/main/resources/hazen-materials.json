@@ -1,0 +1,180 @@
+[
+  {
+    "id": "cosmic_rune",
+    "kind": "rune",
+    "school": "cosmic"
+  },
+  {
+    "id": "cosmic_upgrade_orb",
+    "kind": "upgrade_orb",
+    "school": "cosmic"
+  },
+  {
+    "id": "radiance_rune",
+    "kind": "rune",
+    "school": "radiance"
+  },
+  {
+    "id": "radiance_upgrade_orb",
+    "kind": "upgrade_orb",
+    "school": "radiance"
+  },
+  {
+    "id": "shadow_rune",
+    "kind": "rune",
+    "school": "shadow"
+  },
+  {
+    "id": "shadow_upgrade_orb",
+    "kind": "upgrade_orb",
+    "school": "shadow"
+  },
+  {
+    "id": "hydro_rune",
+    "kind": "rune",
+    "school": "hydro"
+  },
+  {
+    "id": "hydro_upgrade_orb",
+    "kind": "upgrade_orb",
+    "school": "hydro"
+  },
+  {
+    "id": "glowing_mushroom",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "COMMON"
+  },
+  {
+    "id": "shadestone",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "SHADOW_RARITY"
+  },
+  {
+    "id": "elder_guardian_spine",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "HYDRO_RARITY"
+  },
+  {
+    "id": "shadow_scale",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "COMMON"
+  },
+  {
+    "id": "permafrost_fragment",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "UNCOMMON"
+  },
+  {
+    "id": "dreadsteel_ingot",
+    "kind": "material",
+    "fire_resistant": true,
+    "rarity": "RARE"
+  },
+  {
+    "id": "silver_scraps",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "UNCOMMON"
+  },
+  {
+    "id": "deus_essence",
+    "kind": "material",
+    "fire_resistant": true,
+    "rarity": "RARE"
+  },
+  {
+    "id": "excalibur_fragment",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "EPIC"
+  },
+  {
+    "id": "stardust",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "COSMIC_RARITY"
+  },
+  {
+    "id": "hallowed_ingot",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "DEUS_RARITY"
+  },
+  {
+    "id": "demonite_ingot",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "SHADOW_RARITY"
+  },
+  {
+    "id": "chlorophyte_ingot",
+    "kind": "material",
+    "fire_resistant": true,
+    "rarity": "NATURE_RARITY"
+  },
+  {
+    "id": "prismatic_shard",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "RARE"
+  },
+  {
+    "id": "cloth_of_the_flamebearer",
+    "kind": "material",
+    "fire_resistant": true,
+    "rarity": "EPIC"
+  },
+  {
+    "id": "solar_core",
+    "kind": "material",
+    "fire_resistant": true,
+    "rarity": "RARE"
+  },
+  {
+    "id": "arcane_sea_shell",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "HYDRO_RARITY"
+  },
+  {
+    "id": "overgrown_bone",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "COMMON"
+  },
+  {
+    "id": "nightmare_fuel",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "COMMON"
+  },
+  {
+    "id": "cosmic_gold_ingot",
+    "kind": "material",
+    "fire_resistant": true,
+    "rarity": "COSMIC_RARITY"
+  },
+  {
+    "id": "dreadstone",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "RARE"
+  },
+  {
+    "id": "chlorophyte_chunk",
+    "kind": "material",
+    "fire_resistant": false,
+    "rarity": "NATURE_RARITY"
+  },
+  {
+    "id": "melee_rune",
+    "kind": "material",
+    "rarity": "COMMON",
+    "fire_resistant": false
+  }
+]

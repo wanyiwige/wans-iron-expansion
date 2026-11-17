@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "alex_caves_spellsbook:block/hazen_wisewood_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "alex_caves_spellsbook:block/hazen_wisewood_wood"
+    },
+    "axis=z": {
+      "model": "alex_caves_spellsbook:block/hazen_wisewood_wood",
+      "x": 90
+    }
+  }
+}

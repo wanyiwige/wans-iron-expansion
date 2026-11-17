@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "alex_caves_spellsbook:item/mechanical_radiation_eye"
+  },
+  "display": {
+    "gui": {
+      "scale": [
+        1.55,
+        1.55,
+        1.55
+      ]
+    },
+    "fixed": {
+      "scale": [
+        1.55,
+        1.55,
+        1.55
+      ]
+    },
+    "ground": {
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    }
+  }
+}

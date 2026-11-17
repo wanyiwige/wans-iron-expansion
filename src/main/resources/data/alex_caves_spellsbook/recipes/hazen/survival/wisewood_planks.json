@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "alex_caves_spellsbook:hazen/survival/wisewood_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "alex_caves_spellsbook:hazen_wisewood_planks"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "@survival"
+    }
+  ]
+}

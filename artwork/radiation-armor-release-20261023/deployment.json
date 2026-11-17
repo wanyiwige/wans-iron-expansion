@@ -1,0 +1,11 @@
+{
+  "status": "DEPLOYED",
+  "version": "1.2.7-radiation-armor.1",
+  "deployed_jar": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\mods\\wans_iron_expansion-1.2.7-radiation-armor.1.jar",
+  "sha256": "3422138f95019acac6b0c74decf9e7828fb1a6511bd93352a89a31cdf7e9f6d8",
+  "old_jar_backup": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\deployment-backups\\critical-warden-20261023-112540\\wans_iron_expansion-1.2.6-radiation-equipment.1.jar",
+  "backup_sha256": "584a56ee751570928e60c17e343c0240c67a358716dce714af9593f8ceb57ddb",
+  "one_active_mod_id": true,
+  "game_restarted": false,
+  "game_runtime_tested": false
+}

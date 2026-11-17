@@ -1,0 +1,9 @@
+{
+  "amount": 0.05,
+  "attribute": "alex_caves_spellsbook:hazen_radiance_spell_power",
+  "containerItem": {
+    "Count": 1,
+    "id": "alex_caves_spellsbook:hazen_radiance_upgrade_orb"
+  },
+  "operation": "MULTIPLY_BASE"
+}

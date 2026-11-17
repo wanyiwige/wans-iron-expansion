@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:artificer_cane"
+    },
+    "N": {
+      "item": "alex_caves_spellsbook:hazen_stardust"
+    },
+    "P": {
+      "item": "alex_caves_spellsbook:hazen_cosmic_gold_ingot"
+    },
+    "R": {
+      "item": "alex_caves_spellsbook:hazen_cosmic_rune"
+    },
+    "Z": {
+      "item": "hazennstuff:zenalite_ingot"
+    }
+  },
+  "pattern": [
+    " PN",
+    "ZRP",
+    "AZ "
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_nexus"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "nexus"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_cosmic_gold_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_cosmic_rune"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_nexus"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_stardust"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:artificer_cane"
+    }
+  ]
+}

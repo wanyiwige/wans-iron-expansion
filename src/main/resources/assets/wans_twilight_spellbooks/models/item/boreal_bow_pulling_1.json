@@ -1,0 +1,6 @@
+{
+  "parent": "wans_twilight_spellbooks:item/boreal_bow",
+  "textures": {
+    "layer0": "wans_twilight_spellbooks:item/boreal_bow_pulling_1"
+  }
+}

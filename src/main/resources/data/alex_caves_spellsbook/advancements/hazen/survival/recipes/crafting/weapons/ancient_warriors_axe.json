@@ -1,0 +1,115 @@
+{
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "hazennstuff:zenalite_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald"
+            ]
+          }
+        ]
+      }
+    },
+    "has_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "alex_caves_spellsbook:hazen_silver_scraps"
+            ]
+          }
+        ]
+      }
+    },
+    "has_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "alex_caves_spellsbook:hazen_excalibur_fragment"
+            ]
+          }
+        ]
+      }
+    },
+    "has_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "irons_spellbooks:graybeard_staff"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "recipe": "alex_caves_spellsbook:hazen/crafting/weapons/ancient_warriors_axe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_0",
+      "has_1",
+      "has_2",
+      "has_3",
+      "has_4",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alex_caves_spellsbook:hazen/crafting/weapons/ancient_warriors_axe"
+    ]
+  }
+}

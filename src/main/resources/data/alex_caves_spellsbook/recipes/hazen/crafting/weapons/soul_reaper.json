@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "alex_caves_spellsbook:hazen_excalibur_fragment"
+    },
+    "R": {
+      "item": "alex_caves_spellsbook:hazen_shadow_rune"
+    },
+    "S": {
+      "item": "alex_caves_spellsbook:hazen_shadestone"
+    },
+    "W": {
+      "item": "irons_spellbooks:weapon_parts"
+    },
+    "Z": {
+      "item": "hazennstuff:zenalite_ingot"
+    }
+  },
+  "pattern": [
+    "SSZ",
+    " RZ",
+    "WRE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_soul_reaper"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "soul_reaper"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_excalibur_fragment"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_shadestone"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_shadow_rune"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_soul_reaper"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:weapon_parts"
+    }
+  ]
+}

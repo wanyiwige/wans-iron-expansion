@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "polished_lumine",
+  "key": {
+    "#": {
+      "item": "asterismarcanum:polished_lumine"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "asterismarcanum:polished_lumine_stairs"
+  }
+}

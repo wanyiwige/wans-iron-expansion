@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MMM",
+    "MRM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "irons_spellbooks:magic_cloth"
+    },
+    "R": {
+      "item": "alex_caves_spellsbook:candy_rune"
+    }
+  },
+  "result": {
+    "item": "alex_caves_spellsbook:candy_wizard_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "easy_arcane:block/deepslate_arcane_ore_bottom",
+    "up": "easy_arcane:block/deepslate_arcane_ore_top",
+    "north": "easy_arcane:block/deep_arcane_ore",
+    "east": "easy_arcane:block/deep_arcane_ore",
+    "south": "easy_arcane:block/deep_arcane_ore",
+    "west": "easy_arcane:block/deep_arcane_ore",
+    "particle": "easy_arcane:block/deepslate_arcane_ore_bottom"
+  },
+  "render_type": "solid"
+}

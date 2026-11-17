@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "alex_caves_spellsbook:hazen_chlorophyte_ingot"
+    },
+    "G": {
+      "item": "irons_spellbooks:graybeard_staff"
+    },
+    "L": {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    "R": {
+      "item": "irons_spellbooks:nature_rune"
+    }
+  },
+  "pattern": [
+    " L ",
+    "RGR",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_white_lily_staff"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "white_lily_staff"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_chlorophyte_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_white_lily_staff"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:graybeard_staff"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:nature_rune"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:lily_of_the_valley"
+    }
+  ]
+}

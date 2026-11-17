@@ -1,0 +1,34 @@
+{
+  "type": "alex_caves_spellsbook:hazen_smithing",
+  "addition": {
+    "item": "irons_spellbooks:arcane_essence"
+  },
+  "base": {
+    "item": "irons_spellbooks:wizard_leggings"
+  },
+  "result": {
+    "item": "alex_caves_spellsbook:hazen_nautilus_knight_leggings",
+    "count": 1
+  },
+  "template": {
+    "tag": "alex_caves_spellsbook:hazen/items/hydro_runes"
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_nautilus_knight_leggings"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:wizard_leggings"
+    },
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "nautilus_knight_leggings"
+    }
+  ]
+}

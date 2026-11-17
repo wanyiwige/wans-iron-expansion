@@ -1,0 +1,15 @@
+{
+  "new_item": "mechanical_radiation_eye",
+  "equipment_slot": "curios:spellbook",
+  "width": 72,
+  "height": 42,
+  "pixel_cell": [
+    2,
+    2
+  ],
+  "mixed_cells": 0,
+  "binary_alpha": true,
+  "old_approved_book_untouched_sha256": "add0efed20568633c8936931de922834251ee0a897bf0095979fb1e7dfe3b65d",
+  "game_implementation": false,
+  "model_created": false
+}

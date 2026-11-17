@@ -1,0 +1,12 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "[{\"name\":\"critical_warden_block_colors.png\",\"uuid\":\"169d8985-e6b6-6876-cec2-ecbd819004ac\",\"id\":\"0\",\"group\":\"\"}]"
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 1
+}

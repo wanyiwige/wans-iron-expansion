@@ -1,0 +1,19 @@
+{
+  "name": "ROACW Reference - arsenal_t1_armor",
+  "uuid": "61ecfbb0-b75c-a096-955b-4fac9812a708",
+  "cubes": 24,
+  "bones": 25,
+  "bounds": {
+    "min": [
+      -10.444469760921347,
+      -0.5,
+      -5.162177041842023
+    ],
+    "max": [
+      10.444469760921347,
+      35,
+      5.569446988557624
+    ]
+  },
+  "note": "Exact native geometry and base color texture; bare view uses temporary opaque clay, no runtime glow layer."
+}

@@ -1,0 +1,12 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Created project with name \"Critical Warden V2 - Pixel Paint\" (UUID: 67d91be3-ce19-7d1c-7e78-7577151f8158) and format \"geckolib_model\"."
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 1
+}

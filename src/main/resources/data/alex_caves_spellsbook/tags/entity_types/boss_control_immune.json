@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "foolish:astralis",
+    "foolish:pyre",
+    "foolish:timewelder",
+    "foolish:thrasher",
+    "foolish:sacilic_abomination",
+    "foolish:varmint_king",
+    "foolish:thunderbird",
+    "foolish:scarlant_queen",
+    "foolish:terrorflora",
+    "foolish:wendigrudge",
+    {
+      "id": "#forge:bosses",
+      "required": false
+    }
+  ]
+}

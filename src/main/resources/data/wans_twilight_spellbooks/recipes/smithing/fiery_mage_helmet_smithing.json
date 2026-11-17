@@ -1,0 +1,16 @@
+{
+  "type": "wans_twilight_spellbooks:smithing_transform",
+  "addition": {
+    "tag": "twilightforest:fiery_vial"
+  },
+  "base": {
+    "item": "irons_spellbooks:netherite_mage_helmet"
+  },
+  "result": {
+    "count": 1,
+    "item": "wans_twilight_spellbooks:fiery_mage_helmet"
+  },
+  "template": {
+    "item": "irons_spellbooks:fire_rune"
+  }
+}

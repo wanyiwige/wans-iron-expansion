@@ -1,0 +1,38 @@
+{
+  "type": "alex_caves_spellsbook:hazen_smithing",
+  "addition": {
+    "item": "irons_spellbooks:arcane_essence"
+  },
+  "base": {
+    "item": "irons_spellbooks:wizard_leggings"
+  },
+  "result": {
+    "item": "alex_caves_spellsbook:hazen_radiant_crystal_leggings",
+    "count": 1
+  },
+  "template": {
+    "item": "alex_caves_spellsbook:hazen_radiance_rune"
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_radiance_rune"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_radiant_crystal_leggings"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:wizard_leggings"
+    },
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "radiant_crystal_leggings"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "tag": "alex_caves_spellsbook:hazen/survival/mushrooms"
+          }
+        ]
+      }
+    },
+    "has_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "alex_caves_spellsbook:hazen_prismatic_shard"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "recipe": "alex_caves_spellsbook:hazen/crafting/materials/glowing_mushroom"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_0",
+      "has_1",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alex_caves_spellsbook:hazen/crafting/materials/glowing_mushroom"
+    ]
+  }
+}

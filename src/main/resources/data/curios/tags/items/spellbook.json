@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "wans_twilight_spellbooks:ironwood_spellbook",
+    "wans_twilight_spellbooks:knightmetal_spellbook",
+    "wans_twilight_spellbooks:carminite_spell_book",
+    "wans_twilight_spellbooks:fiery_spell_book",
+    "wans_twilight_spellbooks:snow_queen_spell_book",
+    "wans_twilight_spellbooks:exanimated_spell_book",
+    "alex_caves_spellsbook:land_of_the_lustrous",
+    "asterismarcanum:astrolabe",
+    "alex_caves_spellsbook:candy_starcatcher",
+    "alex_caves_spellsbook:mechanical_radiation_eye",
+    "alex_caves_spellsbook:radiation_grimoire"
+  ]
+}

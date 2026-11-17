@@ -1,0 +1,17 @@
+{
+  "type": "wans_twilight_spellbooks:smithing_transform",
+  "addition": {
+    "item": "wans_twilight_spellbooks:frost_essence"
+  },
+  "base": {
+    "item": "irons_spellbooks:tarnished_helmet"
+  },
+  "result": {
+    "count": 1,
+    "item": "wans_twilight_spellbooks:tarnished_queen_crown",
+    "nbt": "{\"irons_spellbooks:spell_container\":{\"data\":[],\"maxSpells\":1,\"mustEquip\":1b,\"spellWheel\":1b}}"
+  },
+  "template": {
+    "item": "wans_twilight_spellbooks:snow_silver_ingot"
+  }
+}

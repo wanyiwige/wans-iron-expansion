@@ -1,0 +1,19 @@
+allprojects { p ->
+    p.afterEvaluate {
+        def folder='artwork/candy-spellbook-20261018'
+        def compileCheck=p.tasks.register('compileCandyStarcatcherCheck',JavaCompile) {
+            dependsOn p.tasks.named('compileJava')
+            source p.file(folder+'/CandyStarcatcherAtlasCheck.java')
+            classpath=p.sourceSets.main.runtimeClasspath
+            destinationDirectory=p.layout.buildDirectory.dir('candy-starcatcher-check')
+            options.release=17
+        }
+        p.tasks.register('checkCandyStarcatcherAtlas',JavaExec) {
+            dependsOn compileCheck,p.tasks.named('build')
+            classpath=p.sourceSets.main.runtimeClasspath+p.files(p.layout.buildDirectory.dir('candy-starcatcher-check'))
+            mainClass='CandyStarcatcherAtlasCheck'
+            args p.file('../All the Iron\'s Spellbooks.jar').absolutePath,
+                p.file('build/libs/wans_iron_expansion-1.2.2.jar').absolutePath,'1'
+        }
+    }
+}

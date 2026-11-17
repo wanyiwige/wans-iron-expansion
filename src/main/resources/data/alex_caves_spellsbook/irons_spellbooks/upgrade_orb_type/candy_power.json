@@ -1,0 +1,6 @@
+{
+  "amount": 0.05,
+  "attribute": "alex_caves_spellsbook:candy_spell_power",
+  "containerItem": { "Count": 1, "id": "alex_caves_spellsbook:candy_upgrade_orb" },
+  "operation": "MULTIPLY_BASE"
+}

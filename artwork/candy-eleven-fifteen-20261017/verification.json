@@ -1,0 +1,457 @@
+{
+  "result": "PASS",
+  "models": 17,
+  "baseModels": 5,
+  "rainbowColors": 6,
+  "mintColors": 6,
+  "mintSeamSamples": 2072,
+  "geometryReused": true,
+  "blockbenchCubes": 9,
+  "nondegenerateFaces": 54,
+  "images": [
+    {
+      "name": "burst_0.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "burst_1.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "burst_2.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "burst_3.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "candy_atlas.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "caramel_drip.png",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "name": "caramel_pool_0.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "caramel_pool_1.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "caramel_pool_2.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "crumb.png",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "name": "frost_boundary.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "frost_crack.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "frost_snow.png",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "name": "frost_spear.png",
+      "size": [
+        16,
+        32
+      ]
+    },
+    {
+      "name": "leap_flash.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "licorice_wave_0.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "licorice_wave_1.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "licorice_wave_2.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "mint_slash.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "rainbow_blue.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "rainbow_green.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "rainbow_lemon.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "rainbow_motes.png",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "name": "rainbow_orange.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "rainbow_purple.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "rainbow_ribbon.png",
+      "size": [
+        32,
+        8
+      ]
+    },
+    {
+      "name": "rainbow_rose.png",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "seal_band_0.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "seal_band_1.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "seal_band_2.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "smoke.png",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "name": "soda_bubble.png",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "name": "soda_burst_0.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "soda_burst_1.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "soda_burst_2.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "soda_burst_3.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "soda_reaction_pool.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "soda_rocket.png",
+      "size": [
+        16,
+        32
+      ]
+    },
+    {
+      "name": "spark.png",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "name": "sugar_flower.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "sugar_glass_star.png",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "name": "trail.png",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "name": "turn.png",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "name": "wheel_track.png",
+      "size": [
+        16,
+        16
+      ]
+    }
+  ],
+  "jar": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\build\\libs\\wans_iron_expansion-1.2.1-candy-pixel-preview.7.jar",
+  "jarBytes": 13861144,
+  "sha256": "593e9ae2ee462d586a21d0f987c638db7c389097709deea215ea546fc495cf6c",
+  "installedBaseline": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\mods\\wans_iron_expansion-1.2.1-astral-merged-preview.4.jar",
+  "installedUnchanged": true,
+  "missingPreviousEntries": [],
+  "changedEntries": [
+    "META-INF/MANIFEST.MF",
+    "META-INF/mods.toml",
+    "cn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/CandySpellEntity.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyClientEvents$Ticks.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyClientEvents.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyEffectRenderer$1.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyEffectRenderer.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyVisuals$1.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyVisuals.class"
+  ],
+  "addedEntries": [
+    "assets/alex_caves_spellsbook/models/candy/",
+    "assets/alex_caves_spellsbook/models/candy/crystal_split_candy.json",
+    "assets/alex_caves_spellsbook/models/candy/peppermint_guard.json",
+    "assets/alex_caves_spellsbook/models/candy/peppermint_guard_blue.json",
+    "assets/alex_caves_spellsbook/models/candy/peppermint_guard_green.json",
+    "assets/alex_caves_spellsbook/models/candy/peppermint_guard_lemon.json",
+    "assets/alex_caves_spellsbook/models/candy/peppermint_guard_orange.json",
+    "assets/alex_caves_spellsbook/models/candy/peppermint_guard_purple.json",
+    "assets/alex_caves_spellsbook/models/candy/peppermint_guard_rose.json",
+    "assets/alex_caves_spellsbook/models/candy/popping_cluster_candy.json",
+    "assets/alex_caves_spellsbook/models/candy/rainbow_hard_candy.json",
+    "assets/alex_caves_spellsbook/models/candy/rainbow_hard_candy_blue.json",
+    "assets/alex_caves_spellsbook/models/candy/rainbow_hard_candy_green.json",
+    "assets/alex_caves_spellsbook/models/candy/rainbow_hard_candy_lemon.json",
+    "assets/alex_caves_spellsbook/models/candy/rainbow_hard_candy_orange.json",
+    "assets/alex_caves_spellsbook/models/candy/rainbow_hard_candy_purple.json",
+    "assets/alex_caves_spellsbook/models/candy/rainbow_hard_candy_rose.json",
+    "assets/alex_caves_spellsbook/models/candy/sugar_hunt_filled_candy.json",
+    "assets/alex_caves_spellsbook/textures/entity/candy/",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/burst_0.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/burst_0.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/burst_1.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/burst_1.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/burst_2.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/burst_2.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/burst_3.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/burst_3.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/candy_atlas.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/candy_atlas.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_drip.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_drip.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_0.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_0.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_1.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_1.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_2.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_2.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/crumb.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/crumb.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/frost_boundary.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/frost_boundary.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/frost_crack.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/frost_crack.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/frost_snow.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/frost_snow.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/frost_spear.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/frost_spear.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/leap_flash.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/leap_flash.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/licorice_wave_0.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/licorice_wave_0.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/licorice_wave_1.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/licorice_wave_1.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/licorice_wave_2.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/licorice_wave_2.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/mint_slash.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/mint_slash.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_blue.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_blue.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_green.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_green.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_lemon.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_lemon.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_motes.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_motes.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_orange.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_orange.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_purple.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_purple.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_ribbon.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_ribbon.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_rose.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/rainbow_rose.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/seal_band_0.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/seal_band_0.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/seal_band_1.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/seal_band_1.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/seal_band_2.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/seal_band_2.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/smoke.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/smoke.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/soda_bubble.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/soda_bubble.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/soda_burst_0.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/soda_burst_0.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/soda_burst_1.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/soda_burst_1.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/soda_burst_2.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/soda_burst_2.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/soda_burst_3.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/soda_burst_3.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/soda_reaction_pool.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/soda_reaction_pool.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/soda_rocket.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/soda_rocket.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/spark.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/spark.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/sugar_flower.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/sugar_flower.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/sugar_glass_star.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/sugar_glass_star.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/trail.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/trail.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/turn.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/turn.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/wheel_track.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/wheel_track.png.mcmeta",
+    "cn/wanyiwige/alexcavesspellsbook/candy/CandyRicochetMath.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyDessertPixelScenes.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyFieldPixelScenes.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyPixelScenes$History.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyPixelScenes$Hit.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyPixelScenes.class"
+  ],
+  "minecraftRuntimeTested": false,
+  "deployed": false
+}

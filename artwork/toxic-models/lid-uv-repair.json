@@ -1,0 +1,367 @@
+{
+  "geometry_changed": false,
+  "image_bytes_changed": false,
+  "fixed_faces": [
+    {
+      "element": "lid_recessed_center",
+      "face": "north",
+      "uv": [
+        0,
+        0,
+        16,
+        0.5
+      ]
+    },
+    {
+      "element": "lid_recessed_center",
+      "face": "east",
+      "uv": [
+        0,
+        0,
+        16,
+        0.5
+      ]
+    },
+    {
+      "element": "lid_recessed_center",
+      "face": "south",
+      "uv": [
+        0,
+        0,
+        16,
+        0.5
+      ]
+    },
+    {
+      "element": "lid_recessed_center",
+      "face": "west",
+      "uv": [
+        0,
+        0,
+        16,
+        0.5
+      ]
+    },
+    {
+      "element": "lid_left_raised_edge",
+      "face": "north",
+      "uv": [
+        0,
+        0,
+        1.33333,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_left_raised_edge",
+      "face": "east",
+      "uv": [
+        0,
+        0,
+        16,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_left_raised_edge",
+      "face": "south",
+      "uv": [
+        0,
+        0,
+        1.33333,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_left_raised_edge",
+      "face": "west",
+      "uv": [
+        0,
+        0,
+        16,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_right_raised_edge",
+      "face": "north",
+      "uv": [
+        14.66667,
+        0,
+        16,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_right_raised_edge",
+      "face": "east",
+      "uv": [
+        0,
+        0,
+        16,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_right_raised_edge",
+      "face": "south",
+      "uv": [
+        14.66667,
+        0,
+        16,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_right_raised_edge",
+      "face": "west",
+      "uv": [
+        0,
+        0,
+        16,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_left_pressed_step",
+      "face": "north",
+      "uv": [
+        1.33333,
+        0,
+        2,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_left_pressed_step",
+      "face": "east",
+      "uv": [
+        0.33333,
+        0,
+        15.66667,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_left_pressed_step",
+      "face": "south",
+      "uv": [
+        1.33333,
+        0,
+        2,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_left_pressed_step",
+      "face": "west",
+      "uv": [
+        0.33333,
+        0,
+        15.66667,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_right_pressed_step",
+      "face": "north",
+      "uv": [
+        14,
+        0,
+        14.66667,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_right_pressed_step",
+      "face": "east",
+      "uv": [
+        0.33333,
+        0,
+        15.66667,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_right_pressed_step",
+      "face": "south",
+      "uv": [
+        14,
+        0,
+        14.66667,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_right_pressed_step",
+      "face": "west",
+      "uv": [
+        0.33333,
+        0,
+        15.66667,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_front_raised_edge",
+      "face": "north",
+      "uv": [
+        1.33333,
+        0,
+        14.66667,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_front_raised_edge",
+      "face": "east",
+      "uv": [
+        0,
+        0,
+        1.33333,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_front_raised_edge",
+      "face": "south",
+      "uv": [
+        1.33333,
+        0,
+        14.66667,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_front_raised_edge",
+      "face": "west",
+      "uv": [
+        0,
+        0,
+        1.33333,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_back_raised_edge",
+      "face": "north",
+      "uv": [
+        1.33333,
+        0,
+        14.66667,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_back_raised_edge",
+      "face": "east",
+      "uv": [
+        14.66667,
+        0,
+        16,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_back_raised_edge",
+      "face": "south",
+      "uv": [
+        1.33333,
+        0,
+        14.66667,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_back_raised_edge",
+      "face": "west",
+      "uv": [
+        14.66667,
+        0,
+        16,
+        0.910569105691056
+      ]
+    },
+    {
+      "element": "lid_front_pressed_step",
+      "face": "north",
+      "uv": [
+        2,
+        0,
+        14,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_front_pressed_step",
+      "face": "east",
+      "uv": [
+        1.33333,
+        0,
+        2,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_front_pressed_step",
+      "face": "south",
+      "uv": [
+        2,
+        0,
+        14,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_front_pressed_step",
+      "face": "west",
+      "uv": [
+        1.33333,
+        0,
+        2,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_back_pressed_step",
+      "face": "north",
+      "uv": [
+        2,
+        0,
+        14,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_back_pressed_step",
+      "face": "east",
+      "uv": [
+        14,
+        0,
+        14.66667,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_back_pressed_step",
+      "face": "south",
+      "uv": [
+        2,
+        0,
+        14,
+        0.5203252032520307
+      ]
+    },
+    {
+      "element": "lid_back_pressed_step",
+      "face": "west",
+      "uv": [
+        14,
+        0,
+        14.66667,
+        0.5203252032520307
+      ]
+    }
+  ],
+  "note": "Post-export UV repair. Editor MCP timed out after the approved export; repaired BBModel remains reopenable. Final UV revision has not been visually rechecked in the live editor."
+}

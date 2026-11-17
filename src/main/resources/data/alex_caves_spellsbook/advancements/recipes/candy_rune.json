@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blank_rune": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["irons_spellbooks:blank_rune"] }] }
+    }
+  },
+  "rewards": { "recipes": ["alex_caves_spellsbook:candy_rune"] }
+}

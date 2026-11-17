@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "asterismarcanum:polished_umbral_lumine"
+  },
+  "result": "asterismarcanum:umbral_lumine_bricks_stairs",
+  "count": 1
+}

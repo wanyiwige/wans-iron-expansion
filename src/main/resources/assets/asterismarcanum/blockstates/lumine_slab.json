@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "asterismarcanum:block/lumine_slab"
+    },
+    "type=double": {
+      "model": "asterismarcanum:block/lumine"
+    },
+    "type=top": {
+      "model": "asterismarcanum:block/lumine_slab_top"
+    }
+  }
+}

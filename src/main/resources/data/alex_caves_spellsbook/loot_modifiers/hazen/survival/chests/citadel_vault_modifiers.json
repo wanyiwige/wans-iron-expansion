@@ -1,0 +1,15 @@
+{
+  "type": "alex_caves_spellsbook:hazen_append",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "irons_spellbooks:chests/citadel/citadel_vault"
+        }
+      ]
+    }
+  ],
+  "table": "alex_caves_spellsbook:hazen/survival/chests/additional_citadel_vault_loot"
+}

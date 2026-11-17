@@ -1,0 +1,17 @@
+{
+  "cubes": 200,
+  "native_grid": [
+    37,
+    37
+  ],
+  "one_cube_per_opaque_pixel": true,
+  "layer_count": 1,
+  "thickness_model_units": 0.43243243243243246,
+  "z_bounds": [
+    7.783783783783784,
+    8.216216216216216
+  ],
+  "all_six_faces_textured": true,
+  "model_parent": null,
+  "blockbench_project_method": "authored JSON, not a connected MCP session"
+}

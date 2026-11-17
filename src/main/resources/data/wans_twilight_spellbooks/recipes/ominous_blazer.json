@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "ADA",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "wans_twilight_spellbooks:deaths_essence"
+    },
+    "B": {
+      "item": "wans_twilight_spellbooks:exanimate_essence"
+    },
+    "C": {
+      "item": "minecraft:iron_bars"
+    },
+    "D": {
+      "item": "irons_spellbooks:conjurers_talisman"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "wans_twilight_spellbooks:ominous_blazer"
+  }
+}

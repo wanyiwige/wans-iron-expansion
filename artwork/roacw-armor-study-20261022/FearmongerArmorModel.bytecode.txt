@@ -1,0 +1,53 @@
+Compiled from "FearmongerArmorModel.java"
+public class net.kamaarion.roacw.items.armor.fearmongerarmorset.FearmongerArmorModel extends software.bernie.geckolib.model.GeoModel<net.kamaarion.roacw.items.armor.fearmongerarmorset.FearmongerArmorItem> {
+  public net.kamaarion.roacw.items.armor.fearmongerarmorset.FearmongerArmorModel();
+    Code:
+       0: aload_0
+       1: invokespecial #10                 // Method software/bernie/geckolib/model/GeoModel."<init>":()V
+       4: return
+
+  public net.minecraft.resources.ResourceLocation getModelResource(net.kamaarion.roacw.items.armor.fearmongerarmorset.FearmongerArmorItem);
+    Code:
+       0: ldc           #16                 // String roacw
+       2: ldc           #18                 // String geo/item/armor/fearmonger_armor.geo.json
+       4: invokestatic  #24                 // Method net/minecraft/resources/ResourceLocation.fromNamespaceAndPath:(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+       7: areturn
+
+  public net.minecraft.resources.ResourceLocation getTextureResource(net.kamaarion.roacw.items.armor.fearmongerarmorset.FearmongerArmorItem);
+    Code:
+       0: ldc           #16                 // String roacw
+       2: ldc           #29                 // String textures/item/armor/fearmonger_armor.png
+       4: invokestatic  #24                 // Method net/minecraft/resources/ResourceLocation.fromNamespaceAndPath:(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+       7: areturn
+
+  public net.minecraft.resources.ResourceLocation getAnimationResource(net.kamaarion.roacw.items.armor.fearmongerarmorset.FearmongerArmorItem);
+    Code:
+       0: ldc           #16                 // String roacw
+       2: ldc           #32                 // String animations/auric_tesla_armor.animation.json
+       4: invokestatic  #24                 // Method net/minecraft/resources/ResourceLocation.fromNamespaceAndPath:(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+       7: areturn
+
+  public net.minecraft.resources.ResourceLocation getAnimationResource(software.bernie.geckolib.core.animatable.GeoAnimatable);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #36                 // class net/kamaarion/roacw/items/armor/fearmongerarmorset/FearmongerArmorItem
+       5: invokevirtual #38                 // Method getAnimationResource:(Lnet/kamaarion/roacw/items/armor/fearmongerarmorset/FearmongerArmorItem;)Lnet/minecraft/resources/ResourceLocation;
+       8: areturn
+
+  public net.minecraft.resources.ResourceLocation getTextureResource(software.bernie.geckolib.core.animatable.GeoAnimatable);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #36                 // class net/kamaarion/roacw/items/armor/fearmongerarmorset/FearmongerArmorItem
+       5: invokevirtual #40                 // Method getTextureResource:(Lnet/kamaarion/roacw/items/armor/fearmongerarmorset/FearmongerArmorItem;)Lnet/minecraft/resources/ResourceLocation;
+       8: areturn
+
+  public net.minecraft.resources.ResourceLocation getModelResource(software.bernie.geckolib.core.animatable.GeoAnimatable);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #36                 // class net/kamaarion/roacw/items/armor/fearmongerarmorset/FearmongerArmorItem
+       5: invokevirtual #42                 // Method getModelResource:(Lnet/kamaarion/roacw/items/armor/fearmongerarmorset/FearmongerArmorItem;)Lnet/minecraft/resources/ResourceLocation;
+       8: areturn
+}

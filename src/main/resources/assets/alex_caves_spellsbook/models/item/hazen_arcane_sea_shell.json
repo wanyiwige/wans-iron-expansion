@@ -1,0 +1,19 @@
+{
+  "loader": "forge:item_layers",
+  "render_type": "cutout",
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/arcane_sea_shell",
+    "layer1": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/arcane_sea_shell_glowmask"
+  },
+  "forge_data": {
+    "layers": {
+      "1": {
+        "color": "FFFFFFFF",
+        "block_light": 15,
+        "sky_light": 15,
+        "ambient_occlusion": false
+      }
+    }
+  }
+}

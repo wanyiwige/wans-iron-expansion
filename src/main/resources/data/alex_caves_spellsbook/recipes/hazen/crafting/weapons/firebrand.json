@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "alex_caves_spellsbook:hazen_solar_core"
+    }
+  },
+  "pattern": [
+    "SGS",
+    "SB ",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_firebrand"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "firebrand"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_firebrand"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_solar_core"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:gold_ingot"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "IPI",
+    "BCB",
+    "IPI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "C": {
+      "item": "alexscaves:fissile_core"
+    }
+  },
+  "result": {
+    "item": "alex_caves_spellsbook:radiation_grimoire",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"name\": \"Painted pixel armor atlas v1 mapped to all faces\",\n  \"label\": \"[checkpoint] Painted pixel armor atlas v1 mapped to all faces\",\n  \"index\": 166,\n  \"total\": 166\n}"
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 1
+}

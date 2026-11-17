@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ICI",
+    "M M"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "alexscaves:fissile_core"
+    },
+    "M": {
+      "item": "irons_spellbooks:magic_cloth"
+    }
+  },
+  "result": {
+    "item": "alex_caves_spellsbook:critical_warden_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:mithril_scrap"
+    },
+    "B": {
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    "C": {
+      "item": "irons_spellbooks:affinity_ring"
+    }
+  },
+  "pattern": [
+    "CB ",
+    "BA ",
+    "  B"
+  ],
+  "result": {
+    "count": 1,
+    "item": "asterismarcanum:celestial_staff"
+  }
+}

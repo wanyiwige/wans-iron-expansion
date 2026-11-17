@@ -1,0 +1,79 @@
+{
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "hazennstuff:excalibur"
+            ]
+          }
+        ]
+      }
+    },
+    "has_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "irons_spellbooks:divine_pearl"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "alex_caves_spellsbook:hazen_survival_enabled"
+          }
+        ],
+        "recipe": "alex_caves_spellsbook:hazen/smithing/weapons/terraria_to_iss"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_0",
+      "has_1",
+      "has_2",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alex_caves_spellsbook:hazen/smithing/weapons/terraria_to_iss"
+    ]
+  }
+}

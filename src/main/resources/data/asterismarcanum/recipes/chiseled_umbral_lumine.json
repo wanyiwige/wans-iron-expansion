@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "asterismarcanum:umbral_lumine_bricks_slab"
+    }
+  },
+  "pattern": [
+    "   ",
+    "B  ",
+    "B  "
+  ],
+  "result": {
+    "count": 1,
+    "item": "asterismarcanum:chiseled_umbral_lumine"
+  }
+}

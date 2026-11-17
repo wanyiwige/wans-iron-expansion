@@ -1,0 +1,10 @@
+{
+  "type": "alex_caves_spellsbook:hazen_append",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/shipwreck_treasure"
+    }
+  ],
+  "table": "alex_caves_spellsbook:hazen/survival/chests/additional_shipwreck_treasure_loot"
+}

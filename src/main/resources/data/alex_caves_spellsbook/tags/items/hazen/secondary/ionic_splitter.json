@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alex_caves_spellsbook:hazen_ionic_splitter_t1",
+      "required": false
+    },
+    {
+      "id": "alex_caves_spellsbook:hazen_ionic_splitter_t2",
+      "required": false
+    },
+    {
+      "id": "alex_caves_spellsbook:hazen_ionic_splitter_t3",
+      "required": false
+    }
+  ]
+}

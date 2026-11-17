@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "alex_caves_spellsbook:hazen/survival/glass_blocks"
+    },
+    {
+      "item": "minecraft:glow_ink_sac"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "alex_caves_spellsbook:hazen_prismatic_shard"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "prismatic_shard"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_prismatic_shard"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:glow_ink_sac"
+    }
+  ]
+}

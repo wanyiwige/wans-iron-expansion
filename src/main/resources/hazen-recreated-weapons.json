@@ -1,0 +1,1724 @@
+[
+  {
+    "id": "firebrand",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\MCDungeons\\Firebrand\\FirebrandItem.java",
+    "source_sha256": "cd30c41bfd2a443c1307545f5d6909fc5f5914893aab64d90f40daedf86243e4",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 9.0,
+    "speed": -3.0,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.FIRE_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "Attributes.ENTITY_INTERACTION_RANGE",
+        "amount": 2.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/firebrand.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/firebrand.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "FIRE_RARITY",
+    "descriptions": [],
+    "presets": [
+      {
+        "source_field": "SpellRegistry.FLAMING_STRIKE_SPELL",
+        "level": 10
+      }
+    ],
+    "affinity": [
+      {
+        "source_field": "SpellRegistry.FLAMING_STRIKE_SPELL",
+        "bonus": 1
+      }
+    ],
+    "original_item_model_sha256": "867533666fdd3e98e4bd0d2806c54446834106b316ed7198c7ea74dec4a222cb"
+  },
+  {
+    "id": "war_flaming_lance",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\HonkaiStarRail\\WarFlamingLance\\WarFlamingLanceItem.java",
+    "source_sha256": "3273e903ff5936dc0e3e3ca73bdf0c3b819e33ae742e848a6fb1b8eb095bf4ce",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 10.0,
+    "speed": -2.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.FIRE_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "Attributes.ENTITY_INTERACTION_RANGE",
+        "amount": 3.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/war_flaming_lance.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/war_flaming_lance.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "FIRE_RARITY",
+    "descriptions": [
+      "item.hazennstuff.honkai_star_rail.description"
+    ],
+    "presets": [
+      {
+        "source_field": "SpellRegistry.BURNING_DASH_SPELL",
+        "level": 5
+      }
+    ],
+    "affinity": [
+      {
+        "source_field": "SpellRegistry.BURNING_DASH_SPELL",
+        "bonus": 1
+      }
+    ],
+    "original_item_model_sha256": "67931f837b1add4a55a2a8e965983f519d2001a4ad1e7a6befb0041970bd9a2a"
+  },
+  {
+    "id": "volcano",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\Terraria\\Volcano\\VolcanoItem.java",
+    "source_sha256": "367c5752589cec95e2b22ef4a05c012f121eacf17499f4be57bba00dd3ca9b03",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 9.0,
+    "speed": -2.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.FIRE_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/volcano.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/volcano.png",
+    "animation": "",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "FIRE_RARITY",
+    "descriptions": [
+      "item.hazennstuff.terraria.description"
+    ],
+    "presets": [
+      {
+        "source_field": "SpellRegistry.FLAMING_STRIKE_SPELL",
+        "level": 4
+      }
+    ],
+    "affinity": [],
+    "original_item_model_sha256": "71239098a167a3f60d860b9694bb203fedce8e05c9a33222c1a725974c9bf3c6"
+  },
+  {
+    "id": "frostburn_dagger",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Generic\\FrostburnDagger\\FrostburnDaggerItem.java",
+    "source_sha256": "c4779856bb6a1a85364d80f368e6408ed15e2bbbcd25dd9a89af841b837ebfe1",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 7.0,
+    "speed": -1.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.ICE_SPELL_POWER",
+        "amount": 0.2,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/frostburn_dagger.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/frostburn_dagger.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "ICE_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "32f326230bc06670572cb2a465601e4c59b2c0203e0a9697fff2af61c9e46937"
+  },
+  {
+    "id": "beongae",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Generic\\Beongae\\BeongaeItem.java",
+    "source_sha256": "372d808b07ffa1c54928fafc5999cb86ddf117097a4b31011fe1c7fe2ce3158f",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 9.0,
+    "speed": -3.0,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.LIGHTNING_SPELL_POWER",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "IronsLibRegistries.AttributeRegistry.CRIT_DAMAGE",
+        "amount": 0.05,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/beongae.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/beongae.png",
+    "animation": "alex_caves_spellsbook:animations/hazen/item/weapons/beongae.animation.json",
+    "glowing": true,
+    "animated": true,
+    "animation_name": "idle",
+    "animation_names": [
+      "idle"
+    ],
+    "fire_resistant": true,
+    "rarity": "LIGHTNING_RARITY",
+    "descriptions": [],
+    "presets": [
+      {
+        "source_field": "SpellRegistry.SHOCKWAVE_SPELL",
+        "level": 5
+      }
+    ],
+    "affinity": [],
+    "original_item_model_sha256": "15ecd9f872bc8328c5d4a3d9154a55723e4efcec02fae9a5e24534b04d2305f5"
+  },
+  {
+    "id": "ionic_splitter_dormant",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Ascended\\IonicSplitter\\Dormant\\IonicSplitterItem.java",
+    "source_sha256": "ed803575d577b29ef2d9147433ead638321769660d50d6a12e201b04530b151f",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 6.0,
+    "speed": -2.0,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.LIGHTNING_SPELL_POWER",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/ionic_splitter.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/ionic_splitter_dormant.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "LIGHTNING_RARITY",
+    "descriptions": [
+      "item.hazennstuff.ionic_splitter_dormant.description"
+    ],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "72ebeb1ba7bd22c2fce14ad703b7f3aef4203cab487eaeb0736cda1f4ef4a918"
+  },
+  {
+    "id": "ionic_splitter_t1",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Ascended\\IonicSplitter\\T1\\IonicSplitterT1Item.java",
+    "source_sha256": "e3b227f984bf097d3dc31b6b3f7a3ed02958fe2a15bd51339c4fbb9bea633e47",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 7.0,
+    "speed": -2.0,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.LIGHTNING_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/ionic_splitter.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/ionic_splitter_t1.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "LIGHTNING_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "72ebeb1ba7bd22c2fce14ad703b7f3aef4203cab487eaeb0736cda1f4ef4a918"
+  },
+  {
+    "id": "ionic_splitter_t2",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Ascended\\IonicSplitter\\T2\\IonicSplitterT2Item.java",
+    "source_sha256": "8cb984bae50313df6e136abac8f6243fcf6619218b4e65fe9959d713bca2b302",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 8.0,
+    "speed": -1.9,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.LIGHTNING_SPELL_POWER",
+        "amount": 0.2,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/ionic_splitter.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/ionic_splitter_t2.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "LIGHTNING_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "72ebeb1ba7bd22c2fce14ad703b7f3aef4203cab487eaeb0736cda1f4ef4a918"
+  },
+  {
+    "id": "ionic_splitter_t3",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Ascended\\IonicSplitter\\T3\\IonicSplitterT3Item.java",
+    "source_sha256": "fa7a1b220fd258d75f2ff3182e4e31d4cfcdcb650b9bb10d976ec5d73dca0eae",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 9.0,
+    "speed": -1.8,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.LIGHTNING_SPELL_POWER",
+        "amount": 0.25,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/ionic_splitter.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/ionic_splitter_t3.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "LIGHTNING_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "72ebeb1ba7bd22c2fce14ad703b7f3aef4203cab487eaeb0736cda1f4ef4a918"
+  },
+  {
+    "id": "bountiful_harvest",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Generic\\BountifulHarvest\\BountifulHarvestItem.java",
+    "source_sha256": "1f62112c93622d485edf4c56c8d3a4aba00b039008b0bb75c8983f46c492413b",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 13.0,
+    "speed": -2.6,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.NATURE_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/bountiful_harvest.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/bountiful_harvest.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "NATURE_RARITY",
+    "descriptions": [],
+    "presets": [
+      {
+        "source_field": "SpellRegistry.POISON_SPLASH_SPELL",
+        "level": 8
+      }
+    ],
+    "affinity": [],
+    "original_item_model_sha256": "99304409755a7b408c9a0e1f18e8432da8a982934869f31f21638e6f80eca64b"
+  },
+  {
+    "id": "thorn_chakram",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\Terraria\\ThornChakram\\ThornChakramItem.java",
+    "source_sha256": "a312329a3977376c0d4504b56c10c4fc1423e4e066aa3dd55cac94ff440aee57",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 8.0,
+    "speed": -1.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.NATURE_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/thorn_chakram.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/thorn_chakram.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "NATURE_RARITY",
+    "descriptions": [
+      "item.hazennstuff.terraria.description"
+    ],
+    "presets": [
+      {
+        "source_field": "HnSSpellRegistries.THORN_CHAKRAM",
+        "level": 5
+      }
+    ],
+    "affinity": [
+      {
+        "source_field": "HnSSpellRegistries.THORN_CHAKRAM",
+        "bonus": 1
+      }
+    ],
+    "original_item_model_sha256": "49f9946969ce03bb30877c2883296a55c0218b87fb04cc1c1628d7ef4c8d08f4"
+  },
+  {
+    "id": "blade_of_grass",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\Terraria\\BladeOfGrass\\BladeOfGrassItem.java",
+    "source_sha256": "1c60591187d12a111d7fdf314bf1da6b4505adeae4a34c0e097ade458b1824ff",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 8.0,
+    "speed": -2.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.NATURE_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/blade_of_grass.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/blade_of_grass.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "NATURE_RARITY",
+    "descriptions": [
+      "item.hazennstuff.terraria.description"
+    ],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "79b42a202a9744600a4109d38b0602ce0bc64b63195430bfa4f085311a486a7f"
+  },
+  {
+    "id": "o_fortuna_dormant",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Ascended\\OFortuna\\Dormant\\OFortuna.java",
+    "source_sha256": "1f42e1ed7d5ff1892be81a7f8cc258c0f4dfd7a8613aa87a6f8c47b6695ef6ae",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 6.0,
+    "speed": -2.0,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.NATURE_SPELL_POWER",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/o_fortuna.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/o_fortuna.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "NATURE_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "df79c3dbc1ee37415b41de1ed9d292a61ad03745b028cea8de7996a70cfd3d80"
+  },
+  {
+    "id": "vampire_knives",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\Terraria\\VampireKnives\\VampireKnivesItem.java",
+    "source_sha256": "7188671bafc3ac92506ff134b20e7da1063dda5d187b2f962cab19af4daff100",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 8.0,
+    "speed": -1.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.BLOOD_SPELL_POWER",
+        "amount": 0.2,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/vampire_knives.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/vampire_knives.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "BLOOD_RARITY",
+    "descriptions": [
+      "item.hazennstuff.vampire_knives.description"
+    ],
+    "presets": [
+      {
+        "source_field": "SpellRegistry.BLOOD_NEEDLES_SPELL",
+        "level": 5
+      }
+    ],
+    "affinity": [
+      {
+        "source_field": "SpellRegistry.BLOOD_NEEDLES_SPELL",
+        "bonus": 1
+      }
+    ],
+    "original_item_model_sha256": "37b7e3f76a07da8c6ad22d349f453f6503af7466a9987c57d4fdd07afc8f23e4"
+  },
+  {
+    "id": "devastator_dormant",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Ascended\\Devastator\\Dormant\\Devastator.java",
+    "source_sha256": "da5b1b5b0b373ef8c28a26479ce3274402843296f9e1382e5d59a73bec062571",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 6.0,
+    "speed": -2.0,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.BLOOD_SPELL_POWER",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/devastator.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/devastator.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "BLOOD_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "2777e64cb27d0d8b8c666cd30afeb994941bcc492bf8d3000a967d88c0abd2ce"
+  },
+  {
+    "id": "obsidian_claymore",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\MCDungeons\\ObsidianClaymore\\ObsidianClaymoreItem.java",
+    "source_sha256": "7db9bb500d23df52c073a967ddce659b2e25be0060dfe4f1684110f0245dbbed",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 9.0,
+    "speed": -2.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "ASAttributeRegistry.MANA_REND",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "source_attribute": "AttributeRegistry.ENDER_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/obsidian_claymore.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/obsidian_claymore.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "SHADOW_RARITY",
+    "descriptions": [],
+    "presets": [
+      {
+        "source_field": "SpellRegistry.ECHOING_STRIKES_SPELL",
+        "level": 3
+      }
+    ],
+    "affinity": [],
+    "original_item_model_sha256": "b0aacce902d2086ecf8fa0a2cc5a7f58e7acf9dfde378baaedc546625e09b29b"
+  },
+  {
+    "id": "starfury",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\Terraria\\Starfury\\StarfuryItem.java",
+    "source_sha256": "714898de40823825eaa1848c0f4893f4b6cb41c97b113ce3e9dff6e80f029feb",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 9.0,
+    "speed": -2.4,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "HLAttributeRegistry.COSMIC_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/starfury.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/starfury.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "COSMIC_RARITY",
+    "descriptions": [
+      "item.hazennstuff.terraria.description"
+    ],
+    "presets": [
+      {
+        "source_field": "HnSSpellRegistries.SHOOTING_STAR",
+        "level": 3
+      }
+    ],
+    "affinity": [
+      {
+        "source_field": "HnSSpellRegistries.SHOOTING_STAR",
+        "bonus": 1
+      }
+    ],
+    "original_item_model_sha256": "feac980f7b576d462df3c660bdd23a4f6a270a753399109c7cd46cdf6d089eec"
+  },
+  {
+    "id": "umbranova_dormant",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Ascended\\Umbranova\\Dormant\\Umbranova.java",
+    "source_sha256": "b7bafa87ba46e34d5ff2c8ff7c7fbc9756fce0f030a13758f5e126fc666a1554",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 6.0,
+    "speed": -2.0,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.ENDER_SPELL_POWER",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/umbranova.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/umbranova.png",
+    "animation": "alex_caves_spellsbook:animations/hazen/item/weapons/umbranova.animation.json",
+    "glowing": true,
+    "animated": true,
+    "animation_name": "idle",
+    "animation_names": [
+      "idle"
+    ],
+    "fire_resistant": true,
+    "rarity": "ENDER_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "1e26e5eb35a3a14d4d8e7186f87382f91e93cc5c98073863119b9653bd6b4b36"
+  },
+  {
+    "id": "spectrum",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Generic\\Spectrum\\SpectrumItem.java",
+    "source_sha256": "cdd586c4533390696f0769bd14b2a09f9967e91be7e9cd5ba71f205640c519db",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 11.0,
+    "speed": -2.6,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "HLAttributeRegistry.RADIANCE_SPELL_POWER",
+        "amount": 0.2,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/spectrum.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/spectrum.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "RADIANCE_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "c52c9327ed375d190c2587c11b6d8a2af528f9db1dc22226743163376d2131bb"
+  },
+  {
+    "id": "meowmere",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\Terraria\\Meowmere\\MeowmereItem.java",
+    "source_sha256": "b7df6c1709c9654e639834ab734120b9a17d20dc27ac31b325ffdb187497dc69",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 11.0,
+    "speed": -2.6,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "HLAttributeRegistry.RADIANCE_SPELL_POWER",
+        "amount": 0.2,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/meowmere.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/meowmere.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "RADIANCE_RARITY",
+    "descriptions": [
+      "item.hazennstuff.terraria.description"
+    ],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "564d7ffb258a433ccce8493e6e5908f12dbfa3afeb873cc47d5a52a5c96d67a5"
+  },
+  {
+    "id": "hammush",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\Terraria\\Hammush\\HammushItem.java",
+    "source_sha256": "bf8d9e50f80c685a08f01947776f3a78397a6297ed192d1c5911de8581be5c92",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 12.0,
+    "speed": -2.6,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "HLAttributeRegistry.RADIANCE_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "source_attribute": "AttributeRegistry.NATURE_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/hammush.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/hammush.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "RADIANCE_RARITY",
+    "descriptions": [
+      "item.hazennstuff.terraria.description"
+    ],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "391b778445a2abd23bcfb87440df84e4bae23dbda12079faf433c220b0b40e6e"
+  },
+  {
+    "id": "terraprisma",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\Terraria\\Terraprisma\\TerraprismaItem.java",
+    "source_sha256": "ff3502ef870947fdaba35176a5f49d8a920fb2daf5b48d78307f87b5dab96a57",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 10.0,
+    "speed": -2.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "HLAttributeRegistry.RADIANCE_SPELL_POWER",
+        "amount": 0.2,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/terraprisma.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/terraprisma.png",
+    "animation": "",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "RADIANCE_RARITY",
+    "descriptions": [
+      "item.hazennstuff.terraria.description"
+    ],
+    "presets": [
+      {
+        "source_field": "HnSSpellRegistries.TERRAPRISMIC_BARRAGE",
+        "level": 5
+      },
+      {
+        "source_field": "HnSSpellRegistries.CALL_FORTH_TERRAPRISMA",
+        "level": 5
+      }
+    ],
+    "affinity": [
+      {
+        "source_field": "HnSSpellRegistries.TERRAPRISMIC_BARRAGE",
+        "bonus": 1
+      },
+      {
+        "source_field": "HnSSpellRegistries.CALL_FORTH_TERRAPRISMA",
+        "bonus": 1
+      }
+    ],
+    "original_item_model_sha256": "f53a2b092a743bd434e2ce91c9be70add87ec6ad1c073104211a04500ccb4778"
+  },
+  {
+    "id": "soul_reaper",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Generic\\SoulReaper\\SoulReaper.java",
+    "source_sha256": "2f47e512681d72e8271cd10be85b7adb7f94daaf97d43fff097a2b039d7e2e9c",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 8.0,
+    "speed": -1.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "HLAttributeRegistry.SHADOW_SPELL_POWER",
+        "amount": 0.2,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "source_attribute": "ASAttributeRegistry.SPELL_RES_PENETRATION",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/soul_reaper.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/soul_reaper.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "SHADOW_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "f4b6f9e2b6035044ed80a63447eb9142624a94764e7eb6e29e182a469d256a47"
+  },
+  {
+    "id": "lights_bane",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\Terraria\\LightsBane\\LightsBaneItem.java",
+    "source_sha256": "0b8d9c380ed9410847dd5facb5b09e817f56bb4fad103a54d8ca7da8b3fae916",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 8.0,
+    "speed": -1.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "HLAttributeRegistry.SHADOW_SPELL_POWER",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/lights_bane.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/lights_bane.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "SHADOW_RARITY",
+    "descriptions": [
+      "item.hazennstuff.terraria.description"
+    ],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "a0604fb54024baf6ffb54405277356888906cecfce4482e0fbf1c149ddfd34fd"
+  },
+  {
+    "id": "nights_edge",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\Terraria\\NightsEdge\\NightsEdgeItem.java",
+    "source_sha256": "b4c25fd7788b8662a884757a0c3f792d65476cbeab5450a0f8023dbd894b1572",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 10.0,
+    "speed": -2.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/nights_edge.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/nights_edge.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "SHADOW_RARITY",
+    "descriptions": [
+      "item.hazennstuff.nights_edge.description"
+    ],
+    "presets": [
+      {
+        "source_field": "HnSSpellRegistries.NIGHTS_EDGE_STRIKE",
+        "level": 6
+      }
+    ],
+    "affinity": [
+      {
+        "source_field": "HnSSpellRegistries.NIGHTS_EDGE_STRIKE",
+        "bonus": 1
+      }
+    ],
+    "original_item_model_sha256": "0402699ccbe858268074877450a56afded935be14e2624b37d516249664fcb93"
+  },
+  {
+    "id": "true_nights_edge",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\Terraria\\TrueNightsEdge\\TrueNightsEdgeItem.java",
+    "source_sha256": "f04f39cc0ad132bf3357ad38b72974aa7303ea270851eb6bda26882304d06012",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 12.0,
+    "speed": -2.8,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.SPELL_POWER",
+        "amount": 0.2,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/true_nights_edge.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/true_nights_edge.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "SHADOW_RARITY",
+    "descriptions": [
+      "item.hazennstuff.true_nights_edge.description"
+    ],
+    "presets": [
+      {
+        "source_field": "HnSSpellRegistries.NIGHTS_EDGE_STRIKE",
+        "level": 8
+      }
+    ],
+    "affinity": [
+      {
+        "source_field": "HnSSpellRegistries.NIGHTS_EDGE_STRIKE",
+        "bonus": 1
+      }
+    ],
+    "original_item_model_sha256": "f87f34612468b84e4ed2b0f93fa34532f08f4fd6b1d818f2c699ab659eca400b"
+  },
+  {
+    "id": "hammer_of_justice",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Generic\\HammerOfJustice\\HammerOfJusticeItem.java",
+    "source_sha256": "8c3ea028e10bb5bfd21dd7a5c18a162b2407295075338997a25c64239efa8ebc",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 9.0,
+    "speed": -3.1,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "ASAttributeRegistry.SPELL_RES_PENETRATION",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "source_attribute": "AttributeRegistry.HOLY_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/hammer_of_justice.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/hammer_of_justice.png",
+    "animation": "alex_caves_spellsbook:animations/hazen/item/weapons/hammer_of_justice.animation.json",
+    "glowing": true,
+    "animated": true,
+    "animation_name": "idle",
+    "animation_names": [
+      "idle",
+      "overhead_two_handed_swing"
+    ],
+    "fire_resistant": true,
+    "rarity": "HOLY_RARITY",
+    "descriptions": [
+      "item.hazennstuff.cat.description"
+    ],
+    "presets": [
+      {
+        "source_field": "SpellRegistry.DIVINE_SMITE_SPELL",
+        "level": 10
+      }
+    ],
+    "affinity": [
+      {
+        "source_field": "SpellRegistry.DIVINE_SMITE_SPELL",
+        "bonus": 1
+      }
+    ],
+    "original_item_model_sha256": "0ee9f9532fe8871607301bbf1450e47772b161a032b30bf32c1cb47c06cf594f"
+  },
+  {
+    "id": "divine_greatsword",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Generic\\DivineGreatsword\\DivineGreatswordItem.java",
+    "source_sha256": "53cf4186154c0268da78cb3471fd733e28debcb413f9d6504a27d01463064639",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 9.0,
+    "speed": -2.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.HOLY_SPELL_POWER",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/divine_greatsword.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/divine_greatsword.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "HOLY_RARITY",
+    "descriptions": [],
+    "presets": [
+      {
+        "source_field": "SpellRegistry.DIVINE_SMITE_SPELL",
+        "level": 8
+      }
+    ],
+    "affinity": [],
+    "original_item_model_sha256": "2d248109884aeae14e77700a8740bc7eee3afad8e1603e9658cb827240065de8"
+  },
+  {
+    "id": "hazens_excalibur",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Generic\\Excalibur\\HazensExcaliburItem.java",
+    "source_sha256": "70a4d75cc1b3ecc30574209335493e5a090f0f2408971648051c65003baf8d75",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 9.0,
+    "speed": -2.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "ASAttributeRegistry.SPELL_RES_PENETRATION",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "source_attribute": "AttributeRegistry.HOLY_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/excalibur_hazen_style.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/excalibur_hazen_style.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "HOLY_RARITY",
+    "descriptions": [],
+    "presets": [
+      {
+        "source_field": "SpellRegistry.DIVINE_SMITE_SPELL",
+        "level": 8
+      }
+    ],
+    "affinity": [],
+    "original_item_model_sha256": "7bb2b8b2dac19bd0a6a1439e7b01fa4c71bde3c5c37581f031219515c4ab69d3"
+  },
+  {
+    "id": "excalibur_divine_gold",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\Terraria\\ISSxTerraria\\ISSExcaliburItem.java",
+    "source_sha256": "f42c55b185ca5c30d2dd238d57d0f7f3092deafdc5e56d337fd6d9e281389274",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 9.0,
+    "speed": -2.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "ASAttributeRegistry.SPELL_RES_PENETRATION",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "source_attribute": "AttributeRegistry.HOLY_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/excalibur.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/excalibur_divine_gold.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "HOLY_RARITY",
+    "descriptions": [
+      "item.hazennstuff.terraria.description"
+    ],
+    "presets": [
+      {
+        "source_field": "SpellRegistry.DIVINE_SMITE_SPELL",
+        "level": 8
+      }
+    ],
+    "affinity": [],
+    "original_item_model_sha256": "8c881cb50837edbd42cbc5b9c791866fae4c032b63e52857aa41ddc3b6ecb35f"
+  },
+  {
+    "id": "ancient_warriors_axe",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Generic\\AncientWarriorsAxe\\AncientWarriorsAxeItem.java",
+    "source_sha256": "e127cf770ee47a0bcc9dcb107eb9c5796cfc89cfd8fc8e7247cced4f27114d53",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 9.0,
+    "speed": -3.0,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.EVOCATION_SPELL_POWER",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "IronsLibRegistries.AttributeRegistry.CRIT_DAMAGE",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/ancient_warriors_axe.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/ancient_warriors_axe.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "EVOCATION_RARITY",
+    "descriptions": [],
+    "presets": [
+      {
+        "source_field": "HnSSpellRegistries.SPECTRAL_AXE",
+        "level": 8
+      }
+    ],
+    "affinity": [
+      {
+        "source_field": "HnSSpellRegistries.SPECTRAL_AXE",
+        "bonus": 1
+      }
+    ],
+    "original_item_model_sha256": "90eb1c4af34ce36e26b6d998bc0a4a546584a24ca91c8f97d9570f71814769f4"
+  },
+  {
+    "id": "malice",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Generic\\Malice\\MaliceItem.java",
+    "source_sha256": "06281f1b902e5df85bfa05f5e18e8f88f46fd925fb477a450825687ec9f0a5ff",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 8.0,
+    "speed": -2.4,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.EVOCATION_SPELL_POWER",
+        "amount": 0.2,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/malice.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/malice.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "EVOCATION_RARITY",
+    "descriptions": [],
+    "presets": [
+      {
+        "source_field": "SpellRegistry.SUMMON_VEX_SPELL",
+        "level": 5
+      }
+    ],
+    "affinity": [
+      {
+        "source_field": "SpellRegistry.SUMMON_VEX_SPELL",
+        "bonus": 1
+      }
+    ],
+    "original_item_model_sha256": "29e7d2728e4d287d240611e79c575c2c4252a8ddb37e401b722bd18fbc99a2a9"
+  },
+  {
+    "id": "provocation_dormant",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Ascended\\Provocation\\Dormant\\Provocation.java",
+    "source_sha256": "ee295a45a8e881a01c1ca23b44ce46accf32e63a53a58bd3e1c9c816c58c9018",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 6.0,
+    "speed": -2.0,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.EVOCATION_SPELL_POWER",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/provocation.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/provocation.png",
+    "animation": "alex_caves_spellsbook:animations/hazen/item/weapons/provocation.animation.json",
+    "glowing": false,
+    "animated": true,
+    "animation_name": "idle",
+    "animation_names": [
+      "idle"
+    ],
+    "fire_resistant": true,
+    "rarity": "EVOCATION_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "f7e022acdaa99f8aea5687967101e6163e98aa8b0efdce619433f6db2bed20d5"
+  },
+  {
+    "id": "astralite_cleaver",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Generic\\AstraliteCleaver\\AstraliteCleaver.java",
+    "source_sha256": "df62b341bd99acef37e4f1e6a8bfc6bdc08e357a729653afbd437f1e4f03de59",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 8.0,
+    "speed": -1.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "HLAttributeRegistry.COSMIC_SPELL_POWER",
+        "amount": 0.2,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/astralite_cleaver.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/astralite_cleaver.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "COSMIC_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "37c9b446e869bef2dac90ed37cf2014493d6f08bf9c4e75a6bd31b7003c46650"
+  },
+  {
+    "id": "tidal_wave",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Generic\\TidalWave\\TidalWave.java",
+    "source_sha256": "32817a137f54fec7a6f9946356eab17e2e55f75fe65834cbf97cbf85cb689764",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 8.0,
+    "speed": -1.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "ASAttributeRegistry.HYDRO_MAGIC_POWER",
+        "amount": 0.2,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "source_attribute": "ASAttributeRegistry.MAGIC_PROJECTILE_CRIT_CHANCE",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/tidal_wave.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/tidal_wave.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "HYDRO_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "ddf28e325e13395cbf133f3f11afb422458e82a45e9b0a581f15ff5de9da012c"
+  },
+  {
+    "id": "mage_bane",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Generic\\MageBane\\MageBaneItem.java",
+    "source_sha256": "355e09cb427eedb90dcd8ea5d0e28ac4b89d78daf3b0aec8b80866d83766b7e2",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 8.0,
+    "speed": -2.7,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "IronsLibRegistries.AttributeRegistry.ARMOR_PIERCE",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "source_attribute": "AttributeRegistry.SPELL_RESIST",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "source_attribute": "ASAttributeRegistry.MANA_REND",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "source_attribute": "ASAttributeRegistry.SPELL_RES_PENETRATION",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/mage_bane.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/mage_bane.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "SHADOW_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "e0e7e322045f891a7066b87e919fb844e8a63e6376fb4fbf5253511e01c7cc71"
+  },
+  {
+    "id": "dawnmaker",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\HonkaiStarRail\\Dawnmaker\\DawnmakerItem.java",
+    "source_sha256": "16e4cee6c70b06d08d2396f4d544837d52705d59d13fe0eedc881a38e54b4f4a",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 7.0,
+    "speed": -2.4,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.SPELL_RESIST",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "source_attribute": "ASAttributeRegistry.MANA_REND",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/flame_reaver.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/flame_reaver.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "RADIANCE_RARITY",
+    "descriptions": [
+      "item.hazennstuff.honkai_star_rail.description"
+    ],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "065b1ebc89c70b348ff1e110d52df4068eb6c3f85b3bc5d84ffd83aa0720010f"
+  },
+  {
+    "id": "muramasa",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Weapons\\Reference\\Terraria\\Muramasa\\MuramasaItem.java",
+    "source_sha256": "7bac7644fd757e02bad0e9a45b42476acce428781896b23504154f48329dbfdc",
+    "kind": "sword",
+    "durability": 8064,
+    "damage": 6.0,
+    "speed": -2.4,
+    "enchantment": 10,
+    "attributes": [
+      {
+        "source_attribute": "IronsLibRegistries.AttributeRegistry.ARMOR_PIERCE",
+        "amount": 0.05,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/weapons/muramasa.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/weapons/muramasa.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "EPIC",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "526206a0b475326dfe4a1aa021a95bd5ed460117faabcfe8de0f6964cb663659"
+  },
+  {
+    "id": "soulcalling_scepter",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Staves\\Special\\SoulcallingScepter\\SoulcallingScepter.java",
+    "source_sha256": "e426c4ab715e55d3c2a31d267a290e0a4f8c3101fa73121d68a691dfaba811aa",
+    "kind": "staff",
+    "durability": 0,
+    "damage": 3.0,
+    "speed": -2.4,
+    "enchantment": 15,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.FIRE_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "AttributeRegistry.MANA_REGEN",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "AttributeRegistry.CAST_TIME_REDUCTION",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "ASAttributeRegistry.MANA_REND",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "AttributeRegistry.SPELL_POWER",
+        "amount": 0.1,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/staves/soulcalling_scepter.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/staves/soulcalling_scepter.png",
+    "animation": "alex_caves_spellsbook:animations/hazen/item/staves/soulcalling_scepter.animation.json",
+    "glowing": true,
+    "animated": true,
+    "animation_name": "idle",
+    "animation_names": [
+      "idle"
+    ],
+    "fire_resistant": true,
+    "rarity": "FIRE_RARITY",
+    "descriptions": [
+      "item.hazennstuff.soulcalling_scepter.description"
+    ],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "37a1057a835b4611f451627f12eb99dabf8d964a03d8d3e45d4b770a58c1c23d"
+  },
+  {
+    "id": "white_lily_staff",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Staves\\Reference\\WhiteLilyStaff\\WhiteLilyStaff.java",
+    "source_sha256": "38e3897b73369f7f6cc57a2e2190e20ec81314eab707455782b891051a5baffe",
+    "kind": "staff",
+    "durability": 0,
+    "damage": 3.0,
+    "speed": -3.0,
+    "enchantment": 15,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.NATURE_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "AttributeRegistry.MANA_REGEN",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "AttributeRegistry.SPELL_POWER",
+        "amount": 0.05,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/staves/white_lily_staff.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/staves/white_lily_staff.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "NATURE_RARITY",
+    "descriptions": [
+      "item.hazennstuff.crk.description"
+    ],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "2596903a9f9855b5c471f83727a86a4941055d95fa55f38d570a6e686efeee97"
+  },
+  {
+    "id": "ceaseless_void",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Staves\\Generic\\CeaselessVoid\\CeaselessVoid.java",
+    "source_sha256": "ec38d4e9e8f402cd83efb1558ee75966c9a5eeeac7eb28426137eb7ff941056d",
+    "kind": "staff",
+    "durability": 0,
+    "damage": 3.0,
+    "speed": -3.0,
+    "enchantment": 15,
+    "attributes": [
+      {
+        "source_attribute": "HLAttributeRegistry.SHADOW_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "AttributeRegistry.CAST_TIME_REDUCTION",
+        "amount": 0.05,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "AttributeRegistry.SPELL_POWER",
+        "amount": 0.05,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/staves/ceaseless_void.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/staves/ceaseless_void_animated.png",
+    "animation": "",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "SHADOW_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "e95819f809a30d8f8384dd34c90f986c06d524301e5adcfc40737b0927470e83"
+  },
+  {
+    "id": "rod_of_discord",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Staves\\Reference\\RodOfDiscord\\RodOfDiscord.java",
+    "source_sha256": "cf754fdb8e5b1e2d2589b50b4d06ebb4242a42ad8694625a8f5de6521b24a87c",
+    "kind": "staff",
+    "durability": 0,
+    "damage": 3.0,
+    "speed": -3.0,
+    "enchantment": 15,
+    "attributes": [
+      {
+        "source_attribute": "AttributeRegistry.ENDER_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "HLAttributeRegistry.SHADOW_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "AttributeRegistry.SPELL_POWER",
+        "amount": 0.05,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/staves/rod_of_discord.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/staves/rod_of_discord.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "SHADOW_RARITY",
+    "descriptions": [
+      "item.hazennstuff.rod_of_discord.description"
+    ],
+    "presets": [
+      {
+        "source_field": "HnSSpellRegistries.PRISMATIC_SHIFT",
+        "level": 6
+      }
+    ],
+    "affinity": [],
+    "original_item_model_sha256": "d21712d5c2e1920b5263aa7407c605f68ce6af863ce07127233d0c947761d511"
+  },
+  {
+    "id": "glassweaver_scepter",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Staves\\Generic\\GlassweaverStaff\\GlassweaverScepter.java",
+    "source_sha256": "0c4a40c3fea72f32b8acf4a70581f1bd7d036177ec699585f7bcd46ee8c9afd5",
+    "kind": "staff",
+    "durability": 0,
+    "damage": 3.0,
+    "speed": -3.0,
+    "enchantment": 15,
+    "attributes": [
+      {
+        "source_attribute": "HLAttributeRegistry.RADIANCE_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "AttributeRegistry.COOLDOWN_REDUCTION",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "AttributeRegistry.SPELL_POWER",
+        "amount": 0.05,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/staves/glassweaver_scepter.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/staves/glassweaver_scepter.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "RADIANCE_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "649b92308b7aeb23f071097901ba07c54ae21a02329d0d9cfe3a269dec012925"
+  },
+  {
+    "id": "coralite_cane",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Staves\\Generic\\CoraliteCane\\CoraliteCane.java",
+    "source_sha256": "200d1068217dab9fe0b284fedb0bebde7351246c8709735b5be0aa49f6ed1773",
+    "kind": "staff",
+    "durability": 0,
+    "damage": 3.0,
+    "speed": -3.0,
+    "enchantment": 15,
+    "attributes": [
+      {
+        "source_attribute": "ASAttributeRegistry.HYDRO_MAGIC_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "AttributeRegistry.CAST_TIME_REDUCTION",
+        "amount": 0.05,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "AttributeRegistry.SPELL_POWER",
+        "amount": 0.05,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/staves/coralite_cane.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/staves/coralite_cane.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "HYDRO_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "7bc3f4fcc40591abcbca148621fdd2aa388b258e75ce6978932fc450c1d4bd0a"
+  },
+  {
+    "id": "nexus",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Staves\\Generic\\Nexus\\Nexus.java",
+    "source_sha256": "5b865fedc45c62b94ed6ccb7501b3fa9e86ffd64ccfa37ace0ac79976eafc457",
+    "kind": "staff",
+    "durability": 0,
+    "damage": 3.0,
+    "speed": -3.0,
+    "enchantment": 15,
+    "attributes": [
+      {
+        "source_attribute": "HLAttributeRegistry.COSMIC_SPELL_POWER",
+        "amount": 0.15,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "AttributeRegistry.CAST_TIME_REDUCTION",
+        "amount": 0.05,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "source_attribute": "AttributeRegistry.SPELL_POWER",
+        "amount": 0.05,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ],
+    "model": "alex_caves_spellsbook:geo/hazen/item/staves/nexus.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/staves/nexus.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": true,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "COSMIC_RARITY",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "a826dcf996098a782e13aca62e4ade523ceef1a60fa20bb550c376ab0831e4b5"
+  },
+  {
+    "id": "frieren_staff",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Staves\\Reference\\Frieren\\FrierenStaff.java",
+    "source_sha256": "9de190fe4f2e3bd7f036c10d14cd0b0a124642929eee9be37ca980fa75936cb9",
+    "kind": "staff",
+    "durability": 0,
+    "damage": 0,
+    "speed": 0,
+    "enchantment": 15,
+    "attributes": [],
+    "vanilla_staff_tier": "ARTIFICER",
+    "model": "alex_caves_spellsbook:geo/hazen/item/staves/frieren_staff.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/staves/frieren_staff.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": true,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "EPIC",
+    "descriptions": [
+      "item.hazennstuff.frieren.description"
+    ],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "e7fab71d60464bf6b9697df282a0e42ac78433ca6072328436a6365236af2a50"
+  },
+  {
+    "id": "wisewood_cane",
+    "source": "wans-iron-expansion\\development-records\\hazen-recreation\\reference-1.4.0.14\\src\\main\\java\\net\\hazen\\hazennstuff\\Item\\Staves\\Generic\\WisewoodCane\\WisewoodCane.java",
+    "source_sha256": "b50bc96ce5cae05046e0af4247497f6b7c6ef2b9b443145b97418e0bc9c70d13",
+    "kind": "staff",
+    "durability": 0,
+    "damage": 0,
+    "speed": 0,
+    "enchantment": 15,
+    "attributes": [],
+    "vanilla_staff_tier": "ARTIFICER",
+    "model": "alex_caves_spellsbook:geo/hazen/item/staves/wisewood_cane.geo.json",
+    "texture": "alex_caves_spellsbook:hazen/textures/item/staves/wisewood_cane.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "glowing": false,
+    "animated": false,
+    "animation_name": "idle",
+    "fire_resistant": true,
+    "rarity": "EPIC",
+    "descriptions": [],
+    "presets": [],
+    "affinity": [],
+    "original_item_model_sha256": "56c8603ddb2aded1f46e7adef650bcca8c3af04df46d863b9b357fe5c385ad28"
+  }
+]

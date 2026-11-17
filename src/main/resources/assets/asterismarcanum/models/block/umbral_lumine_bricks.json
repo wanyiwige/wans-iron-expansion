@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "asterismarcanum:block/umbral_lumine_bricks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"current_format_codec\": \"bedrock\",\n  \"count\": 1,\n  \"codecs\": [\n    {\n      \"id\": \"bedrock\",\n      \"name\": \"Bedrock Model\",\n      \"extension\": \"json\",\n      \"has_compile\": true,\n      \"has_export\": true,\n      \"supports_partial_export\": true,\n      \"belongs_to_current_format\": true\n    }\n  ]\n}"
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 1
+}

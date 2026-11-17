@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "hazennstuff:divine_mold"
+    },
+    "P": {
+      "item": "minecraft:diamond_leggings"
+    },
+    "R": {
+      "item": "alex_caves_spellsbook:hazen_melee_rune"
+    },
+    "T": {
+      "item": "alex_caves_spellsbook:hazen_dreadsteel_ingot"
+    }
+  },
+  "pattern": [
+    "RMR",
+    "TPT",
+    "T T"
+  ],
+  "result": {
+    "item": "alex_caves_spellsbook:hazen_dreadsteel_knight_leggings",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_dreadsteel_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_dreadsteel_knight_leggings"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_melee_rune"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:divine_mold"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:diamond_leggings"
+    },
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "dreadsteel_knight_leggings"
+    }
+  ]
+}

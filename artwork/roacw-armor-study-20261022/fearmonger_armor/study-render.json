@@ -1,0 +1,19 @@
+{
+  "name": "ROACW Reference - fearmonger_armor",
+  "uuid": "61ecfbb0-b75c-a096-955b-4fac9812a708",
+  "cubes": 59,
+  "bones": 40,
+  "bounds": {
+    "min": [
+      -10.879162291201197,
+      -1,
+      -7.909276224328423
+    ],
+    "max": [
+      10.879162291201197,
+      38.04188496846429,
+      6.322664147371276
+    ]
+  },
+  "note": "Exact native geometry and base color texture; bare view uses temporary opaque clay, no runtime glow layer."
+}

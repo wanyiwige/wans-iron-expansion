@@ -1,0 +1,12 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Added group boot_instepRight with ID fb54b429-f3a2-9508-a5d1-376fa269527c"
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 1
+}

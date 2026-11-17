@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "wans_twilight_spellbooks:exanimate_essence",
+    "#illusionist_grimoire:illusion_focus",
+    "#alex_caves_spellsbook:magnetic_focus",
+    "#alex_caves_spellsbook:cloud_focus",
+    "#alex_caves_spellsbook:pure_darkness_focus",
+    "#alex_caves_spellsbook:candy_focus",
+    "#alex_caves_spellsbook:toxic_focus",
+    "#alex_caves_spellsbook:hazen/cosmic_focus",
+    "#alex_caves_spellsbook:hazen/radiance_focus",
+    "#alex_caves_spellsbook:hazen/shadow_focus",
+    "#alex_caves_spellsbook:hazen/hydro_focus",
+    "#kubejs:astral_focus",
+    "#kubejs:traveller_focus"
+  ]
+}

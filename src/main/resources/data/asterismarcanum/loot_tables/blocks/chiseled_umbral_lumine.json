@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "asterismarcanum:chiseled_umbral_lumine"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "asterismarcanum:blocks/chiseled_umbral_lumine"
+}

@@ -1,0 +1,109 @@
+{
+  "active_sha256": "511487162a2e05615ae40535cc08cfbc639bc578a8600239e40871f8d9d8d9c8",
+  "icons": [
+    {
+      "id": "rainbow_ricochet",
+      "name": "七彩跳弹"
+    },
+    {
+      "id": "sugar_hunt",
+      "name": "糖珠追猎"
+    },
+    {
+      "id": "crystal_split",
+      "name": "糖晶裂射"
+    },
+    {
+      "id": "popping_cluster",
+      "name": "爆糖星簇"
+    },
+    {
+      "id": "peppermint_guard",
+      "name": "薄荷卫环"
+    },
+    {
+      "id": "peppermint_hunt",
+      "name": "薄荷追刃"
+    },
+    {
+      "id": "peppermint_wheels",
+      "name": "薄荷滚轮"
+    },
+    {
+      "id": "licorice_hex_wave",
+      "name": "甘草咒潮"
+    },
+    {
+      "id": "sugar_seal_bloom",
+      "name": "糖印绽放"
+    },
+    {
+      "id": "frostmint_rain",
+      "name": "霜薄荷矛雨"
+    },
+    {
+      "id": "soda_meteor",
+      "name": "苏打流星"
+    },
+    {
+      "id": "soda_frostburst",
+      "name": "苏打霜爆"
+    },
+    {
+      "id": "caramel_bog",
+      "name": "焦糖沼域"
+    },
+    {
+      "id": "sugar_glass_stars",
+      "name": "糖玻璃碎星"
+    },
+    {
+      "id": "rainbow_leap",
+      "name": "虹糖跃迁"
+    },
+    {
+      "id": "sweet_overdrive",
+      "name": "甜蜜超频"
+    },
+    {
+      "id": "rainbow_snare",
+      "name": "虹桥束缚"
+    },
+    {
+      "id": "candicorn_charge",
+      "name": "独角兽虹袭"
+    },
+    {
+      "id": "gummy_guardian",
+      "name": "软糖守卫"
+    },
+    {
+      "id": "gingerbread_march",
+      "name": "姜饼行军"
+    },
+    {
+      "id": "candy_cane_whirl",
+      "name": "糖杖狂旋"
+    },
+    {
+      "id": "gumball_sentry",
+      "name": "糖球哨塔"
+    },
+    {
+      "id": "gum_worm_breach",
+      "name": "蠕虫破宴"
+    },
+    {
+      "id": "candy_banquet",
+      "name": "糖境盛宴"
+    },
+    {
+      "id": "ice_cream_storm",
+      "name": "冰淇淋暴雨"
+    },
+    {
+      "id": "licorice_grand_feast",
+      "name": "甘草魔宴"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ROACW Reference - auric_tesla_armor",
+  "uuid": "61ecfbb0-b75c-a096-955b-4fac9812a708",
+  "cubes": 74,
+  "bones": 41,
+  "bounds": {
+    "min": [
+      -12.034817899747969,
+      -1,
+      -11.620027653440225
+    ],
+    "max": [
+      12.034817899747969,
+      39.86396103067893,
+      12.813708498984756
+    ]
+  },
+  "note": "Exact native geometry and base color texture; bare view uses temporary opaque clay, no runtime glow layer."
+}

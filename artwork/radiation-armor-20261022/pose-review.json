@@ -1,0 +1,166 @@
+{
+  "neutral": [
+    {
+      "name": "armorHead",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorBody",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorLeftArm",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorRightArm",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorLeggingTorsoLayer",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorLeftLeg",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorRightLeg",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorLeftBoot",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorRightBoot",
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "coatTailLeft",
+      "rotation": [
+        -4,
+        0,
+        3
+      ]
+    },
+    {
+      "name": "coatTailRight",
+      "rotation": [
+        -4,
+        0,
+        -3
+      ]
+    },
+    {
+      "name": "coatSideLeft",
+      "rotation": [
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "name": "coatSideRight",
+      "rotation": [
+        0,
+        0,
+        -4
+      ]
+    }
+  ],
+  "preview_pose": {
+    "armorHead": [
+      5,
+      25,
+      0
+    ],
+    "armorLeftArm": [
+      -50,
+      0,
+      -8
+    ],
+    "armorRightArm": [
+      25,
+      0,
+      8
+    ],
+    "armorLeftLeg": [
+      25,
+      0,
+      0
+    ],
+    "armorRightLeg": [
+      -25,
+      0,
+      0
+    ],
+    "armorLeftBoot": [
+      25,
+      0,
+      0
+    ],
+    "armorRightBoot": [
+      -25,
+      0,
+      0
+    ],
+    "coatTailLeft": [
+      21,
+      0,
+      3
+    ],
+    "coatTailRight": [
+      -29,
+      0,
+      -3
+    ],
+    "coatSideLeft": [
+      25,
+      0,
+      4
+    ],
+    "coatSideRight": [
+      -25,
+      0,
+      -4
+    ]
+  },
+  "note": "Editor pose only. Tail and boot rotations were set manually. No gameplay or animation integration is claimed."
+}

@@ -1,0 +1,16 @@
+{
+  "type": "wans_twilight_spellbooks:smithing_transform",
+  "addition": {
+    "item": "twilightforest:knightmetal_ingot"
+  },
+  "base": {
+    "item": "irons_spellbooks:netherite_mage_boots"
+  },
+  "result": {
+    "count": 1,
+    "item": "wans_twilight_spellbooks:knightmetal_mage_boots"
+  },
+  "template": {
+    "item": "irons_spellbooks:protection_rune"
+  }
+}

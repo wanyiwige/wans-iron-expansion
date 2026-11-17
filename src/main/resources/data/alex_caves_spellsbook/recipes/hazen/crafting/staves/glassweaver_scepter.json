@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:artificer_cane"
+    },
+    "N": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "P": {
+      "item": "alex_caves_spellsbook:hazen_prismatic_shard"
+    },
+    "R": {
+      "item": "alex_caves_spellsbook:hazen_radiance_rune"
+    },
+    "Z": {
+      "item": "hazennstuff:zenalite_ingot"
+    }
+  },
+  "pattern": [
+    " PN",
+    "ZRP",
+    "AZ "
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_glassweaver_scepter"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "glassweaver_scepter"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_glassweaver_scepter"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_prismatic_shard"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_radiance_rune"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:artificer_cane"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:amethyst_cluster"
+    }
+  ]
+}

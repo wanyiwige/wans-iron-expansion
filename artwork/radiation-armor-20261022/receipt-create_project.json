@@ -1,0 +1,12 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Created project with name \"Critical Warden - Pixel Texture v1 Preserved\" (UUID: d23aca46-a398-cf9d-3637-737db46c384a) and format \"geckolib_model\"."
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 1
+}

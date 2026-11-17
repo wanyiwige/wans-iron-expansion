@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "asterismarcanum:block/umbral_lumine_bricks"
+  }
+}

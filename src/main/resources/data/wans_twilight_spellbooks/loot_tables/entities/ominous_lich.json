@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wans_twilight_spellbooks:exanimated_lich_loot_bag"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

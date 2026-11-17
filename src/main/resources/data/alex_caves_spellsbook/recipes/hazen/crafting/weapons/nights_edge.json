@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "alex_caves_spellsbook:hazen_blade_of_grass"
+    },
+    "D": {
+      "item": "irons_spellbooks:divine_soulshard"
+    },
+    "L": {
+      "item": "alex_caves_spellsbook:hazen_lights_bane"
+    },
+    "M": {
+      "item": "alex_caves_spellsbook:hazen_muramasa"
+    },
+    "V": {
+      "item": "alex_caves_spellsbook:hazen_volcano"
+    },
+    "W": {
+      "item": "irons_spellbooks:weapon_parts"
+    }
+  },
+  "pattern": [
+    "WV ",
+    "BDM",
+    " LW"
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_nights_edge"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "nights_edge"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_blade_of_grass"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_lights_bane"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_muramasa"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_nights_edge"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_volcano"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:divine_soulshard"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:weapon_parts"
+    }
+  ]
+}

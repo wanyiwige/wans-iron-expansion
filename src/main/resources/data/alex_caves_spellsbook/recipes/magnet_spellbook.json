@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "irons_spellbooks:iron_spell_book" },
+    { "item": "alex_caves_spellsbook:magnetic_polarity_rune" },
+    { "item": "irons_spellbooks:epic_ink" },
+    { "item": "alex_caves_spellsbook:bipolar_neodymium_ingot" }
+  ],
+  "result": { "item": "alex_caves_spellsbook:magnet_spellbook", "count": 1 }
+}

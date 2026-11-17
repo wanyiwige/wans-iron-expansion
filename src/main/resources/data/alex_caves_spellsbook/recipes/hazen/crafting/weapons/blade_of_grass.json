@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:grass"
+    },
+    "O": {
+      "item": "alex_caves_spellsbook:hazen_overgrown_bone"
+    },
+    "R": {
+      "item": "irons_spellbooks:nature_rune"
+    },
+    "W": {
+      "item": "irons_spellbooks:weapon_parts"
+    }
+  },
+  "pattern": [
+    "  G",
+    "RO ",
+    "WR "
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_blade_of_grass"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "blade_of_grass"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_blade_of_grass"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_overgrown_bone"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:nature_rune"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:weapon_parts"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:grass"
+    }
+  ]
+}

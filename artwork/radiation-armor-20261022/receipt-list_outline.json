@@ -1,0 +1,12 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"counts\": {\n    \"groups\": 13,\n    \"cubes\": 169,\n    \"meshes\": 0\n  },\n  \"roots\": [\n    {\n      \"name\": \"armorHead\",\n      \"uuid\": \"8d1f68a8-1042-6b4f-bdf4-135f0ddf9d69\",\n      \"type\": \"group\",\n      \"children\": []\n    },\n    {\n      \"name\": \"armorBody\",\n      \"uuid\": \"ea7d7862-9bcf-72a9-73be-04555127b96b\",\n      \"type\": \"group\",\n      \"children\": [\n        {\n          \"name\": \"coatTailLeft\",\n          \"uuid\": \"bb76d2fb-30dc-ea8e-de85-1ed581b5bf90\",\n          \"type\": \"group\",\n          \"children\": []\n        },\n        {\n          \"name\": \"coatTailRight\",\n          \"uuid\": \"471f932b-a9ea-4294-e208-00fd91cc9fd8\",\n          \"type\": \"group\",\n          \"children\": []\n        },\n        {\n          \"name\": \"coatSideLeft\",\n          \"uuid\": \"bc998d7b-138e-9f1a-622b-c90304b8849b\",\n          \"type\": \"group\",\n          \"children\": []\n        },\n        {\n          \"name\": \"coatSideRight\",\n          \"uuid\": \"9a90dcab-0046-1417-5a39-da804415b30b\",\n          \"type\": \"group\",\n          \"children\": []\n        }\n      ]\n    },\n    {\n      \"name\": \"armorLeftArm\",\n      \"uuid\": \"bd3996b6-a784-256b-0279-b01da7ee2474\",\n      \"type\": \"group\",\n      \"children\": []\n    },\n    {\n      \"name\": \"armorRightArm\",\n      \"uuid\": \"04666462-0167-2940-5e1a-25ac21e2f2c8\",\n      \"type\": \"group\",\n      \"children\": []\n    },\n    {\n      \"name\": \"armorLeggingTorsoLayer\",\n      \"uuid\": \"23507c20-324c-be35-614e-2e83c46c3351\",\n      \"type\": \"group\",\n      \"children\": []\n    },\n    {\n      \"name\": \"armorLeftLeg\",\n      \"uuid\": \"2eb99414-70b7-6eeb-61ca-44f7fa9b5f7b\",\n      \"type\": \"group\",\n      \"children\": []\n    },\n    {\n      \"name\": \"armorRightLeg\",\n      \"uuid\": \"42f85b3d-d273-823b-cfcf-7fb9f9e9aa3f\",\n      \"type\": \"group\",\n      \"children\": []\n    },\n    {\n      \"name\": \"armorLeftBoot\",\n      \"uuid\": \"c744a4f2-d0bf-284c-7a28-0aab2e0f953f\",\n      \"type\": \"group\",\n      \"children\": []\n    },\n    {\n      \"name\": \"armorRightBoot\",\n      \"uuid\": \"a1d9b815-6547-8a0b-857d-cda42f60071c\",\n      \"type\": \"group\",\n      \"children\": []\n    }\n  ]\n}"
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 1
+}

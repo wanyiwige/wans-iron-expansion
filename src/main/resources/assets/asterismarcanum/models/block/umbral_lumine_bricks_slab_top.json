@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "asterismarcanum:block/umbral_lumine_bricks",
+    "side": "asterismarcanum:block/umbral_lumine_bricks",
+    "top": "asterismarcanum:block/umbral_lumine_bricks"
+  }
+}

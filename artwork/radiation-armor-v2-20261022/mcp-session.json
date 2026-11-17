@@ -1,0 +1,1 @@
+{"session": "c00b4c20-751a-45d5-9a5f-0ee4f1221f80", "server": {"result": {"protocolVersion": "2024-11-05", "capabilities": {"tools": {"listChanged": true}, "resources": {"listChanged": true}, "prompts": {"listChanged": true}}, "serverInfo": {"name": "Blockbench MCP", "version": "1.7.0"}}, "jsonrpc": "2.0", "id": 1}}

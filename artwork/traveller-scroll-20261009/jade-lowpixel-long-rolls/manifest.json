@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-09",
+  "school": "kubejs:traveller",
+  "generator": "built-in imagegen",
+  "export": "32x32 RGBA nearest-neighbor using System.Drawing",
+  "changes": [
+    "preserve jade-cyan palette",
+    "lower pixel density",
+    "both roll bars extend past both map-paper edges"
+  ],
+  "width": 32,
+  "height": 32,
+  "new_sha256": "6FF16808C42D1C17ECD607077B6AA37C1795F0036E12E1910B9BBA872F013E75",
+  "old_live_sha256": "1FE7B58009B75D6AD401CE06740F60760B4625E0A772EA837E4BB116BBABE9A2",
+  "old_source_sha256": "1FE7B58009B75D6AD401CE06740F60760B4625E0A772EA837E4BB116BBABE9A2",
+  "final": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\artwork\\traveller-scroll-20261009\\jade-lowpixel-long-rolls\\scroll_traveller-32.png",
+  "backup": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\artwork\\traveller-scroll-20261009\\jade-lowpixel-long-rolls\\backup",
+  "live": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\kubejs\\assets\\kubejs\\textures\\item\\scroll_traveller.png",
+  "source": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\src\\main\\resources\\assets\\kubejs\\textures\\item\\scroll_traveller.png",
+  "jarRebuilt": false,
+  "gameVisualVerified": false
+}

@@ -1,0 +1,6 @@
+{
+  "type": "alex_caves_spellsbook:hazen_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "alex_caves_spellsbook:hazen/dreadstone_ore_placed",
+  "step": "underground_ores"
+}

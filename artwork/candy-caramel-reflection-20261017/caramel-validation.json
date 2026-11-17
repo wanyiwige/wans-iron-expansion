@@ -1,0 +1,67 @@
+{
+  "result": "PASS",
+  "distinctConnectedShapes": 6,
+  "framesPerShape": 3,
+  "stableAnimationMasks": true,
+  "originalFirstMaskPreserved": true,
+  "before": {
+    "luminanceRange": 131.01,
+    "brightPixels": 0
+  },
+  "after": {
+    "luminanceRange": 206.06,
+    "brightPixels": 37
+  },
+  "brightPixelsPerShape": [
+    37,
+    33,
+    31,
+    37,
+    33,
+    31
+  ],
+  "changedEntries": [
+    "META-INF/MANIFEST.MF",
+    "META-INF/mods.toml",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_0.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_1.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_2.png",
+    "cn/wanyiwige/alexcavesspellsbook/candy/CandySpellEntity.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyDessertPixelScenes.class"
+  ],
+  "addedEntries": [
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape1_0.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape1_0.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape1_1.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape1_1.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape1_2.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape1_2.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape2_0.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape2_0.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape2_1.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape2_1.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape2_2.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape2_2.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape3_0.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape3_0.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape3_1.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape3_1.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape3_2.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape3_2.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape4_0.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape4_0.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape4_1.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape4_1.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape4_2.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape4_2.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape5_0.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape5_0.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape5_1.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape5_1.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape5_2.png",
+    "assets/alex_caves_spellsbook/textures/entity/candy/pixel/caramel_pool_shape5_2.png.mcmeta"
+  ],
+  "sha256": "effa3f412b784561598080c8205774461f16be7e5491fa88a04981fe4a678920",
+  "runtimeTested": false,
+  "deployed": false
+}

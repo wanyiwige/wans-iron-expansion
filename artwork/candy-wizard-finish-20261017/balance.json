@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "pieces": [
+    {
+      "name": "糖霜巫师帽",
+      "item": "alex_caves_spellsbook:candy_wizard_hat",
+      "armor": 2,
+      "durability": 275,
+      "toughness": 0,
+      "power": 0.08,
+      "resist": 0.03,
+      "mana": 60.0,
+      "mana_regen": 0.03
+    },
+    {
+      "name": "糖霜巫师袍",
+      "item": "alex_caves_spellsbook:candy_wizard_robe",
+      "armor": 6,
+      "durability": 400,
+      "toughness": 0,
+      "power": 0.16,
+      "resist": 0.04,
+      "mana": 110.0,
+      "mana_regen": 0.06
+    },
+    {
+      "name": "糖霜巫师长裤",
+      "item": "alex_caves_spellsbook:candy_wizard_leggings",
+      "armor": 5,
+      "durability": 375,
+      "toughness": 0,
+      "power": 0.1,
+      "resist": 0.03,
+      "mana": 80.0,
+      "mana_regen": 0.04
+    },
+    {
+      "name": "糖霜巫师靴",
+      "item": "alex_caves_spellsbook:candy_wizard_boots",
+      "armor": 2,
+      "durability": 325,
+      "toughness": 0,
+      "power": 0.06,
+      "resist": 0.02,
+      "mana": 50.0,
+      "mana_regen": 0.02
+    }
+  ],
+  "totals": {
+    "power": 0.4,
+    "resist": 0.12,
+    "mana": 300.0,
+    "mana_regen": 0.15
+  },
+  "total_armor": 15,
+  "total_toughness": 0,
+  "changed_source_files": [
+    "src/main/resources/assets/alex_caves_spellsbook/textures/item/candy_wizard_boots.png",
+    "src/main/resources/assets/alex_caves_spellsbook/textures/item/candy_wizard_hat.png",
+    "src/main/resources/assets/alex_caves_spellsbook/textures/item/candy_wizard_leggings.png",
+    "src/main/resources/assets/alex_caves_spellsbook/textures/item/candy_wizard_robe.png",
+    "src/main/java/cn/wanyiwige/alexcavesspellsbook/candy/CandyWizardArmorItem.java"
+  ],
+  "jar_changes_since_preview_12": [
+    "META-INF/MANIFEST.MF",
+    "META-INF/mods.toml",
+    "assets/alex_caves_spellsbook/textures/item/candy_wizard_boots.png",
+    "assets/alex_caves_spellsbook/textures/item/candy_wizard_hat.png",
+    "assets/alex_caves_spellsbook/textures/item/candy_wizard_leggings.png",
+    "assets/alex_caves_spellsbook/textures/item/candy_wizard_robe.png",
+    "cn/wanyiwige/alexcavesspellsbook/candy/CandyWizardArmorItem$Material.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/CandyWizardArmorItem.class"
+  ],
+  "native_balance_reference_jar_sha256": "66bb3a46b711853003c1574dd08749719d5474d64d661af86ab9e9cfc4238887",
+  "native_balance_reference_class_matches_installed": true,
+  "validation": "Source amount and slot-operation checks; compiled and reobfuscated; not a game session."
+}

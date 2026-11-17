@@ -1,0 +1,110 @@
+{
+  "arsenal_t1_armor/bare-front-three-quarter.png": [
+    135,
+    170,
+    563,
+    916
+  ],
+  "arsenal_t1_armor/textured-front-three-quarter.png": [
+    135,
+    170,
+    563,
+    916
+  ],
+  "arsenal_t1_armor/textured-back-three-quarter.png": [
+    130,
+    115,
+    558,
+    911
+  ],
+  "auric_tesla_armor/bare-front-three-quarter.png": [
+    164,
+    162,
+    541,
+    879
+  ],
+  "auric_tesla_armor/textured-front-three-quarter.png": [
+    164,
+    162,
+    541,
+    879
+  ],
+  "auric_tesla_armor/textured-back-three-quarter.png": [
+    152,
+    186,
+    529,
+    876
+  ],
+  "earthen_paladin_armor/bare-front-three-quarter.png": [
+    203,
+    154,
+    550,
+    907
+  ],
+  "earthen_paladin_armor/textured-front-three-quarter.png": [
+    203,
+    154,
+    550,
+    907
+  ],
+  "earthen_paladin_armor/textured-back-three-quarter.png": [
+    142,
+    130,
+    490,
+    885
+  ],
+  "fearmonger_armor/bare-front-three-quarter.png": [
+    131,
+    158,
+    543,
+    905
+  ],
+  "fearmonger_armor/textured-front-three-quarter.png": [
+    131,
+    158,
+    543,
+    905
+  ],
+  "fearmonger_armor/textured-back-three-quarter.png": [
+    150,
+    111,
+    561,
+    914
+  ],
+  "mars_armor/bare-front-three-quarter.png": [
+    96,
+    215,
+    520,
+    812
+  ],
+  "mars_armor/textured-front-three-quarter.png": [
+    96,
+    215,
+    520,
+    812
+  ],
+  "mars_armor/textured-back-three-quarter.png": [
+    173,
+    237,
+    597,
+    793
+  ],
+  "plaguebringer_armor/bare-front-three-quarter.png": [
+    127,
+    168,
+    556,
+    865
+  ],
+  "plaguebringer_armor/textured-front-three-quarter.png": [
+    127,
+    168,
+    556,
+    865
+  ],
+  "plaguebringer_armor/textured-back-three-quarter.png": [
+    138,
+    184,
+    566,
+    854
+  ]
+}

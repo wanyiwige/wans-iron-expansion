@@ -1,0 +1,82 @@
+Compiled from "PlaguebringerArmorRenderer.java"
+public class net.kamaarion.roacw.items.armor.plaguebringerarmorset.PlaguebringerArmorRenderer extends software.bernie.geckolib.renderer.GeoArmorRenderer<net.kamaarion.roacw.items.armor.plaguebringerarmorset.PlaguebringerArmorItem> {
+  public net.kamaarion.roacw.items.armor.plaguebringerarmorset.PlaguebringerArmorRenderer();
+    Code:
+       0: aload_0
+       1: new           #15                 // class net/kamaarion/roacw/items/armor/plaguebringerarmorset/PlaguebringerArmorModel
+       4: dup
+       5: invokespecial #17                 // Method net/kamaarion/roacw/items/armor/plaguebringerarmorset/PlaguebringerArmorModel."<init>":()V
+       8: invokespecial #20                 // Method software/bernie/geckolib/renderer/GeoArmorRenderer."<init>":(Lsoftware/bernie/geckolib/model/GeoModel;)V
+      11: aload_0
+      12: new           #22                 // class net/kamaarion/roacw/items/armor/plaguebringerarmorset/PlaguebringerArmorLayer
+      15: dup
+      16: aload_0
+      17: invokespecial #25                 // Method net/kamaarion/roacw/items/armor/plaguebringerarmorset/PlaguebringerArmorLayer."<init>":(Lsoftware/bernie/geckolib/renderer/GeoRenderer;)V
+      20: invokevirtual #29                 // Method addRenderLayer:(Lsoftware/bernie/geckolib/renderer/layer/GeoRenderLayer;)Lsoftware/bernie/geckolib/renderer/GeoArmorRenderer;
+      23: pop
+      24: return
+
+  public net.minecraft.client.renderer.RenderType getRenderType(net.kamaarion.roacw.items.armor.plaguebringerarmorset.PlaguebringerArmorItem, net.minecraft.resources.ResourceLocation, net.minecraft.client.renderer.MultiBufferSource, float);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokevirtual #37                 // Method getTextureLocation:(Lsoftware/bernie/geckolib/core/animatable/GeoAnimatable;)Lnet/minecraft/resources/ResourceLocation;
+       5: invokestatic  #43                 // Method net/minecraft/client/renderer/RenderType.m_110473_:(Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/client/renderer/RenderType;
+       8: areturn
+
+  public void m_7695_(com.mojang.blaze3d.vertex.PoseStack, com.mojang.blaze3d.vertex.VertexConsumer, int, int, float, float, float, float);
+    Code:
+       0: aload_0
+       1: getfield      #57                 // Field currentEntity:Lnet/minecraft/world/entity/Entity;
+       4: astore        10
+       6: aload         10
+       8: instanceof    #59                 // class net/minecraft/world/entity/player/Player
+      11: ifeq          47
+      14: aload         10
+      16: checkcast     #59                 // class net/minecraft/world/entity/player/Player
+      19: astore        9
+      21: aload_0
+      22: getfield      #63                 // Field baseModel:Lnet/minecraft/client/model/HumanoidModel;
+      25: ifnull        47
+      28: aload         9
+      30: aload_1
+      31: invokevirtual #67                 // Method com/mojang/blaze3d/vertex/PoseStack.m_85850_:()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;
+      34: invokevirtual #71                 // Method com/mojang/blaze3d/vertex/PoseStack$Pose.m_252922_:()Lorg/joml/Matrix4f;
+      37: aload_0
+      38: getfield      #63                 // Field baseModel:Lnet/minecraft/client/model/HumanoidModel;
+      41: getfield      #77                 // Field net/minecraft/client/model/HumanoidModel.f_102810_:Lnet/minecraft/client/model/geom/ModelPart;
+      44: invokestatic  #83                 // Method net/kamaarion/roacw/items/armor/plaguebringerarmorset/PlaguebringerJetBoostVisualEffects.recordCanisterSample:(Lnet/minecraft/world/entity/player/Player;Lorg/joml/Matrix4fc;Lnet/minecraft/client/model/geom/ModelPart;)V
+      47: aload_0
+      48: aload_1
+      49: aload_2
+      50: iload_3
+      51: iload         4
+      53: fload         5
+      55: fload         6
+      57: fload         7
+      59: fload         8
+      61: invokespecial #85                 // Method software/bernie/geckolib/renderer/GeoArmorRenderer.m_7695_:(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V
+      64: return
+
+  public net.minecraft.client.renderer.RenderType getRenderType(net.minecraft.world.item.Item, net.minecraft.resources.ResourceLocation, net.minecraft.client.renderer.MultiBufferSource, float);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #101                // class net/kamaarion/roacw/items/armor/plaguebringerarmorset/PlaguebringerArmorItem
+       5: aload_2
+       6: aload_3
+       7: fload         4
+       9: invokevirtual #103                // Method getRenderType:(Lnet/kamaarion/roacw/items/armor/plaguebringerarmorset/PlaguebringerArmorItem;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/client/renderer/MultiBufferSource;F)Lnet/minecraft/client/renderer/RenderType;
+      12: areturn
+
+  public net.minecraft.client.renderer.RenderType getRenderType(software.bernie.geckolib.core.animatable.GeoAnimatable, net.minecraft.resources.ResourceLocation, net.minecraft.client.renderer.MultiBufferSource, float);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #101                // class net/kamaarion/roacw/items/armor/plaguebringerarmorset/PlaguebringerArmorItem
+       5: aload_2
+       6: aload_3
+       7: fload         4
+       9: invokevirtual #103                // Method getRenderType:(Lnet/kamaarion/roacw/items/armor/plaguebringerarmorset/PlaguebringerArmorItem;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/client/renderer/MultiBufferSource;F)Lnet/minecraft/client/renderer/RenderType;
+      12: areturn
+}

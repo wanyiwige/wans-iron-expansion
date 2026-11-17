@@ -1,0 +1,431 @@
+{
+  "jar": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\mods\\roacw-1.2.2.jar",
+  "sha256": "7196f68ca4d8dfa5c94aa9420d1e0a9a2e4f39602d1a0af01af290e9778a2211",
+  "sets": [
+    {
+      "name": "arsenal_t1_armor",
+      "model": "assets/roacw/geo/item/armor/arsenal_t1_armor.geo.json",
+      "description": {
+        "identifier": "geometry.unknown",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 3.5,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": 25,
+      "cubes": 24,
+      "rotated_cubes": 0,
+      "rotated_bones": 9,
+      "flat_cubes": 1,
+      "uv_mode": {
+        "list": 24
+      },
+      "root_bones": [
+        "bipedHead",
+        "bipedBody",
+        "bipedRightArm",
+        "bipedLeftArm",
+        "bipedLeftLeg",
+        "bipedRightLeg"
+      ],
+      "textures": [
+        {
+          "path": "assets/roacw/textures/item/armor/arsenal_t1_armor.png",
+          "size": [
+            128,
+            128
+          ],
+          "nontransparent": 2177,
+          "colors": 24
+        },
+        {
+          "path": "assets/roacw/textures/item/armor/arsenal_t1_armor_glowmask.png",
+          "size": [
+            128,
+            128
+          ],
+          "nontransparent": 29,
+          "colors": 6
+        }
+      ],
+      "opaque_colors": 23
+    },
+    {
+      "name": "arsenal_t1_armor_alt",
+      "model": "assets/roacw/geo/item/armor/arsenal_t1_armor_alt.geo.json",
+      "description": {
+        "identifier": "geometry.unknown",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 3.5,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": 25,
+      "cubes": 24,
+      "rotated_cubes": 0,
+      "rotated_bones": 9,
+      "flat_cubes": 1,
+      "uv_mode": {
+        "list": 24
+      },
+      "root_bones": [
+        "bipedHead",
+        "bipedBody",
+        "bipedRightArm",
+        "bipedLeftArm",
+        "bipedLeftLeg",
+        "bipedRightLeg"
+      ],
+      "textures": [
+        {
+          "path": "assets/roacw/textures/item/armor/arsenal_t1_armor.png",
+          "size": [
+            128,
+            128
+          ],
+          "nontransparent": 2177,
+          "colors": 24
+        },
+        {
+          "path": "assets/roacw/textures/item/armor/arsenal_t1_armor_glowmask.png",
+          "size": [
+            128,
+            128
+          ],
+          "nontransparent": 29,
+          "colors": 6
+        }
+      ]
+    },
+    {
+      "name": "auric_tesla_armor",
+      "model": "assets/roacw/geo/item/armor/auric_tesla_armor.geo.json",
+      "description": {
+        "identifier": "geometry.unknown",
+        "texture_width": 256,
+        "texture_height": 256,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 3.5,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": 41,
+      "cubes": 74,
+      "rotated_cubes": 29,
+      "rotated_bones": 18,
+      "flat_cubes": 0,
+      "uv_mode": {
+        "list": 74
+      },
+      "root_bones": [
+        "bipedHead",
+        "bipedBody",
+        "bipedRightArm",
+        "bipedLeftArm",
+        "bipedLeftLeg",
+        "bipedRightLeg"
+      ],
+      "textures": [
+        {
+          "path": "assets/roacw/textures/item/armor/auric_tesla_armor.png",
+          "size": [
+            256,
+            256
+          ],
+          "nontransparent": 6863,
+          "colors": 24
+        },
+        {
+          "path": "assets/roacw/textures/item/armor/auric_tesla_armor_glowmask.png",
+          "size": [
+            256,
+            256
+          ],
+          "nontransparent": 28,
+          "colors": 3
+        }
+      ],
+      "opaque_colors": 23
+    },
+    {
+      "name": "auric_tesla_armor_capeless",
+      "model": "assets/roacw/geo/item/armor/auric_tesla_armor_capeless.geo.json",
+      "description": {
+        "identifier": "geometry.unknown",
+        "texture_width": 256,
+        "texture_height": 256,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 3.5,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": 40,
+      "cubes": 73,
+      "rotated_cubes": 28,
+      "rotated_bones": 18,
+      "flat_cubes": 0,
+      "uv_mode": {
+        "list": 73
+      },
+      "root_bones": [
+        "bipedHead",
+        "bipedBody",
+        "bipedRightArm",
+        "bipedLeftArm",
+        "bipedLeftLeg",
+        "bipedRightLeg"
+      ],
+      "textures": [
+        {
+          "path": "assets/roacw/textures/item/armor/auric_tesla_armor.png",
+          "size": [
+            256,
+            256
+          ],
+          "nontransparent": 6863,
+          "colors": 24
+        },
+        {
+          "path": "assets/roacw/textures/item/armor/auric_tesla_armor_glowmask.png",
+          "size": [
+            256,
+            256
+          ],
+          "nontransparent": 28,
+          "colors": 3
+        }
+      ]
+    },
+    {
+      "name": "earthen_paladin_armor",
+      "model": "assets/roacw/geo/item/armor/earthen_paladin_armor.geo.json",
+      "description": {
+        "identifier": "geometry.unknown",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 4.5,
+        "visible_bounds_offset": [
+          0,
+          1.75,
+          0
+        ]
+      },
+      "bones": 46,
+      "cubes": 73,
+      "rotated_cubes": 22,
+      "rotated_bones": 25,
+      "flat_cubes": 2,
+      "uv_mode": {
+        "list": 73
+      },
+      "root_bones": [
+        "bipedHead",
+        "bipedBody",
+        "bipedRightArm",
+        "bipedLeftArm",
+        "bipedLeftLeg",
+        "bipedRightLeg"
+      ],
+      "textures": [
+        {
+          "path": "assets/roacw/textures/item/armor/earthen_paladin_armor.png",
+          "size": [
+            128,
+            128
+          ],
+          "nontransparent": 4521,
+          "colors": 10
+        },
+        {
+          "path": "assets/roacw/textures/item/armor/earthen_paladin_armor_glowmask.png",
+          "size": [
+            128,
+            128
+          ],
+          "nontransparent": 1,
+          "colors": 2
+        }
+      ],
+      "opaque_colors": 9
+    },
+    {
+      "name": "fearmonger_armor",
+      "model": "assets/roacw/geo/item/armor/fearmonger_armor.geo.json",
+      "description": {
+        "identifier": "geometry.unknown",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 3.5,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": 40,
+      "cubes": 59,
+      "rotated_cubes": 14,
+      "rotated_bones": 20,
+      "flat_cubes": 0,
+      "uv_mode": {
+        "list": 59
+      },
+      "root_bones": [
+        "bipedHead",
+        "bipedBody",
+        "bipedRightArm",
+        "bipedLeftArm",
+        "bipedLeftLeg",
+        "bipedRightLeg"
+      ],
+      "textures": [
+        {
+          "path": "assets/roacw/textures/item/armor/fearmonger_armor.png",
+          "size": [
+            128,
+            128
+          ],
+          "nontransparent": 5897,
+          "colors": 27
+        },
+        {
+          "path": "assets/roacw/textures/item/armor/fearmonger_armor_glowmask.png",
+          "size": [
+            128,
+            128
+          ],
+          "nontransparent": 60,
+          "colors": 7
+        }
+      ],
+      "opaque_colors": 26
+    },
+    {
+      "name": "mars_armor",
+      "model": "assets/roacw/geo/item/armor/mars_armor.geo.json",
+      "description": {
+        "identifier": "geometry.unknown",
+        "texture_width": 256,
+        "texture_height": 256,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 4.5,
+        "visible_bounds_offset": [
+          0,
+          1.75,
+          0
+        ]
+      },
+      "bones": 53,
+      "cubes": 132,
+      "rotated_cubes": 46,
+      "rotated_bones": 24,
+      "flat_cubes": 0,
+      "uv_mode": {
+        "list": 132
+      },
+      "root_bones": [
+        "bipedHead",
+        "bipedBody",
+        "bipedRightArm",
+        "bipedLeftArm",
+        "bipedWaist",
+        "bipedLeftLeg",
+        "bipedRightLeg"
+      ],
+      "textures": [
+        {
+          "path": "assets/roacw/textures/item/armor/mars_armor.png",
+          "size": [
+            256,
+            256
+          ],
+          "nontransparent": 10414,
+          "colors": 63
+        },
+        {
+          "path": "assets/roacw/textures/item/armor/mars_armor_glowmask.png",
+          "size": [
+            256,
+            256
+          ],
+          "nontransparent": 237,
+          "colors": 20
+        }
+      ],
+      "opaque_colors": 62
+    },
+    {
+      "name": "plaguebringer_armor",
+      "model": "assets/roacw/geo/item/armor/plaguebringer_armor.geo.json",
+      "description": {
+        "identifier": "geometry.unknown",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 3.5,
+        "visible_bounds_offset": [
+          0,
+          1.25,
+          0
+        ]
+      },
+      "bones": 62,
+      "cubes": 101,
+      "rotated_cubes": 25,
+      "rotated_bones": 40,
+      "flat_cubes": 0,
+      "uv_mode": {
+        "list": 101
+      },
+      "root_bones": [
+        "bipedHead",
+        "bipedBody",
+        "bipedRightArm",
+        "bipedLeftArm",
+        "bipedLeftLeg",
+        "bipedRightLeg"
+      ],
+      "textures": [
+        {
+          "path": "assets/roacw/textures/item/armor/plaguebringer_armor.png",
+          "size": [
+            128,
+            128
+          ],
+          "nontransparent": 4895,
+          "colors": 19
+        },
+        {
+          "path": "assets/roacw/textures/item/armor/plaguebringer_armor_glowmask.png",
+          "size": [
+            128,
+            128
+          ],
+          "nontransparent": 178,
+          "colors": 6
+        }
+      ],
+      "opaque_colors": 18
+    }
+  ],
+  "study_scope": "Exact native geometry and base textures, no game implementation or radiation geometry/paint changes.",
+  "sources_unchanged": true
+}

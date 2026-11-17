@@ -1,0 +1,11 @@
+{
+  "version": "1.2.2",
+  "item": "alex_caves_spellsbook:candy_starcatcher",
+  "active_jar": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\mods\\wans_iron_expansion-1.2.2.jar",
+  "sha256": "c0928561767a6f1d42775b7a5582cb161289561e78b7ea77736aa7b834942660",
+  "backup_jar": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\_cleanup\\backups\\wans-iron-expansion-1.2.2-starcather-20261018-2f9627e2\\wans_iron_expansion-1.2.2.jar",
+  "backup_sha256": "6dd1dd1e591ba995b1427f402512a0a6f354d6b248e07b67581e19e2ada23241",
+  "backup_hash_verified": true,
+  "deployed_hash_verified": true,
+  "game_tested": false
+}

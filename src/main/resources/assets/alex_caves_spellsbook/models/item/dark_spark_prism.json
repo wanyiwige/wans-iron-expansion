@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/generated",
+  "base": {
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "alex_caves_spellsbook:item/dark_spark_prism"
+    }
+  },
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "firstperson_lefthand": {
+      "parent": "minecraft:item/handheld",
+      "textures": {"layer0": "alex_caves_spellsbook:item/dark_spark_prism"}
+    },
+    "firstperson_righthand": {
+      "parent": "minecraft:item/handheld",
+      "textures": {"layer0": "alex_caves_spellsbook:item/dark_spark_prism"}
+    },
+    "thirdperson_lefthand": {
+      "parent": "minecraft:item/handheld",
+      "textures": {"layer0": "alex_caves_spellsbook:item/dark_spark_prism"}
+    },
+    "thirdperson_righthand": {
+      "parent": "minecraft:item/handheld",
+      "textures": {"layer0": "alex_caves_spellsbook:item/dark_spark_prism"}
+    },
+    "ground": {
+      "parent": "minecraft:item/handheld",
+      "textures": {"layer0": "alex_caves_spellsbook:item/dark_spark_prism"}
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#N#",
+    "#S ",
+    " H "
+  ],
+  "key": {
+    "#": {
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    "N": {
+      "item": "minecraft:netherite_axe"
+    },
+    "S": {
+      "item": "alex_caves_spellsbook:hazen_wisewood_planks"
+    },
+    "H": {
+      "item": "irons_spellbooks:lightning_bottle"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_beongae"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "beongae"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_beongae"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:lightning_bottle"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_wisewood_planks"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:netherite_axe"
+    }
+  ]
+}

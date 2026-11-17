@@ -1,0 +1,568 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/toxic/emitter_cell"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/toxic/emitter_frame"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/toxic/emitter_shell"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/toxic/radiation_glyph"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/toxic/waste_back"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/toxic/waste_bottom"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/toxic/waste_front"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/toxic/waste_left"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/toxic/waste_right"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/toxic/waste_top"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/aces_spell_utils/item/scroll_hydro"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/arcane_sea_shell"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/arcane_sea_shell_glowmask"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/chlorophyte_chunk"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/chlorophyte_ingot"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/cloth_of_the_flamebearer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/cosmic_gold_ingot_animated"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/cosmic_gold_ingot_animated_glowmask"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/demonite_ingot"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/deus_essence"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/dreadsteel_ingot"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/dreadstone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/elder_guardian_spine"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/excalibur_fragment"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/glowing_mushroom"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/hallowed_ingot"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/hydro_rune"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/nightmare_fuel"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/overgrown_bone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/permafrost_fragment"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/prismatic_shard"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/shadestone"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/shadestone_glowmask"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/shadow_scale"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/silver_scraps"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/solar_core"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/stardust"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/stardust_glowmask"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazennstuff/item/upgrade_orbs/upgrade_orb_hydro"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazentouvelib/item/schools/cosmic/cosmic_rune"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazentouvelib/item/schools/cosmic/scroll_cosmic"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazentouvelib/item/schools/radiance/radiance_rune"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazentouvelib/item/schools/radiance/scroll_radiance"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazentouvelib/item/schools/radiance/upgrade_orb_radiance"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazentouvelib/item/schools/radiance/upgrade_orb_radiance_glowmask"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazentouvelib/item/schools/shadow/scroll_shadow"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazentouvelib/item/schools/shadow/shadow_rune"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazentouvelib/item/schools/shadow/upgrade_orb_shadow"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/hazentouvelib/item/upgrade_orbs/upgrade_orb_cosmic"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/staves/ceaseless_void_animated"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/staves/coralite_cane"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/staves/frieren_staff"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/staves/glassweaver_scepter"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/staves/nexus"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/staves/rod_of_discord"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/staves/soulcalling_scepter"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/staves/white_lily_staff"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/staves/wisewood_cane"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/ancient_warriors_axe"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/astralite_cleaver"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/beongae"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/blade_of_grass"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/bountiful_harvest"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/devastator"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/divine_greatsword"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/excalibur_divine_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/excalibur_hazen_style"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/firebrand"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/flame_reaver"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/frostburn_dagger"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/hammer_of_justice"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/hammush"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/ionic_splitter_dormant"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/ionic_splitter_t1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/ionic_splitter_t2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/ionic_splitter_t3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/lights_bane"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/mage_bane"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/malice"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/meowmere"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/muramasa"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/nights_edge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/o_fortuna"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/obsidian_claymore"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/provocation"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/soul_reaper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/spectrum"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/starfury"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/terraprisma"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/thorn_chakram"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/tidal_wave"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/true_nights_edge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/umbranova"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/vampire_knives"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/volcano"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/item/weapons/war_flaming_lance"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/cosmic_scholar_boots"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/cosmic_scholar_chestplate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/cosmic_scholar_helmet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/cosmic_scholar_leggings"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/dreadsteel_knight_boots"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/dreadsteel_knight_chestplate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/dreadsteel_knight_helmet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/dreadsteel_knight_leggings"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/frostbite_knight_boots"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/frostbite_knight_chestplate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/frostbite_knight_helmet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/frostbite_knight_leggings"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/materials/melee_rune"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/nautilus_knight_boots"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/nautilus_knight_chestplate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/nautilus_knight_helmet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/nautilus_knight_leggings"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/radiant_crystal_boots"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/radiant_crystal_chestplate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/radiant_crystal_helmet"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/armor/item/armors/radiant_crystal_leggings"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/survival/block/chlorophyte_ore"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/survival/block/dreadstone_ore"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/survival/block/solar_core_blackstone_ore"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/survival/block/solar_core_blackstone_ore_layer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/survival/block/solar_core_netherrack_ore"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/survival/block/solar_core_netherrack_ore_layer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/survival/block/wisewood_log_top"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/survival/block/wisewood_log_side"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/survival/block/stripped_wisewood_log_top"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:hazen/survival/block/stripped_wisewood_log_side"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/candy/pixel/candy_atlas"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/candy/pixel/icecream_atlas_blueberry"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/candy/pixel/icecream_atlas_chocolate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/candy/pixel/icecream_atlas_grape"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/candy/pixel/icecream_atlas_mint"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/candy/pixel/icecream_atlas_strawberry"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/candy/pixel/icecream_atlas_vanilla"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/candy/pixel/rainbow_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/candy/pixel/rainbow_green"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/candy/pixel/rainbow_lemon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/candy/pixel/rainbow_orange"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/candy/pixel/rainbow_purple"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/candy/pixel/rainbow_rose"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "alex_caves_spellsbook:entity/toxic/lead_curtain_metal"
+    }
+  ]
+}

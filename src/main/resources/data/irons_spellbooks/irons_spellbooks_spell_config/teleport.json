@@ -1,0 +1,4 @@
+{
+  "_comment": "Wan's Iron Expansion assigns the original Teleport spell to Traveller.",
+  "irons_spellbooks:school": "kubejs:traveller"
+}

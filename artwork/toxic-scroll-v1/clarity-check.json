@@ -1,0 +1,37 @@
+{
+  "exports": [
+    {
+      "file": "scroll_toxic-32.png",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "visible_rgb_colors": 15,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "sha256": "aadd116894d03a99ae28746d31c6c17cbe1066e02f6a75ea41412b12b1e3eddb"
+    },
+    {
+      "file": "scroll_toxic-64.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "visible_rgb_colors": 16,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "sha256": "fd3efa833eaa839c3cd2e065de85203fa16253a2cc829df3d3e6d75b57983f05"
+    }
+  ],
+  "selected": "scroll_toxic-64.png",
+  "source_resource_match": true,
+  "original_preserved": true,
+  "native_GUI_runtime_acceptance": "not tested; toxic school not yet registered",
+  "preview_sampling": "nearest center; static raster comparison only"
+}

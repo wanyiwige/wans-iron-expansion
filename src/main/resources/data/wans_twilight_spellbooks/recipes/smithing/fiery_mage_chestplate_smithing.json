@@ -1,0 +1,17 @@
+{
+  "type": "wans_twilight_spellbooks:smithing_transform",
+  "addition": {
+    "tag": "twilightforest:fiery_vial"
+  },
+  "base": {
+    "item": "irons_spellbooks:netherite_mage_chestplate"
+  },
+  "result": {
+    "count": 1,
+    "item": "wans_twilight_spellbooks:fiery_mage_chestplate",
+    "nbt": "{\"irons_spellbooks:spell_container\":{\"data\":[],\"maxSpells\":1,\"mustEquip\":1b,\"spellWheel\":1b}}"
+  },
+  "template": {
+    "item": "irons_spellbooks:fire_rune"
+  }
+}

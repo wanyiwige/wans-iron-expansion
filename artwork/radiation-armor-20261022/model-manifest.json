@@ -1,0 +1,38 @@
+{
+  "stage": "Completed geometry with temporary flat color swatches; detailed pixel texture not painted.",
+  "tool": "Live Blockbench MCP 1.7.0 over the configured localhost endpoint",
+  "project_uuid": "741d619a-a4e7-abd1-7687-560ae87d66e4",
+  "cubes": 169,
+  "bones": 13,
+  "faces": 1014,
+  "slot_roots": [
+    "armorBody",
+    "armorHead",
+    "armorLeftArm",
+    "armorLeftBoot",
+    "armorLeftLeg",
+    "armorLeggingTorsoLayer",
+    "armorRightArm",
+    "armorRightBoot",
+    "armorRightLeg"
+  ],
+  "native_format": "1.12.0",
+  "checks": [
+    "Nonzero three-axis volume for every cube",
+    "All six faces have a valid color texture reference",
+    "No duplicated UUIDs or orphaned elements",
+    "All nine humanoid armor roots retained",
+    "Native geometry export retains every cube and bone",
+    "Editor articulation preview returned to neutral pose"
+  ],
+  "limitations": [
+    "Flat color swatch UVs must be repacked before detailed pixel painting",
+    "Boot and coat motion in the editor preview were manually posed; runtime bone synchronization has not been implemented",
+    "Not registered, built, deployed or tested in Minecraft"
+  ],
+  "sha256": {
+    "critical_warden_armor.bbmodel": "1a54cdeb73232d0236590a02f85b3e5af7ae48c2dccffa2ed54190283c0452d9",
+    "critical_warden_armor.geo.json": "e58cc6b055ebfde36640e781692279182fb2698e913af5415a6ac3f839007e7f",
+    "critical_warden_block_colors.png": "2682130e68d33475ef86dab5639951ccb5a00c8122be31a8fe0f0ce399802bde"
+  }
+}

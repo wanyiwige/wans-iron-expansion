@@ -1,0 +1,1887 @@
+Compiled from "CandyLastSpellEntity.java"
+public final class cn.wanyiwige.alexcavesspellsbook.candy.CandyLastSpellEntity extends cn.wanyiwige.alexcavesspellsbook.candy.CandySpellEntity {
+  private static final int ROOT;
+
+  private static final int SHARD;
+
+  private static final int SHOT;
+
+  private static final int ICE;
+
+  private boolean last;
+
+  private boolean burst;
+
+  private int role;
+
+  private int emitted;
+
+  private int travelTicks;
+
+  private net.minecraft.world.phys.Vec3 goal;
+
+  private net.minecraft.world.phys.Vec3 direction;
+
+  private cn.wanyiwige.alexcavesspellsbook.candy.CandyLastSpellEntity root;
+
+  private final java.util.Set<java.util.UUID> struck;
+
+  public cn.wanyiwige.alexcavesspellsbook.candy.CandyLastSpellEntity(net.minecraft.world.entity.EntityType<?>, net.minecraft.world.level.Level);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: invokespecial #61                 // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpellEntity."<init>":(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V
+       6: aload_0
+       7: getstatic     #66                 // Field net/minecraft/world/phys/Vec3.f_82478_:Lnet/minecraft/world/phys/Vec3;
+      10: putfield      #68                 // Field goal:Lnet/minecraft/world/phys/Vec3;
+      13: aload_0
+      14: getstatic     #66                 // Field net/minecraft/world/phys/Vec3.f_82478_:Lnet/minecraft/world/phys/Vec3;
+      17: putfield      #70                 // Field direction:Lnet/minecraft/world/phys/Vec3;
+      20: aload_0
+      21: new           #72                 // class java/util/HashSet
+      24: dup
+      25: invokespecial #75                 // Method java/util/HashSet."<init>":()V
+      28: putfield      #77                 // Field struck:Ljava/util/Set;
+      31: return
+
+  public void beginLast(net.minecraft.world.phys.Vec3, net.minecraft.world.phys.Vec3);
+    Code:
+       0: aload_0
+       1: iconst_1
+       2: putfield      #87                 // Field last:Z
+       5: aload_0
+       6: aload_0
+       7: putfield      #89                 // Field root:Lcn/wanyiwige/alexcavesspellsbook/candy/CandyLastSpellEntity;
+      10: aload_0
+      11: aload_1
+      12: putfield      #68                 // Field goal:Lnet/minecraft/world/phys/Vec3;
+      15: aload_0
+      16: aload_2
+      17: invokevirtual #93                 // Method net/minecraft/world/phys/Vec3.m_82541_:()Lnet/minecraft/world/phys/Vec3;
+      20: putfield      #70                 // Field direction:Lnet/minecraft/world/phys/Vec3;
+      23: aload_0
+      24: ldc           #95                 // String LastProgram
+      26: iconst_1
+      27: invokevirtual #99                 // Method visualValue:(Ljava/lang/String;I)V
+      30: aload_0
+      31: ldc           #101                // String LastRole
+      33: iconst_0
+      34: invokevirtual #99                 // Method visualValue:(Ljava/lang/String;I)V
+      37: aload_0
+      38: ldc           #103                // String Heading
+      40: aload_0
+      41: getfield      #70                 // Field direction:Lnet/minecraft/world/phys/Vec3;
+      44: getfield      #107                // Field net/minecraft/world/phys/Vec3.f_82479_:D
+      47: aload_0
+      48: getfield      #70                 // Field direction:Lnet/minecraft/world/phys/Vec3;
+      51: getfield      #110                // Field net/minecraft/world/phys/Vec3.f_82481_:D
+      54: invokestatic  #116                // Method java/lang/Math.atan2:(DD)D
+      57: d2f
+      58: invokevirtual #119                // Method visualValue:(Ljava/lang/String;F)V
+      61: return
+
+  private cn.wanyiwige.alexcavesspellsbook.candy.CandyLastSpellEntity actor(int, int, net.minecraft.world.phys.Vec3, net.minecraft.world.phys.Vec3);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: iconst_3
+       3: if_icmpne     12
+       6: getstatic     #125                // Field cn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity$Mode.PHANTOM:Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity$Mode;
+       9: goto          15
+      12: getstatic     #128                // Field cn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity$Mode.BALL:Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity$Mode;
+      15: aload_3
+      16: aload         4
+      18: invokevirtual #132                // Method child:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity$Mode;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;
+      21: astore        5
+      23: aload         5
+      25: instanceof    #2                  // class cn/wanyiwige/alexcavesspellsbook/candy/CandyLastSpellEntity
+      28: ifeq          41
+      31: aload         5
+      33: checkcast     #2                  // class cn/wanyiwige/alexcavesspellsbook/candy/CandyLastSpellEntity
+      36: astore        6
+      38: goto          43
+      41: aconst_null
+      42: areturn
+      43: aload         6
+      45: iconst_1
+      46: putfield      #87                 // Field last:Z
+      49: aload         6
+      51: aload_0
+      52: putfield      #89                 // Field root:Lcn/wanyiwige/alexcavesspellsbook/candy/CandyLastSpellEntity;
+      55: aload         6
+      57: iload_1
+      58: putfield      #134                // Field role:I
+      61: aload         6
+      63: aload_0
+      64: getfield      #68                 // Field goal:Lnet/minecraft/world/phys/Vec3;
+      67: putfield      #68                 // Field goal:Lnet/minecraft/world/phys/Vec3;
+      70: aload         6
+      72: aload_0
+      73: getfield      #70                 // Field direction:Lnet/minecraft/world/phys/Vec3;
+      76: putfield      #70                 // Field direction:Lnet/minecraft/world/phys/Vec3;
+      79: aload         6
+      81: aload         4
+      83: invokevirtual #138                // Method m_20256_:(Lnet/minecraft/world/phys/Vec3;)V
+      86: aload         6
+      88: ldc           #95                 // String LastProgram
+      90: iconst_1
+      91: invokevirtual #99                 // Method visualValue:(Ljava/lang/String;I)V
+      94: aload         6
+      96: ldc           #101                // String LastRole
+      98: iload_1
+      99: invokevirtual #99                 // Method visualValue:(Ljava/lang/String;I)V
+     102: aload         6
+     104: ldc           #140                // String Index
+     106: iload_2
+     107: invokevirtual #99                 // Method visualValue:(Ljava/lang/String;I)V
+     110: aload         6
+     112: iload_2
+     113: invokevirtual #144                // Method color:(I)V
+     116: aload         6
+     118: areturn
+
+  protected void motion(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity);
+    Code:
+       0: aload_0
+       1: getfield      #87                 // Field last:Z
+       4: ifne          13
+       7: aload_0
+       8: aload_1
+       9: aload_2
+      10: invokespecial #153                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpellEntity.motion:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)V
+      13: return
+
+  protected void serverTimeline(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, int);
+    Code:
+       0: aload_0
+       1: getfield      #87                 // Field last:Z
+       4: ifne          15
+       7: aload_0
+       8: aload_1
+       9: aload_2
+      10: iload_3
+      11: invokespecial #160                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpellEntity.serverTimeline:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)V
+      14: return
+      15: aload_0
+      16: getfield      #134                // Field role:I
+      19: ifeq          29
+      22: aload_0
+      23: aload_1
+      24: aload_2
+      25: invokevirtual #163                // Method projectile:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)V
+      28: return
+      29: aload_0
+      30: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+      33: invokevirtual #171                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.id:()Ljava/lang/String;
+      36: astore        4
+      38: iconst_m1
+      39: istore        5
+      41: aload         4
+      43: invokevirtual #177                // Method java/lang/String.hashCode:()I
+      46: lookupswitch  { // 13
+
+           -2089819264: 290
+
+           -1886953672: 341
+
+           -1358233563: 240
+
+            -230079692: 256
+
+             449071240: 324
+
+             565121974: 224
+
+             883057122: 273
+
+             914581072: 208
+
+            1137664081: 176
+
+            1555573845: 160
+
+            1876852391: 192
+
+            2096921085: 307
+
+            2144367283: 358
+               default: 372
+          }
+     160: aload         4
+     162: ldc           #179                // String sugar_glass_stars
+     164: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     167: ifeq          372
+     170: iconst_0
+     171: istore        5
+     173: goto          372
+     176: aload         4
+     178: ldc           #185                // String rainbow_leap
+     180: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     183: ifeq          372
+     186: iconst_1
+     187: istore        5
+     189: goto          372
+     192: aload         4
+     194: ldc           #187                // String sweet_overdrive
+     196: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     199: ifeq          372
+     202: iconst_2
+     203: istore        5
+     205: goto          372
+     208: aload         4
+     210: ldc           #189                // String rainbow_snare
+     212: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     215: ifeq          372
+     218: iconst_3
+     219: istore        5
+     221: goto          372
+     224: aload         4
+     226: ldc           #191                // String candicorn_charge
+     228: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     231: ifeq          372
+     234: iconst_4
+     235: istore        5
+     237: goto          372
+     240: aload         4
+     242: ldc           #193                // String gummy_guardian
+     244: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     247: ifeq          372
+     250: iconst_5
+     251: istore        5
+     253: goto          372
+     256: aload         4
+     258: ldc           #195                // String gingerbread_march
+     260: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     263: ifeq          372
+     266: bipush        6
+     268: istore        5
+     270: goto          372
+     273: aload         4
+     275: ldc           #197                // String candy_cane_whirl
+     277: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     280: ifeq          372
+     283: bipush        7
+     285: istore        5
+     287: goto          372
+     290: aload         4
+     292: ldc           #199                // String gumball_sentry
+     294: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     297: ifeq          372
+     300: bipush        8
+     302: istore        5
+     304: goto          372
+     307: aload         4
+     309: ldc           #201                // String gum_worm_breach
+     311: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     314: ifeq          372
+     317: bipush        9
+     319: istore        5
+     321: goto          372
+     324: aload         4
+     326: ldc           #203                // String candy_banquet
+     328: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     331: ifeq          372
+     334: bipush        10
+     336: istore        5
+     338: goto          372
+     341: aload         4
+     343: ldc           #205                // String ice_cream_storm
+     345: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     348: ifeq          372
+     351: bipush        11
+     353: istore        5
+     355: goto          372
+     358: aload         4
+     360: ldc           #207                // String licorice_grand_feast
+     362: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     365: ifeq          372
+     368: bipush        12
+     370: istore        5
+     372: iload         5
+     374: tableswitch   { // 0 to 12
+
+                     0: 440
+
+                     1: 449
+
+                     2: 462
+
+                     3: 471
+
+                     4: 481
+
+                     5: 491
+
+                     6: 505
+
+                     7: 535
+
+                     8: 545
+
+                     9: 558
+
+                    10: 568
+
+                    11: 578
+
+                    12: 588
+               default: 598
+          }
+     440: aload_0
+     441: aload_2
+     442: iload_3
+     443: invokevirtual #211                // Method glass:(Lnet/minecraft/world/entity/LivingEntity;I)V
+     446: goto          602
+     449: iload_3
+     450: bipush        12
+     452: if_icmplt     602
+     455: aload_0
+     456: invokevirtual #214                // Method finish:()V
+     459: goto          602
+     462: aload_0
+     463: aload_2
+     464: iload_3
+     465: invokevirtual #217                // Method overdrive:(Lnet/minecraft/world/entity/LivingEntity;I)V
+     468: goto          602
+     471: aload_0
+     472: aload_1
+     473: aload_2
+     474: iload_3
+     475: invokevirtual #220                // Method snare:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)V
+     478: goto          602
+     481: aload_0
+     482: aload_1
+     483: aload_2
+     484: iload_3
+     485: invokevirtual #223                // Method candicorn:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)V
+     488: goto          602
+     491: iload_3
+     492: ifne          602
+     495: aload_0
+     496: aload_1
+     497: aload_2
+     498: iconst_0
+     499: invokevirtual #226                // Method summonBear:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)V
+     502: goto          602
+     505: iload_3
+     506: ifne          602
+     509: iconst_0
+     510: istore        6
+     512: iload         6
+     514: iconst_3
+     515: if_icmpge     532
+     518: aload_0
+     519: aload_1
+     520: aload_2
+     521: iload         6
+     523: invokevirtual #229                // Method summonGinger:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)V
+     526: iinc          6, 1
+     529: goto          512
+     532: goto          602
+     535: aload_0
+     536: aload_1
+     537: aload_2
+     538: iload_3
+     539: invokevirtual #232                // Method whirl:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)V
+     542: goto          602
+     545: iload_3
+     546: ifne          602
+     549: aload_0
+     550: aload_1
+     551: aload_2
+     552: invokevirtual #235                // Method summonSentry:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)V
+     555: goto          602
+     558: aload_0
+     559: aload_1
+     560: aload_2
+     561: iload_3
+     562: invokevirtual #238                // Method worm:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)V
+     565: goto          602
+     568: aload_0
+     569: aload_1
+     570: aload_2
+     571: iload_3
+     572: invokevirtual #241                // Method banquet:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)V
+     575: goto          602
+     578: aload_0
+     579: aload_1
+     580: aload_2
+     581: iload_3
+     582: invokevirtual #244                // Method iceStorm:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)V
+     585: goto          602
+     588: aload_0
+     589: aload_1
+     590: aload_2
+     591: iload_3
+     592: invokevirtual #247                // Method grandFeast:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)V
+     595: goto          602
+     598: aload_0
+     599: invokevirtual #214                // Method finish:()V
+     602: return
+
+  private void glass(net.minecraft.world.entity.LivingEntity, int);
+    Code:
+       0: iload_2
+       1: iconst_5
+       2: irem
+       3: ifne          99
+       6: aload_0
+       7: getfield      #251                // Field emitted:I
+      10: bipush        6
+      12: if_icmpge     99
+      15: aload_0
+      16: dup
+      17: getfield      #251                // Field emitted:I
+      20: dup_x1
+      21: iconst_1
+      22: iadd
+      23: putfield      #251                // Field emitted:I
+      26: istore_3
+      27: aload_0
+      28: getfield      #70                 // Field direction:Lnet/minecraft/world/phys/Vec3;
+      31: iload_3
+      32: i2d
+      33: ldc2_w        #252                // double 2.5d
+      36: dsub
+      37: ldc2_w        #254                // double 0.14d
+      40: dmul
+      41: d2f
+      42: invokevirtual #259                // Method net/minecraft/world/phys/Vec3.m_82524_:(F)Lnet/minecraft/world/phys/Vec3;
+      45: ldc2_w        #260                // double 1.05d
+      48: invokevirtual #265                // Method net/minecraft/world/phys/Vec3.m_82490_:(D)Lnet/minecraft/world/phys/Vec3;
+      51: dconst_0
+      52: iload_3
+      53: iconst_2
+      54: irem
+      55: ifne          64
+      58: ldc2_w        #266                // double 0.03d
+      61: goto          67
+      64: ldc2_w        #270                // double -0.03d
+      67: dconst_0
+      68: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      71: astore        4
+      73: aload_0
+      74: iconst_1
+      75: iload_3
+      76: aload_0
+      77: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+      80: aload_0
+      81: getfield      #70                 // Field direction:Lnet/minecraft/world/phys/Vec3;
+      84: ldc2_w        #279                // double 0.4d
+      87: invokevirtual #265                // Method net/minecraft/world/phys/Vec3.m_82490_:(D)Lnet/minecraft/world/phys/Vec3;
+      90: invokevirtual #284                // Method net/minecraft/world/phys/Vec3.m_82549_:(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;
+      93: aload         4
+      95: invokevirtual #286                // Method actor:(IILnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Lcn/wanyiwige/alexcavesspellsbook/candy/CandyLastSpellEntity;
+      98: pop
+      99: return
+
+  private void projectile(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity);
+    Code:
+       0: aload_0
+       1: dup
+       2: getfield      #289                // Field travelTicks:I
+       5: iconst_1
+       6: iadd
+       7: putfield      #289                // Field travelTicks:I
+      10: aload_0
+      11: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+      14: astore_3
+      15: aload_0
+      16: invokevirtual #292                // Method m_20184_:()Lnet/minecraft/world/phys/Vec3;
+      19: astore        4
+      21: aload_3
+      22: aload         4
+      24: invokevirtual #284                // Method net/minecraft/world/phys/Vec3.m_82549_:(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;
+      27: astore        5
+      29: aload_0
+      30: getfield      #134                // Field role:I
+      33: iconst_3
+      34: if_icmpne     63
+      37: aload         4
+      39: dconst_0
+      40: ldc2_w        #293                // double -0.06d
+      43: dconst_0
+      44: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      47: astore        4
+      49: aload_0
+      50: aload         4
+      52: invokevirtual #138                // Method m_20256_:(Lnet/minecraft/world/phys/Vec3;)V
+      55: aload_3
+      56: aload         4
+      58: invokevirtual #284                // Method net/minecraft/world/phys/Vec3.m_82549_:(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;
+      61: astore        5
+      63: aload_1
+      64: new           #19                 // class net/minecraft/world/level/ClipContext
+      67: dup
+      68: aload_3
+      69: aload         5
+      71: getstatic     #298                // Field net/minecraft/world/level/ClipContext$Block.COLLIDER:Lnet/minecraft/world/level/ClipContext$Block;
+      74: getstatic     #302                // Field net/minecraft/world/level/ClipContext$Fluid.NONE:Lnet/minecraft/world/level/ClipContext$Fluid;
+      77: aload_0
+      78: invokespecial #305                // Method net/minecraft/world/level/ClipContext."<init>":(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/level/ClipContext$Block;Lnet/minecraft/world/level/ClipContext$Fluid;Lnet/minecraft/world/entity/Entity;)V
+      81: invokevirtual #311                // Method net/minecraft/server/level/ServerLevel.m_45547_:(Lnet/minecraft/world/level/ClipContext;)Lnet/minecraft/world/phys/BlockHitResult;
+      84: astore        6
+      86: aload         6
+      88: invokevirtual #316                // Method net/minecraft/world/phys/BlockHitResult.m_82450_:()Lnet/minecraft/world/phys/Vec3;
+      91: astore        7
+      93: aload_1
+      94: ldc_w         #269                // class net/minecraft/world/entity/LivingEntity
+      97: new           #318                // class net/minecraft/world/phys/AABB
+     100: dup
+     101: aload_3
+     102: aload         7
+     104: invokespecial #320                // Method net/minecraft/world/phys/AABB."<init>":(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)V
+     107: aload_0
+     108: getfield      #134                // Field role:I
+     111: iconst_3
+     112: if_icmpne     121
+     115: ldc2_w        #321                // double 0.45d
+     118: goto          124
+     121: ldc2_w        #325                // double 0.3d
+     124: invokevirtual #330                // Method net/minecraft/world/phys/AABB.m_82400_:(D)Lnet/minecraft/world/phys/AABB;
+     127: aload_2
+     128: aload_3
+     129: aload         7
+     131: invokedynamic #349,  0            // InvokeDynamic #0:test:(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Ljava/util/function/Predicate;
+     136: invokevirtual #353                // Method net/minecraft/server/level/ServerLevel.m_6443_:(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;Ljava/util/function/Predicate;)Ljava/util/List;
+     139: astore        8
+     141: aload         8
+     143: aload_3
+     144: aload         7
+     146: invokedynamic #366,  0            // InvokeDynamic #1:applyAsDouble:(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Ljava/util/function/ToDoubleFunction;
+     151: invokestatic  #372                // InterfaceMethod java/util/Comparator.comparingDouble:(Ljava/util/function/ToDoubleFunction;)Ljava/util/Comparator;
+     154: invokeinterface #378,  2          // InterfaceMethod java/util/List.sort:(Ljava/util/Comparator;)V
+     159: aload         8
+     161: invokeinterface #382,  1          // InterfaceMethod java/util/List.isEmpty:()Z
+     166: ifne          232
+     169: aload         8
+     171: iconst_0
+     172: invokeinterface #386,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+     177: checkcast     #269                // class net/minecraft/world/entity/LivingEntity
+     180: astore        9
+     182: aload_0
+     183: aload         9
+     185: invokevirtual #390                // Method net/minecraft/world/entity/LivingEntity.m_20191_:()Lnet/minecraft/world/phys/AABB;
+     188: invokevirtual #393                // Method net/minecraft/world/phys/AABB.m_82399_:()Lnet/minecraft/world/phys/Vec3;
+     191: invokevirtual #396                // Method m_146884_:(Lnet/minecraft/world/phys/Vec3;)V
+     194: aload_0
+     195: getfield      #134                // Field role:I
+     198: iconst_3
+     199: if_icmpne     215
+     202: aload_0
+     203: aload_1
+     204: aload_2
+     205: ldc2_w        #397                // double 1.5d
+     208: iconst_1
+     209: invokevirtual #402                // Method splash:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;DZ)V
+     212: goto          231
+     215: aload_0
+     216: aload         9
+     218: fconst_1
+     219: invokevirtual #406                // Method hit:(Lnet/minecraft/world/entity/LivingEntity;F)Z
+     222: pop
+     223: aload_0
+     224: invokevirtual #409                // Method impact:()V
+     227: aload_0
+     228: invokevirtual #214                // Method finish:()V
+     231: return
+     232: aload_0
+     233: aload         7
+     235: invokevirtual #396                // Method m_146884_:(Lnet/minecraft/world/phys/Vec3;)V
+     238: aload         6
+     240: invokevirtual #413                // Method net/minecraft/world/phys/BlockHitResult.m_6662_:()Lnet/minecraft/world/phys/HitResult$Type;
+     243: getstatic     #417                // Field net/minecraft/world/phys/HitResult$Type.MISS:Lnet/minecraft/world/phys/HitResult$Type;
+     246: if_acmpne     291
+     249: aload_0
+     250: getfield      #289                // Field travelTicks:I
+     253: bipush        28
+     255: if_icmpgt     291
+     258: aload_0
+     259: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     262: aload_0
+     263: getfield      #89                 // Field root:Lcn/wanyiwige/alexcavesspellsbook/candy/CandyLastSpellEntity;
+     266: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     269: invokevirtual #421                // Method net/minecraft/world/phys/Vec3.m_82557_:(Lnet/minecraft/world/phys/Vec3;)D
+     272: aload_0
+     273: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+     276: invokevirtual #425                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.range:()D
+     279: aload_0
+     280: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+     283: invokevirtual #425                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.range:()D
+     286: dmul
+     287: dcmpl
+     288: ifle          320
+     291: aload_0
+     292: getfield      #134                // Field role:I
+     295: iconst_3
+     296: if_icmpne     312
+     299: aload_0
+     300: aload_1
+     301: aload_2
+     302: ldc2_w        #397                // double 1.5d
+     305: iconst_1
+     306: invokevirtual #402                // Method splash:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;DZ)V
+     309: goto          320
+     312: aload_0
+     313: invokevirtual #409                // Method impact:()V
+     316: aload_0
+     317: invokevirtual #214                // Method finish:()V
+     320: return
+
+  private boolean hit(net.minecraft.world.entity.LivingEntity, float);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: getstatic     #440                // Field cn/wanyiwige/alexcavesspellsbook/candy/CandyRegistry.ENTRIES:Ljava/util/Map;
+       5: aload_0
+       6: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+       9: invokevirtual #171                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.id:()Ljava/lang/String;
+      12: invokeinterface #445,  2          // InterfaceMethod java/util/Map.get:(Ljava/lang/Object;)Ljava/lang/Object;
+      17: checkcast     #447                // class net/minecraftforge/registries/RegistryObject
+      20: invokevirtual #450                // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;
+      23: checkcast     #452                // class io/redspace/ironsspellbooks/api/spells/AbstractSpell
+      26: aload_0
+      27: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+      30: aload_0
+      31: invokevirtual #455                // Method spellLevel:()I
+      34: invokevirtual #459                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.hitDamage:(I)F
+      37: fload_2
+      38: fmul
+      39: invokestatic  #465                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.damage:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;Lnet/minecraft/world/entity/LivingEntity;Lio/redspace/ironsspellbooks/api/spells/AbstractSpell;F)Z
+      42: ireturn
+
+  private void splash(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, double, boolean);
+    Code:
+       0: aload_0
+       1: getfield      #469                // Field burst:Z
+       4: ifeq          8
+       7: return
+       8: aload_0
+       9: iconst_1
+      10: putfield      #469                // Field burst:Z
+      13: aload_1
+      14: aload_2
+      15: aload_0
+      16: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+      19: dload_3
+      20: invokestatic  #472                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.targets:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;D)Ljava/util/List;
+      23: invokeinterface #476,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+      28: astore        6
+      30: aload         6
+      32: invokeinterface #481,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+      37: ifeq          85
+      40: aload         6
+      42: invokeinterface #484,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+      47: checkcast     #269                // class net/minecraft/world/entity/LivingEntity
+      50: astore        7
+      52: aload_0
+      53: aload         7
+      55: fconst_1
+      56: invokevirtual #406                // Method hit:(Lnet/minecraft/world/entity/LivingEntity;F)Z
+      59: ifeq          82
+      62: iload         5
+      64: ifeq          82
+      67: aload_0
+      68: aload         7
+      70: aload_0
+      71: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+      74: invokevirtual #487                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.controlTicks:()I
+      77: iconst_0
+      78: invokestatic  #491                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.slow:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;Lnet/minecraft/world/entity/LivingEntity;II)Z
+      81: pop
+      82: goto          30
+      85: aload_0
+      86: invokevirtual #409                // Method impact:()V
+      89: aload_0
+      90: invokevirtual #214                // Method finish:()V
+      93: return
+
+  private void overdrive(net.minecraft.world.entity.LivingEntity, int);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokevirtual #493                // Method net/minecraft/world/entity/LivingEntity.m_20182_:()Lnet/minecraft/world/phys/Vec3;
+       5: dconst_0
+       6: aload_1
+       7: invokevirtual #497                // Method net/minecraft/world/entity/LivingEntity.m_20206_:()F
+      10: f2d
+      11: ldc2_w        #498                // double 0.6d
+      14: dmul
+      15: dconst_0
+      16: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      19: invokevirtual #396                // Method m_146884_:(Lnet/minecraft/world/phys/Vec3;)V
+      22: iload_2
+      23: ifne          61
+      26: aload_1
+      27: new           #501                // class net/minecraft/world/effect/MobEffectInstance
+      30: dup
+      31: getstatic     #505                // Field cn/wanyiwige/alexcavesspellsbook/candy/CandyRegistry.SWEET_OVERDRIVE:Lnet/minecraftforge/registries/RegistryObject;
+      34: invokevirtual #450                // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;
+      37: checkcast     #507                // class net/minecraft/world/effect/MobEffect
+      40: aload_0
+      41: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+      44: invokevirtual #510                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.activeTicks:()I
+      47: aload_0
+      48: invokevirtual #455                // Method spellLevel:()I
+      51: iconst_1
+      52: isub
+      53: invokespecial #513                // Method net/minecraft/world/effect/MobEffectInstance."<init>":(Lnet/minecraft/world/effect/MobEffect;II)V
+      56: aload_1
+      57: invokevirtual #517                // Method net/minecraft/world/entity/LivingEntity.m_147207_:(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z
+      60: pop
+      61: return
+
+  private void snare(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, int);
+    Code:
+       0: aload_0
+       1: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+       4: iload_3
+       5: invokestatic  #523                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyLastRules.pulse:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;I)Z
+       8: ifne          12
+      11: return
+      12: new           #525                // class java/util/ArrayList
+      15: dup
+      16: invokespecial #526                // Method java/util/ArrayList."<init>":()V
+      19: astore        4
+      21: aload_1
+      22: aload_2
+      23: aload_0
+      24: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+      27: dconst_0
+      28: ldc2_w        #498                // double 0.6d
+      31: dconst_0
+      32: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      35: aload_0
+      36: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+      39: invokevirtual #528                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.radius:()D
+      42: invokestatic  #472                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.targets:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;D)Ljava/util/List;
+      45: invokeinterface #476,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+      50: astore        5
+      52: aload         5
+      54: invokeinterface #481,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+      59: ifeq          208
+      62: aload         5
+      64: invokeinterface #484,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+      69: checkcast     #269                // class net/minecraft/world/entity/LivingEntity
+      72: astore        6
+      74: aload         6
+      76: invokevirtual #531                // Method net/minecraft/world/entity/LivingEntity.m_20186_:()D
+      79: aload_0
+      80: invokevirtual #532                // Method m_20186_:()D
+      83: dsub
+      84: invokestatic  #536                // Method java/lang/Math.abs:(D)D
+      87: ldc2_w        #537                // double 2.0d
+      90: dcmpl
+      91: ifle          97
+      94: goto          52
+      97: aload_0
+      98: aload         6
+     100: fconst_1
+     101: invokevirtual #406                // Method hit:(Lnet/minecraft/world/entity/LivingEntity;F)Z
+     104: ifeq          205
+     107: aload_0
+     108: aload         6
+     110: aload_0
+     111: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+     114: invokevirtual #487                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.controlTicks:()I
+     117: iconst_1
+     118: invokestatic  #491                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.slow:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;Lnet/minecraft/world/entity/LivingEntity;II)Z
+     121: istore        7
+     123: aload         4
+     125: invokeinterface #541,  1          // InterfaceMethod java/util/List.size:()I
+     130: bipush        12
+     132: if_icmpge     156
+     135: iload         7
+     137: ifeq          156
+     140: aload         4
+     142: aload         6
+     144: invokevirtual #544                // Method net/minecraft/world/entity/LivingEntity.m_19879_:()I
+     147: invokestatic  #550                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+     150: invokeinterface #553,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+     155: pop
+     156: aload_0
+     157: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     160: aload         6
+     162: invokevirtual #493                // Method net/minecraft/world/entity/LivingEntity.m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     165: invokevirtual #556                // Method net/minecraft/world/phys/Vec3.m_82546_:(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;
+     168: dconst_1
+     169: dconst_0
+     170: dconst_1
+     171: invokevirtual #559                // Method net/minecraft/world/phys/Vec3.m_82542_:(DDD)Lnet/minecraft/world/phys/Vec3;
+     174: astore        8
+     176: aload         8
+     178: invokevirtual #562                // Method net/minecraft/world/phys/Vec3.m_82556_:()D
+     181: ldc2_w        #563                // double 0.25d
+     184: dcmpl
+     185: ifle          205
+     188: aload_0
+     189: aload         6
+     191: aload         8
+     193: invokevirtual #93                 // Method net/minecraft/world/phys/Vec3.m_82541_:()Lnet/minecraft/world/phys/Vec3;
+     196: ldc2_w        #565                // double 0.13d
+     199: invokevirtual #265                // Method net/minecraft/world/phys/Vec3.m_82490_:(D)Lnet/minecraft/world/phys/Vec3;
+     202: invokestatic  #570                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.impulse:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;)V
+     205: goto          52
+     208: aload_0
+     209: invokevirtual #574                // Method visual:()Lnet/minecraft/nbt/CompoundTag;
+     212: invokevirtual #579                // Method net/minecraft/nbt/CompoundTag.m_6426_:()Lnet/minecraft/nbt/CompoundTag;
+     215: astore        5
+     217: aload         5
+     219: ldc_w         #581                // String BoundTargets
+     222: aload         4
+     224: invokevirtual #585                // Method net/minecraft/nbt/CompoundTag.m_128408_:(Ljava/lang/String;Ljava/util/List;)V
+     227: aload         5
+     229: ldc_w         #587                // String SnarePulseAge
+     232: aload         5
+     234: ldc_w         #589                // String Age
+     237: invokevirtual #593                // Method net/minecraft/nbt/CompoundTag.m_128451_:(Ljava/lang/String;)I
+     240: invokevirtual #596                // Method net/minecraft/nbt/CompoundTag.m_128405_:(Ljava/lang/String;I)V
+     243: aload_0
+     244: aload         5
+     246: invokevirtual #600                // Method visualSnapshot:(Lnet/minecraft/nbt/CompoundTag;)V
+     249: aload_0
+     250: invokevirtual #409                // Method impact:()V
+     253: return
+
+  private void candicorn(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, int);
+    Code:
+       0: aload_0
+       1: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+       4: astore        4
+       6: aload_0
+       7: getfield      #70                 // Field direction:Lnet/minecraft/world/phys/Vec3;
+      10: dconst_1
+      11: dconst_0
+      12: dconst_1
+      13: invokevirtual #559                // Method net/minecraft/world/phys/Vec3.m_82542_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      16: invokevirtual #93                 // Method net/minecraft/world/phys/Vec3.m_82541_:()Lnet/minecraft/world/phys/Vec3;
+      19: ldc2_w        #607                // double 0.55d
+      22: invokevirtual #265                // Method net/minecraft/world/phys/Vec3.m_82490_:(D)Lnet/minecraft/world/phys/Vec3;
+      25: astore        5
+      27: aload         4
+      29: aload         5
+      31: invokevirtual #284                // Method net/minecraft/world/phys/Vec3.m_82549_:(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;
+      34: astore        6
+      36: aload_1
+      37: new           #19                 // class net/minecraft/world/level/ClipContext
+      40: dup
+      41: aload         4
+      43: dconst_0
+      44: ldc2_w        #609                // double 0.65d
+      47: dconst_0
+      48: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      51: aload         6
+      53: dconst_0
+      54: ldc2_w        #609                // double 0.65d
+      57: dconst_0
+      58: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      61: getstatic     #298                // Field net/minecraft/world/level/ClipContext$Block.COLLIDER:Lnet/minecraft/world/level/ClipContext$Block;
+      64: getstatic     #302                // Field net/minecraft/world/level/ClipContext$Fluid.NONE:Lnet/minecraft/world/level/ClipContext$Fluid;
+      67: aload_0
+      68: invokespecial #305                // Method net/minecraft/world/level/ClipContext."<init>":(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/level/ClipContext$Block;Lnet/minecraft/world/level/ClipContext$Fluid;Lnet/minecraft/world/entity/Entity;)V
+      71: invokevirtual #311                // Method net/minecraft/server/level/ServerLevel.m_45547_:(Lnet/minecraft/world/level/ClipContext;)Lnet/minecraft/world/phys/BlockHitResult;
+      74: astore        7
+      76: aload_1
+      77: aload         6
+      79: dconst_0
+      80: ldc2_w        #611                // double 0.5d
+      83: dconst_0
+      84: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      87: ldc2_w        #611                // double 0.5d
+      90: ldc2_w        #537                // double 2.0d
+      93: aload_2
+      94: invokestatic  #618                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyFirstCasting.ground:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;DDLnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/phys/Vec3;
+      97: astore        8
+      99: aload         7
+     101: invokevirtual #413                // Method net/minecraft/world/phys/BlockHitResult.m_6662_:()Lnet/minecraft/world/phys/HitResult$Type;
+     104: getstatic     #417                // Field net/minecraft/world/phys/HitResult$Type.MISS:Lnet/minecraft/world/phys/HitResult$Type;
+     107: if_acmpne     134
+     110: aload         8
+     112: ifnull        134
+     115: aload         8
+     117: getfield      #621                // Field net/minecraft/world/phys/Vec3.f_82480_:D
+     120: aload         4
+     122: getfield      #621                // Field net/minecraft/world/phys/Vec3.f_82480_:D
+     125: dsub
+     126: invokestatic  #536                // Method java/lang/Math.abs:(D)D
+     129: dconst_1
+     130: dcmpl
+     131: ifle          143
+     134: aload_0
+     135: invokevirtual #409                // Method impact:()V
+     138: aload_0
+     139: invokevirtual #214                // Method finish:()V
+     142: return
+     143: aload_0
+     144: aload         8
+     146: invokevirtual #396                // Method m_146884_:(Lnet/minecraft/world/phys/Vec3;)V
+     149: aload_0
+     150: ldc_w         #623                // String ChargeAge
+     153: iload_3
+     154: invokevirtual #99                 // Method visualValue:(Ljava/lang/String;I)V
+     157: aload_1
+     158: aload_2
+     159: aload_0
+     160: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     163: aload_0
+     164: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+     167: invokevirtual #528                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.radius:()D
+     170: invokestatic  #472                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.targets:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;D)Ljava/util/List;
+     173: invokeinterface #476,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+     178: astore        9
+     180: aload         9
+     182: invokeinterface #481,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+     187: ifeq          271
+     190: aload         9
+     192: invokeinterface #484,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+     197: checkcast     #269                // class net/minecraft/world/entity/LivingEntity
+     200: astore        10
+     202: aload_0
+     203: getfield      #77                 // Field struck:Ljava/util/Set;
+     206: aload         10
+     208: invokevirtual #627                // Method net/minecraft/world/entity/LivingEntity.m_20148_:()Ljava/util/UUID;
+     211: invokeinterface #632,  2          // InterfaceMethod java/util/Set.contains:(Ljava/lang/Object;)Z
+     216: ifne          268
+     219: aload_0
+     220: aload         10
+     222: fconst_1
+     223: invokevirtual #406                // Method hit:(Lnet/minecraft/world/entity/LivingEntity;F)Z
+     226: ifeq          268
+     229: aload_0
+     230: getfield      #77                 // Field struck:Ljava/util/Set;
+     233: aload         10
+     235: invokevirtual #627                // Method net/minecraft/world/entity/LivingEntity.m_20148_:()Ljava/util/UUID;
+     238: invokeinterface #633,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     243: pop
+     244: aload_0
+     245: aload         10
+     247: aload_0
+     248: getfield      #70                 // Field direction:Lnet/minecraft/world/phys/Vec3;
+     251: ldc2_w        #325                // double 0.3d
+     254: invokevirtual #265                // Method net/minecraft/world/phys/Vec3.m_82490_:(D)Lnet/minecraft/world/phys/Vec3;
+     257: dconst_0
+     258: ldc2_w        #634                // double 0.12d
+     261: dconst_0
+     262: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+     265: invokestatic  #570                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.impulse:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;)V
+     268: goto          180
+     271: iload_3
+     272: bipush        43
+     274: if_icmpge     310
+     277: aload_0
+     278: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     281: aload_0
+     282: ldc_w         #637                // String Anchor
+     285: invokevirtual #641                // Method anchor:(Ljava/lang/String;)Lnet/minecraft/world/phys/Vec3;
+     288: invokevirtual #421                // Method net/minecraft/world/phys/Vec3.m_82557_:(Lnet/minecraft/world/phys/Vec3;)D
+     291: aload_0
+     292: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+     295: invokevirtual #425                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.range:()D
+     298: aload_0
+     299: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+     302: invokevirtual #425                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.range:()D
+     305: dmul
+     306: dcmpl
+     307: iflt          318
+     310: aload_0
+     311: invokevirtual #409                // Method impact:()V
+     314: aload_0
+     315: invokevirtual #214                // Method finish:()V
+     318: return
+
+  private void whirl(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, int);
+    Code:
+       0: aload_0
+       1: aload_2
+       2: invokevirtual #493                // Method net/minecraft/world/entity/LivingEntity.m_20182_:()Lnet/minecraft/world/phys/Vec3;
+       5: dconst_0
+       6: aload_2
+       7: invokevirtual #497                // Method net/minecraft/world/entity/LivingEntity.m_20206_:()F
+      10: f2d
+      11: ldc2_w        #498                // double 0.6d
+      14: dmul
+      15: dconst_0
+      16: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      19: invokevirtual #396                // Method m_146884_:(Lnet/minecraft/world/phys/Vec3;)V
+      22: aload_0
+      23: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+      26: iload_3
+      27: invokestatic  #523                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyLastRules.pulse:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;I)Z
+      30: ifne          34
+      33: return
+      34: aload_1
+      35: aload_2
+      36: aload_0
+      37: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+      40: aload_0
+      41: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+      44: invokevirtual #528                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.radius:()D
+      47: invokestatic  #472                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.targets:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;D)Ljava/util/List;
+      50: invokeinterface #476,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+      55: astore        4
+      57: aload         4
+      59: invokeinterface #481,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+      64: ifeq          119
+      67: aload         4
+      69: invokeinterface #484,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+      74: checkcast     #269                // class net/minecraft/world/entity/LivingEntity
+      77: astore        5
+      79: aload_0
+      80: aload         5
+      82: fconst_1
+      83: invokevirtual #406                // Method hit:(Lnet/minecraft/world/entity/LivingEntity;F)Z
+      86: ifeq          116
+      89: aload_0
+      90: aload         5
+      92: aload         5
+      94: invokevirtual #493                // Method net/minecraft/world/entity/LivingEntity.m_20182_:()Lnet/minecraft/world/phys/Vec3;
+      97: aload_2
+      98: invokevirtual #493                // Method net/minecraft/world/entity/LivingEntity.m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     101: invokevirtual #556                // Method net/minecraft/world/phys/Vec3.m_82546_:(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;
+     104: invokevirtual #93                 // Method net/minecraft/world/phys/Vec3.m_82541_:()Lnet/minecraft/world/phys/Vec3;
+     107: ldc2_w        #644                // double 0.18d
+     110: invokevirtual #265                // Method net/minecraft/world/phys/Vec3.m_82490_:(D)Lnet/minecraft/world/phys/Vec3;
+     113: invokestatic  #570                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.impulse:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;)V
+     116: goto          57
+     119: return
+
+  private void worm(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, int);
+    Code:
+       0: iload_3
+       1: bipush        8
+       3: if_icmpge     7
+       6: return
+       7: aload_0
+       8: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+      11: astore        4
+      13: aload         4
+      15: aload_0
+      16: getfield      #70                 // Field direction:Lnet/minecraft/world/phys/Vec3;
+      19: dconst_1
+      20: dconst_0
+      21: dconst_1
+      22: invokevirtual #559                // Method net/minecraft/world/phys/Vec3.m_82542_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      25: invokevirtual #93                 // Method net/minecraft/world/phys/Vec3.m_82541_:()Lnet/minecraft/world/phys/Vec3;
+      28: ldc2_w        #607                // double 0.55d
+      31: invokevirtual #265                // Method net/minecraft/world/phys/Vec3.m_82490_:(D)Lnet/minecraft/world/phys/Vec3;
+      34: invokevirtual #284                // Method net/minecraft/world/phys/Vec3.m_82549_:(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;
+      37: astore        5
+      39: aload_1
+      40: new           #19                 // class net/minecraft/world/level/ClipContext
+      43: dup
+      44: aload         4
+      46: dconst_0
+      47: ldc2_w        #611                // double 0.5d
+      50: dconst_0
+      51: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      54: aload         5
+      56: dconst_0
+      57: ldc2_w        #611                // double 0.5d
+      60: dconst_0
+      61: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      64: getstatic     #298                // Field net/minecraft/world/level/ClipContext$Block.COLLIDER:Lnet/minecraft/world/level/ClipContext$Block;
+      67: getstatic     #302                // Field net/minecraft/world/level/ClipContext$Fluid.NONE:Lnet/minecraft/world/level/ClipContext$Fluid;
+      70: aload_0
+      71: invokespecial #305                // Method net/minecraft/world/level/ClipContext."<init>":(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/level/ClipContext$Block;Lnet/minecraft/world/level/ClipContext$Fluid;Lnet/minecraft/world/entity/Entity;)V
+      74: invokevirtual #311                // Method net/minecraft/server/level/ServerLevel.m_45547_:(Lnet/minecraft/world/level/ClipContext;)Lnet/minecraft/world/phys/BlockHitResult;
+      77: astore        6
+      79: aload         6
+      81: invokevirtual #413                // Method net/minecraft/world/phys/BlockHitResult.m_6662_:()Lnet/minecraft/world/phys/HitResult$Type;
+      84: getstatic     #417                // Field net/minecraft/world/phys/HitResult$Type.MISS:Lnet/minecraft/world/phys/HitResult$Type;
+      87: if_acmpeq     99
+      90: aload_0
+      91: invokevirtual #409                // Method impact:()V
+      94: aload_0
+      95: invokevirtual #214                // Method finish:()V
+      98: return
+      99: aload_1
+     100: aload         5
+     102: dconst_1
+     103: ldc2_w        #537                // double 2.0d
+     106: aload_2
+     107: invokestatic  #618                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyFirstCasting.ground:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;DDLnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/phys/Vec3;
+     110: astore        7
+     112: aload         7
+     114: ifnull        136
+     117: aload         7
+     119: getfield      #621                // Field net/minecraft/world/phys/Vec3.f_82480_:D
+     122: aload         4
+     124: getfield      #621                // Field net/minecraft/world/phys/Vec3.f_82480_:D
+     127: dsub
+     128: invokestatic  #536                // Method java/lang/Math.abs:(D)D
+     131: dconst_1
+     132: dcmpl
+     133: ifle          145
+     136: aload_0
+     137: invokevirtual #409                // Method impact:()V
+     140: aload_0
+     141: invokevirtual #214                // Method finish:()V
+     144: return
+     145: aload_0
+     146: aload         7
+     148: invokevirtual #396                // Method m_146884_:(Lnet/minecraft/world/phys/Vec3;)V
+     151: aload_0
+     152: ldc_w         #647                // String WormAge
+     155: iload_3
+     156: invokevirtual #99                 // Method visualValue:(Ljava/lang/String;I)V
+     159: iload_3
+     160: iconst_4
+     161: irem
+     162: ifne          281
+     165: aload_1
+     166: aload_2
+     167: aload_0
+     168: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     171: dconst_0
+     172: dconst_1
+     173: dconst_0
+     174: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+     177: aload_0
+     178: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+     181: invokevirtual #528                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.radius:()D
+     184: invokestatic  #472                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.targets:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;D)Ljava/util/List;
+     187: invokeinterface #476,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+     192: astore        8
+     194: aload         8
+     196: invokeinterface #481,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+     201: ifeq          281
+     204: aload         8
+     206: invokeinterface #484,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+     211: checkcast     #269                // class net/minecraft/world/entity/LivingEntity
+     214: astore        9
+     216: aload_0
+     217: getfield      #77                 // Field struck:Ljava/util/Set;
+     220: aload         9
+     222: invokevirtual #627                // Method net/minecraft/world/entity/LivingEntity.m_20148_:()Ljava/util/UUID;
+     225: invokeinterface #633,  2          // InterfaceMethod java/util/Set.add:(Ljava/lang/Object;)Z
+     230: ifeq          278
+     233: aload_0
+     234: aload         9
+     236: fconst_1
+     237: invokevirtual #406                // Method hit:(Lnet/minecraft/world/entity/LivingEntity;F)Z
+     240: ifeq          278
+     243: aload_0
+     244: aload         9
+     246: aload         9
+     248: invokevirtual #493                // Method net/minecraft/world/entity/LivingEntity.m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     251: aload_0
+     252: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     255: invokevirtual #556                // Method net/minecraft/world/phys/Vec3.m_82546_:(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;
+     258: invokevirtual #93                 // Method net/minecraft/world/phys/Vec3.m_82541_:()Lnet/minecraft/world/phys/Vec3;
+     261: ldc2_w        #648                // double 0.32d
+     264: invokevirtual #265                // Method net/minecraft/world/phys/Vec3.m_82490_:(D)Lnet/minecraft/world/phys/Vec3;
+     267: dconst_0
+     268: ldc2_w        #650                // double 0.1d
+     271: dconst_0
+     272: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+     275: invokestatic  #570                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.impulse:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;)V
+     278: goto          194
+     281: iload_3
+     282: bipush        43
+     284: if_icmpge     338
+     287: aload_0
+     288: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     291: aload_0
+     292: ldc_w         #637                // String Anchor
+     295: invokevirtual #641                // Method anchor:(Ljava/lang/String;)Lnet/minecraft/world/phys/Vec3;
+     298: invokevirtual #421                // Method net/minecraft/world/phys/Vec3.m_82557_:(Lnet/minecraft/world/phys/Vec3;)D
+     301: aload_0
+     302: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+     305: invokevirtual #425                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.range:()D
+     308: aload_0
+     309: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+     312: invokevirtual #425                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.range:()D
+     315: dmul
+     316: dcmpl
+     317: ifgt          338
+     320: aload_0
+     321: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     324: aload_0
+     325: getfield      #68                 // Field goal:Lnet/minecraft/world/phys/Vec3;
+     328: invokevirtual #421                // Method net/minecraft/world/phys/Vec3.m_82557_:(Lnet/minecraft/world/phys/Vec3;)D
+     331: ldc2_w        #652                // double 0.8d
+     334: dcmpg
+     335: ifge          346
+     338: aload_0
+     339: invokevirtual #409                // Method impact:()V
+     342: aload_0
+     343: invokevirtual #214                // Method finish:()V
+     346: return
+
+  private void banquet(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, int);
+    Code:
+       0: aload_0
+       1: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+       4: iload_3
+       5: invokestatic  #523                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyLastRules.pulse:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;I)Z
+       8: ifne          12
+      11: return
+      12: aload_1
+      13: aload_2
+      14: aload_0
+      15: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+      18: dconst_0
+      19: ldc2_w        #654                // double 0.7d
+      22: dconst_0
+      23: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      26: aload_0
+      27: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+      30: invokevirtual #528                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.radius:()D
+      33: invokestatic  #472                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.targets:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;D)Ljava/util/List;
+      36: invokeinterface #476,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+      41: astore        4
+      43: aload         4
+      45: invokeinterface #481,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+      50: ifeq          113
+      53: aload         4
+      55: invokeinterface #484,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+      60: checkcast     #269                // class net/minecraft/world/entity/LivingEntity
+      63: astore        5
+      65: aload         5
+      67: invokevirtual #531                // Method net/minecraft/world/entity/LivingEntity.m_20186_:()D
+      70: aload_0
+      71: invokevirtual #532                // Method m_20186_:()D
+      74: dsub
+      75: invokestatic  #536                // Method java/lang/Math.abs:(D)D
+      78: ldc2_w        #537                // double 2.0d
+      81: dcmpg
+      82: ifgt          110
+      85: aload_0
+      86: aload         5
+      88: fconst_1
+      89: invokevirtual #406                // Method hit:(Lnet/minecraft/world/entity/LivingEntity;F)Z
+      92: ifeq          110
+      95: aload_0
+      96: aload         5
+      98: aload_0
+      99: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+     102: invokevirtual #487                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.controlTicks:()I
+     105: iconst_0
+     106: invokestatic  #491                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.slow:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;Lnet/minecraft/world/entity/LivingEntity;II)Z
+     109: pop
+     110: goto          43
+     113: aload_1
+     114: ldc_w         #269                // class net/minecraft/world/entity/LivingEntity
+     117: new           #318                // class net/minecraft/world/phys/AABB
+     120: dup
+     121: aload_0
+     122: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     125: aload_0
+     126: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     129: invokespecial #320                // Method net/minecraft/world/phys/AABB."<init>":(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)V
+     132: aload_0
+     133: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+     136: invokevirtual #528                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.radius:()D
+     139: invokevirtual #330                // Method net/minecraft/world/phys/AABB.m_82400_:(D)Lnet/minecraft/world/phys/AABB;
+     142: aload_2
+     143: invokedynamic #663,  0            // InvokeDynamic #2:test:(Lnet/minecraft/world/entity/LivingEntity;)Ljava/util/function/Predicate;
+     148: invokevirtual #353                // Method net/minecraft/server/level/ServerLevel.m_6443_:(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;Ljava/util/function/Predicate;)Ljava/util/List;
+     151: invokeinterface #476,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+     156: astore        4
+     158: aload         4
+     160: invokeinterface #481,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+     165: ifeq          234
+     168: aload         4
+     170: invokeinterface #484,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+     175: checkcast     #269                // class net/minecraft/world/entity/LivingEntity
+     178: astore        5
+     180: aload         5
+     182: invokevirtual #493                // Method net/minecraft/world/entity/LivingEntity.m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     185: aload_0
+     186: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+     189: invokevirtual #421                // Method net/minecraft/world/phys/Vec3.m_82557_:(Lnet/minecraft/world/phys/Vec3;)D
+     192: aload_0
+     193: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+     196: invokevirtual #528                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.radius:()D
+     199: aload_0
+     200: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+     203: invokevirtual #528                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.radius:()D
+     206: dmul
+     207: dcmpg
+     208: ifgt          231
+     211: aload         5
+     213: new           #501                // class net/minecraft/world/effect/MobEffectInstance
+     216: dup
+     217: getstatic     #669                // Field net/minecraft/world/effect/MobEffects.f_19605_:Lnet/minecraft/world/effect/MobEffect;
+     220: bipush        30
+     222: iconst_0
+     223: invokespecial #513                // Method net/minecraft/world/effect/MobEffectInstance."<init>":(Lnet/minecraft/world/effect/MobEffect;II)V
+     226: aload_2
+     227: invokevirtual #517                // Method net/minecraft/world/entity/LivingEntity.m_147207_:(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z
+     230: pop
+     231: goto          158
+     234: aload_0
+     235: invokevirtual #409                // Method impact:()V
+     238: return
+
+  private void iceStorm(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, int);
+    Code:
+       0: iload_3
+       1: bipush        16
+       3: irem
+       4: ifne          16
+       7: aload_0
+       8: getfield      #251                // Field emitted:I
+      11: bipush        7
+      13: if_icmplt     17
+      16: return
+      17: aload_0
+      18: dup
+      19: getfield      #251                // Field emitted:I
+      22: dup_x1
+      23: iconst_1
+      24: iadd
+      25: putfield      #251                // Field emitted:I
+      28: istore        4
+      30: iload         4
+      32: i2d
+      33: ldc2_w        #671                // double 2.399963229728653d
+      36: dmul
+      37: dstore        5
+      39: iload         4
+      41: i2d
+      42: ldc2_w        #611                // double 0.5d
+      45: dadd
+      46: ldc2_w        #673                // double 7.0d
+      49: ddiv
+      50: invokestatic  #677                // Method java/lang/Math.sqrt:(D)D
+      53: aload_0
+      54: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+      57: invokevirtual #528                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.radius:()D
+      60: dmul
+      61: dstore        7
+      63: aload_0
+      64: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+      67: dload         5
+      69: invokestatic  #680                // Method java/lang/Math.cos:(D)D
+      72: dload         7
+      74: dmul
+      75: dconst_0
+      76: dload         5
+      78: invokestatic  #683                // Method java/lang/Math.sin:(D)D
+      81: dload         7
+      83: dmul
+      84: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      87: astore        9
+      89: aload_1
+      90: new           #19                 // class net/minecraft/world/level/ClipContext
+      93: dup
+      94: aload         9
+      96: dconst_0
+      97: ldc2_w        #325                // double 0.3d
+     100: dconst_0
+     101: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+     104: aload         9
+     106: dconst_0
+     107: ldc2_w        #684                // double 6.0d
+     110: dconst_0
+     111: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+     114: getstatic     #298                // Field net/minecraft/world/level/ClipContext$Block.COLLIDER:Lnet/minecraft/world/level/ClipContext$Block;
+     117: getstatic     #302                // Field net/minecraft/world/level/ClipContext$Fluid.NONE:Lnet/minecraft/world/level/ClipContext$Fluid;
+     120: aload_0
+     121: invokespecial #305                // Method net/minecraft/world/level/ClipContext."<init>":(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/level/ClipContext$Block;Lnet/minecraft/world/level/ClipContext$Fluid;Lnet/minecraft/world/entity/Entity;)V
+     124: invokevirtual #311                // Method net/minecraft/server/level/ServerLevel.m_45547_:(Lnet/minecraft/world/level/ClipContext;)Lnet/minecraft/world/phys/BlockHitResult;
+     127: astore        10
+     129: aload         10
+     131: invokevirtual #316                // Method net/minecraft/world/phys/BlockHitResult.m_82450_:()Lnet/minecraft/world/phys/Vec3;
+     134: dconst_0
+     135: ldc2_w        #279                // double 0.4d
+     138: dconst_0
+     139: invokevirtual #688                // Method net/minecraft/world/phys/Vec3.m_82492_:(DDD)Lnet/minecraft/world/phys/Vec3;
+     142: astore        11
+     144: aload         11
+     146: getfield      #621                // Field net/minecraft/world/phys/Vec3.f_82480_:D
+     149: aload         9
+     151: getfield      #621                // Field net/minecraft/world/phys/Vec3.f_82480_:D
+     154: dsub
+     155: dconst_1
+     156: dcmpl
+     157: ifle          182
+     160: aload_0
+     161: iconst_3
+     162: iload         4
+     164: aload         11
+     166: new           #63                 // class net/minecraft/world/phys/Vec3
+     169: dup
+     170: dconst_0
+     171: ldc2_w        #689                // double -0.3d
+     174: dconst_0
+     175: invokespecial #693                // Method net/minecraft/world/phys/Vec3."<init>":(DDD)V
+     178: invokevirtual #286                // Method actor:(IILnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Lcn/wanyiwige/alexcavesspellsbook/candy/CandyLastSpellEntity;
+     181: pop
+     182: return
+
+  private void grandFeast(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, int);
+    Code:
+       0: iload_3
+       1: ifne          31
+       4: aload_0
+       5: aload_1
+       6: aload_2
+       7: iconst_0
+       8: invokevirtual #226                // Method summonBear:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)V
+      11: aload_0
+      12: aload_1
+      13: aload_2
+      14: iconst_1
+      15: invokevirtual #229                // Method summonGinger:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)V
+      18: aload_0
+      19: aload_1
+      20: aload_2
+      21: iconst_2
+      22: invokevirtual #229                // Method summonGinger:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)V
+      25: aload_0
+      26: aload_1
+      27: aload_2
+      28: invokevirtual #235                // Method summonSentry:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)V
+      31: aload_0
+      32: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+      35: iload_3
+      36: invokestatic  #523                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyLastRules.pulse:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;I)Z
+      39: ifne          43
+      42: return
+      43: aload_1
+      44: aload_2
+      45: aload_0
+      46: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+      49: dconst_0
+      50: ldc2_w        #654                // double 0.7d
+      53: dconst_0
+      54: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      57: aload_0
+      58: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+      61: invokevirtual #528                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.radius:()D
+      64: invokestatic  #472                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.targets:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/Vec3;D)Ljava/util/List;
+      67: invokeinterface #476,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+      72: astore        4
+      74: aload         4
+      76: invokeinterface #481,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+      81: ifeq          144
+      84: aload         4
+      86: invokeinterface #484,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+      91: checkcast     #269                // class net/minecraft/world/entity/LivingEntity
+      94: astore        5
+      96: aload         5
+      98: invokevirtual #531                // Method net/minecraft/world/entity/LivingEntity.m_20186_:()D
+     101: aload_0
+     102: invokevirtual #532                // Method m_20186_:()D
+     105: dsub
+     106: invokestatic  #536                // Method java/lang/Math.abs:(D)D
+     109: ldc2_w        #537                // double 2.0d
+     112: dcmpg
+     113: ifgt          141
+     116: aload_0
+     117: aload         5
+     119: fconst_1
+     120: invokevirtual #406                // Method hit:(Lnet/minecraft/world/entity/LivingEntity;F)Z
+     123: ifeq          141
+     126: aload_0
+     127: aload         5
+     129: aload_0
+     130: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+     133: invokevirtual #487                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.controlTicks:()I
+     136: iconst_0
+     137: invokestatic  #491                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.slow:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;Lnet/minecraft/world/entity/LivingEntity;II)Z
+     140: pop
+     141: goto          74
+     144: aload_0
+     145: invokevirtual #409                // Method impact:()V
+     148: return
+
+  private net.minecraft.world.phys.Vec3 summonPosition(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, int);
+    Code:
+       0: iload_3
+       1: i2d
+       2: ldc2_w        #700                // double 2.094d
+       5: dmul
+       6: dstore        4
+       8: iload_3
+       9: ifne          18
+      12: ldc2_w        #397                // double 1.5d
+      15: goto          21
+      18: ldc2_w        #702                // double 2.2d
+      21: dstore        6
+      23: aload_0
+      24: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+      27: dload         4
+      29: invokestatic  #680                // Method java/lang/Math.cos:(D)D
+      32: dload         6
+      34: dmul
+      35: dconst_0
+      36: dload         4
+      38: invokestatic  #683                // Method java/lang/Math.sin:(D)D
+      41: dload         6
+      43: dmul
+      44: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      47: astore        8
+      49: aload_1
+      50: aload         8
+      52: dconst_0
+      53: ldc2_w        #611                // double 0.5d
+      56: dconst_0
+      57: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      60: ldc2_w        #611                // double 0.5d
+      63: ldc2_w        #704                // double 3.0d
+      66: aload_2
+      67: invokestatic  #618                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyFirstCasting.ground:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;DDLnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/phys/Vec3;
+      70: astore        9
+      72: aload         9
+      74: ifnonnull     79
+      77: aconst_null
+      78: areturn
+      79: aload_1
+      80: new           #19                 // class net/minecraft/world/level/ClipContext
+      83: dup
+      84: aload_2
+      85: invokevirtual #708                // Method net/minecraft/world/entity/LivingEntity.m_146892_:()Lnet/minecraft/world/phys/Vec3;
+      88: aload         9
+      90: dconst_0
+      91: ldc2_w        #498                // double 0.6d
+      94: dconst_0
+      95: invokevirtual #275                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;
+      98: getstatic     #298                // Field net/minecraft/world/level/ClipContext$Block.COLLIDER:Lnet/minecraft/world/level/ClipContext$Block;
+     101: getstatic     #302                // Field net/minecraft/world/level/ClipContext$Fluid.NONE:Lnet/minecraft/world/level/ClipContext$Fluid;
+     104: aload_2
+     105: invokespecial #305                // Method net/minecraft/world/level/ClipContext."<init>":(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/level/ClipContext$Block;Lnet/minecraft/world/level/ClipContext$Fluid;Lnet/minecraft/world/entity/Entity;)V
+     108: invokevirtual #311                // Method net/minecraft/server/level/ServerLevel.m_45547_:(Lnet/minecraft/world/level/ClipContext;)Lnet/minecraft/world/phys/BlockHitResult;
+     111: invokevirtual #413                // Method net/minecraft/world/phys/BlockHitResult.m_6662_:()Lnet/minecraft/world/phys/HitResult$Type;
+     114: getstatic     #417                // Field net/minecraft/world/phys/HitResult$Type.MISS:Lnet/minecraft/world/phys/HitResult$Type;
+     117: if_acmpne     125
+     120: aload         9
+     122: goto          126
+     125: aconst_null
+     126: areturn
+
+  private void summonBear(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, int);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: iload_3
+       4: invokevirtual #712                // Method summonPosition:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)Lnet/minecraft/world/phys/Vec3;
+       7: astore        4
+       9: aload         4
+      11: ifnonnull     15
+      14: return
+      15: getstatic     #715                // Field cn/wanyiwige/alexcavesspellsbook/candy/CandyRegistry.SUMMON_BEAR:Lnet/minecraftforge/registries/RegistryObject;
+      18: invokevirtual #450                // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;
+      21: checkcast     #717                // class net/minecraft/world/entity/EntityType
+      24: aload_1
+      25: invokevirtual #721                // Method net/minecraft/world/entity/EntityType.m_20615_:(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;
+      28: checkcast     #723                // class cn/wanyiwige/alexcavesspellsbook/candy/SummonedCandyBear
+      31: astore        5
+      33: aload         5
+      35: ifnonnull     39
+      38: return
+      39: aload         5
+      41: aload         4
+      43: invokevirtual #724                // Method cn/wanyiwige/alexcavesspellsbook/candy/SummonedCandyBear.m_146884_:(Lnet/minecraft/world/phys/Vec3;)V
+      46: aload         5
+      48: aload_0
+      49: iload_3
+      50: invokevirtual #728                // Method cn/wanyiwige/alexcavesspellsbook/candy/SummonedCandyBear.attach:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;I)V
+      53: aload_1
+      54: aload         5
+      56: invokevirtual #732                // Method net/minecraft/server/level/ServerLevel.m_45786_:(Lnet/minecraft/world/entity/Entity;)Z
+      59: ifeq          100
+      62: aload_0
+      63: invokevirtual #736                // Method session:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySession;
+      66: aload         5
+      68: aload_0
+      69: invokevirtual #742                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySession.summon:(Lnet/minecraft/world/entity/LivingEntity;Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;)Z
+      72: ifeq          100
+      75: aload_0
+      76: ldc_w         #744                // String Summons
+      79: aload_0
+      80: invokevirtual #574                // Method visual:()Lnet/minecraft/nbt/CompoundTag;
+      83: ldc_w         #744                // String Summons
+      86: invokevirtual #593                // Method net/minecraft/nbt/CompoundTag.m_128451_:(Ljava/lang/String;)I
+      89: iconst_1
+      90: iadd
+      91: invokevirtual #99                 // Method visualValue:(Ljava/lang/String;I)V
+      94: aload_0
+      95: aload         4
+      97: invokevirtual #747                // Method summonCue:(Lnet/minecraft/world/phys/Vec3;)V
+     100: return
+
+  private void summonGinger(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity, int);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: iload_3
+       4: invokevirtual #712                // Method summonPosition:(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)Lnet/minecraft/world/phys/Vec3;
+       7: astore        4
+       9: aload         4
+      11: ifnonnull     15
+      14: return
+      15: getstatic     #752                // Field cn/wanyiwige/alexcavesspellsbook/candy/CandyRegistry.SUMMON_GINGER:Lnet/minecraftforge/registries/RegistryObject;
+      18: invokevirtual #450                // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;
+      21: checkcast     #717                // class net/minecraft/world/entity/EntityType
+      24: aload_1
+      25: invokevirtual #721                // Method net/minecraft/world/entity/EntityType.m_20615_:(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;
+      28: checkcast     #754                // class cn/wanyiwige/alexcavesspellsbook/candy/SummonedCandyGinger
+      31: astore        5
+      33: aload         5
+      35: ifnonnull     39
+      38: return
+      39: aload         5
+      41: aload         4
+      43: invokevirtual #755                // Method cn/wanyiwige/alexcavesspellsbook/candy/SummonedCandyGinger.m_146884_:(Lnet/minecraft/world/phys/Vec3;)V
+      46: aload         5
+      48: aload_0
+      49: iload_3
+      50: ldc_w         #756                // int 14367101
+      53: invokevirtual #759                // Method cn/wanyiwige/alexcavesspellsbook/candy/SummonedCandyGinger.attach:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;II)V
+      56: aload_1
+      57: aload         5
+      59: invokevirtual #732                // Method net/minecraft/server/level/ServerLevel.m_45786_:(Lnet/minecraft/world/entity/Entity;)Z
+      62: ifeq          103
+      65: aload_0
+      66: invokevirtual #736                // Method session:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySession;
+      69: aload         5
+      71: aload_0
+      72: invokevirtual #742                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySession.summon:(Lnet/minecraft/world/entity/LivingEntity;Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;)Z
+      75: ifeq          103
+      78: aload_0
+      79: ldc_w         #744                // String Summons
+      82: aload_0
+      83: invokevirtual #574                // Method visual:()Lnet/minecraft/nbt/CompoundTag;
+      86: ldc_w         #744                // String Summons
+      89: invokevirtual #593                // Method net/minecraft/nbt/CompoundTag.m_128451_:(Ljava/lang/String;)I
+      92: iconst_1
+      93: iadd
+      94: invokevirtual #99                 // Method visualValue:(Ljava/lang/String;I)V
+      97: aload_0
+      98: aload         4
+     100: invokevirtual #747                // Method summonCue:(Lnet/minecraft/world/phys/Vec3;)V
+     103: return
+
+  private void summonCue(net.minecraft.world.phys.Vec3);
+    Code:
+       0: aload_0
+       1: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+       4: invokevirtual #171                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.id:()Ljava/lang/String;
+       7: ldc           #193                // String gummy_guardian
+       9: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+      12: ifne          31
+      15: aload_0
+      16: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+      19: invokevirtual #171                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.id:()Ljava/lang/String;
+      22: ldc           #195                // String gingerbread_march
+      24: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+      27: ifne          31
+      30: return
+      31: aload_0
+      32: invokevirtual #574                // Method visual:()Lnet/minecraft/nbt/CompoundTag;
+      35: invokevirtual #579                // Method net/minecraft/nbt/CompoundTag.m_6426_:()Lnet/minecraft/nbt/CompoundTag;
+      38: astore_2
+      39: aload_2
+      40: ldc_w         #762                // String SummonCues
+      43: invokevirtual #593                // Method net/minecraft/nbt/CompoundTag.m_128451_:(Ljava/lang/String;)I
+      46: istore_3
+      47: aload_2
+      48: iload_3
+      49: invokedynamic #774,  0            // InvokeDynamic #3:makeConcatWithConstants:(I)Ljava/lang/String;
+      54: aload_1
+      55: getfield      #107                // Field net/minecraft/world/phys/Vec3.f_82479_:D
+      58: invokevirtual #778                // Method net/minecraft/nbt/CompoundTag.m_128347_:(Ljava/lang/String;D)V
+      61: aload_2
+      62: iload_3
+      63: invokedynamic #781,  0            // InvokeDynamic #4:makeConcatWithConstants:(I)Ljava/lang/String;
+      68: aload_1
+      69: getfield      #621                // Field net/minecraft/world/phys/Vec3.f_82480_:D
+      72: invokevirtual #778                // Method net/minecraft/nbt/CompoundTag.m_128347_:(Ljava/lang/String;D)V
+      75: aload_2
+      76: iload_3
+      77: invokedynamic #784,  0            // InvokeDynamic #5:makeConcatWithConstants:(I)Ljava/lang/String;
+      82: aload_1
+      83: getfield      #110                // Field net/minecraft/world/phys/Vec3.f_82481_:D
+      86: invokevirtual #778                // Method net/minecraft/nbt/CompoundTag.m_128347_:(Ljava/lang/String;D)V
+      89: aload_2
+      90: ldc_w         #762                // String SummonCues
+      93: iload_3
+      94: iconst_1
+      95: iadd
+      96: invokevirtual #596                // Method net/minecraft/nbt/CompoundTag.m_128405_:(Ljava/lang/String;I)V
+      99: aload_2
+     100: ldc_w         #786                // String SummonCueAge
+     103: aload_2
+     104: ldc_w         #589                // String Age
+     107: invokevirtual #593                // Method net/minecraft/nbt/CompoundTag.m_128451_:(Ljava/lang/String;)I
+     110: invokevirtual #596                // Method net/minecraft/nbt/CompoundTag.m_128405_:(Ljava/lang/String;I)V
+     113: aload_0
+     114: aload_2
+     115: invokevirtual #600                // Method visualSnapshot:(Lnet/minecraft/nbt/CompoundTag;)V
+     118: return
+
+  private void summonSentry(net.minecraft.server.level.ServerLevel, net.minecraft.world.entity.LivingEntity);
+    Code:
+       0: aload_0
+       1: invokevirtual #278                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;
+       4: astore_3
+       5: getstatic     #789                // Field cn/wanyiwige/alexcavesspellsbook/candy/CandyRegistry.SUMMON_SENTRY:Lnet/minecraftforge/registries/RegistryObject;
+       8: invokevirtual #450                // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;
+      11: checkcast     #717                // class net/minecraft/world/entity/EntityType
+      14: aload_1
+      15: invokevirtual #721                // Method net/minecraft/world/entity/EntityType.m_20615_:(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;
+      18: checkcast     #791                // class cn/wanyiwige/alexcavesspellsbook/candy/SummonedCandySentry
+      21: astore        4
+      23: aload         4
+      25: ifnonnull     29
+      28: return
+      29: aload         4
+      31: aload_3
+      32: invokevirtual #792                // Method cn/wanyiwige/alexcavesspellsbook/candy/SummonedCandySentry.m_146884_:(Lnet/minecraft/world/phys/Vec3;)V
+      35: aload         4
+      37: aload_0
+      38: invokevirtual #795                // Method cn/wanyiwige/alexcavesspellsbook/candy/SummonedCandySentry.attach:(Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;)V
+      41: aload_1
+      42: aload         4
+      44: invokevirtual #732                // Method net/minecraft/server/level/ServerLevel.m_45786_:(Lnet/minecraft/world/entity/Entity;)Z
+      47: ifeq          82
+      50: aload_0
+      51: invokevirtual #736                // Method session:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySession;
+      54: aload         4
+      56: aload_0
+      57: invokevirtual #742                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySession.summon:(Lnet/minecraft/world/entity/LivingEntity;Lcn/wanyiwige/alexcavesspellsbook/candy/CandyEffectEntity;)Z
+      60: ifeq          82
+      63: aload_0
+      64: ldc_w         #744                // String Summons
+      67: aload_0
+      68: invokevirtual #574                // Method visual:()Lnet/minecraft/nbt/CompoundTag;
+      71: ldc_w         #744                // String Summons
+      74: invokevirtual #593                // Method net/minecraft/nbt/CompoundTag.m_128451_:(Ljava/lang/String;)I
+      77: iconst_1
+      78: iadd
+      79: invokevirtual #99                 // Method visualValue:(Ljava/lang/String;I)V
+      82: return
+
+  public void sentryShot(net.minecraft.world.entity.Mob, net.minecraft.world.entity.LivingEntity);
+    Code:
+       0: aload_0
+       1: invokevirtual #801                // Method m_213877_:()Z
+       4: ifne          54
+       7: aload_0
+       8: invokevirtual #736                // Method session:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySession;
+      11: ifnull        54
+      14: aload_0
+      15: invokevirtual #736                // Method session:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySession;
+      18: invokevirtual #804                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySession.ended:()Z
+      21: ifne          54
+      24: aload_0
+      25: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+      28: invokevirtual #171                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.id:()Ljava/lang/String;
+      31: ldc           #199                // String gumball_sentry
+      33: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+      36: ifne          55
+      39: aload_0
+      40: invokevirtual #167                // Method spec:()Lcn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec;
+      43: invokevirtual #171                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandySpecs$Spec.id:()Ljava/lang/String;
+      46: ldc           #207                // String licorice_grand_feast
+      48: invokevirtual #183                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+      51: ifne          55
+      54: return
+      55: aload_1
+      56: invokevirtual #807                // Method net/minecraft/world/entity/Mob.m_146892_:()Lnet/minecraft/world/phys/Vec3;
+      59: astore_3
+      60: aload_2
+      61: invokevirtual #390                // Method net/minecraft/world/entity/LivingEntity.m_20191_:()Lnet/minecraft/world/phys/AABB;
+      64: invokevirtual #393                // Method net/minecraft/world/phys/AABB.m_82399_:()Lnet/minecraft/world/phys/Vec3;
+      67: aload_3
+      68: invokevirtual #556                // Method net/minecraft/world/phys/Vec3.m_82546_:(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;
+      71: astore        4
+      73: aload         4
+      75: invokevirtual #562                // Method net/minecraft/world/phys/Vec3.m_82556_:()D
+      78: ldc2_w        #808                // double 64.0d
+      81: dcmpl
+      82: ifgt          97
+      85: aload         4
+      87: invokevirtual #562                // Method net/minecraft/world/phys/Vec3.m_82556_:()D
+      90: ldc2_w        #810                // double 0.01d
+      93: dcmpg
+      94: ifge          98
+      97: return
+      98: aload_0
+      99: iconst_2
+     100: aload_0
+     101: dup
+     102: getfield      #251                // Field emitted:I
+     105: dup_x1
+     106: iconst_1
+     107: iadd
+     108: putfield      #251                // Field emitted:I
+     111: bipush        12
+     113: irem
+     114: aload_3
+     115: aload         4
+     117: invokevirtual #93                 // Method net/minecraft/world/phys/Vec3.m_82541_:()Lnet/minecraft/world/phys/Vec3;
+     120: ldc2_w        #654                // double 0.7d
+     123: invokevirtual #265                // Method net/minecraft/world/phys/Vec3.m_82490_:(D)Lnet/minecraft/world/phys/Vec3;
+     126: invokevirtual #286                // Method actor:(IILnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Lcn/wanyiwige/alexcavesspellsbook/candy/CandyLastSpellEntity;
+     129: pop
+     130: return
+
+  private static boolean lambda$banquet$2(net.minecraft.world.entity.LivingEntity, net.minecraft.world.entity.LivingEntity);
+    Code:
+       0: aload_1
+       1: invokevirtual #816                // Method net/minecraft/world/entity/LivingEntity.m_6084_:()Z
+       4: ifeq          43
+       7: aload_1
+       8: aload_0
+       9: if_acmpeq     39
+      12: aload_1
+      13: aload_0
+      14: invokevirtual #819                // Method net/minecraft/world/entity/LivingEntity.m_7307_:(Lnet/minecraft/world/entity/Entity;)Z
+      17: ifne          39
+      20: aload_0
+      21: aload_1
+      22: invokevirtual #819                // Method net/minecraft/world/entity/LivingEntity.m_7307_:(Lnet/minecraft/world/entity/Entity;)Z
+      25: ifne          39
+      28: aload_1
+      29: invokestatic  #823                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.principal:(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/entity/Entity;
+      32: aload_0
+      33: invokestatic  #823                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.principal:(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/entity/Entity;
+      36: if_acmpne     43
+      39: iconst_1
+      40: goto          44
+      43: iconst_0
+      44: ireturn
+
+  private static double lambda$projectile$1(net.minecraft.world.phys.Vec3, net.minecraft.world.phys.Vec3, net.minecraft.world.entity.LivingEntity);
+    Code:
+       0: aload_2
+       1: invokevirtual #390                // Method net/minecraft/world/entity/LivingEntity.m_20191_:()Lnet/minecraft/world/phys/AABB;
+       4: ldc2_w        #825                // double 0.35d
+       7: invokevirtual #330                // Method net/minecraft/world/phys/AABB.m_82400_:(D)Lnet/minecraft/world/phys/AABB;
+      10: aload_0
+      11: aload_1
+      12: invokevirtual #830                // Method net/minecraft/world/phys/AABB.m_82371_:(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Ljava/util/Optional;
+      15: aload_1
+      16: invokevirtual #835                // Method java/util/Optional.orElse:(Ljava/lang/Object;)Ljava/lang/Object;
+      19: checkcast     #63                 // class net/minecraft/world/phys/Vec3
+      22: aload_0
+      23: invokevirtual #421                // Method net/minecraft/world/phys/Vec3.m_82557_:(Lnet/minecraft/world/phys/Vec3;)D
+      26: dreturn
+
+  private static boolean lambda$projectile$0(net.minecraft.world.entity.LivingEntity, net.minecraft.world.phys.Vec3, net.minecraft.world.phys.Vec3, net.minecraft.world.entity.LivingEntity);
+    Code:
+       0: aload_0
+       1: aload_3
+       2: invokestatic  #838                // Method cn/wanyiwige/alexcavesspellsbook/candy/CandyCombat.enemy:(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z
+       5: ifeq          33
+       8: aload_3
+       9: invokevirtual #390                // Method net/minecraft/world/entity/LivingEntity.m_20191_:()Lnet/minecraft/world/phys/AABB;
+      12: ldc2_w        #825                // double 0.35d
+      15: invokevirtual #330                // Method net/minecraft/world/phys/AABB.m_82400_:(D)Lnet/minecraft/world/phys/AABB;
+      18: aload_1
+      19: aload_2
+      20: invokevirtual #830                // Method net/minecraft/world/phys/AABB.m_82371_:(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Ljava/util/Optional;
+      23: invokevirtual #841                // Method java/util/Optional.isPresent:()Z
+      26: ifeq          33
+      29: iconst_1
+      30: goto          34
+      33: iconst_0
+      34: ireturn
+}

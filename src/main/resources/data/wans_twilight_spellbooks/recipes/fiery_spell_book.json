@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CLL",
+    "CPP",
+    "CLL"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:rods/blaze"
+    },
+    "L": {
+      "item": "twilightforest:fiery_ingot"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "wans_twilight_spellbooks:fiery_spell_book"
+  }
+}

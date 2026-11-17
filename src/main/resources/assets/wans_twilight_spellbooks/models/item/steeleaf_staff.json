@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "wans_twilight_spellbooks:item/steeleaf_staff_hand",
+    "textures": {
+      "layer0": "wans_twilight_spellbooks:item/steeleaf_staff"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/handheld",
+      "textures": {
+        "layer0": "wans_twilight_spellbooks:item/steeleaf_staff_gui"
+      }
+    }
+  }
+}

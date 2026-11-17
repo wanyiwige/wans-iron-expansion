@@ -1,0 +1,17 @@
+{
+  "type": "wans_twilight_spellbooks:smithing_transform",
+  "addition": {
+    "item": "wans_twilight_spellbooks:aurora_shard"
+  },
+  "base": {
+    "item": "irons_spellbooks:ice_staff"
+  },
+  "result": {
+    "count": 1,
+    "item": "wans_twilight_spellbooks:boreal_staff",
+    "nbt": "{\"irons_spellbooks:spell_container\":{\"data\":[],\"maxSpells\":1,\"mustEquip\":1b,\"spellWheel\":1b}}"
+  },
+  "template": {
+    "item": "irons_spellbooks:holy_rune"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "result": "PASS",
+  "newPixelTextures": 15,
+  "newModels": 0,
+  "caramelConnected": true,
+  "caramelAsymmetric": true,
+  "caramelStableOutline": true,
+  "caramelPixels": 535,
+  "modifiedServerMethods": [
+    "pixelSpell",
+    "impact"
+  ],
+  "movementDamageAndTeleportPreserved": true,
+  "ricochetCheckAlreadyPassed": true,
+  "nativeSpearPreserved": true,
+  "frostRainGroundCircleAbsent": true,
+  "changedPreviousJarEntries": [
+    "META-INF/MANIFEST.MF",
+    "META-INF/mods.toml",
+    "cn/wanyiwige/alexcavesspellsbook/candy/CandySpellEntity.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyFieldPixelScenes.class",
+    "cn/wanyiwige/alexcavesspellsbook/candy/client/CandyPixelScenes.class"
+  ],
+  "runtimeTested": false
+}

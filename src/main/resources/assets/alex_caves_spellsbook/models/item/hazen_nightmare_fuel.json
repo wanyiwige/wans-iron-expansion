@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "alex_caves_spellsbook:hazen/hazennstuff/item/materials/nightmare_fuel"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "alex_caves_spellsbook:hazen_smithing",
+  "addition": {
+    "item": "irons_spellbooks:weapon_parts"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_divine_greatsword"
+  },
+  "template": {
+    "item": "irons_spellbooks:divine_pearl"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "divine_greatsword"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_divine_greatsword"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:weapon_parts"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:netherite_sword"
+    }
+  ]
+}

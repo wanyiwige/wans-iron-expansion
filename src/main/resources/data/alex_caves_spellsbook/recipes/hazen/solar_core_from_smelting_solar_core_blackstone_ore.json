@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "solar_core",
+  "ingredient": {
+    "item": "alex_caves_spellsbook:hazen_solar_core_blackstone_ore"
+  },
+  "result": "alex_caves_spellsbook:hazen_solar_core",
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "solar_core"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_solar_core"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_solar_core_blackstone_ore"
+    }
+  ]
+}

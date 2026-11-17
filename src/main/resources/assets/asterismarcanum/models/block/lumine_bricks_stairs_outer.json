@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "asterismarcanum:block/lumine_bricks",
+    "side": "asterismarcanum:block/lumine_bricks",
+    "top": "asterismarcanum:block/lumine_bricks"
+  }
+}

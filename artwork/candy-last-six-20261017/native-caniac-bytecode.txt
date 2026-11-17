@@ -1,0 +1,1312 @@
+Compiled from "CaniacModel.java"
+public class com.github.alexmodguy.alexscaves.client.model.CaniacModel extends com.github.alexthe666.citadel.client.model.AdvancedEntityModel<com.github.alexmodguy.alexscaves.server.entity.living.CaniacEntity> {
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox root;
+
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox body;
+
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox pelvis;
+
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox spine;
+
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox chest;
+
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox neck;
+
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox head;
+
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox right_Eye;
+
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox left_Eye;
+
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox left_Arm;
+
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox right_Arm;
+
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox left_Leg;
+
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox right_Leg;
+
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox cube_r1;
+
+  private final com.github.alexthe666.citadel.client.model.AdvancedModelBox cube_r2;
+
+  private final com.github.alexthe666.citadel.client.model.ModelAnimator animator;
+
+  public com.github.alexmodguy.alexscaves.client.model.CaniacModel();
+    Code:
+       0: aload_0
+       1: invokespecial #28                 // Method com/github/alexthe666/citadel/client/model/AdvancedEntityModel."<init>":()V
+       4: aload_0
+       5: sipush        128
+       8: putfield      #32                 // Field texWidth:I
+      11: aload_0
+      12: sipush        128
+      15: putfield      #35                 // Field texHeight:I
+      18: aload_0
+      19: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+      22: dup
+      23: aload_0
+      24: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+      27: putfield      #42                 // Field root:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      30: aload_0
+      31: getfield      #42                 // Field root:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      34: fconst_0
+      35: ldc           #43                 // float 24.0f
+      37: fconst_0
+      38: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+      41: aload_0
+      42: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+      45: dup
+      46: aload_0
+      47: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+      50: putfield      #49                 // Field body:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      53: aload_0
+      54: getfield      #49                 // Field body:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      57: fconst_0
+      58: ldc           #50                 // float -19.0f
+      60: ldc           #51                 // float -3.0f
+      62: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+      65: aload_0
+      66: getfield      #42                 // Field root:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      69: aload_0
+      70: getfield      #49                 // Field body:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      73: invokevirtual #55                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+      76: aload_0
+      77: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+      80: dup
+      81: aload_0
+      82: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+      85: putfield      #57                 // Field pelvis:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      88: aload_0
+      89: getfield      #57                 // Field pelvis:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      92: fconst_0
+      93: ldc           #58                 // float 3.5f
+      95: ldc           #59                 // float 3.0f
+      97: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     100: aload_0
+     101: getfield      #49                 // Field body:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     104: aload_0
+     105: getfield      #57                 // Field pelvis:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     108: invokevirtual #55                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     111: aload_0
+     112: getfield      #57                 // Field pelvis:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     115: bipush        12
+     117: bipush        40
+     119: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     122: ldc           #64                 // float -5.0f
+     124: ldc           #65                 // float -1.5f
+     126: ldc           #66                 // float -2.0f
+     128: ldc           #67                 // float 10.0f
+     130: ldc           #59                 // float 3.0f
+     132: ldc           #68                 // float 4.0f
+     134: fconst_0
+     135: iconst_0
+     136: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     139: aload_0
+     140: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+     143: dup
+     144: aload_0
+     145: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+     148: putfield      #74                 // Field spine:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     151: aload_0
+     152: getfield      #74                 // Field spine:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     155: fconst_0
+     156: ldc           #65                 // float -1.5f
+     158: fconst_2
+     159: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     162: aload_0
+     163: getfield      #57                 // Field pelvis:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     166: aload_0
+     167: getfield      #74                 // Field spine:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     170: invokevirtual #55                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     173: aload_0
+     174: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+     177: dup
+     178: aload_0
+     179: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+     182: putfield      #76                 // Field cube_r1:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     185: aload_0
+     186: getfield      #76                 // Field cube_r1:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     189: fconst_0
+     190: fconst_0
+     191: fconst_0
+     192: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     195: aload_0
+     196: getfield      #74                 // Field spine:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     199: aload_0
+     200: getfield      #76                 // Field cube_r1:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     203: invokevirtual #55                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     206: aload_0
+     207: aload_0
+     208: getfield      #76                 // Field cube_r1:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     211: ldc           #77                 // float 0.3927f
+     213: fconst_0
+     214: fconst_0
+     215: invokevirtual #81                 // Method setRotateAngle:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+     218: aload_0
+     219: getfield      #76                 // Field cube_r1:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     222: iconst_0
+     223: bipush        6
+     225: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     228: ldc           #66                 // float -2.0f
+     230: ldc           #82                 // float -4.0f
+     232: fconst_0
+     233: ldc           #68                 // float 4.0f
+     235: ldc           #68                 // float 4.0f
+     237: fconst_0
+     238: fconst_0
+     239: iconst_0
+     240: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     243: aload_0
+     244: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+     247: dup
+     248: aload_0
+     249: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+     252: putfield      #84                 // Field chest:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     255: aload_0
+     256: getfield      #84                 // Field chest:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     259: fconst_0
+     260: ldc           #85                 // float -3.7f
+     262: ldc           #86                 // float -1.54f
+     264: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     267: aload_0
+     268: getfield      #74                 // Field spine:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     271: aload_0
+     272: getfield      #84                 // Field chest:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     275: invokevirtual #55                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     278: aload_0
+     279: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+     282: dup
+     283: aload_0
+     284: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+     287: putfield      #88                 // Field cube_r2:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     290: aload_0
+     291: getfield      #88                 // Field cube_r2:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     294: fconst_0
+     295: fconst_0
+     296: fconst_0
+     297: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     300: aload_0
+     301: getfield      #84                 // Field chest:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     304: aload_0
+     305: getfield      #88                 // Field cube_r2:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     308: invokevirtual #55                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     311: aload_0
+     312: aload_0
+     313: getfield      #88                 // Field cube_r2:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     316: ldc           #77                 // float 0.3927f
+     318: fconst_0
+     319: fconst_0
+     320: invokevirtual #81                 // Method setRotateAngle:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+     323: aload_0
+     324: getfield      #88                 // Field cube_r2:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     327: iconst_0
+     328: iconst_0
+     329: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     332: ldc           #89                 // float -8.0f
+     334: ldc           #90                 // float -11.9959f
+     336: ldc           #91                 // float -9.9898f
+     338: ldc           #92                 // float 16.0f
+     340: ldc           #93                 // float 12.0f
+     342: ldc           #67                 // float 10.0f
+     344: fconst_0
+     345: iconst_0
+     346: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     349: aload_0
+     350: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+     353: dup
+     354: aload_0
+     355: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+     358: putfield      #95                 // Field neck:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     361: aload_0
+     362: getfield      #95                 // Field neck:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     365: fconst_0
+     366: ldc           #96                 // float -11.05f
+     368: ldc           #97                 // float -4.56f
+     370: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     373: aload_0
+     374: getfield      #84                 // Field chest:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     377: aload_0
+     378: getfield      #95                 // Field neck:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     381: invokevirtual #55                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     384: aload_0
+     385: getfield      #95                 // Field neck:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     388: bipush        32
+     390: iconst_0
+     391: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     394: ldc           #66                 // float -2.0f
+     396: fconst_0
+     397: ldc           #98                 // float -10.0f
+     399: ldc           #68                 // float 4.0f
+     401: fconst_0
+     402: ldc           #67                 // float 10.0f
+     404: fconst_0
+     405: iconst_0
+     406: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     409: aload_0
+     410: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+     413: dup
+     414: aload_0
+     415: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+     418: putfield      #100                // Field head:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     421: aload_0
+     422: getfield      #100                // Field head:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     425: fconst_0
+     426: fconst_0
+     427: ldc           #101                // float -9.4f
+     429: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     432: aload_0
+     433: getfield      #95                 // Field neck:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     436: aload_0
+     437: getfield      #100                // Field head:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     440: invokevirtual #55                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     443: aload_0
+     444: getfield      #100                // Field head:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     447: bipush        36
+     449: bipush        22
+     451: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     454: ldc           #102                // float -7.0f
+     456: ldc           #103                // float -7.25f
+     458: ldc           #104                // float -4.25f
+     460: ldc           #105                // float 14.0f
+     462: ldc           #105                // float 14.0f
+     464: ldc           #68                 // float 4.0f
+     466: fconst_0
+     467: iconst_0
+     468: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     471: aload_0
+     472: getfield      #100                // Field head:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     475: iconst_0
+     476: bipush        22
+     478: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     481: ldc           #102                // float -7.0f
+     483: ldc           #103                // float -7.25f
+     485: ldc           #104                // float -4.25f
+     487: ldc           #105                // float 14.0f
+     489: ldc           #105                // float 14.0f
+     491: ldc           #68                 // float 4.0f
+     493: ldc           #106                // float 0.25f
+     495: iconst_0
+     496: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     499: aload_0
+     500: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+     503: dup
+     504: aload_0
+     505: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+     508: putfield      #108                // Field right_Eye:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     511: aload_0
+     512: getfield      #108                // Field right_Eye:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     515: ldc           #109                // float -2.5f
+     517: ldc           #110                // float -0.75f
+     519: ldc           #111                // float -4.3f
+     521: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     524: aload_0
+     525: getfield      #100                // Field head:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     528: aload_0
+     529: getfield      #108                // Field right_Eye:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     532: invokevirtual #55                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     535: aload_0
+     536: getfield      #108                // Field right_Eye:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     539: iconst_0
+     540: bipush        78
+     542: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     545: ldc           #112                // float -0.5f
+     547: ldc           #112                // float -0.5f
+     549: fconst_0
+     550: fconst_1
+     551: fconst_1
+     552: fconst_0
+     553: fconst_0
+     554: iconst_1
+     555: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     558: aload_0
+     559: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+     562: dup
+     563: aload_0
+     564: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+     567: putfield      #114                // Field left_Eye:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     570: aload_0
+     571: getfield      #114                // Field left_Eye:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     574: ldc           #115                // float 2.5f
+     576: ldc           #110                // float -0.75f
+     578: ldc           #111                // float -4.3f
+     580: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     583: aload_0
+     584: getfield      #100                // Field head:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     587: aload_0
+     588: getfield      #114                // Field left_Eye:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     591: invokevirtual #55                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     594: aload_0
+     595: getfield      #114                // Field left_Eye:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     598: iconst_0
+     599: bipush        78
+     601: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     604: ldc           #112                // float -0.5f
+     606: ldc           #112                // float -0.5f
+     608: fconst_0
+     609: fconst_1
+     610: fconst_1
+     611: fconst_0
+     612: fconst_0
+     613: iconst_0
+     614: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     617: aload_0
+     618: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+     621: dup
+     622: aload_0
+     623: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+     626: putfield      #117                // Field left_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     629: aload_0
+     630: getfield      #117                // Field left_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     633: ldc           #118                // float 7.75f
+     635: ldc           #119                // float -8.8f
+     637: ldc           #120                // float -6.96f
+     639: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     642: aload_0
+     643: getfield      #84                 // Field chest:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     646: aload_0
+     647: getfield      #117                // Field left_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     650: invokevirtual #55                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     653: aload_0
+     654: getfield      #117                // Field left_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     657: bipush        20
+     659: bipush        47
+     661: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     664: fconst_0
+     665: ldc           #121                // float 22.5f
+     667: ldc           #122                // float 8.5f
+     669: ldc           #59                 // float 3.0f
+     671: ldc           #123                // float 7.0f
+     673: ldc           #59                 // float 3.0f
+     675: fconst_0
+     676: iconst_0
+     677: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     680: aload_0
+     681: getfield      #117                // Field left_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     684: bipush        33
+     686: bipush        40
+     688: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     691: fconst_0
+     692: ldc           #124                // float 26.5f
+     694: ldc           #125                // float 1.5f
+     696: ldc           #59                 // float 3.0f
+     698: ldc           #59                 // float 3.0f
+     700: ldc           #123                // float 7.0f
+     702: fconst_0
+     703: iconst_0
+     704: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     707: aload_0
+     708: getfield      #117                // Field left_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     711: iconst_0
+     712: bipush        40
+     714: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     717: fconst_0
+     718: ldc           #126                // float -5.5f
+     720: ldc           #65                 // float -1.5f
+     722: ldc           #59                 // float 3.0f
+     724: ldc           #127                // float 35.0f
+     726: ldc           #59                 // float 3.0f
+     728: fconst_0
+     729: iconst_0
+     730: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     733: aload_0
+     734: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+     737: dup
+     738: aload_0
+     739: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+     742: putfield      #129                // Field right_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     745: aload_0
+     746: getfield      #129                // Field right_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     749: ldc           #130                // float -7.75f
+     751: ldc           #119                // float -8.8f
+     753: ldc           #120                // float -6.96f
+     755: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     758: aload_0
+     759: getfield      #84                 // Field chest:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     762: aload_0
+     763: getfield      #129                // Field right_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     766: invokevirtual #55                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     769: aload_0
+     770: getfield      #129                // Field right_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     773: bipush        20
+     775: bipush        47
+     777: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     780: ldc           #51                 // float -3.0f
+     782: ldc           #121                // float 22.5f
+     784: ldc           #122                // float 8.5f
+     786: ldc           #59                 // float 3.0f
+     788: ldc           #123                // float 7.0f
+     790: ldc           #59                 // float 3.0f
+     792: fconst_0
+     793: iconst_1
+     794: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     797: aload_0
+     798: getfield      #129                // Field right_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     801: bipush        33
+     803: bipush        40
+     805: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     808: ldc           #51                 // float -3.0f
+     810: ldc           #124                // float 26.5f
+     812: ldc           #125                // float 1.5f
+     814: ldc           #59                 // float 3.0f
+     816: ldc           #59                 // float 3.0f
+     818: ldc           #123                // float 7.0f
+     820: fconst_0
+     821: iconst_1
+     822: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     825: aload_0
+     826: getfield      #129                // Field right_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     829: iconst_0
+     830: bipush        40
+     832: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     835: ldc           #51                 // float -3.0f
+     837: ldc           #126                // float -5.5f
+     839: ldc           #65                 // float -1.5f
+     841: ldc           #59                 // float 3.0f
+     843: ldc           #127                // float 35.0f
+     845: ldc           #59                 // float 3.0f
+     847: fconst_0
+     848: iconst_1
+     849: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     852: aload_0
+     853: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+     856: dup
+     857: aload_0
+     858: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+     861: putfield      #132                // Field left_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     864: aload_0
+     865: getfield      #132                // Field left_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     868: ldc           #59                 // float 3.0f
+     870: ldc           #125                // float 1.5f
+     872: fconst_0
+     873: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     876: aload_0
+     877: getfield      #57                 // Field pelvis:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     880: aload_0
+     881: getfield      #132                // Field left_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     884: invokevirtual #55                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     887: aload_0
+     888: getfield      #132                // Field left_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     891: bipush        12
+     893: bipush        47
+     895: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     898: ldc           #133                // float -1.0f
+     900: fconst_0
+     901: ldc           #133                // float -1.0f
+     903: fconst_2
+     904: ldc           #105                // float 14.0f
+     906: fconst_2
+     907: fconst_0
+     908: iconst_0
+     909: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     912: aload_0
+     913: getfield      #132                // Field left_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     916: bipush        32
+     918: bipush        22
+     920: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     923: ldc           #133                // float -1.0f
+     925: ldc           #93                 // float 12.0f
+     927: fconst_1
+     928: fconst_2
+     929: fconst_2
+     930: fconst_2
+     931: fconst_0
+     932: iconst_0
+     933: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     936: aload_0
+     937: getfield      #132                // Field left_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     940: iconst_0
+     941: iconst_0
+     942: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     945: ldc           #133                // float -1.0f
+     947: ldc           #67                 // float 10.0f
+     949: ldc           #59                 // float 3.0f
+     951: fconst_2
+     952: ldc           #68                 // float 4.0f
+     954: fconst_2
+     955: fconst_0
+     956: iconst_0
+     957: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     960: aload_0
+     961: new           #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+     964: dup
+     965: aload_0
+     966: invokespecial #40                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+     969: putfield      #135                // Field right_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     972: aload_0
+     973: getfield      #135                // Field right_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     976: ldc           #51                 // float -3.0f
+     978: ldc           #125                // float 1.5f
+     980: fconst_0
+     981: invokevirtual #47                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     984: aload_0
+     985: getfield      #57                 // Field pelvis:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     988: aload_0
+     989: getfield      #135                // Field right_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     992: invokevirtual #55                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     995: aload_0
+     996: getfield      #135                // Field right_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     999: bipush        12
+    1001: bipush        47
+    1003: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+    1006: ldc           #133                // float -1.0f
+    1008: fconst_0
+    1009: ldc           #133                // float -1.0f
+    1011: fconst_2
+    1012: ldc           #105                // float 14.0f
+    1014: fconst_2
+    1015: fconst_0
+    1016: iconst_1
+    1017: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+    1020: aload_0
+    1021: getfield      #135                // Field right_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+    1024: bipush        32
+    1026: bipush        22
+    1028: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+    1031: ldc           #133                // float -1.0f
+    1033: ldc           #93                 // float 12.0f
+    1035: fconst_1
+    1036: fconst_2
+    1037: fconst_2
+    1038: fconst_2
+    1039: fconst_0
+    1040: iconst_1
+    1041: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+    1044: aload_0
+    1045: getfield      #135                // Field right_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+    1048: iconst_0
+    1049: iconst_0
+    1050: invokevirtual #63                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+    1053: ldc           #133                // float -1.0f
+    1055: ldc           #67                 // float 10.0f
+    1057: ldc           #59                 // float 3.0f
+    1059: fconst_2
+    1060: ldc           #68                 // float 4.0f
+    1062: fconst_2
+    1063: fconst_0
+    1064: iconst_1
+    1065: invokevirtual #72                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+    1068: aload_0
+    1069: invokevirtual #138                // Method updateDefaultPose:()V
+    1072: aload_0
+    1073: invokestatic  #144                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.create:()Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+    1076: putfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+    1079: return
+
+  public java.lang.Iterable<com.github.alexthe666.citadel.client.model.basic.BasicModelPart> parts();
+    Code:
+       0: aload_0
+       1: getfield      #42                 // Field root:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+       4: invokestatic  #157                // Method com/google/common/collect/ImmutableList.of:(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
+       7: areturn
+
+  public java.lang.Iterable<com.github.alexthe666.citadel.client.model.AdvancedModelBox> getAllParts();
+    Code:
+       0: aload_0
+       1: getfield      #42                 // Field root:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+       4: aload_0
+       5: getfield      #49                 // Field body:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+       8: aload_0
+       9: getfield      #57                 // Field pelvis:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      12: aload_0
+      13: getfield      #84                 // Field chest:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      16: aload_0
+      17: getfield      #74                 // Field spine:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      20: aload_0
+      21: getfield      #84                 // Field chest:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      24: aload_0
+      25: getfield      #95                 // Field neck:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      28: aload_0
+      29: getfield      #100                // Field head:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      32: aload_0
+      33: getfield      #108                // Field right_Eye:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      36: aload_0
+      37: getfield      #129                // Field right_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      40: aload_0
+      41: getfield      #114                // Field left_Eye:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      44: aload_0
+      45: getfield      #117                // Field left_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      48: iconst_4
+      49: anewarray     #37                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+      52: dup
+      53: iconst_0
+      54: aload_0
+      55: getfield      #135                // Field right_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      58: aastore
+      59: dup
+      60: iconst_1
+      61: aload_0
+      62: getfield      #132                // Field left_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      65: aastore
+      66: dup
+      67: iconst_2
+      68: aload_0
+      69: getfield      #76                 // Field cube_r1:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      72: aastore
+      73: dup
+      74: iconst_3
+      75: aload_0
+      76: getfield      #88                 // Field cube_r2:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      79: aastore
+      80: invokestatic  #162                // Method com/google/common/collect/ImmutableList.of:(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
+      83: areturn
+
+  public void animate(com.github.alexthe666.citadel.animation.IAnimatedEntity);
+    Code:
+       0: aload_0
+       1: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+       4: aload_1
+       5: invokevirtual #167                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.update:(Lcom/github/alexthe666/citadel/animation/IAnimatedEntity;)V
+       8: aload_0
+       9: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+      12: getstatic     #173                // Field com/github/alexmodguy/alexscaves/server/entity/living/CaniacEntity.ANIMATION_LUNGE:Lcom/github/alexthe666/citadel/animation/Animation;
+      15: invokevirtual #177                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.setAnimation:(Lcom/github/alexthe666/citadel/animation/Animation;)Z
+      18: pop
+      19: aload_0
+      20: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+      23: bipush        10
+      25: invokevirtual #181                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.startKeyframe:(I)V
+      28: aload_0
+      29: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+      32: aload_0
+      33: getfield      #49                 // Field body:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      36: fconst_0
+      37: fconst_0
+      38: ldc           #68                 // float 4.0f
+      40: invokevirtual #184                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.move:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+      43: aload_0
+      44: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+      47: aload_0
+      48: getfield      #74                 // Field spine:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      51: ldc2_w        #185                // double -25.0d
+      54: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+      57: d2f
+      58: fconst_0
+      59: fconst_0
+      60: invokevirtual #195                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.rotate:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+      63: aload_0
+      64: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+      67: aload_0
+      68: getfield      #100                // Field head:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      71: ldc2_w        #185                // double -25.0d
+      74: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+      77: d2f
+      78: fconst_0
+      79: fconst_0
+      80: invokevirtual #195                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.rotate:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+      83: aload_0
+      84: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+      87: aload_0
+      88: getfield      #117                // Field left_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      91: ldc2_w        #196                // double -185.0d
+      94: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+      97: d2f
+      98: ldc2_w        #185                // double -25.0d
+     101: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+     104: d2f
+     105: ldc2_w        #198                // double 45.0d
+     108: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+     111: d2f
+     112: invokevirtual #195                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.rotate:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+     115: aload_0
+     116: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+     119: aload_0
+     120: getfield      #129                // Field right_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     123: ldc2_w        #196                // double -185.0d
+     126: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+     129: d2f
+     130: ldc2_w        #200                // double 25.0d
+     133: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+     136: d2f
+     137: ldc2_w        #202                // double -45.0d
+     140: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+     143: d2f
+     144: invokevirtual #195                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.rotate:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+     147: aload_0
+     148: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+     151: invokevirtual #206                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.endKeyframe:()V
+     154: aload_0
+     155: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+     158: iconst_5
+     159: invokevirtual #209                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.setStaticKeyframe:(I)V
+     162: aload_0
+     163: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+     166: iconst_5
+     167: invokevirtual #181                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.startKeyframe:(I)V
+     170: aload_0
+     171: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+     174: aload_0
+     175: getfield      #49                 // Field body:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     178: fconst_0
+     179: ldc           #68                 // float 4.0f
+     181: ldc           #210                // float -15.0f
+     183: invokevirtual #184                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.move:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+     186: aload_0
+     187: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+     190: aload_0
+     191: getfield      #117                // Field left_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     194: fconst_0
+     195: ldc           #51                 // float -3.0f
+     197: ldc           #89                 // float -8.0f
+     199: invokevirtual #184                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.move:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+     202: aload_0
+     203: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+     206: aload_0
+     207: getfield      #129                // Field right_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     210: fconst_0
+     211: ldc           #51                 // float -3.0f
+     213: ldc           #89                 // float -8.0f
+     215: invokevirtual #184                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.move:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+     218: aload_0
+     219: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+     222: aload_0
+     223: getfield      #49                 // Field body:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     226: ldc2_w        #211                // double 30.0d
+     229: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+     232: d2f
+     233: fconst_0
+     234: fconst_0
+     235: invokevirtual #195                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.rotate:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+     238: aload_0
+     239: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+     242: aload_0
+     243: getfield      #117                // Field left_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     246: ldc2_w        #213                // double -110.0d
+     249: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+     252: d2f
+     253: ldc2_w        #215                // double -15.0d
+     256: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+     259: d2f
+     260: ldc2_w        #217                // double 60.0d
+     263: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+     266: d2f
+     267: invokevirtual #195                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.rotate:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+     270: aload_0
+     271: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+     274: aload_0
+     275: getfield      #129                // Field right_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     278: ldc2_w        #213                // double -110.0d
+     281: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+     284: d2f
+     285: ldc2_w        #219                // double 15.0d
+     288: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+     291: d2f
+     292: ldc2_w        #221                // double -60.0d
+     295: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+     298: d2f
+     299: invokevirtual #195                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.rotate:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+     302: aload_0
+     303: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+     306: invokevirtual #206                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.endKeyframe:()V
+     309: aload_0
+     310: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+     313: iconst_5
+     314: invokevirtual #209                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.setStaticKeyframe:(I)V
+     317: aload_0
+     318: getfield      #146                // Field animator:Lcom/github/alexthe666/citadel/client/model/ModelAnimator;
+     321: bipush        10
+     323: invokevirtual #225                // Method com/github/alexthe666/citadel/client/model/ModelAnimator.resetKeyframe:(I)V
+     326: return
+
+  public void setupAnim(com.github.alexmodguy.alexscaves.server.entity.living.CaniacEntity, float, float, float, float, float);
+    Code:
+       0: aload_0
+       1: invokevirtual #232                // Method resetToDefaultPose:()V
+       4: aload_0
+       5: aload_1
+       6: invokevirtual #234                // Method animate:(Lcom/github/alexthe666/citadel/animation/IAnimatedEntity;)V
+       9: ldc           #235                // float 0.7f
+      11: fstore        7
+      13: fconst_1
+      14: fstore        8
+      16: ldc           #236                // float 0.5f
+      18: fstore        9
+      20: fconst_1
+      21: fstore        10
+      23: fload         4
+      25: aload_1
+      26: getfield      #239                // Field com/github/alexmodguy/alexscaves/server/entity/living/CaniacEntity.f_19797_:I
+      29: i2f
+      30: fsub
+      31: fstore        11
+      33: aload_1
+      34: fload         11
+      36: invokevirtual #243                // Method com/github/alexmodguy/alexscaves/server/entity/living/CaniacEntity.getRunProgress:(F)F
+      39: fstore        12
+      41: fconst_1
+      42: fload         12
+      44: fsub
+      45: fstore        13
+      47: fload_3
+      48: fload         13
+      50: fmul
+      51: fstore        14
+      53: fload_3
+      54: fload         12
+      56: fmul
+      57: fstore        15
+      59: aload_1
+      60: iconst_1
+      61: fload         11
+      63: invokevirtual #247                // Method com/github/alexmodguy/alexscaves/server/entity/living/CaniacEntity.getArmAngle:(ZF)F
+      66: invokestatic  #252                // Method net/minecraft/util/Mth.m_14177_:(F)F
+      69: f2d
+      70: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+      73: d2f
+      74: fstore        16
+      76: aload_1
+      77: iconst_0
+      78: fload         11
+      80: invokevirtual #247                // Method com/github/alexmodguy/alexscaves/server/entity/living/CaniacEntity.getArmAngle:(ZF)F
+      83: invokestatic  #252                // Method net/minecraft/util/Mth.m_14177_:(F)F
+      86: f2d
+      87: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+      90: d2f
+      91: fstore        17
+      93: fload         5
+      95: ldc           #253                // float 57.295776f
+      97: fdiv
+      98: fstore        18
+     100: fload         6
+     102: ldc           #253                // float 57.295776f
+     104: fdiv
+     105: fstore        19
+     107: aload_0
+     108: aload_0
+     109: getfield      #74                 // Field spine:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     112: fload         14
+     114: ldc2_w        #185                // double -25.0d
+     117: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+     120: d2f
+     121: fconst_0
+     122: fconst_0
+     123: fconst_1
+     124: invokevirtual #257                // Method progressRotationPrev:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFFFF)V
+     127: aload_0
+     128: aload_0
+     129: getfield      #117                // Field left_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     132: fload         14
+     134: fconst_0
+     135: ldc           #68                 // float 4.0f
+     137: fconst_0
+     138: fconst_1
+     139: invokevirtual #260                // Method progressPositionPrev:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFFFF)V
+     142: aload_0
+     143: aload_0
+     144: getfield      #129                // Field right_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     147: fload         14
+     149: fconst_0
+     150: ldc           #68                 // float 4.0f
+     152: fconst_0
+     153: fconst_1
+     154: invokevirtual #260                // Method progressPositionPrev:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFFFF)V
+     157: aload_0
+     158: aload_0
+     159: getfield      #74                 // Field spine:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     162: fload         15
+     164: ldc2_w        #219                // double 15.0d
+     167: invokestatic  #192                // Method java/lang/Math.toRadians:(D)D
+     170: d2f
+     171: fconst_0
+     172: fconst_0
+     173: fconst_1
+     174: invokevirtual #257                // Method progressRotationPrev:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFFFF)V
+     177: aload_0
+     178: aload_0
+     179: getfield      #49                 // Field body:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     182: fload         15
+     184: fconst_0
+     185: fconst_0
+     186: ldc           #68                 // float 4.0f
+     188: fconst_1
+     189: invokevirtual #260                // Method progressPositionPrev:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFFFF)V
+     192: aload_0
+     193: aload_0
+     194: getfield      #95                 // Field neck:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     197: ldc_w         #261                // float 0.06f
+     200: ldc_w         #262                // float 0.1f
+     203: iconst_0
+     204: fconst_0
+     205: ldc_w         #262                // float 0.1f
+     208: fload         4
+     210: fconst_1
+     211: invokevirtual #266                // Method walk:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     214: aload_0
+     215: aload_0
+     216: getfield      #100                // Field head:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     219: ldc_w         #261                // float 0.06f
+     222: ldc_w         #262                // float 0.1f
+     225: iconst_1
+     226: fconst_0
+     227: ldc_w         #262                // float 0.1f
+     230: fload         4
+     232: fconst_1
+     233: invokevirtual #266                // Method walk:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     236: aload_0
+     237: aload_0
+     238: getfield      #84                 // Field chest:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     241: ldc_w         #261                // float 0.06f
+     244: ldc_w         #267                // float 0.05f
+     247: iconst_1
+     248: fconst_1
+     249: ldc_w         #267                // float 0.05f
+     252: fload         4
+     254: fconst_1
+     255: invokevirtual #266                // Method walk:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     258: aload_0
+     259: aload_0
+     260: getfield      #117                // Field left_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     263: ldc_w         #261                // float 0.06f
+     266: ldc_w         #267                // float 0.05f
+     269: iconst_0
+     270: fconst_1
+     271: ldc_w         #267                // float 0.05f
+     274: fload         4
+     276: fconst_1
+     277: invokevirtual #266                // Method walk:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     280: aload_0
+     281: aload_0
+     282: getfield      #129                // Field right_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     285: ldc_w         #261                // float 0.06f
+     288: ldc_w         #267                // float 0.05f
+     291: iconst_0
+     292: fconst_1
+     293: ldc_w         #267                // float 0.05f
+     296: fload         4
+     298: fconst_1
+     299: invokevirtual #266                // Method walk:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     302: aload_0
+     303: aload_0
+     304: getfield      #132                // Field left_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     307: fload         7
+     309: fload         8
+     311: iconst_0
+     312: fconst_1
+     313: fconst_0
+     314: fload_2
+     315: fload         14
+     317: invokevirtual #266                // Method walk:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     320: aload_0
+     321: aload_0
+     322: getfield      #135                // Field right_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     325: fload         7
+     327: fload         8
+     329: iconst_1
+     330: fconst_1
+     331: fconst_0
+     332: fload_2
+     333: fload         14
+     335: invokevirtual #266                // Method walk:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     338: aload_0
+     339: aload_0
+     340: getfield      #84                 // Field chest:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     343: fload         7
+     345: fload         8
+     347: ldc_w         #262                // float 0.1f
+     350: fmul
+     351: iconst_0
+     352: fconst_2
+     353: ldc_w         #268                // float -0.1f
+     356: fload_2
+     357: fload         14
+     359: invokevirtual #266                // Method walk:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     362: aload_1
+     363: invokevirtual #272                // Method com/github/alexmodguy/alexscaves/server/entity/living/CaniacEntity.getAnimation:()Lcom/github/alexthe666/citadel/animation/Animation;
+     366: getstatic     #173                // Field com/github/alexmodguy/alexscaves/server/entity/living/CaniacEntity.ANIMATION_LUNGE:Lcom/github/alexthe666/citadel/animation/Animation;
+     369: if_acmpeq     419
+     372: aload_0
+     373: aload_0
+     374: getfield      #117                // Field left_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     377: fload         7
+     379: fload         8
+     381: ldc_w         #267                // float 0.05f
+     384: fmul
+     385: iconst_0
+     386: ldc           #59                 // float 3.0f
+     388: fconst_1
+     389: fload_2
+     390: fload         14
+     392: invokevirtual #266                // Method walk:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     395: aload_0
+     396: aload_0
+     397: getfield      #129                // Field right_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     400: fload         7
+     402: fload         8
+     404: ldc_w         #267                // float 0.05f
+     407: fmul
+     408: iconst_1
+     409: ldc           #59                 // float 3.0f
+     411: ldc           #133                // float -1.0f
+     413: fload_2
+     414: fload         14
+     416: invokevirtual #266                // Method walk:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     419: fload_2
+     420: fload         14
+     422: fload         7
+     424: ldc           #65                 // float -1.5f
+     426: ldc           #59                 // float 3.0f
+     428: iconst_0
+     429: invokestatic  #278                // Method com/github/alexmodguy/alexscaves/server/misc/ACMath.walkValue:(FFFFFZ)F
+     432: invokestatic  #281                // Method java/lang/Math.abs:(F)F
+     435: fneg
+     436: fstore        20
+     438: fload_2
+     439: fload         15
+     441: fload         9
+     443: ldc           #65                 // float -1.5f
+     445: ldc           #59                 // float 3.0f
+     447: iconst_0
+     448: invokestatic  #278                // Method com/github/alexmodguy/alexscaves/server/misc/ACMath.walkValue:(FFFFFZ)F
+     451: invokestatic  #281                // Method java/lang/Math.abs:(F)F
+     454: fneg
+     455: fstore        21
+     457: aload_0
+     458: getfield      #49                 // Field body:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     461: dup
+     462: getfield      #285                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotationPointY:F
+     465: fload         20
+     467: fload         21
+     469: fadd
+     470: fadd
+     471: putfield      #285                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotationPointY:F
+     474: aload_0
+     475: aload_0
+     476: getfield      #132                // Field left_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     479: fload         9
+     481: fload         10
+     483: iconst_0
+     484: fconst_1
+     485: fconst_0
+     486: fload_2
+     487: fload         15
+     489: invokevirtual #266                // Method walk:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     492: aload_0
+     493: aload_0
+     494: getfield      #135                // Field right_Leg:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     497: fload         9
+     499: fload         10
+     501: iconst_1
+     502: fconst_1
+     503: fconst_0
+     504: fload_2
+     505: fload         15
+     507: invokevirtual #266                // Method walk:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     510: aload_0
+     511: aload_0
+     512: getfield      #84                 // Field chest:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     515: fload         9
+     517: fload         10
+     519: ldc_w         #286                // float 0.15f
+     522: fmul
+     523: iconst_0
+     524: fconst_1
+     525: ldc_w         #268                // float -0.1f
+     528: fload_2
+     529: fload         15
+     531: invokevirtual #266                // Method walk:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     534: aload_0
+     535: aload_0
+     536: getfield      #74                 // Field spine:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     539: fload         9
+     541: fload         10
+     543: ldc_w         #286                // float 0.15f
+     546: fmul
+     547: iconst_0
+     548: fconst_0
+     549: fconst_0
+     550: fload_2
+     551: fload         15
+     553: invokevirtual #289                // Method swing:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     556: aload_0
+     557: aload_0
+     558: getfield      #95                 // Field neck:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     561: fload         9
+     563: fload         10
+     565: ldc_w         #286                // float 0.15f
+     568: fmul
+     569: iconst_1
+     570: fconst_0
+     571: fconst_0
+     572: fload_2
+     573: fload         15
+     575: invokevirtual #289                // Method swing:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFZFFFF)V
+     578: aload_0
+     579: getfield      #129                // Field right_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     582: dup
+     583: getfield      #292                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotateAngleX:F
+     586: fload         16
+     588: fadd
+     589: putfield      #292                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotateAngleX:F
+     592: aload_0
+     593: getfield      #117                // Field left_Arm:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     596: dup
+     597: getfield      #292                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotateAngleX:F
+     600: fload         17
+     602: fadd
+     603: putfield      #292                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotateAngleX:F
+     606: aload_0
+     607: getfield      #100                // Field head:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     610: dup
+     611: getfield      #295                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotateAngleY:F
+     614: fload         18
+     616: ldc_w         #296                // float 0.35f
+     619: fmul
+     620: fadd
+     621: putfield      #295                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotateAngleY:F
+     624: aload_0
+     625: getfield      #95                 // Field neck:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     628: dup
+     629: getfield      #295                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotateAngleY:F
+     632: fload         18
+     634: ldc_w         #296                // float 0.35f
+     637: fmul
+     638: fadd
+     639: putfield      #295                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotateAngleY:F
+     642: aload_0
+     643: getfield      #100                // Field head:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     646: dup
+     647: getfield      #292                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotateAngleX:F
+     650: fload         19
+     652: ldc_w         #286                // float 0.15f
+     655: fmul
+     656: fadd
+     657: putfield      #292                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotateAngleX:F
+     660: aload_0
+     661: getfield      #95                 // Field neck:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     664: dup
+     665: getfield      #292                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotateAngleX:F
+     668: fload         19
+     670: ldc_w         #286                // float 0.15f
+     673: fmul
+     674: fadd
+     675: putfield      #292                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotateAngleX:F
+     678: invokestatic  #302                // Method net/minecraft/client/Minecraft.m_91087_:()Lnet/minecraft/client/Minecraft;
+     681: invokevirtual #306                // Method net/minecraft/client/Minecraft.m_91288_:()Lnet/minecraft/world/entity/Entity;
+     684: astore        22
+     686: aload         22
+     688: ifnull        910
+     691: aload         22
+     693: fconst_0
+     694: invokevirtual #312                // Method net/minecraft/world/entity/Entity.m_20299_:(F)Lnet/minecraft/world/phys/Vec3;
+     697: astore        23
+     699: aload_1
+     700: fconst_0
+     701: invokevirtual #313                // Method com/github/alexmodguy/alexscaves/server/entity/living/CaniacEntity.m_20299_:(F)Lnet/minecraft/world/phys/Vec3;
+     704: astore        24
+     706: aload         23
+     708: getfield      #319                // Field net/minecraft/world/phys/Vec3.f_82480_:D
+     711: aload         24
+     713: getfield      #319                // Field net/minecraft/world/phys/Vec3.f_82480_:D
+     716: dsub
+     717: dstore        25
+     719: dload         25
+     721: dneg
+     722: ldc2_w        #320                // double -1.0d
+     725: dconst_1
+     726: invokestatic  #325                // Method net/minecraft/util/Mth.m_14008_:(DDD)D
+     729: d2f
+     730: fstore        27
+     732: aload_1
+     733: fconst_0
+     734: invokevirtual #328                // Method com/github/alexmodguy/alexscaves/server/entity/living/CaniacEntity.m_20252_:(F)Lnet/minecraft/world/phys/Vec3;
+     737: astore        28
+     739: new           #315                // class net/minecraft/world/phys/Vec3
+     742: dup
+     743: aload         28
+     745: getfield      #331                // Field net/minecraft/world/phys/Vec3.f_82479_:D
+     748: dconst_0
+     749: aload         28
+     751: getfield      #334                // Field net/minecraft/world/phys/Vec3.f_82481_:D
+     754: invokespecial #337                // Method net/minecraft/world/phys/Vec3."<init>":(DDD)V
+     757: astore        28
+     759: new           #315                // class net/minecraft/world/phys/Vec3
+     762: dup
+     763: aload         24
+     765: getfield      #331                // Field net/minecraft/world/phys/Vec3.f_82479_:D
+     768: aload         23
+     770: getfield      #331                // Field net/minecraft/world/phys/Vec3.f_82479_:D
+     773: dsub
+     774: dconst_0
+     775: aload         24
+     777: getfield      #334                // Field net/minecraft/world/phys/Vec3.f_82481_:D
+     780: aload         23
+     782: getfield      #334                // Field net/minecraft/world/phys/Vec3.f_82481_:D
+     785: dsub
+     786: invokespecial #337                // Method net/minecraft/world/phys/Vec3."<init>":(DDD)V
+     789: invokevirtual #341                // Method net/minecraft/world/phys/Vec3.m_82541_:()Lnet/minecraft/world/phys/Vec3;
+     792: ldc_w         #342                // float 1.5707964f
+     795: invokevirtual #345                // Method net/minecraft/world/phys/Vec3.m_82524_:(F)Lnet/minecraft/world/phys/Vec3;
+     798: astore        29
+     800: aload         28
+     802: aload         29
+     804: invokevirtual #349                // Method net/minecraft/world/phys/Vec3.m_82526_:(Lnet/minecraft/world/phys/Vec3;)D
+     807: dstore        30
+     809: dload         30
+     811: ldc2_w        #350                // double 2.0d
+     814: dmul
+     815: invokestatic  #353                // Method java/lang/Math.abs:(D)D
+     818: d2f
+     819: invokestatic  #356                // Method net/minecraft/util/Mth.m_14116_:(F)F
+     822: dload         30
+     824: invokestatic  #359                // Method java/lang/Math.signum:(D)D
+     827: d2f
+     828: fmul
+     829: f2d
+     830: dstore        32
+     832: aload_0
+     833: getfield      #114                // Field left_Eye:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     836: dup
+     837: getfield      #362                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotationPointX:F
+     840: f2d
+     841: dload         32
+     843: aload_0
+     844: getfield      #100                // Field head:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     847: getfield      #365                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotateAngleZ:F
+     850: f2d
+     851: dsub
+     852: dadd
+     853: d2f
+     854: putfield      #362                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotationPointX:F
+     857: aload_0
+     858: getfield      #114                // Field left_Eye:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     861: dup
+     862: getfield      #285                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotationPointY:F
+     865: fload         27
+     867: fadd
+     868: putfield      #285                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotationPointY:F
+     871: aload_0
+     872: getfield      #108                // Field right_Eye:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     875: dup
+     876: getfield      #362                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotationPointX:F
+     879: f2d
+     880: dload         32
+     882: aload_0
+     883: getfield      #100                // Field head:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     886: getfield      #365                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotateAngleZ:F
+     889: f2d
+     890: dsub
+     891: dadd
+     892: d2f
+     893: putfield      #362                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotationPointX:F
+     896: aload_0
+     897: getfield      #108                // Field right_Eye:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     900: dup
+     901: getfield      #285                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotationPointY:F
+     904: fload         27
+     906: fadd
+     907: putfield      #285                // Field com/github/alexthe666/citadel/client/model/AdvancedModelBox.rotationPointY:F
+     910: return
+
+  public void m_6973_(net.minecraft.world.entity.Entity, float, float, float, float, float);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #169                // class com/github/alexmodguy/alexscaves/server/entity/living/CaniacEntity
+       5: fload_2
+       6: fload_3
+       7: fload         4
+       9: fload         5
+      11: fload         6
+      13: invokevirtual #401                // Method setupAnim:(Lcom/github/alexmodguy/alexscaves/server/entity/living/CaniacEntity;FFFFF)V
+      16: return
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#S#",
+    "###"
+  ],
+  "key": {
+    "S": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "#": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "count": 8,
+    "item": "alex_caves_spellsbook:hazen_wisewood_log"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "@survival"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ROACW Reference - mars_armor",
+  "uuid": "61ecfbb0-b75c-a096-955b-4fac9812a708",
+  "cubes": 132,
+  "bones": 53,
+  "bounds": {
+    "min": [
+      -17.30377518098049,
+      -1,
+      -9.913417161825446
+    ],
+    "max": [
+      17.30377518098049,
+      40.063653143138616,
+      15.643430033691164
+    ]
+  },
+  "note": "Exact native geometry and base color texture; bare view uses temporary opaque clay, no runtime glow layer."
+}

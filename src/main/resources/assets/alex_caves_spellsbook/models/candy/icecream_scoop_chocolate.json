@@ -1,0 +1,564 @@
+{
+  "ambientocclusion": false,
+  "texture_size": [
+    64,
+    64
+  ],
+  "textures": {
+    "cream": "alex_caves_spellsbook:entity/candy/pixel/icecream_atlas_chocolate"
+  },
+  "elements": [
+    {
+      "name": "cream_core",
+      "from": [
+        3,
+        4,
+        3
+      ],
+      "to": [
+        13,
+        13,
+        13
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0.75,
+            0.75,
+            3.25,
+            3.25
+          ],
+          "texture": "#cream"
+        },
+        "down": {
+          "uv": [
+            8.75,
+            4.75,
+            11.25,
+            7.25
+          ],
+          "texture": "#cream"
+        },
+        "north": {
+          "uv": [
+            4.75,
+            0.75,
+            7.25,
+            3.0
+          ],
+          "texture": "#cream"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            4.75,
+            3.25,
+            7.0
+          ],
+          "texture": "#cream"
+        },
+        "east": {
+          "uv": [
+            8.75,
+            0.75,
+            11.25,
+            3.0
+          ],
+          "texture": "#cream"
+        },
+        "west": {
+          "uv": [
+            4.75,
+            4.75,
+            7.25,
+            7.0
+          ],
+          "texture": "#cream"
+        }
+      }
+    },
+    {
+      "name": "cream_crown",
+      "from": [
+        5,
+        13,
+        5
+      ],
+      "to": [
+        11,
+        15,
+        11
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.25,
+            1.25,
+            2.75,
+            2.75
+          ],
+          "texture": "#cream"
+        },
+        "down": {
+          "uv": [
+            9.25,
+            5.25,
+            10.75,
+            6.75
+          ],
+          "texture": "#cream"
+        },
+        "north": {
+          "uv": [
+            5.25,
+            0.25,
+            6.75,
+            0.75
+          ],
+          "texture": "#cream"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            4.25,
+            2.75,
+            4.75
+          ],
+          "texture": "#cream"
+        },
+        "east": {
+          "uv": [
+            9.25,
+            0.25,
+            10.75,
+            0.75
+          ],
+          "texture": "#cream"
+        },
+        "west": {
+          "uv": [
+            5.25,
+            4.25,
+            6.75,
+            4.75
+          ],
+          "texture": "#cream"
+        }
+      }
+    },
+    {
+      "name": "cream_lower_rim",
+      "from": [
+        2,
+        4,
+        4
+      ],
+      "to": [
+        14,
+        7,
+        12
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0.5,
+            1.0,
+            3.5,
+            3.0
+          ],
+          "texture": "#cream"
+        },
+        "down": {
+          "uv": [
+            8.5,
+            5.0,
+            11.5,
+            7.0
+          ],
+          "texture": "#cream"
+        },
+        "north": {
+          "uv": [
+            4.5,
+            2.25,
+            7.5,
+            3.0
+          ],
+          "texture": "#cream"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            6.25,
+            3.5,
+            7.0
+          ],
+          "texture": "#cream"
+        },
+        "east": {
+          "uv": [
+            9.0,
+            2.25,
+            11.0,
+            3.0
+          ],
+          "texture": "#cream"
+        },
+        "west": {
+          "uv": [
+            5.0,
+            6.25,
+            7.0,
+            7.0
+          ],
+          "texture": "#cream"
+        }
+      }
+    },
+    {
+      "name": "cream_front_lobe",
+      "from": [
+        4,
+        5,
+        2
+      ],
+      "to": [
+        12,
+        9,
+        4
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.0,
+            0.5,
+            3.0,
+            1.0
+          ],
+          "texture": "#cream"
+        },
+        "down": {
+          "uv": [
+            9.0,
+            7.0,
+            11.0,
+            7.5
+          ],
+          "texture": "#cream"
+        },
+        "north": {
+          "uv": [
+            5.0,
+            1.75,
+            7.0,
+            2.75
+          ],
+          "texture": "#cream"
+        },
+        "south": {
+          "uv": [
+            1.0,
+            5.75,
+            3.0,
+            6.75
+          ],
+          "texture": "#cream"
+        },
+        "east": {
+          "uv": [
+            11.0,
+            1.75,
+            11.5,
+            2.75
+          ],
+          "texture": "#cream"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            5.75,
+            5.0,
+            6.75
+          ],
+          "texture": "#cream"
+        }
+      }
+    },
+    {
+      "name": "cream_back_lobe",
+      "from": [
+        4,
+        5,
+        12
+      ],
+      "to": [
+        12,
+        8,
+        14
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.0,
+            3.0,
+            3.0,
+            3.5
+          ],
+          "texture": "#cream"
+        },
+        "down": {
+          "uv": [
+            9.0,
+            4.5,
+            11.0,
+            5.0
+          ],
+          "texture": "#cream"
+        },
+        "north": {
+          "uv": [
+            5.0,
+            2.0,
+            7.0,
+            2.75
+          ],
+          "texture": "#cream"
+        },
+        "south": {
+          "uv": [
+            1.0,
+            6.0,
+            3.0,
+            6.75
+          ],
+          "texture": "#cream"
+        },
+        "east": {
+          "uv": [
+            8.5,
+            2.0,
+            9.0,
+            2.75
+          ],
+          "texture": "#cream"
+        },
+        "west": {
+          "uv": [
+            7.0,
+            6.0,
+            7.5,
+            6.75
+          ],
+          "texture": "#cream"
+        }
+      }
+    },
+    {
+      "name": "cream_front_drip",
+      "from": [
+        4,
+        2,
+        3
+      ],
+      "to": [
+        6,
+        5,
+        5
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.0,
+            0.75,
+            1.5,
+            1.25
+          ],
+          "texture": "#cream"
+        },
+        "down": {
+          "uv": [
+            9.0,
+            6.75,
+            9.5,
+            7.25
+          ],
+          "texture": "#cream"
+        },
+        "north": {
+          "uv": [
+            6.5,
+            2.75,
+            7.0,
+            3.5
+          ],
+          "texture": "#cream"
+        },
+        "south": {
+          "uv": [
+            1.0,
+            6.75,
+            1.5,
+            7.5
+          ],
+          "texture": "#cream"
+        },
+        "east": {
+          "uv": [
+            10.75,
+            2.75,
+            11.25,
+            3.5
+          ],
+          "texture": "#cream"
+        },
+        "west": {
+          "uv": [
+            4.75,
+            6.75,
+            5.25,
+            7.5
+          ],
+          "texture": "#cream"
+        }
+      }
+    },
+    {
+      "name": "cream_right_drip",
+      "from": [
+        11,
+        3,
+        9
+      ],
+      "to": [
+        13,
+        6,
+        11
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2.75,
+            2.25,
+            3.25,
+            2.75
+          ],
+          "texture": "#cream"
+        },
+        "down": {
+          "uv": [
+            10.75,
+            5.25,
+            11.25,
+            5.75
+          ],
+          "texture": "#cream"
+        },
+        "north": {
+          "uv": [
+            4.75,
+            2.5,
+            5.25,
+            3.25
+          ],
+          "texture": "#cream"
+        },
+        "south": {
+          "uv": [
+            2.75,
+            6.5,
+            3.25,
+            7.25
+          ],
+          "texture": "#cream"
+        },
+        "east": {
+          "uv": [
+            9.25,
+            2.5,
+            9.75,
+            3.25
+          ],
+          "texture": "#cream"
+        },
+        "west": {
+          "uv": [
+            6.25,
+            6.5,
+            6.75,
+            7.25
+          ],
+          "texture": "#cream"
+        }
+      }
+    },
+    {
+      "name": "cream_back_drip",
+      "from": [
+        7,
+        1,
+        11
+      ],
+      "to": [
+        9,
+        5,
+        13
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            1.75,
+            2.75,
+            2.25,
+            3.25
+          ],
+          "texture": "#cream"
+        },
+        "down": {
+          "uv": [
+            9.75,
+            4.75,
+            10.25,
+            5.25
+          ],
+          "texture": "#cream"
+        },
+        "north": {
+          "uv": [
+            5.75,
+            2.75,
+            6.25,
+            3.75
+          ],
+          "texture": "#cream"
+        },
+        "south": {
+          "uv": [
+            1.75,
+            6.75,
+            2.25,
+            7.75
+          ],
+          "texture": "#cream"
+        },
+        "east": {
+          "uv": [
+            8.75,
+            2.75,
+            9.25,
+            3.75
+          ],
+          "texture": "#cream"
+        },
+        "west": {
+          "uv": [
+            6.75,
+            6.75,
+            7.25,
+            7.75
+          ],
+          "texture": "#cream"
+        }
+      }
+    }
+  ]
+}

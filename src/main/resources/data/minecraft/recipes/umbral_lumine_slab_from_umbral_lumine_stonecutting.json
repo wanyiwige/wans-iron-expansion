@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "asterismarcanum:umbral_lumine"
+  },
+  "result": "asterismarcanum:umbral_lumine_slab",
+  "count": 2
+}

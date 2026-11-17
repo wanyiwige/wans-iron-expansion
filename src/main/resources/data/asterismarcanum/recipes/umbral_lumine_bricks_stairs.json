@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "umbral_lumine_bricks",
+  "key": {
+    "#": {
+      "item": "asterismarcanum:umbral_lumine_bricks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "asterismarcanum:umbral_lumine_bricks_stairs"
+  }
+}

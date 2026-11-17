@@ -1,0 +1,26 @@
+{
+  "type": "asterismarcanum:asterism_dimension_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "height": 1,
+          "block": "minecraft:barrier"
+        },
+        {
+          "height": 126,
+          "block": "minecraft:air"
+        },
+        {
+          "height": 1,
+          "block": "minecraft:barrier"
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

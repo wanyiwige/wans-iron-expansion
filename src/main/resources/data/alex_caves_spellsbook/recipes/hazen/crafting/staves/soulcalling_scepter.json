@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "C": {
+      "item": "irons_spellbooks:cinderous_soulcaller"
+    },
+    "F": {
+      "item": "alex_caves_spellsbook:hazen_cloth_of_the_flamebearer"
+    },
+    "N": {
+      "item": "hazennstuff:pyrium_nugget"
+    },
+    "S": {
+      "item": "irons_spellbooks:pyrium_staff"
+    }
+  },
+  "pattern": [
+    "NFC",
+    " SF",
+    "B N"
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_soulcalling_scepter"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "soulcalling_scepter"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_cloth_of_the_flamebearer"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_soulcalling_scepter"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:pyrium_nugget"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:cinderous_soulcaller"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:pyrium_staff"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:blaze_rod"
+    }
+  ]
+}

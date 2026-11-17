@@ -1,0 +1,9 @@
+{
+  "amount": 0.05,
+  "attribute": "kubejs:astral_spell_power",
+  "containerItem": {
+    "Count": 1,
+    "id": "asterismarcanum:astral_upgrade_orb"
+  },
+  "operation": "ADDITION"
+}

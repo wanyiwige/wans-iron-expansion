@@ -1,0 +1,262 @@
+[
+  {
+    "number": 1,
+    "id": "rainbow_ricochet",
+    "name": "七彩跳弹",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "80d7c04af5d2d6fbcc935636a9bac296557a78dac5c566170e2372c474b53f76"
+  },
+  {
+    "number": 2,
+    "id": "sugar_hunt",
+    "name": "糖珠追猎",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "1181467659575dd3964c1885c6f453546f5a94b419d3846c246f0cfa22917c1a"
+  },
+  {
+    "number": 3,
+    "id": "crystal_split",
+    "name": "糖晶裂射",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "899326beead837ef763ce1145260943887b3c69bcf8ab88efbc2b49d917e5cca"
+  },
+  {
+    "number": 4,
+    "id": "popping_cluster",
+    "name": "爆糖星簇",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "4251a478f087d3cf964580d5bfe0faf93d71d7f9023e32d674fe3227ef3e8c09"
+  },
+  {
+    "number": 5,
+    "id": "peppermint_guard",
+    "name": "薄荷卫环",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "fd659d7264f4248470a89deaa3b27087ff591787c667519d6477b4b1c873f377"
+  },
+  {
+    "number": 6,
+    "id": "peppermint_hunt",
+    "name": "薄荷追刃",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "65ca5669aca8b6c8808cd9ff403de7680fd3b286e83cbaf81550188c220959b7"
+  },
+  {
+    "number": 7,
+    "id": "peppermint_wheels",
+    "name": "薄荷滚轮",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "fa671d31a4e38ab94f2b9fe976d8967010015a9b49e38d2089738f81dddbc250"
+  },
+  {
+    "number": 8,
+    "id": "licorice_hex_wave",
+    "name": "甘草咒潮",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "205ff2fda05ba68bc735b68694a2d7b6478341679168ed0d88ac7c1e5ddf8d94"
+  },
+  {
+    "number": 9,
+    "id": "sugar_seal_bloom",
+    "name": "糖印绽放",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "0d3ff7100518d8beaf726c9b09b5872ecb9110cf182ec4dcec59a6682ee6a680"
+  },
+  {
+    "number": 10,
+    "id": "frostmint_rain",
+    "name": "霜薄荷矛雨",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "6ae077c8bd3c7d759d414c2f1a45d041897a2581d87d602b6e6034ba6fde5085"
+  },
+  {
+    "number": 11,
+    "id": "soda_meteor",
+    "name": "苏打流星",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "a5f267c3d3cf2007a8ac2a7b888fefb984c3b5e592d66e9d5952b4eb8babc7b8"
+  },
+  {
+    "number": 12,
+    "id": "soda_frostburst",
+    "name": "苏打霜爆",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "8f77fee2edd7bedf4f6b38f431baa7b404a8be4f44e50822145fd49631dd0da0"
+  },
+  {
+    "number": 13,
+    "id": "caramel_bog",
+    "name": "焦糖沼域",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "9d6988902645704010b7a2f70c7aa09f8d814504525218643a8eca0b7332b404"
+  },
+  {
+    "number": 14,
+    "id": "sugar_glass_stars",
+    "name": "糖玻璃碎星",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "8c9ac55650d3e4066f991e686354ef238f3c4d66a3f4d29b04285661f6e54d26"
+  },
+  {
+    "number": 15,
+    "id": "rainbow_leap",
+    "name": "虹糖跃迁",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "b34c3aef8d95b08ca1ebfa2f1c599c3ed8100991ed5331ece374acb264d2f441"
+  },
+  {
+    "number": 16,
+    "id": "sweet_overdrive",
+    "name": "甜蜜超频",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "39d49b965be9f9b68264abd3e68bc3d6a58ce0664782033899c352eb630719f6"
+  },
+  {
+    "number": 17,
+    "id": "rainbow_snare",
+    "name": "虹桥束缚",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "475be0b6eafc3693fd372d89b6c863632b01cd6eda9e70148819f71d2c8cf9ef"
+  },
+  {
+    "number": 18,
+    "id": "candicorn_charge",
+    "name": "独角兽虹袭",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "9e40022fa76ea746a099a93f9c91d7d10b6ae7b8edc760744c39e7ffd4c5d1c3"
+  },
+  {
+    "number": 19,
+    "id": "gummy_guardian",
+    "name": "软糖守卫",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "8ee0a1ff608383b8f396cc503bd27462319f46b3393a6921730b034946b61010"
+  },
+  {
+    "number": 20,
+    "id": "gingerbread_march",
+    "name": "姜饼行军",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "a17e2d50e3dd8fd8abd4dce4b4b509d394fa70d1f6a7f5a512d2c493fda199ce"
+  },
+  {
+    "number": 21,
+    "id": "candy_cane_whirl",
+    "name": "糖杖狂旋",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "bb315e1fd29eb43a5ceac899555bf8348fa189c815ec29494a79513ed0fb245c"
+  },
+  {
+    "number": 22,
+    "id": "gumball_sentry",
+    "name": "糖球哨塔",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "b31ec901fa52911e88feb11bdc1062a0dcc4a560ca8f8687a85830f80369a08b"
+  },
+  {
+    "number": 23,
+    "id": "gum_worm_breach",
+    "name": "蠕虫破宴",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "8a811c4756c89b6e5ded4e8e9a7512088258d635d7ec1cb77aec7c902badee57"
+  },
+  {
+    "number": 24,
+    "id": "candy_banquet",
+    "name": "糖境盛宴",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "33505351e469a0c9c603149e96f7831a37d9a7cab806161d7391fa533bb8179c"
+  },
+  {
+    "number": 25,
+    "id": "ice_cream_storm",
+    "name": "冰淇淋暴雨",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "07dd52e2469ce3264b50c308fea09f783b45374ac67554929a15ed9912312db1"
+  },
+  {
+    "number": 26,
+    "id": "licorice_grand_feast",
+    "name": "甘草魔宴",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "51c3e02d57dbcea0f3e43bade158fb2bcef23f3af5c50fbebd268b1d7e393276"
+  }
+]

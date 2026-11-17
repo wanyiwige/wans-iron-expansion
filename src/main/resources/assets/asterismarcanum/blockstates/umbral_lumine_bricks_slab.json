@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "asterismarcanum:block/umbral_lumine_bricks_slab"
+    },
+    "type=double": {
+      "model": "asterismarcanum:block/umbral_lumine_bricks"
+    },
+    "type=top": {
+      "model": "asterismarcanum:block/umbral_lumine_bricks_slab_top"
+    }
+  }
+}

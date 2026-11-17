@@ -1,0 +1,195 @@
+Compiled from "FrostmintSpearModel.java"
+public class com.github.alexmodguy.alexscaves.client.model.FrostmintSpearModel extends com.github.alexthe666.citadel.client.model.AdvancedEntityModel<com.github.alexmodguy.alexscaves.server.entity.item.FrostmintSpearEntity> {
+  public com.github.alexmodguy.alexscaves.client.model.FrostmintSpearModel();
+    Code:
+       0: aload_0
+       1: invokespecial #15                 // Method com/github/alexthe666/citadel/client/model/AdvancedEntityModel."<init>":()V
+       4: aload_0
+       5: bipush        32
+       7: putfield      #19                 // Field texWidth:I
+      10: aload_0
+      11: bipush        32
+      13: putfield      #22                 // Field texHeight:I
+      16: aload_0
+      17: new           #24                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+      20: dup
+      21: aload_0
+      22: invokespecial #27                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+      25: putfield      #29                 // Field spear:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      28: aload_0
+      29: getfield      #29                 // Field spear:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      32: fconst_0
+      33: ldc           #30                 // float 15.0f
+      35: fconst_0
+      36: invokevirtual #34                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+      39: aload_0
+      40: getfield      #29                 // Field spear:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      43: iconst_0
+      44: iconst_0
+      45: invokevirtual #38                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      48: ldc           #39                 // float -0.5f
+      50: ldc           #40                 // float -20.0f
+      52: ldc           #39                 // float -0.5f
+      54: fconst_1
+      55: ldc           #41                 // float 29.0f
+      57: fconst_1
+      58: fconst_0
+      59: iconst_0
+      60: invokevirtual #45                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+      63: aload_0
+      64: new           #24                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+      67: dup
+      68: aload_0
+      69: invokespecial #27                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+      72: putfield      #47                 // Field cube_r1:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      75: aload_0
+      76: getfield      #47                 // Field cube_r1:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      79: fconst_0
+      80: ldc           #48                 // float -23.0f
+      82: fconst_0
+      83: invokevirtual #34                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+      86: aload_0
+      87: getfield      #29                 // Field spear:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      90: aload_0
+      91: getfield      #47                 // Field cube_r1:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      94: invokevirtual #52                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+      97: aload_0
+      98: aload_0
+      99: getfield      #47                 // Field cube_r1:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     102: ldc           #53                 // float 0.7854f
+     104: fconst_0
+     105: fconst_0
+     106: invokevirtual #57                 // Method setRotateAngle:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+     109: aload_0
+     110: getfield      #47                 // Field cube_r1:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     113: bipush        7
+     115: bipush        8
+     117: invokevirtual #38                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     120: fconst_0
+     121: ldc           #58                 // float -6.0f
+     123: ldc           #58                 // float -6.0f
+     125: fconst_0
+     126: ldc           #59                 // float 12.0f
+     128: ldc           #59                 // float 12.0f
+     130: fconst_0
+     131: iconst_0
+     132: invokevirtual #45                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     135: aload_0
+     136: new           #24                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+     139: dup
+     140: aload_0
+     141: invokespecial #27                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+     144: putfield      #61                 // Field cube_r2:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     147: aload_0
+     148: getfield      #61                 // Field cube_r2:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     151: fconst_0
+     152: ldc           #62                 // float -18.0f
+     154: fconst_0
+     155: invokevirtual #34                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     158: aload_0
+     159: getfield      #29                 // Field spear:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     162: aload_0
+     163: getfield      #61                 // Field cube_r2:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     166: invokevirtual #52                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     169: aload_0
+     170: aload_0
+     171: getfield      #61                 // Field cube_r2:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     174: ldc           #53                 // float 0.7854f
+     176: fconst_0
+     177: fconst_0
+     178: invokevirtual #57                 // Method setRotateAngle:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+     181: aload_0
+     182: getfield      #61                 // Field cube_r2:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     185: iconst_4
+     186: iconst_1
+     187: invokevirtual #38                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     190: fconst_0
+     191: ldc           #63                 // float -3.0f
+     193: ldc           #58                 // float -6.0f
+     195: fconst_0
+     196: ldc           #64                 // float 9.0f
+     198: ldc           #64                 // float 9.0f
+     200: fconst_0
+     201: iconst_0
+     202: invokevirtual #45                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     205: aload_0
+     206: new           #24                 // class com/github/alexthe666/citadel/client/model/AdvancedModelBox
+     209: dup
+     210: aload_0
+     211: invokespecial #27                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox."<init>":(Lcom/github/alexthe666/citadel/client/model/AdvancedEntityModel;)V
+     214: putfield      #66                 // Field cube_r3:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     217: aload_0
+     218: getfield      #66                 // Field cube_r3:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     221: fconst_0
+     222: ldc           #67                 // float 8.0f
+     224: fconst_0
+     225: invokevirtual #34                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setRotationPoint:(FFF)V
+     228: aload_0
+     229: getfield      #29                 // Field spear:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     232: aload_0
+     233: getfield      #66                 // Field cube_r3:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     236: invokevirtual #52                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addChild:(Lcom/github/alexthe666/citadel/client/model/basic/BasicModelPart;)V
+     239: aload_0
+     240: aload_0
+     241: getfield      #66                 // Field cube_r3:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     244: ldc           #53                 // float 0.7854f
+     246: fconst_0
+     247: fconst_0
+     248: invokevirtual #57                 // Method setRotateAngle:(Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;FFF)V
+     251: aload_0
+     252: getfield      #66                 // Field cube_r3:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     255: bipush        20
+     257: iconst_1
+     258: invokevirtual #38                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.setTextureOffset:(II)Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+     261: fconst_0
+     262: ldc           #63                 // float -3.0f
+     264: ldc           #68                 // float -2.0f
+     266: fconst_0
+     267: ldc           #69                 // float 5.0f
+     269: ldc           #69                 // float 5.0f
+     271: fconst_0
+     272: iconst_0
+     273: invokevirtual #45                 // Method com/github/alexthe666/citadel/client/model/AdvancedModelBox.addBox:(FFFFFFFZ)V
+     276: aload_0
+     277: invokevirtual #72                 // Method updateDefaultPose:()V
+     280: return
+
+  public java.lang.Iterable<com.github.alexthe666.citadel.client.model.basic.BasicModelPart> parts();
+    Code:
+       0: aload_0
+       1: getfield      #29                 // Field spear:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+       4: invokestatic  #83                 // Method com/google/common/collect/ImmutableList.of:(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
+       7: areturn
+
+  public java.lang.Iterable<com.github.alexthe666.citadel.client.model.AdvancedModelBox> getAllParts();
+    Code:
+       0: aload_0
+       1: getfield      #29                 // Field spear:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+       4: aload_0
+       5: getfield      #47                 // Field cube_r1:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+       8: aload_0
+       9: getfield      #61                 // Field cube_r2:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      12: aload_0
+      13: getfield      #66                 // Field cube_r3:Lcom/github/alexthe666/citadel/client/model/AdvancedModelBox;
+      16: invokestatic  #88                 // Method com/google/common/collect/ImmutableList.of:(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
+      19: areturn
+
+  public void setupAnim(com.github.alexmodguy.alexscaves.server.entity.item.FrostmintSpearEntity, float, float, float, float, float);
+    Code:
+       0: aload_0
+       1: invokevirtual #93                 // Method resetToDefaultPose:()V
+       4: return
+
+  public void m_6973_(net.minecraft.world.entity.Entity, float, float, float, float, float);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #105                // class com/github/alexmodguy/alexscaves/server/entity/item/FrostmintSpearEntity
+       5: fload_2
+       6: fload_3
+       7: fload         4
+       9: fload         5
+      11: fload         6
+      13: invokevirtual #107                // Method setupAnim:(Lcom/github/alexmodguy/alexscaves/server/entity/item/FrostmintSpearEntity;FFFFF)V
+      16: return
+}

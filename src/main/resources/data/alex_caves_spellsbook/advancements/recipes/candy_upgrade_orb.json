@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_candy_rune": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["alex_caves_spellsbook:candy_rune"] }] }
+    }
+  },
+  "rewards": { "recipes": ["alex_caves_spellsbook:candy_upgrade_orb"] }
+}

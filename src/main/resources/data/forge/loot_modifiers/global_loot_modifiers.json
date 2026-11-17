@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "entries": [
+    "wans_twilight_spellbooks:chest_loot/additional_aurora_palace_loot_modifier",
+    "wans_twilight_spellbooks:chest_loot/aurora_loot_modifier",
+    "wans_twilight_spellbooks:chest_loot/basement_loot_modifier",
+    "wans_twilight_spellbooks:chest_loot/dark_tower_loot_modifier",
+    "wans_twilight_spellbooks:chest_loot/grave_loot_modifier",
+    "wans_twilight_spellbooks:chest_loot/twilight_generic_loot_modifier",
+    "wans_twilight_spellbooks:chest_loot/twilight_good_loot_modifier",
+    "wans_twilight_spellbooks:chest_loot/twilight_library_loot_modifier",
+    "wans_twilight_spellbooks:entities/ice_mob_loot_modifier",
+    "wans_twilight_spellbooks:entities/lich_modifier",
+    "wans_twilight_spellbooks:entities/hydra_modifier",
+    "wans_twilight_spellbooks:entities/ur_ghast_modifier",
+    "wans_twilight_spellbooks:entities/snow_queen_modifier",
+    "wans_twilight_spellbooks:entities/carminite_golem_modifier",
+    "alex_caves_spellsbook:hazen/survival/chests/catacombs_modifiers",
+    "alex_caves_spellsbook:hazen/survival/chests/citadel_vault_modifiers",
+    "alex_caves_spellsbook:hazen/survival/chests/shipwreck_treasure_modifiers",
+    "alex_caves_spellsbook:hazen/survival/entity_drops/cryomancer_modifiers",
+    "alex_caves_spellsbook:hazen/survival/entity_drops/dead_king_modifiers",
+    "alex_caves_spellsbook:hazen/survival/entity_drops/elder_guardian_modifiers",
+    "alex_caves_spellsbook:hazen/survival/entity_drops/endermen_modifiers",
+    "alex_caves_spellsbook:hazen/survival/entity_drops/evoker_modifiers",
+    "alex_caves_spellsbook:hazen/survival/entity_drops/phantom_modifiers",
+    "alex_caves_spellsbook:hazen/survival/entity_drops/pillager_modifiers",
+    "alex_caves_spellsbook:hazen/survival/entity_drops/stray_modifiers",
+    "alex_caves_spellsbook:hazen/survival/entity_drops/tyros_modifiers",
+    "alex_caves_spellsbook:hazen/survival/entity_drops/vindicator_modifiers",
+    "alex_caves_spellsbook:hazen/survival/entity_drops/wither_skeleton_modifiers"
+  ]
+}

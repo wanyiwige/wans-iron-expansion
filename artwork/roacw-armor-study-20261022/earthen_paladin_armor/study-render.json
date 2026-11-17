@@ -1,0 +1,19 @@
+{
+  "name": "ROACW Reference - earthen_paladin_armor",
+  "uuid": "61ecfbb0-b75c-a096-955b-4fac9812a708",
+  "cubes": 73,
+  "bones": 46,
+  "bounds": {
+    "min": [
+      -11.088312012344367,
+      -1,
+      -8.392547004657995
+    ],
+    "max": [
+      11.088312012344367,
+      41.18401553035906,
+      14.176125075155538
+    ]
+  },
+  "note": "Exact native geometry and base color texture; bare view uses temporary opaque clay, no runtime glow layer."
+}

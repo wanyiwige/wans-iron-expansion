@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "hazennstuff:divine_mold"
+    },
+    "P": {
+      "item": "minecraft:diamond_boots"
+    },
+    "R": {
+      "item": "alex_caves_spellsbook:hazen_melee_rune"
+    },
+    "T": {
+      "item": "alex_caves_spellsbook:hazen_dreadsteel_ingot"
+    }
+  },
+  "pattern": [
+    "RMR",
+    "TPT",
+    "   "
+  ],
+  "result": {
+    "item": "alex_caves_spellsbook:hazen_dreadsteel_knight_boots",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_dreadsteel_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_dreadsteel_knight_boots"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_melee_rune"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:divine_mold"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "minecraft:diamond_boots"
+    },
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "dreadsteel_knight_boots"
+    }
+  ]
+}

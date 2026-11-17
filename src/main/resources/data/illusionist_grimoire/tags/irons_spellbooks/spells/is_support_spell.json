@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "irons_spellbooks:cleanse",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:fortify",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:healing_circle",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:haste",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:blessing_of_life",
+      "required": false
+    }
+  ]
+}

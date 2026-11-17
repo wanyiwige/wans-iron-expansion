@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "asterismarcanum:lumine_bricks"
+  },
+  "result": "asterismarcanum:lumine_bricks_slab",
+  "count": 2
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MSM",
+    "RBR",
+    "MIM"
+  ],
+  "key": {
+    "M": {
+      "item": "irons_spellbooks:magic_cloth"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "R": {
+      "item": "alex_caves_spellsbook:candy_rune"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "I": {
+      "item": "irons_spellbooks:rare_ink"
+    }
+  },
+  "result": {
+    "item": "alex_caves_spellsbook:candy_starcatcher",
+    "count": 1
+  }
+}

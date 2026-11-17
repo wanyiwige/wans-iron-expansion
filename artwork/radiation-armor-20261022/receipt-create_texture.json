@@ -1,0 +1,13 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "image",
+        "data": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALklEQVR4AeyTsQ0AAAjCCP8f4QMuPqjxBgYWSFgZGsrqWaWEmAwAYRAGr5H/BwcAAP//ZD0dpgAAAAZJREFUAwC1JDABC8s9nwAAAABJRU5ErkJggg==",
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 1
+}

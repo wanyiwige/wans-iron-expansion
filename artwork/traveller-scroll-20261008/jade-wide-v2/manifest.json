@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-08",
+  "school": "kubejs:traveller",
+  "generator": "built-in imagegen",
+  "changes": [
+    "jade-cyan palette",
+    "broader unfolded map and both rolled ends"
+  ],
+  "width": 1254,
+  "height": 1254,
+  "final": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\artwork\\traveller-scroll-20261008\\jade-wide-v2\\scroll_traveller-jade-wide.png",
+  "new_sha256": "1FE7B58009B75D6AD401CE06740F60760B4625E0A772EA837E4BB116BBABE9A2",
+  "old_live_sha256": "3FC922C50B5B1992DBCF645E1C2D4C54648566C2AAC12EEE13ECF9A8FEE483A9",
+  "old_source_sha256": "3FC922C50B5B1992DBCF645E1C2D4C54648566C2AAC12EEE13ECF9A8FEE483A9",
+  "backup": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\artwork\\traveller-scroll-20261008\\jade-wide-v2\\backup",
+  "live": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\kubejs\\assets\\kubejs\\textures\\item\\scroll_traveller.png",
+  "source": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\src\\main\\resources\\assets\\kubejs\\textures\\item\\scroll_traveller.png",
+  "activeJar": "wans_iron_expansion-1.1.7.jar",
+  "jarRebuilt": false,
+  "gameVisualVerified": false
+}

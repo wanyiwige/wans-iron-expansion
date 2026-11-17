@@ -1,0 +1,4 @@
+Easy Arcane 1.0.0 by SkingieDee. Original mod metadata declares MIT License.
+Original models and textures reused from the user-supplied JAR.
+Gameplay recreated for Forge 1.20.1 in Wan's Iron Expansion.
+Credits from source: Aylith for coding expertise.

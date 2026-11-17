@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "alex_caves_spellsbook:hazen/survival/block/dreadstone_ore"
+  }
+}

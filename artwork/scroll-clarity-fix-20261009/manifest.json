@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-09",
+  "cause": "1254px master with more than 32 logical cells undersampled into 32px sprites",
+  "repair": "re-export approved original imagegen masters to 64px with nearest-neighbor, preserving artwork",
+  "comparison": "comparison-48px.png",
+  "comparisonIsGameScreenshot": false,
+  "liveAndSourceUpdated": true,
+  "jarRebuilt": false,
+  "gameVisualVerified": false,
+  "files": [
+    {
+      "school": "astral",
+      "location": "live",
+      "file": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\kubejs\\assets\\kubejs\\textures\\item\\scroll_astral.png",
+      "width": 64,
+      "height": 64,
+      "old_sha256": "3148A942012EB1E74ABB4996779F63DA0BB46F985DF9AEA2A467C6F74A838195",
+      "new_sha256": "A8E5606A8AC381F0FBE6FDFFAFF26988EBE404E1A09CD2DEB4D8BB7EFD48E87F",
+      "backup": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\artwork\\scroll-clarity-fix-20261009\\backup\\live-scroll_astral-32.png"
+    },
+    {
+      "school": "astral",
+      "location": "source",
+      "file": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\src\\main\\resources\\assets\\kubejs\\textures\\item\\scroll_astral.png",
+      "width": 64,
+      "height": 64,
+      "old_sha256": "3148A942012EB1E74ABB4996779F63DA0BB46F985DF9AEA2A467C6F74A838195",
+      "new_sha256": "A8E5606A8AC381F0FBE6FDFFAFF26988EBE404E1A09CD2DEB4D8BB7EFD48E87F",
+      "backup": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\artwork\\scroll-clarity-fix-20261009\\backup\\source-scroll_astral-32.png"
+    },
+    {
+      "school": "traveller",
+      "location": "live",
+      "file": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\kubejs\\assets\\kubejs\\textures\\item\\scroll_traveller.png",
+      "width": 64,
+      "height": 64,
+      "old_sha256": "6FF16808C42D1C17ECD607077B6AA37C1795F0036E12E1910B9BBA872F013E75",
+      "new_sha256": "D621BC4EF39865C55CFBDC256AF10934BD4A591C2CD81F79A567E58B51E29FA7",
+      "backup": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\artwork\\scroll-clarity-fix-20261009\\backup\\live-scroll_traveller-32.png"
+    },
+    {
+      "school": "traveller",
+      "location": "source",
+      "file": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\src\\main\\resources\\assets\\kubejs\\textures\\item\\scroll_traveller.png",
+      "width": 64,
+      "height": 64,
+      "old_sha256": "6FF16808C42D1C17ECD607077B6AA37C1795F0036E12E1910B9BBA872F013E75",
+      "new_sha256": "D621BC4EF39865C55CFBDC256AF10934BD4A591C2CD81F79A567E58B51E29FA7",
+      "backup": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\artwork\\scroll-clarity-fix-20261009\\backup\\source-scroll_traveller-32.png"
+    }
+  ]
+}

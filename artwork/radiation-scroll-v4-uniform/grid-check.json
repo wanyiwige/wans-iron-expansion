@@ -1,0 +1,15 @@
+{
+  "size": [
+    16,
+    16
+  ],
+  "grid": "one shared 16x16 lattice",
+  "alpha": [
+    0,
+    255
+  ],
+  "preview_pixels_checked": 65536,
+  "generated_art": "imagegen-black-source.png",
+  "project_resource_updated": true,
+  "deployed": false
+}

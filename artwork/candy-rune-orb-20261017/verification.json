@@ -1,0 +1,46 @@
+{
+  "result": "PASS",
+  "version": "1.2.1-candy-pixel-preview.11",
+  "items": [
+    "alex_caves_spellsbook:candy_rune",
+    "alex_caves_spellsbook:candy_upgrade_orb"
+  ],
+  "textures": "two 16x16 pixel sprites",
+  "upgradeAttribute": "alex_caves_spellsbook:candy_spell_power",
+  "upgradeAmount": 0.05,
+  "operation": "MULTIPLY_BASE",
+  "recipesAndUnlocks": true,
+  "creativeTab": true,
+  "runeTag": true,
+  "all26SpellClassesAndAssetsUnchanged": true,
+  "previousLangValuesPreserved": true,
+  "changedEntries": [
+    "META-INF/MANIFEST.MF",
+    "META-INF/mods.toml",
+    "assets/alex_caves_spellsbook/lang/en_us.json",
+    "assets/alex_caves_spellsbook/lang/zh_cn.json",
+    "cn/wanyiwige/alexcavesspellsbook/registry/ModCreativeTabs.class",
+    "cn/wanyiwige/alexcavesspellsbook/registry/ModItems.class",
+    "cn/wanyiwige/alexcavesspellsbook/registry/ModUpgradeOrbTypes.class",
+    "data/irons_spellbooks/tags/items/inscribed_rune.json"
+  ],
+  "addedEntries": [
+    "assets/alex_caves_spellsbook/models/item/candy_rune.json",
+    "assets/alex_caves_spellsbook/models/item/candy_upgrade_orb.json",
+    "assets/alex_caves_spellsbook/textures/item/candy_rune.png",
+    "assets/alex_caves_spellsbook/textures/item/candy_rune.png.mcmeta",
+    "assets/alex_caves_spellsbook/textures/item/candy_upgrade_orb.png",
+    "assets/alex_caves_spellsbook/textures/item/candy_upgrade_orb.png.mcmeta",
+    "data/alex_caves_spellsbook/advancements/recipes/",
+    "data/alex_caves_spellsbook/advancements/recipes/candy_rune.json",
+    "data/alex_caves_spellsbook/advancements/recipes/candy_upgrade_orb.json",
+    "data/alex_caves_spellsbook/irons_spellbooks/upgrade_orb_type/candy_power.json",
+    "data/alex_caves_spellsbook/recipes/candy_rune.json",
+    "data/alex_caves_spellsbook/recipes/candy_upgrade_orb.json"
+  ],
+  "jarBytes": 13948050,
+  "sha256": "d6dc706fc1cff8de2e2b5bbf2122c925e5aab92e57e6eb06d3cd235aeef02b51",
+  "installedUnchanged": true,
+  "deployed": false,
+  "minecraftRuntimeTested": false
+}

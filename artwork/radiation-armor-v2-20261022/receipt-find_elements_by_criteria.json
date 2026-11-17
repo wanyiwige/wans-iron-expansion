@@ -1,0 +1,12 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"count\": 8,\n  \"truncated\": false,\n  \"matches\": [\n    {\n      \"uuid\": \"d311807c-3be4-adef-fa9b-305734d4e53a\",\n      \"name\": \"reactor_back_mount\",\n      \"type\": \"cube\",\n      \"parent\": \"armorBody\"\n    },\n    {\n      \"uuid\": \"a531c0f1-b83a-3d70-5f92-c27e91b76a60\",\n      \"name\": \"reactor_service_panel\",\n      \"type\": \"cube\",\n      \"parent\": \"armorBody\"\n    },\n    {\n      \"uuid\": \"66ae5121-974b-b4f5-70e7-ef216698bb4a\",\n      \"name\": \"canister_connection_Left\",\n      \"type\": \"cube\",\n      \"parent\": \"armorBody\"\n    },\n    {\n      \"uuid\": \"67c76d51-66a2-262b-bad6-de5ba2733560\",\n      \"name\": \"canister_connection_Right\",\n      \"type\": \"cube\",\n      \"parent\": \"armorBody\"\n    },\n    {\n      \"uuid\": \"1490a18a-5aa8-7aec-8ec3-bede144136bd\",\n      \"name\": \"back_canister_Left\",\n      \"type\": \"cube\",\n      \"parent\": \"reactor_canisterLeft\"\n    },\n    {\n      \"uuid\": \"ce242875-bc94-51b4-1b25-c6dc2ed99e62\",\n      \"name\": \"canister_cap_Left\",\n      \"type\": \"cube\",\n      \"parent\": \"reactor_canisterLeft\"\n    },\n    {\n      \"uuid\": \"9fbdbb8c-d779-d024-f7f0-14cda17cc15b\",\n      \"name\": \"back_canister_Right\",\n      \"type\": \"cube\",\n      \"parent\": \"reactor_canisterRight\"\n    },\n    {\n      \"uuid\": \"b3223ec3-b2a4-1c62-dceb-ee3379a99c63\",\n      \"name\": \"canister_cap_Right\",\n      \"type\": \"cube\",\n      \"parent\": \"reactor_canisterRight\"\n    }\n  ]\n}"
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 1
+}

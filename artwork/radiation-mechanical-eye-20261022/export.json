@@ -1,0 +1,34 @@
+{
+  "palette": [
+    "0C1321",
+    "182138",
+    "2C2D49",
+    "4B4967",
+    "163D48",
+    "16575C",
+    "107D71",
+    "11A580",
+    "29C96C",
+    "62E54C",
+    "A5EF4C",
+    "E6F583",
+    "7BBB9C",
+    "35566A",
+    "B8DBC1",
+    "C3D944"
+  ],
+  "cellSize": [
+    2,
+    2
+  ],
+  "nativeSize": [
+    36,
+    21
+  ],
+  "binaryAlpha": true,
+  "referenceSize": [
+    72,
+    42
+  ],
+  "name": "mechanical-radiation-eye"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "cosmic_scholar",
+    "school": "cosmic",
+    "rarity": "COSMIC_RARITY",
+    "durability_multiplier": 32,
+    "model": "alex_caves_spellsbook:geo/hazen/armor/cosmic_scholar_armor.geo.json",
+    "texture": "alex_caves_spellsbook:textures/hazen/armor/worn/cosmic_scholar_armor.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "source_model": "SchoolTier/CosmicScholar/GeckolibCosmicScholarArmorModel.java",
+    "source_model_sha256": "f6b8be4ff75bacb6ed312d6df9ea64486096a07abdec4ea6be2caed3fc60904e"
+  },
+  {
+    "id": "radiant_crystal",
+    "school": "radiance",
+    "rarity": "RADIANCE_RARITY",
+    "durability_multiplier": 32,
+    "model": "alex_caves_spellsbook:geo/hazen/armor/radiant_crystal_armor.geo.json",
+    "texture": "alex_caves_spellsbook:textures/hazen/armor/worn/radiant_crystal_armor.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "source_model": "SchoolTier/RadiantCrystal/GeckolibRadiantCrystalArmorModel.java",
+    "source_model_sha256": "261f27b82c09ed837c16681e623ecb7591527a5c2c2f3d23b409b65afc9254a8"
+  },
+  {
+    "id": "nautilus_knight",
+    "school": "hydro",
+    "rarity": "RADIANCE_RARITY",
+    "durability_multiplier": 32,
+    "model": "alex_caves_spellsbook:geo/hazen/armor/nautilus_knight_armor.geo.json",
+    "texture": "alex_caves_spellsbook:textures/hazen/armor/worn/nautilus_knight_armor.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "source_model": "SchoolTier/NautilusKnight/NautilusKnightArmorModel.java",
+    "source_model_sha256": "4b21aa3c809750416061f2483769c6aaceba16447d23e8045e0dfe2b32f46d71"
+  },
+  {
+    "id": "frostbite_knight",
+    "school": null,
+    "rarity": "ICE_RARITY",
+    "durability_multiplier": 64,
+    "model": "alex_caves_spellsbook:geo/hazen/armor/frostbite_knight_armor.geo.json",
+    "texture": "alex_caves_spellsbook:textures/hazen/armor/worn/frostbite_knight_armor.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "source_model": "Melee/FrostbiteKnight/FrostbiteKnightArmorModel.java",
+    "source_model_sha256": "e6fd07eeb98559b0eac49bf96255e19145db0fbcbbdaae11c62e9543bc367ad5"
+  },
+  {
+    "id": "dreadsteel_knight",
+    "school": null,
+    "rarity": "EPIC",
+    "durability_multiplier": 64,
+    "model": "alex_caves_spellsbook:geo/hazen/armor/dreadsteel_knight_armor.geo.json",
+    "texture": "alex_caves_spellsbook:textures/hazen/armor/worn/dreadsteel_knight_armor.png",
+    "animation": "irons_spellbooks:animations/wizard_armor_animation.json",
+    "source_model": "Melee/DreadsteelKnight/DreadsteelArmorModel.java",
+    "source_model_sha256": "cd27bd28ddac2d9a72c70dd23efbe4431c6447299e0629b2c48c1be0ab463892"
+  }
+]

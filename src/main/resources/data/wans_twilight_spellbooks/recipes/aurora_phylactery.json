@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NLN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "item": "wans_twilight_spellbooks:frost_essence"
+    },
+    "L": {
+      "item": "wans_twilight_spellbooks:snow_silver_ingot"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "wans_twilight_spellbooks:aurora_phylactery"
+  }
+}

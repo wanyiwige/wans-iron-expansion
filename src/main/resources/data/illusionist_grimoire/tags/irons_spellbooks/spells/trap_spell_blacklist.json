@@ -1,0 +1,161 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "irons_spellbooks:raise_dead",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:summon_vex",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:summon_horse",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:summon_polar_bear",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:summon_ender_chest",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:summon_swords",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:blood_step",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:frost_step",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:heartstop",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:sacrifice",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:abyssal_shroud",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:planar_sight",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:invisibility",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:pocket_dimension",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:telekinesis",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:echoing_strikes",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:evasion",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:portal",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:recall",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:teleport",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:spectral_hammer",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:throw",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:burning_dash",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:wall_of_fire",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:angel_wing",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_heal",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:heal",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:frostbite",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ice_tomb",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:ascension",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:charge",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:thunderstorm",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:volt_strike",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:gluttony",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:oakskin",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:spider_aspect",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:touch_dig",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:scorch",
+      "required": false
+    },
+    {
+      "id": "illusionist_grimoire:disguise",
+      "required": false
+    }
+  ]
+}

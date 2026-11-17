@@ -1,0 +1,35 @@
+{
+  "version": "1.2.2",
+  "item_id": "alex_caves_spellsbook:candy_starcatcher",
+  "sha256": "c0928561767a6f1d42775b7a5582cb161289561e78b7ea77736aa7b834942660",
+  "baseline_sha256": "6dd1dd1e591ba995b1427f402512a0a6f354d6b248e07b67581e19e2ada23241",
+  "slot": "spellbook",
+  "spell_slots": 10,
+  "candy_spell_power": 0.15,
+  "max_mana": 200,
+  "mana_regen": 0.1,
+  "sprite_size": [
+    16,
+    16
+  ],
+  "native_atlas_discovery": "1/1",
+  "changed_existing_jar_entries": [
+    "META-INF/MANIFEST.MF",
+    "assets/alex_caves_spellsbook/lang/en_us.json",
+    "assets/alex_caves_spellsbook/lang/zh_cn.json",
+    "cn/wanyiwige/alexcavesspellsbook/client/ClientModEvents.class",
+    "cn/wanyiwige/alexcavesspellsbook/registry/ModCreativeTabs.class",
+    "cn/wanyiwige/alexcavesspellsbook/registry/ModItems.class",
+    "data/curios/tags/items/spellbook.json"
+  ],
+  "added_jar_files": [
+    "assets/alex_caves_spellsbook/models/item/candy_starcatcher.json",
+    "assets/alex_caves_spellsbook/textures/item/candy_starcatcher.png",
+    "assets/alex_caves_spellsbook/textures/item/candy_starcatcher.png.mcmeta",
+    "cn/wanyiwige/alexcavesspellsbook/candy/CandyStarcatcherItem.class",
+    "data/alex_caves_spellsbook/advancements/recipes/candy_starcatcher.json",
+    "data/alex_caves_spellsbook/recipes/candy_starcatcher.json"
+  ],
+  "all_existing_spell_classes_unchanged": true,
+  "game_tested": false
+}

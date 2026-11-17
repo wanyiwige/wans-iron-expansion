@@ -1,0 +1,790 @@
+{
+  "hazen_soul_flame_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/soul_flame_equip_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/soul_flame_equip_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/soul_flame_equip_3",
+      "alex_caves_spellsbook:hazen/hazennstuff/soul_flame_equip_4"
+    ]
+  },
+  "hazen_supreme_witch_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/supreme_witch_equip_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/supreme_witch_equip_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/supreme_witch_equip_3",
+      "alex_caves_spellsbook:hazen/hazennstuff/supreme_witch_equip_4"
+    ]
+  },
+  "hazen_seraph_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/seraph_equip_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/seraph_equip_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/seraph_equip_3",
+      "alex_caves_spellsbook:hazen/hazennstuff/seraph_equip_4"
+    ]
+  },
+  "hazen_creaking_sorcerer_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/creaking_sorcerer_equip_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/creaking_sorcerer_equip_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/creaking_sorcerer_equip_3",
+      "alex_caves_spellsbook:hazen/hazennstuff/creaking_sorcerer_equip_4"
+    ]
+  },
+  "hazen_flesh_mass_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/flesh_mass_equip_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/flesh_mass_equip_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/flesh_mass_equip_3",
+      "alex_caves_spellsbook:hazen/hazennstuff/flesh_mass_equip_4",
+      "alex_caves_spellsbook:hazen/hazennstuff/flesh_mass_equip_5",
+      "alex_caves_spellsbook:hazen/hazennstuff/flesh_mass_equip_6",
+      "alex_caves_spellsbook:hazen/hazennstuff/flesh_mass_equip_7"
+    ]
+  },
+  "hazen_cryogenic_ruler_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/armor/cryogenic_ruler_equip_1",
+      "alex_caves_spellsbook:hazen/armor/cryogenic_ruler_equip_2",
+      "alex_caves_spellsbook:hazen/armor/cryogenic_ruler_equip_3",
+      "alex_caves_spellsbook:hazen/armor/cryogenic_ruler_equip_4"
+    ]
+  },
+  "hazen_ender_dragon_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/ender_dragon_equip_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/ender_dragon_equip_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/ender_dragon_equip_3",
+      "alex_caves_spellsbook:hazen/hazennstuff/ender_dragon_equip_4"
+    ]
+  },
+  "hazen_charged_scourge_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/charged_scourge_equip_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/charged_scourge_equip_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/charged_scourge_equip_3",
+      "alex_caves_spellsbook:hazen/hazennstuff/charged_scourge_equip_4"
+    ]
+  },
+  "hazen_calamitas_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/calamitas_equip_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/calamitas_equip_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/calamitas_equip_3",
+      "alex_caves_spellsbook:hazen/hazennstuff/calamitas_equip_4"
+    ]
+  },
+  "hazen_brimstone_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/brimstone_cast"
+    ]
+  },
+  "hazen_brimstone_hellblast_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/brimstone_hellblast_cast"
+    ]
+  },
+  "hazen_brimstone_hellblast_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/brimstone_hellblast_impact"
+    ]
+  },
+  "hazen_electric_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/electric_impact_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/electric_impact_2"
+    ]
+  },
+  "hazen_electric_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/electric_cast"
+    ]
+  },
+  "hazen_charged": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/charged"
+    ]
+  },
+  "hazen_special_ore_break": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_3"
+    ]
+  },
+  "hazen_special_ore_step": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_3"
+    ]
+  },
+  "hazen_special_ore_place": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_3"
+    ]
+  },
+  "hazen_special_ore_hit": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_3"
+    ]
+  },
+  "hazen_special_ore_fall": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/special_ore_3"
+    ]
+  },
+  "hazen_spark_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/spark_cast_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/spark_cast_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/spark_cast_3"
+    ]
+  },
+  "hazen_syringe_barrage_hit": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/syringe_barrage_hit_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/syringe_barrage_hit_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/syringe_barrage_hit_3"
+    ]
+  },
+  "hazen_syringe_barrage_miss": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/syringe_barrage_miss"
+    ]
+  },
+  "hazen_syringe_barrage_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/syringe_barrage_cast"
+    ]
+  },
+  "hazen_vampire_knife_throw": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/vampire_knife_throw"
+    ]
+  },
+  "hazen_vampire_knife_hit": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/vampire_knife_hit"
+    ]
+  },
+  "hazen_terraria_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/terraria_cast"
+    ]
+  },
+  "hazen_terrablade_slash": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/terrablade_slash"
+    ]
+  },
+  "hazen_terraria_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/terraria_impact"
+    ]
+  },
+  "hazen_terraria_swing": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/terraria_swing"
+    ]
+  },
+  "hazen_star_cast_1": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/star_cast_1"
+    ]
+  },
+  "hazen_star_cast_2": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/star_cast_2"
+    ]
+  },
+  "hazen_cat_swing": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/cat_swing"
+    ]
+  },
+  "hazen_cat_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/cat_cast"
+    ]
+  },
+  "hazen_cat_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/cat_impact"
+    ]
+  },
+  "hazen_golden_shower_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/golden_shower_cast"
+    ]
+  },
+  "hazen_terraprisma_casting": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/terraprisma_casting"
+    ]
+  },
+  "hazen_terraprisma_summon": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/terraprisma_summon"
+    ]
+  },
+  "hazen_terraria_summon": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/terraria_summon"
+    ]
+  },
+  "hazen_punch": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/punch"
+    ]
+  },
+  "hazen_parry": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/parry"
+    ]
+  },
+  "hazen_umbrashift_barrage_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/umbrashift_barrage_cast"
+    ]
+  },
+  "hazen_shadow_dagger_hit": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/shadow_dagger_hit_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/shadow_dagger_hit_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/shadow_dagger_hit_3"
+    ]
+  },
+  "hazen_cosmic_cast_instant": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazentouvelib/cosmic_cast_instant"
+    ]
+  },
+  "hazen_cosmic_cast_long": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/cosmic_cast_long"
+    ]
+  },
+  "hazen_evercomet_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/evercomet_cast"
+    ]
+  },
+  "hazen_evercomet_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/evercomet_impact"
+    ]
+  },
+  "hazen_cosmic_bolt_hit": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/cosmic_bolt_hit"
+    ]
+  },
+  "hazen_cosmic_bolt_okay": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/cosmic_bolt_okay"
+    ]
+  },
+  "hazen_cosmic_bolt_good": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/cosmic_bolt_good"
+    ]
+  },
+  "hazen_cosmic_bolt_excellent": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/cosmic_bolt_excellent"
+    ]
+  },
+  "hazen_scorching_slash_wind_up": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/scorching_slash_wind_up"
+    ]
+  },
+  "hazen_scorching_slash_swing": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/scorching_slash_swing"
+    ]
+  },
+  "hazen_ningu_demonbane_petalblade_cast_1": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/ningu_demonbane_petalblade_cast_1"
+    ]
+  },
+  "hazen_ningu_demonbane_petalblade_cast_2": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/ningu_demonbane_petalblade_cast_2"
+    ]
+  },
+  "hazen_ningu_demonbane_petalblade_cast_3": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/ningu_demonbane_petalblade_cast_3"
+    ]
+  },
+  "hazen_hydro_cast_1": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/hydro_cast_1"
+    ]
+  },
+  "hazen_hydro_cast_2": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/hydro_cast_2"
+    ]
+  },
+  "hazen_trident_jetstream_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/trident_jetstream_cast"
+    ]
+  },
+  "hazen_arcane_card_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/arcane_card_cast"
+    ]
+  },
+  "hazen_razorblade_typhoon_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/razorblade_typhoon_cast"
+    ]
+  },
+  "hazen_endraconic_meteor_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/endraconic_meteor_cast"
+    ]
+  },
+  "hazen_endraconic_meteor_charging": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/endraconic_meteor_charging"
+    ]
+  },
+  "hazen_endraconic_meteor_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/endraconic_meteor_impact"
+    ]
+  },
+  "hazen_flesh_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/flesh_impact_1",
+      "alex_caves_spellsbook:hazen/hazennstuff/flesh_impact_2",
+      "alex_caves_spellsbook:hazen/hazennstuff/flesh_impact_3"
+    ]
+  },
+  "hazen_violent_regurgitation_charging": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/violent_regurgitation_charging"
+    ]
+  },
+  "hazen_violent_regurgitation_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/violent_regurgitation_cast"
+    ]
+  },
+  "hazen_flesh_mound_bite": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/flesh_mound_bite"
+    ]
+  },
+  "hazen_bone_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/hazennstuff/bone_impact"
+    ]
+  },
+  "hazen_secondary_soul_flame_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/soul_flame_equip_1",
+      "alex_caves_spellsbook:hazen/secondary/soul_flame_equip_2",
+      "alex_caves_spellsbook:hazen/secondary/soul_flame_equip_3",
+      "alex_caves_spellsbook:hazen/secondary/soul_flame_equip_4"
+    ]
+  },
+  "hazen_secondary_supreme_witch_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/supreme_witch_equip_1",
+      "alex_caves_spellsbook:hazen/secondary/supreme_witch_equip_2",
+      "alex_caves_spellsbook:hazen/secondary/supreme_witch_equip_3",
+      "alex_caves_spellsbook:hazen/secondary/supreme_witch_equip_4"
+    ]
+  },
+  "hazen_secondary_seraph_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/seraph_equip_1",
+      "alex_caves_spellsbook:hazen/secondary/seraph_equip_2",
+      "alex_caves_spellsbook:hazen/secondary/seraph_equip_3",
+      "alex_caves_spellsbook:hazen/secondary/seraph_equip_4"
+    ]
+  },
+  "hazen_secondary_creaking_sorcerer_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/creaking_sorcerer_equip_1",
+      "alex_caves_spellsbook:hazen/secondary/creaking_sorcerer_equip_2",
+      "alex_caves_spellsbook:hazen/secondary/creaking_sorcerer_equip_3",
+      "alex_caves_spellsbook:hazen/secondary/creaking_sorcerer_equip_4"
+    ]
+  },
+  "hazen_secondary_flesh_mass_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/flesh_mass_equip_1",
+      "alex_caves_spellsbook:hazen/secondary/flesh_mass_equip_2",
+      "alex_caves_spellsbook:hazen/secondary/flesh_mass_equip_3",
+      "alex_caves_spellsbook:hazen/secondary/flesh_mass_equip_4",
+      "alex_caves_spellsbook:hazen/secondary/flesh_mass_equip_5",
+      "alex_caves_spellsbook:hazen/secondary/flesh_mass_equip_6",
+      "alex_caves_spellsbook:hazen/secondary/flesh_mass_equip_7"
+    ]
+  },
+  "hazen_secondary_cryogenic_ruler_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/cryogenic_ruler_equip_1",
+      "alex_caves_spellsbook:hazen/secondary/cryogenic_ruler_equip_2",
+      "alex_caves_spellsbook:hazen/secondary/cryogenic_ruler_equip_3",
+      "alex_caves_spellsbook:hazen/secondary/cryogenic_ruler_equip_4"
+    ]
+  },
+  "hazen_secondary_ender_dragon_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/ender_dragon_equip_1",
+      "alex_caves_spellsbook:hazen/secondary/ender_dragon_equip_2",
+      "alex_caves_spellsbook:hazen/secondary/ender_dragon_equip_3",
+      "alex_caves_spellsbook:hazen/secondary/ender_dragon_equip_4"
+    ]
+  },
+  "hazen_secondary_charged_scourge_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/charged_scourge_equip_1",
+      "alex_caves_spellsbook:hazen/secondary/charged_scourge_equip_2",
+      "alex_caves_spellsbook:hazen/secondary/charged_scourge_equip_3",
+      "alex_caves_spellsbook:hazen/secondary/charged_scourge_equip_4"
+    ]
+  },
+  "hazen_secondary_calamitas_equip": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/calamitas_equip_1",
+      "alex_caves_spellsbook:hazen/secondary/calamitas_equip_2",
+      "alex_caves_spellsbook:hazen/secondary/calamitas_equip_3",
+      "alex_caves_spellsbook:hazen/secondary/calamitas_equip_4"
+    ]
+  },
+  "hazen_secondary_brimstone_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/brimstone_cast"
+    ]
+  },
+  "hazen_secondary_brimstone_hellblast_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/brimstone_hellblast_cast"
+    ]
+  },
+  "hazen_secondary_brimstone_hellblast_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/brimstone_hellblast_impact"
+    ]
+  },
+  "hazen_secondary_electric_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/electric_impact_1",
+      "alex_caves_spellsbook:hazen/secondary/electric_impact_2"
+    ]
+  },
+  "hazen_secondary_electric_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/electric_cast"
+    ]
+  },
+  "hazen_secondary_charged": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/charged"
+    ]
+  },
+  "hazen_secondary_special_ore_break": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/special_ore_1",
+      "alex_caves_spellsbook:hazen/secondary/special_ore_2",
+      "alex_caves_spellsbook:hazen/secondary/special_ore_3"
+    ]
+  },
+  "hazen_secondary_special_ore_step": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/special_ore_1",
+      "alex_caves_spellsbook:hazen/secondary/special_ore_2",
+      "alex_caves_spellsbook:hazen/secondary/special_ore_3"
+    ]
+  },
+  "hazen_secondary_special_ore_place": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/special_ore_1",
+      "alex_caves_spellsbook:hazen/secondary/special_ore_2",
+      "alex_caves_spellsbook:hazen/secondary/special_ore_3"
+    ]
+  },
+  "hazen_secondary_special_ore_hit": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/special_ore_1",
+      "alex_caves_spellsbook:hazen/secondary/special_ore_2",
+      "alex_caves_spellsbook:hazen/secondary/special_ore_3"
+    ]
+  },
+  "hazen_secondary_special_ore_fall": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/special_ore_1",
+      "alex_caves_spellsbook:hazen/secondary/special_ore_2",
+      "alex_caves_spellsbook:hazen/secondary/special_ore_3"
+    ]
+  },
+  "hazen_secondary_spark_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/spark_cast_1",
+      "alex_caves_spellsbook:hazen/secondary/spark_cast_2",
+      "alex_caves_spellsbook:hazen/secondary/spark_cast_3"
+    ]
+  },
+  "hazen_secondary_syringe_barrage_hit": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/syringe_barrage_hit_1",
+      "alex_caves_spellsbook:hazen/secondary/syringe_barrage_hit_2",
+      "alex_caves_spellsbook:hazen/secondary/syringe_barrage_hit_3"
+    ]
+  },
+  "hazen_secondary_syringe_barrage_miss": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/syringe_barrage_miss"
+    ]
+  },
+  "hazen_secondary_syringe_barrage_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/syringe_barrage_cast"
+    ]
+  },
+  "hazen_secondary_vampire_knife_throw": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/vampire_knife_throw"
+    ]
+  },
+  "hazen_secondary_vampire_knife_hit": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/vampire_knife_hit"
+    ]
+  },
+  "hazen_secondary_terraria_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/terraria_cast"
+    ]
+  },
+  "hazen_secondary_terrablade_slash": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/terrablade_slash"
+    ]
+  },
+  "hazen_secondary_terraria_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/terraria_impact"
+    ]
+  },
+  "hazen_secondary_terraria_swing": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/terraria_swing"
+    ]
+  },
+  "hazen_secondary_star_cast_1": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/star_cast_1"
+    ]
+  },
+  "hazen_secondary_star_cast_2": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/star_cast_2"
+    ]
+  },
+  "hazen_secondary_cat_swing": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/cat_swing"
+    ]
+  },
+  "hazen_secondary_cat_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/cat_cast"
+    ]
+  },
+  "hazen_secondary_cat_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/cat_impact"
+    ]
+  },
+  "hazen_secondary_golden_shower_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/golden_shower_cast"
+    ]
+  },
+  "hazen_secondary_terraprisma_casting": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/terraprisma_casting"
+    ]
+  },
+  "hazen_secondary_terraprisma_summon": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/terraprisma_summon"
+    ]
+  },
+  "hazen_secondary_terraria_summon": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/terraria_summon"
+    ]
+  },
+  "hazen_secondary_punch": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/punch"
+    ]
+  },
+  "hazen_secondary_parry": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/parry"
+    ]
+  },
+  "hazen_secondary_umbrashift_barrage_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/umbrashift_barrage_cast"
+    ]
+  },
+  "hazen_secondary_shadow_dagger_hit": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/shadow_dagger_hit_1",
+      "alex_caves_spellsbook:hazen/secondary/shadow_dagger_hit_2",
+      "alex_caves_spellsbook:hazen/secondary/shadow_dagger_hit_3"
+    ]
+  },
+  "hazen_secondary_cosmic_cast_instant": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/cosmic_cast_instant"
+    ]
+  },
+  "hazen_secondary_cosmic_cast_long": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/cosmic_cast_long"
+    ]
+  },
+  "hazen_secondary_evercomet_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/evercomet_cast"
+    ]
+  },
+  "hazen_secondary_evercomet_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/evercomet_impact"
+    ]
+  },
+  "hazen_secondary_cosmic_bolt_hit": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/cosmic_bolt_hit"
+    ]
+  },
+  "hazen_secondary_cosmic_bolt_okay": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/cosmic_bolt_okay"
+    ]
+  },
+  "hazen_secondary_cosmic_bolt_good": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/cosmic_bolt_good"
+    ]
+  },
+  "hazen_secondary_cosmic_bolt_excellent": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/cosmic_bolt_excellent"
+    ]
+  },
+  "hazen_secondary_scorching_slash_wind_up": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/scorching_slash_wind_up"
+    ]
+  },
+  "hazen_secondary_scorching_slash_swing": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/scorching_slash_swing"
+    ]
+  },
+  "hazen_secondary_ningu_demonbane_petalblade_cast_1": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/ningu_demonbane_petalblade_cast_1"
+    ]
+  },
+  "hazen_secondary_ningu_demonbane_petalblade_cast_2": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/ningu_demonbane_petalblade_cast_2"
+    ]
+  },
+  "hazen_secondary_ningu_demonbane_petalblade_cast_3": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/ningu_demonbane_petalblade_cast_3"
+    ]
+  },
+  "hazen_secondary_hydro_cast_1": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/hydro_cast_1"
+    ]
+  },
+  "hazen_secondary_hydro_cast_2": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/hydro_cast_2"
+    ]
+  },
+  "hazen_secondary_trident_jetstream_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/trident_jetstream_cast"
+    ]
+  },
+  "hazen_secondary_arcane_card_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/arcane_card_cast"
+    ]
+  },
+  "hazen_secondary_razorblade_typhoon_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/razorblade_typhoon_cast"
+    ]
+  },
+  "hazen_secondary_endraconic_meteor_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/endraconic_meteor_cast"
+    ]
+  },
+  "hazen_secondary_endraconic_meteor_charging": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/endraconic_meteor_charging"
+    ]
+  },
+  "hazen_secondary_endraconic_meteor_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/endraconic_meteor_impact"
+    ]
+  },
+  "hazen_secondary_flesh_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/flesh_impact_1",
+      "alex_caves_spellsbook:hazen/secondary/flesh_impact_2",
+      "alex_caves_spellsbook:hazen/secondary/flesh_impact_3"
+    ]
+  },
+  "hazen_secondary_violent_regurgitation_charging": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/violent_regurgitation_charging"
+    ]
+  },
+  "hazen_secondary_violent_regurgitation_cast": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/violent_regurgitation_cast"
+    ]
+  },
+  "hazen_secondary_flesh_mound_bite": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/flesh_mound_bite"
+    ]
+  },
+  "hazen_secondary_bone_impact": {
+    "sounds": [
+      "alex_caves_spellsbook:hazen/secondary/bone_impact"
+    ]
+  }
+}

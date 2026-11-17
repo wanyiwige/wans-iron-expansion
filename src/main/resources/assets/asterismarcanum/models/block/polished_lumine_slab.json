@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "asterismarcanum:block/polished_lumine",
+    "side": "asterismarcanum:block/polished_lumine",
+    "top": "asterismarcanum:block/polished_lumine"
+  }
+}

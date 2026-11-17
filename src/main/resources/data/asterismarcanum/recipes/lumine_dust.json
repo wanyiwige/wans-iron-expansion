@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 5.0,
+  "ingredient": {
+    "item": "asterismarcanum:dragonfly_wings"
+  },
+  "result": {
+    "count": 1,
+    "item": "asterismarcanum:lumine_dust"
+  }
+}

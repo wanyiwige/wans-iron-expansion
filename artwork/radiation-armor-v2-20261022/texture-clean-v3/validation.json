@@ -1,0 +1,22 @@
+{
+  "texture_size": [
+    128,
+    128
+  ],
+  "opaque_colors": 11,
+  "alpha_values": [
+    0,
+    255
+  ],
+  "cube_count": 63,
+  "face_count": 378,
+  "embedded_texture_matches_png": true,
+  "all_used_uv_faces_opaque": true,
+  "geometry_changed": false,
+  "deployed": false,
+  "sha256": {
+    "critical_warden_clean.png": "11a7653a05179b014f411b3f27fa3a098335a8e75247a89530fbbcdfa2d09730",
+    "critical_warden_clean.bbmodel": "d8d5b0f6aadc78e14766c24e5a0c1cf236b65b46222a181fd57bab67a8f6d4be",
+    "critical_warden_clean.geo.json": "f43c70290feaa0da48e039ad6f6e613c8506a890b05a2aae40c6a95d918bf453"
+  }
+}

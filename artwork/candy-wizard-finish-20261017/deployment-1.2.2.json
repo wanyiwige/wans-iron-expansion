@@ -1,0 +1,19 @@
+{
+  "version": "1.2.2",
+  "artifact": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\wans-iron-expansion\\build\\libs\\wans_iron_expansion-1.2.2.jar",
+  "active_jar": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\mods\\wans_iron_expansion-1.2.2.jar",
+  "sha256": "a2277a798ddb16d4661e93e576d3d12d9e89a74e3f2b0c74dbdd1e14e61ba3fe",
+  "rollback_jar": "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\_cleanup\\backups\\wans-iron-expansion-1.2.2-20261017-2ce83a4c\\wans_iron_expansion-1.2.1-astral-merged-preview.4.jar",
+  "rollback_sha256": "21550836fee207cc614de63a6cacf60d2e0bc47ec04e8f7b1e5436692dc9e5ae",
+  "backup_hash_verified": true,
+  "deployed_hash_verified": true,
+  "game_restarted": false,
+  "game_tested": false,
+  "single_active_jar_verified": true,
+  "active_mod_id": "alex_caves_spellsbook",
+  "embedded_roacw_version": "1.1.0",
+  "version_only_changes_from_preview_13": [
+    "META-INF/MANIFEST.MF",
+    "META-INF/mods.toml"
+  ]
+}

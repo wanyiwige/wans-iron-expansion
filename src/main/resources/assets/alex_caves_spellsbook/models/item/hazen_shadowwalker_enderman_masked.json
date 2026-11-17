@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "alex_caves_spellsbook:hazen_added/vendor/iron/item/shadowwalker_helmet"
+  }
+}

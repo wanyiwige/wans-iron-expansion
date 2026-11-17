@@ -1,0 +1,7 @@
+{
+  "type": "easy_arcane:add_ores",
+  "features": [
+    "easy_arcane:arcane_ore",
+    "easy_arcane:deepslate_arcane_ore"
+  ]
+}

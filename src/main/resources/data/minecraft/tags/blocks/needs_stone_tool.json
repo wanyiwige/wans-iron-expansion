@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "asterismarcanum:chiseled_lumine",
+    "asterismarcanum:chiseled_umbral_lumine",
+    "asterismarcanum:dragonfly_comb",
+    "asterismarcanum:lumine",
+    "asterismarcanum:lumine_bricks",
+    "asterismarcanum:lumine_bricks_slab",
+    "asterismarcanum:lumine_bricks_stairs",
+    "asterismarcanum:lumine_bricks_wall",
+    "asterismarcanum:lumine_slab",
+    "asterismarcanum:lumine_stairs",
+    "asterismarcanum:lumine_wall",
+    "asterismarcanum:polished_lumine",
+    "asterismarcanum:polished_lumine_slab",
+    "asterismarcanum:polished_lumine_stairs",
+    "asterismarcanum:polished_lumine_wall",
+    "asterismarcanum:polished_umbral_lumine",
+    "asterismarcanum:polished_umbral_lumine_slab",
+    "asterismarcanum:polished_umbral_lumine_stairs",
+    "asterismarcanum:polished_umbral_lumine_wall",
+    "asterismarcanum:umbral_lumine",
+    "asterismarcanum:umbral_lumine_bricks",
+    "asterismarcanum:umbral_lumine_bricks_slab",
+    "asterismarcanum:umbral_lumine_bricks_stairs",
+    "asterismarcanum:umbral_lumine_bricks_wall",
+    "asterismarcanum:umbral_lumine_slab",
+    "asterismarcanum:umbral_lumine_stairs",
+    "asterismarcanum:umbral_lumine_wall"
+  ]
+}

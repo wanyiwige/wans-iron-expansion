@@ -1,0 +1,13 @@
+{
+  "generator": "built-in imagegen",
+  "stage": "design preview; not registered or deployed",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ]
+}

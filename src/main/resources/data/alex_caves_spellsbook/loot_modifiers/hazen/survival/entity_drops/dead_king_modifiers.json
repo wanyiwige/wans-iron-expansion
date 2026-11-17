@@ -1,0 +1,10 @@
+{
+  "type": "alex_caves_spellsbook:hazen_append",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "irons_spellbooks:entities/dead_king"
+    }
+  ],
+  "table": "alex_caves_spellsbook:hazen/survival/entities/additional_loot/additional_dead_king_loot"
+}

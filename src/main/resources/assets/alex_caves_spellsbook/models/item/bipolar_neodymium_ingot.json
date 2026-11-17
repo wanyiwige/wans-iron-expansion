@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "alex_caves_spellsbook:item/bipolar_neodymium_ingot"
+  }
+}

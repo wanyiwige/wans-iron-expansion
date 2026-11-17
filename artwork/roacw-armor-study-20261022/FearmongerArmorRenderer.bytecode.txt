@@ -1,0 +1,48 @@
+Compiled from "FearmongerArmorRenderer.java"
+public class net.kamaarion.roacw.items.armor.fearmongerarmorset.FearmongerArmorRenderer extends software.bernie.geckolib.renderer.GeoArmorRenderer<net.kamaarion.roacw.items.armor.fearmongerarmorset.FearmongerArmorItem> {
+  public net.kamaarion.roacw.items.armor.fearmongerarmorset.FearmongerArmorRenderer(net.kamaarion.roacw.items.armor.fearmongerarmorset.FearmongerArmorModel);
+    Code:
+       0: aload_0
+       1: new           #10                 // class net/kamaarion/roacw/items/armor/fearmongerarmorset/FearmongerArmorModel
+       4: dup
+       5: invokespecial #13                 // Method net/kamaarion/roacw/items/armor/fearmongerarmorset/FearmongerArmorModel."<init>":()V
+       8: invokespecial #16                 // Method software/bernie/geckolib/renderer/GeoArmorRenderer."<init>":(Lsoftware/bernie/geckolib/model/GeoModel;)V
+      11: aload_0
+      12: new           #18                 // class net/kamaarion/roacw/items/armor/fearmongerarmorset/FearmongerArmorLayer
+      15: dup
+      16: aload_0
+      17: invokespecial #21                 // Method net/kamaarion/roacw/items/armor/fearmongerarmorset/FearmongerArmorLayer."<init>":(Lsoftware/bernie/geckolib/renderer/GeoRenderer;)V
+      20: invokevirtual #25                 // Method addRenderLayer:(Lsoftware/bernie/geckolib/renderer/layer/GeoRenderLayer;)Lsoftware/bernie/geckolib/renderer/GeoArmorRenderer;
+      23: pop
+      24: return
+
+  public net.minecraft.client.renderer.RenderType getRenderType(net.kamaarion.roacw.items.armor.fearmongerarmorset.FearmongerArmorItem, net.minecraft.resources.ResourceLocation, net.minecraft.client.renderer.MultiBufferSource, float);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokevirtual #35                 // Method getTextureLocation:(Lsoftware/bernie/geckolib/core/animatable/GeoAnimatable;)Lnet/minecraft/resources/ResourceLocation;
+       5: invokestatic  #41                 // Method net/minecraft/client/renderer/RenderType.m_110473_:(Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/client/renderer/RenderType;
+       8: areturn
+
+  public net.minecraft.client.renderer.RenderType getRenderType(net.minecraft.world.item.Item, net.minecraft.resources.ResourceLocation, net.minecraft.client.renderer.MultiBufferSource, float);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #52                 // class net/kamaarion/roacw/items/armor/fearmongerarmorset/FearmongerArmorItem
+       5: aload_2
+       6: aload_3
+       7: fload         4
+       9: invokevirtual #54                 // Method getRenderType:(Lnet/kamaarion/roacw/items/armor/fearmongerarmorset/FearmongerArmorItem;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/client/renderer/MultiBufferSource;F)Lnet/minecraft/client/renderer/RenderType;
+      12: areturn
+
+  public net.minecraft.client.renderer.RenderType getRenderType(software.bernie.geckolib.core.animatable.GeoAnimatable, net.minecraft.resources.ResourceLocation, net.minecraft.client.renderer.MultiBufferSource, float);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: checkcast     #52                 // class net/kamaarion/roacw/items/armor/fearmongerarmorset/FearmongerArmorItem
+       5: aload_2
+       6: aload_3
+       7: fload         4
+       9: invokevirtual #54                 // Method getRenderType:(Lnet/kamaarion/roacw/items/armor/fearmongerarmorset/FearmongerArmorItem;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/client/renderer/MultiBufferSource;F)Lnet/minecraft/client/renderer/RenderType;
+      12: areturn
+}

@@ -1,0 +1,40 @@
+{
+  "version": "1.2.2",
+  "baseline_sha256": "511487162a2e05615ae40535cc08cfbc639bc578a8600239e40871f8d9d8d9c8",
+  "release_sha256": "076b48f851a05f3d524018b89fcf0a37d8b15580e462805efcb6751ca6fb14b0",
+  "changed_entries": [
+    "META-INF/MANIFEST.MF",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/candicorn_charge.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/candy_banquet.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/candy_cane_whirl.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/caramel_bog.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/crystal_split.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/frostmint_rain.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/gingerbread_march.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/gum_worm_breach.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/gumball_sentry.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/gummy_guardian.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/ice_cream_storm.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/licorice_grand_feast.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/licorice_hex_wave.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/peppermint_guard.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/peppermint_hunt.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/peppermint_wheels.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/popping_cluster.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/rainbow_leap.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/rainbow_ricochet.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/rainbow_snare.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/soda_frostburst.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/soda_meteor.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/sugar_glass_stars.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/sugar_hunt.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/sugar_seal_bloom.png",
+    "assets/alex_caves_spellsbook/textures/gui/spell_icons/sweet_overdrive.png"
+  ],
+  "unique_valid_16x16_icons": 26,
+  "only_icon_resources_changed": true,
+  "active_mod_jars": [
+    "D:\\game\\PCL\\.minecraft\\versions\\All the Iron's Spellbooks\\mods\\wans_iron_expansion-1.2.2.jar"
+  ],
+  "game_tested": false
+}

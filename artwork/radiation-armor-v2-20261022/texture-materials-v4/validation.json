@@ -1,0 +1,12 @@
+{
+  "native_resolution": [
+    128,
+    128
+  ],
+  "opaque_palette_colors": 17,
+  "cube_count": 63,
+  "mapped_faces": 378,
+  "embedded_equals_external": true,
+  "geometry_changes": "Small collar/shield/boot offsets to separate coplanar faces; dimensions and UVs unchanged",
+  "deployed": false
+}

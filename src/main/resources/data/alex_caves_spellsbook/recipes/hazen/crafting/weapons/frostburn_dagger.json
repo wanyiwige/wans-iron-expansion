@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "alex_caves_spellsbook:hazen_permafrost_fragment"
+    },
+    "R": {
+      "item": "irons_spellbooks:ice_rune"
+    },
+    "S": {
+      "item": "irons_spellbooks:frosted_helve"
+    }
+  },
+  "pattern": [
+    " R ",
+    " P ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_frostburn_dagger"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "frostburn_dagger"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_frostburn_dagger"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_permafrost_fragment"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:frosted_helve"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "irons_spellbooks:ice_rune"
+    }
+  ]
+}

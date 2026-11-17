@@ -1,0 +1,10 @@
+{
+  "type": "alex_caves_spellsbook:hazen_append",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/elder_guardian"
+    }
+  ],
+  "table": "alex_caves_spellsbook:hazen/survival/entities/additional_loot/additional_elder_guardian_loot"
+}

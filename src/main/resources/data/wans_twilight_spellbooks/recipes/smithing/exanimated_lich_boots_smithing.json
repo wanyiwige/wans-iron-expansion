@@ -1,0 +1,17 @@
+{
+  "type": "wans_twilight_spellbooks:smithing_transform",
+  "addition": {
+    "item": "irons_spellbooks:arcane_rune"
+  },
+  "base": {
+    "item": "irons_spellbooks:netherite_mage_boots"
+  },
+  "result": {
+    "count": 1,
+    "item": "wans_twilight_spellbooks:exanimated_lich_boots",
+    "nbt": "{\"irons_spellbooks:spell_container\":{\"data\":[],\"maxSpells\":1,\"mustEquip\":1b,\"spellWheel\":1b}}"
+  },
+  "template": {
+    "item": "wans_twilight_spellbooks:deaths_essence"
+  }
+}

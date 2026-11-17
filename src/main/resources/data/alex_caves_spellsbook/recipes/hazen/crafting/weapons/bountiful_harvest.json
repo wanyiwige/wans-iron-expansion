@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nBN",
+    "  S",
+    " W "
+  ],
+  "key": {
+    "n": {
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    "B": {
+      "item": "alex_caves_spellsbook:hazen_overgrown_bone"
+    },
+    "N": {
+      "item": "alex_caves_spellsbook:hazen_deus_essence"
+    },
+    "S": {
+      "item": "alex_caves_spellsbook:hazen_excalibur_fragment"
+    },
+    "W": {
+      "item": "alex_caves_spellsbook:hazen_wisewood_planks"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "alex_caves_spellsbook:hazen_bountiful_harvest"
+  },
+  "conditions": [
+    {
+      "type": "alex_caves_spellsbook:hazen_enabled",
+      "item": "bountiful_harvest"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_bountiful_harvest"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_deus_essence"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_excalibur_fragment"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_overgrown_bone"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    {
+      "type": "forge:item_exists",
+      "item": "alex_caves_spellsbook:hazen_wisewood_planks"
+    }
+  ]
+}

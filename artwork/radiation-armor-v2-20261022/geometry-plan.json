@@ -1,0 +1,1574 @@
+{
+  "groups": [
+    {
+      "name": "armorHead",
+      "origin": [
+        0,
+        24,
+        0
+      ],
+      "parent": null,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorBody",
+      "origin": [
+        0,
+        24,
+        0
+      ],
+      "parent": null,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorLeftArm",
+      "origin": [
+        5,
+        22,
+        0
+      ],
+      "parent": null,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorRightArm",
+      "origin": [
+        -5,
+        22,
+        0
+      ],
+      "parent": null,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorLeggingTorsoLayer",
+      "origin": [
+        0,
+        24,
+        0
+      ],
+      "parent": null,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorLeftLeg",
+      "origin": [
+        2,
+        12,
+        0
+      ],
+      "parent": null,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorRightLeg",
+      "origin": [
+        -2,
+        12,
+        0
+      ],
+      "parent": null,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorLeftBoot",
+      "origin": [
+        2,
+        12,
+        0
+      ],
+      "parent": null,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "armorRightBoot",
+      "origin": [
+        -2,
+        12,
+        0
+      ],
+      "parent": null,
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "hood_crown_fold",
+      "origin": [
+        0,
+        31,
+        0
+      ],
+      "parent": "armorHead",
+      "rotation": [
+        -7.5,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "visorLeft",
+      "origin": [
+        0,
+        29.5,
+        -4
+      ],
+      "parent": "armorHead",
+      "rotation": [
+        7.5,
+        -15,
+        0
+      ]
+    },
+    {
+      "name": "visorRight",
+      "origin": [
+        0,
+        29.5,
+        -4
+      ],
+      "parent": "armorHead",
+      "rotation": [
+        7.5,
+        15,
+        0
+      ]
+    },
+    {
+      "name": "respirator",
+      "origin": [
+        0,
+        26,
+        -4
+      ],
+      "parent": "armorHead",
+      "rotation": [
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "jawLeft",
+      "origin": [
+        0,
+        26,
+        -4
+      ],
+      "parent": "respirator",
+      "rotation": [
+        0,
+        -22.5,
+        0
+      ]
+    },
+    {
+      "name": "jawRight",
+      "origin": [
+        0,
+        26,
+        -4
+      ],
+      "parent": "respirator",
+      "rotation": [
+        0,
+        22.5,
+        0
+      ]
+    },
+    {
+      "name": "ocular_socket",
+      "origin": [
+        4,
+        28.5,
+        -1
+      ],
+      "parent": "armorHead",
+      "rotation": [
+        45,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "collarLeft",
+      "origin": [
+        0,
+        23,
+        2
+      ],
+      "parent": "armorBody",
+      "rotation": [
+        0,
+        0,
+        12.5
+      ]
+    },
+    {
+      "name": "collarRight",
+      "origin": [
+        0,
+        23,
+        2
+      ],
+      "parent": "armorBody",
+      "rotation": [
+        0,
+        0,
+        -12.5
+      ]
+    },
+    {
+      "name": "chest_tilt",
+      "origin": [
+        0,
+        21,
+        -2
+      ],
+      "parent": "armorBody",
+      "rotation": [
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "chestLeft",
+      "origin": [
+        0,
+        21,
+        -2
+      ],
+      "parent": "chest_tilt",
+      "rotation": [
+        0,
+        -18,
+        0
+      ]
+    },
+    {
+      "name": "chestRight",
+      "origin": [
+        0,
+        21,
+        -2
+      ],
+      "parent": "chest_tilt",
+      "rotation": [
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "name": "core_diamond",
+      "origin": [
+        0,
+        21,
+        -4
+      ],
+      "parent": "chest_tilt",
+      "rotation": [
+        0,
+        0,
+        45
+      ]
+    },
+    {
+      "name": "reactor_canisterLeft",
+      "origin": [
+        3,
+        20,
+        3
+      ],
+      "parent": "armorBody",
+      "rotation": [
+        0,
+        0,
+        -7.5
+      ]
+    },
+    {
+      "name": "reactor_canisterRight",
+      "origin": [
+        -3,
+        20,
+        3
+      ],
+      "parent": "armorBody",
+      "rotation": [
+        0,
+        0,
+        7.5
+      ]
+    },
+    {
+      "name": "rear_tailLeft",
+      "origin": [
+        2,
+        12,
+        2.5
+      ],
+      "parent": "armorBody",
+      "rotation": [
+        -10,
+        0,
+        5
+      ]
+    },
+    {
+      "name": "front_tailLeft",
+      "origin": [
+        2,
+        12,
+        -2.5
+      ],
+      "parent": "armorBody",
+      "rotation": [
+        8,
+        0,
+        8
+      ]
+    },
+    {
+      "name": "side_tailLeft",
+      "origin": [
+        4,
+        12,
+        0
+      ],
+      "parent": "armorBody",
+      "rotation": [
+        0,
+        0,
+        10
+      ]
+    },
+    {
+      "name": "rear_tailRight",
+      "origin": [
+        -2,
+        12,
+        2.5
+      ],
+      "parent": "armorBody",
+      "rotation": [
+        -10,
+        0,
+        -5
+      ]
+    },
+    {
+      "name": "front_tailRight",
+      "origin": [
+        -2,
+        12,
+        -2.5
+      ],
+      "parent": "armorBody",
+      "rotation": [
+        8,
+        0,
+        -8
+      ]
+    },
+    {
+      "name": "side_tailRight",
+      "origin": [
+        -4,
+        12,
+        0
+      ],
+      "parent": "armorBody",
+      "rotation": [
+        0,
+        0,
+        -10
+      ]
+    },
+    {
+      "name": "pauldronLeft",
+      "origin": [
+        4.5,
+        23,
+        0
+      ],
+      "parent": "armorLeftArm",
+      "rotation": [
+        0,
+        0,
+        -17.5
+      ]
+    },
+    {
+      "name": "pauldron_outerLeft",
+      "origin": [
+        7,
+        22,
+        0
+      ],
+      "parent": "pauldronLeft",
+      "rotation": [
+        0,
+        12.5,
+        -10
+      ]
+    },
+    {
+      "name": "forearmLeft",
+      "origin": [
+        6,
+        17,
+        0
+      ],
+      "parent": "armorLeftArm",
+      "rotation": [
+        -7.5,
+        0,
+        -7.5
+      ]
+    },
+    {
+      "name": "pauldronRight",
+      "origin": [
+        -4.5,
+        23,
+        0
+      ],
+      "parent": "armorRightArm",
+      "rotation": [
+        0,
+        0,
+        17.5
+      ]
+    },
+    {
+      "name": "pauldron_outerRight",
+      "origin": [
+        -7,
+        22,
+        0
+      ],
+      "parent": "pauldronRight",
+      "rotation": [
+        0,
+        -12.5,
+        10
+      ]
+    },
+    {
+      "name": "forearmRight",
+      "origin": [
+        -6,
+        17,
+        0
+      ],
+      "parent": "armorRightArm",
+      "rotation": [
+        -7.5,
+        0,
+        7.5
+      ]
+    },
+    {
+      "name": "kneeLeft",
+      "origin": [
+        2,
+        7,
+        -1
+      ],
+      "parent": "armorLeftLeg",
+      "rotation": [
+        -12.5,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "boot_instepLeft",
+      "origin": [
+        2,
+        3,
+        -1
+      ],
+      "parent": "armorLeftBoot",
+      "rotation": [
+        -15,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "kneeRight",
+      "origin": [
+        -2,
+        7,
+        -1
+      ],
+      "parent": "armorRightLeg",
+      "rotation": [
+        -12.5,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "boot_instepRight",
+      "origin": [
+        -2,
+        3,
+        -1
+      ],
+      "parent": "armorRightBoot",
+      "rotation": [
+        -15,
+        0,
+        0
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "name": "sealed_hood",
+      "from": [
+        -4,
+        24,
+        -4
+      ],
+      "to": [
+        4,
+        32,
+        4
+      ],
+      "group": "armorHead",
+      "role": "hood",
+      "inflate": 0.2
+    },
+    {
+      "name": "folded_hood_crown",
+      "from": [
+        -4,
+        31,
+        -4
+      ],
+      "to": [
+        4,
+        33,
+        4
+      ],
+      "group": "hood_crown_fold",
+      "role": "hood_crown",
+      "inflate": 0.05
+    },
+    {
+      "name": "sloped_visor_Left",
+      "from": [
+        0,
+        28,
+        -5
+      ],
+      "to": [
+        4,
+        31,
+        -3
+      ],
+      "group": "visorLeft",
+      "role": "visor",
+      "inflate": 0.025
+    },
+    {
+      "name": "sloped_visor_Right",
+      "from": [
+        -4,
+        28,
+        -5
+      ],
+      "to": [
+        0,
+        31,
+        -3
+      ],
+      "group": "visorRight",
+      "role": "visor",
+      "inflate": 0.025
+    },
+    {
+      "name": "respirator_centre",
+      "from": [
+        -2,
+        24,
+        -6
+      ],
+      "to": [
+        2,
+        28,
+        -4
+      ],
+      "group": "respirator",
+      "role": "respirator",
+      "inflate": 0.025
+    },
+    {
+      "name": "angled_jaw_Left",
+      "from": [
+        1,
+        24,
+        -5
+      ],
+      "to": [
+        4,
+        28,
+        -3
+      ],
+      "group": "jawLeft",
+      "role": "jaw",
+      "inflate": 0.025
+    },
+    {
+      "name": "angled_jaw_Right",
+      "from": [
+        -4,
+        24,
+        -5
+      ],
+      "to": [
+        -1,
+        28,
+        -3
+      ],
+      "group": "jawRight",
+      "role": "jaw",
+      "inflate": 0.025
+    },
+    {
+      "name": "ocular_frame",
+      "from": [
+        4,
+        27,
+        -2
+      ],
+      "to": [
+        5,
+        30,
+        1
+      ],
+      "group": "ocular_socket",
+      "role": "ocular",
+      "inflate": 0.025
+    },
+    {
+      "name": "right_connector",
+      "from": [
+        -5,
+        26,
+        -1
+      ],
+      "to": [
+        -4,
+        28,
+        1
+      ],
+      "group": "armorHead",
+      "role": "connector",
+      "inflate": 0.025
+    },
+    {
+      "name": "hood_rear_clasp",
+      "from": [
+        -1,
+        25,
+        4
+      ],
+      "to": [
+        1,
+        27,
+        5
+      ],
+      "group": "armorHead",
+      "role": "rear_clasp",
+      "inflate": 0.025
+    },
+    {
+      "name": "tailored_torso",
+      "from": [
+        -4,
+        12,
+        -2
+      ],
+      "to": [
+        4,
+        24,
+        2
+      ],
+      "group": "armorBody",
+      "role": "coat",
+      "inflate": 0.15
+    },
+    {
+      "name": "folded_collar_Left",
+      "from": [
+        0,
+        22,
+        0
+      ],
+      "to": [
+        5,
+        25,
+        4
+      ],
+      "group": "collarLeft",
+      "role": "collar",
+      "inflate": 0.025
+    },
+    {
+      "name": "folded_collar_Right",
+      "from": [
+        -5,
+        22,
+        0
+      ],
+      "to": [
+        0,
+        25,
+        4
+      ],
+      "group": "collarRight",
+      "role": "collar",
+      "inflate": 0.025
+    },
+    {
+      "name": "collar_rear_lock",
+      "from": [
+        -2,
+        23,
+        3
+      ],
+      "to": [
+        2,
+        25,
+        4
+      ],
+      "group": "armorBody",
+      "role": "collar_lock",
+      "inflate": 0.025
+    },
+    {
+      "name": "folded_chest_Left",
+      "from": [
+        1,
+        18,
+        -4
+      ],
+      "to": [
+        5,
+        24,
+        -1
+      ],
+      "group": "chestLeft",
+      "role": "chest",
+      "inflate": 0.025
+    },
+    {
+      "name": "folded_chest_Right",
+      "from": [
+        -5,
+        18,
+        -4
+      ],
+      "to": [
+        -1,
+        24,
+        -1
+      ],
+      "group": "chestRight",
+      "role": "chest",
+      "inflate": 0.025
+    },
+    {
+      "name": "diamond_core_socket",
+      "from": [
+        -2,
+        19,
+        -5
+      ],
+      "to": [
+        2,
+        23,
+        -3
+      ],
+      "group": "core_diamond",
+      "role": "core_socket",
+      "inflate": 0.025
+    },
+    {
+      "name": "fissile_core",
+      "from": [
+        -1,
+        20,
+        -6
+      ],
+      "to": [
+        1,
+        22,
+        -5
+      ],
+      "group": "core_diamond",
+      "role": "core",
+      "inflate": 0.025
+    },
+    {
+      "name": "radiation_plaque",
+      "from": [
+        -3.5,
+        11,
+        -3
+      ],
+      "to": [
+        3.5,
+        18,
+        -2
+      ],
+      "group": "armorBody",
+      "role": "trefoil",
+      "inflate": 0.025
+    },
+    {
+      "name": "reactor_back_mount",
+      "from": [
+        -3,
+        16,
+        2
+      ],
+      "to": [
+        3,
+        23,
+        4
+      ],
+      "group": "armorBody",
+      "role": "back_mount",
+      "inflate": 0.025
+    },
+    {
+      "name": "reactor_service_panel",
+      "from": [
+        -2.5,
+        17,
+        4
+      ],
+      "to": [
+        2.5,
+        22,
+        5
+      ],
+      "group": "armorBody",
+      "role": "back_panel",
+      "inflate": 0.025
+    },
+    {
+      "name": "back_canister_Left",
+      "from": [
+        3,
+        14,
+        3
+      ],
+      "to": [
+        5,
+        20,
+        5
+      ],
+      "group": "reactor_canisterLeft",
+      "role": "canister",
+      "inflate": 0.025
+    },
+    {
+      "name": "canister_cap_Left",
+      "from": [
+        2.75,
+        19,
+        2.75
+      ],
+      "to": [
+        5.25,
+        20,
+        5.25
+      ],
+      "group": "reactor_canisterLeft",
+      "role": "cap",
+      "inflate": 0.025
+    },
+    {
+      "name": "canister_connection_Left",
+      "from": [
+        2,
+        19,
+        1
+      ],
+      "to": [
+        4,
+        21,
+        4
+      ],
+      "group": "armorBody",
+      "role": "connector",
+      "inflate": 0.025
+    },
+    {
+      "name": "back_canister_Right",
+      "from": [
+        -5,
+        14,
+        3
+      ],
+      "to": [
+        -3,
+        20,
+        5
+      ],
+      "group": "reactor_canisterRight",
+      "role": "canister",
+      "inflate": 0.025
+    },
+    {
+      "name": "canister_cap_Right",
+      "from": [
+        -5.25,
+        19,
+        2.75
+      ],
+      "to": [
+        -2.75,
+        20,
+        5.25
+      ],
+      "group": "reactor_canisterRight",
+      "role": "cap",
+      "inflate": 0.025
+    },
+    {
+      "name": "canister_connection_Right",
+      "from": [
+        -4,
+        19,
+        1
+      ],
+      "to": [
+        -2,
+        21,
+        4
+      ],
+      "group": "armorBody",
+      "role": "connector",
+      "inflate": 0.025
+    },
+    {
+      "name": "containment_belt",
+      "from": [
+        -4.5,
+        11,
+        -2.5
+      ],
+      "to": [
+        4.5,
+        13,
+        2.5
+      ],
+      "group": "armorLeggingTorsoLayer",
+      "role": "belt",
+      "inflate": 0.025
+    },
+    {
+      "name": "rear_coat_tail_Left",
+      "from": [
+        0,
+        4,
+        2
+      ],
+      "to": [
+        4,
+        12,
+        4
+      ],
+      "group": "rear_tailLeft",
+      "role": "tail",
+      "inflate": 0.025
+    },
+    {
+      "name": "front_coat_panel_Left",
+      "from": [
+        0,
+        7,
+        -3
+      ],
+      "to": [
+        4,
+        12,
+        -1
+      ],
+      "group": "front_tailLeft",
+      "role": "front_tail",
+      "inflate": 0.025
+    },
+    {
+      "name": "side_tasset_Left",
+      "from": [
+        3,
+        7,
+        -1
+      ],
+      "to": [
+        5,
+        13,
+        2
+      ],
+      "group": "side_tailLeft",
+      "role": "side_tail",
+      "inflate": 0.025
+    },
+    {
+      "name": "rear_coat_tail_Right",
+      "from": [
+        -4,
+        4,
+        2
+      ],
+      "to": [
+        0,
+        12,
+        4
+      ],
+      "group": "rear_tailRight",
+      "role": "tail",
+      "inflate": 0.025
+    },
+    {
+      "name": "front_coat_panel_Right",
+      "from": [
+        -4,
+        7,
+        -3
+      ],
+      "to": [
+        0,
+        12,
+        -1
+      ],
+      "group": "front_tailRight",
+      "role": "front_tail",
+      "inflate": 0.025
+    },
+    {
+      "name": "side_tasset_Right",
+      "from": [
+        -5,
+        7,
+        -1
+      ],
+      "to": [
+        -3,
+        13,
+        2
+      ],
+      "group": "side_tailRight",
+      "role": "side_tail",
+      "inflate": 0.025
+    },
+    {
+      "name": "sealed_sleeve_Left",
+      "from": [
+        4,
+        12,
+        -2
+      ],
+      "to": [
+        8,
+        23,
+        2
+      ],
+      "group": "armorLeftArm",
+      "role": "sleeve",
+      "inflate": 0.15
+    },
+    {
+      "name": "pauldron_upper_Left",
+      "from": [
+        4,
+        22,
+        -3
+      ],
+      "to": [
+        9,
+        25,
+        3
+      ],
+      "group": "pauldronLeft",
+      "role": "shoulder",
+      "inflate": 0.025
+    },
+    {
+      "name": "pauldron_overlap_Left",
+      "from": [
+        7,
+        20,
+        -3
+      ],
+      "to": [
+        10,
+        23,
+        3
+      ],
+      "group": "pauldron_outerLeft",
+      "role": "shoulder_outer",
+      "inflate": 0.025
+    },
+    {
+      "name": "left_shield_drop",
+      "from": [
+        9,
+        18,
+        -2
+      ],
+      "to": [
+        10,
+        22,
+        2
+      ],
+      "group": "pauldron_outerLeft",
+      "role": "shoulder_shield",
+      "inflate": 0.025
+    },
+    {
+      "name": "forearm_guard_Left",
+      "from": [
+        4,
+        14,
+        -3
+      ],
+      "to": [
+        8,
+        19,
+        -1
+      ],
+      "group": "forearmLeft",
+      "role": "forearm",
+      "inflate": 0.025
+    },
+    {
+      "name": "forearm_side_Left",
+      "from": [
+        7,
+        14,
+        -1
+      ],
+      "to": [
+        9,
+        18,
+        2
+      ],
+      "group": "forearmLeft",
+      "role": "forearm_side",
+      "inflate": 0.025
+    },
+    {
+      "name": "wrist_cuff_Left",
+      "from": [
+        4,
+        12,
+        -2
+      ],
+      "to": [
+        8,
+        14,
+        2
+      ],
+      "group": "armorLeftArm",
+      "role": "cuff",
+      "inflate": 0.25
+    },
+    {
+      "name": "sealed_sleeve_Right",
+      "from": [
+        -8,
+        12,
+        -2
+      ],
+      "to": [
+        -4,
+        23,
+        2
+      ],
+      "group": "armorRightArm",
+      "role": "sleeve",
+      "inflate": 0.15
+    },
+    {
+      "name": "pauldron_upper_Right",
+      "from": [
+        -9,
+        22,
+        -3
+      ],
+      "to": [
+        -4,
+        25,
+        3
+      ],
+      "group": "pauldronRight",
+      "role": "shoulder",
+      "inflate": 0.025
+    },
+    {
+      "name": "pauldron_overlap_Right",
+      "from": [
+        -10,
+        20,
+        -3
+      ],
+      "to": [
+        -7,
+        23,
+        3
+      ],
+      "group": "pauldron_outerRight",
+      "role": "shoulder_outer",
+      "inflate": 0.025
+    },
+    {
+      "name": "forearm_guard_Right",
+      "from": [
+        -8,
+        14,
+        -3
+      ],
+      "to": [
+        -4,
+        19,
+        -1
+      ],
+      "group": "forearmRight",
+      "role": "forearm",
+      "inflate": 0.025
+    },
+    {
+      "name": "forearm_side_Right",
+      "from": [
+        -9,
+        14,
+        -1
+      ],
+      "to": [
+        -7,
+        18,
+        2
+      ],
+      "group": "forearmRight",
+      "role": "forearm_side",
+      "inflate": 0.025
+    },
+    {
+      "name": "wrist_cuff_Right",
+      "from": [
+        -8,
+        12,
+        -2
+      ],
+      "to": [
+        -4,
+        14,
+        2
+      ],
+      "group": "armorRightArm",
+      "role": "cuff",
+      "inflate": 0.25
+    },
+    {
+      "name": "reinforced_trouser_Left",
+      "from": [
+        0,
+        0,
+        -2
+      ],
+      "to": [
+        4,
+        12,
+        2
+      ],
+      "group": "armorLeftLeg",
+      "role": "trouser",
+      "inflate": 0.1
+    },
+    {
+      "name": "angled_knee_Left",
+      "from": [
+        0.5,
+        5,
+        -3
+      ],
+      "to": [
+        3.5,
+        8,
+        -1
+      ],
+      "group": "kneeLeft",
+      "role": "knee",
+      "inflate": 0.025
+    },
+    {
+      "name": "thigh_lead_plate_Left",
+      "from": [
+        3,
+        8,
+        -1
+      ],
+      "to": [
+        4,
+        11,
+        2
+      ],
+      "group": "armorLeftLeg",
+      "role": "thigh",
+      "inflate": 0.2
+    },
+    {
+      "name": "boot_shell_Left",
+      "from": [
+        0,
+        0,
+        -2
+      ],
+      "to": [
+        4,
+        5,
+        3
+      ],
+      "group": "armorLeftBoot",
+      "role": "boot",
+      "inflate": 0.15
+    },
+    {
+      "name": "square_toe_Left",
+      "from": [
+        0,
+        0,
+        -4
+      ],
+      "to": [
+        4,
+        2,
+        0
+      ],
+      "group": "armorLeftBoot",
+      "role": "toe",
+      "inflate": 0.15
+    },
+    {
+      "name": "sloped_instep_Left",
+      "from": [
+        0.5,
+        2,
+        -4
+      ],
+      "to": [
+        3.5,
+        5,
+        -2
+      ],
+      "group": "boot_instepLeft",
+      "role": "instep",
+      "inflate": 0.025
+    },
+    {
+      "name": "boot_sole_Left",
+      "from": [
+        0,
+        -1,
+        -4
+      ],
+      "to": [
+        4,
+        0,
+        3
+      ],
+      "group": "armorLeftBoot",
+      "role": "sole",
+      "inflate": 0.25
+    },
+    {
+      "name": "ankle_socket_Left",
+      "from": [
+        4,
+        1,
+        -1
+      ],
+      "to": [
+        5,
+        4,
+        1
+      ],
+      "group": "armorLeftBoot",
+      "role": "ankle",
+      "inflate": 0.025
+    },
+    {
+      "name": "reinforced_trouser_Right",
+      "from": [
+        -4,
+        0,
+        -2
+      ],
+      "to": [
+        0,
+        12,
+        2
+      ],
+      "group": "armorRightLeg",
+      "role": "trouser",
+      "inflate": 0.1
+    },
+    {
+      "name": "angled_knee_Right",
+      "from": [
+        -3.5,
+        5,
+        -3
+      ],
+      "to": [
+        -0.5,
+        8,
+        -1
+      ],
+      "group": "kneeRight",
+      "role": "knee",
+      "inflate": 0.025
+    },
+    {
+      "name": "thigh_lead_plate_Right",
+      "from": [
+        -4,
+        8,
+        -1
+      ],
+      "to": [
+        -3,
+        11,
+        2
+      ],
+      "group": "armorRightLeg",
+      "role": "thigh",
+      "inflate": 0.2
+    },
+    {
+      "name": "boot_shell_Right",
+      "from": [
+        -4,
+        0,
+        -2
+      ],
+      "to": [
+        0,
+        5,
+        3
+      ],
+      "group": "armorRightBoot",
+      "role": "boot",
+      "inflate": 0.15
+    },
+    {
+      "name": "square_toe_Right",
+      "from": [
+        -4,
+        0,
+        -4
+      ],
+      "to": [
+        0,
+        2,
+        0
+      ],
+      "group": "armorRightBoot",
+      "role": "toe",
+      "inflate": 0.15
+    },
+    {
+      "name": "sloped_instep_Right",
+      "from": [
+        -3.5,
+        2,
+        -4
+      ],
+      "to": [
+        -0.5,
+        5,
+        -2
+      ],
+      "group": "boot_instepRight",
+      "role": "instep",
+      "inflate": 0.025
+    },
+    {
+      "name": "boot_sole_Right",
+      "from": [
+        -4,
+        -1,
+        -4
+      ],
+      "to": [
+        0,
+        0,
+        3
+      ],
+      "group": "armorRightBoot",
+      "role": "sole",
+      "inflate": 0.25
+    },
+    {
+      "name": "ankle_socket_Right",
+      "from": [
+        -5,
+        1,
+        -1
+      ],
+      "to": [
+        -4,
+        4,
+        1
+      ],
+      "group": "armorRightBoot",
+      "role": "ankle",
+      "inflate": 0.025
+    }
+  ]
+}
